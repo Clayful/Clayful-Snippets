@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Catalog.list(${1:options})
+]]></content >
+	<description>Catalog.list</description>
+	<tabTrigger>Catalog.list</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

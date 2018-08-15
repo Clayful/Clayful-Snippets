@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = WishList.delete_item(${1:wish_list_id}, ${2:product_id}, ${3:options})
+]]></content >
+	<description>WishList.deleteItem</description>
+	<tabTrigger>WishList.deleteItem</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Discount::pullFromMetafield(${1:\$discountId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+]]></content >
+	<description>Discount::pullFromMetafield</description>
+	<tabTrigger>Discount::pullFromMetafield</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

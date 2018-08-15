@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Subscription.delete_metafield(${1:subscription_id}, ${2:field}, ${3:options})
+]]></content >
+	<description>Subscription.deleteMetafield</description>
+	<tabTrigger>Subscription.deleteMetafield</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

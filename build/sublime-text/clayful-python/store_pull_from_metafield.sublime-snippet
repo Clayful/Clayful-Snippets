@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Store.pull_from_metafield(${1:field}, ${2:payload}, ${3:options})
+]]></content >
+	<description>Store.pullFromMetafield</description>
+	<tabTrigger>Store.pullFromMetafield</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

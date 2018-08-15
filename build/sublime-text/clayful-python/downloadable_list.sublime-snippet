@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Downloadable.list(${1:options})
+]]></content >
+	<description>Downloadable.list</description>
+	<tabTrigger>Downloadable.list</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

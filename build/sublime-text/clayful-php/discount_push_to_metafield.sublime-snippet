@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Discount::pushToMetafield(${1:\$discountId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+]]></content >
+	<description>Discount::pushToMetafield</description>
+	<tabTrigger>Discount::pushToMetafield</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

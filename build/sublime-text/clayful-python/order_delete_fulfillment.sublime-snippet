@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Order.delete_fulfillment(${1:order_id}, ${2:fulfillment_id}, ${3:options})
+]]></content >
+	<description>Order.deleteFulfillment</description>
+	<tabTrigger>Order.deleteFulfillment</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

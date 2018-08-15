@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Cart.get_as_non_registered_for_me(${1:payload}, ${2:options})
+]]></content >
+	<description>Cart.getAsNonRegisteredForMe</description>
+	<tabTrigger>Cart.getAsNonRegisteredForMe</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

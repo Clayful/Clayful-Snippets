@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Tracker.create_as_non_registered_for_me(${1:options})
+]]></content >
+	<description>Tracker.createAsNonRegisteredForMe</description>
+	<tabTrigger>Tracker.createAsNonRegisteredForMe</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

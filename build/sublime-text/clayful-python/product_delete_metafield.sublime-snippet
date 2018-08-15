@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Product.delete_metafield(${1:product_id}, ${2:field}, ${3:options})
+]]></content >
+	<description>Product.deleteMetafield</description>
+	<tabTrigger>Product.deleteMetafield</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

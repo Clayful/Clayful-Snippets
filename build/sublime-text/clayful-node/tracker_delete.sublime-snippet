@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Tracker.delete(${1:trackerId}, ${2:options}, ${3:callback});
+]]></content >
+	<description>Tracker.delete</description>
+	<tabTrigger>Tracker.delete</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

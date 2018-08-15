@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+OrderTag.count(${1:options}, ${2:callback});
+]]></content >
+	<description>OrderTag.count</description>
+	<tabTrigger>OrderTag.count</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

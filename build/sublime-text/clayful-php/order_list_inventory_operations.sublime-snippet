@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Order::listInventoryOperations(${1:\$orderId}, ${2:\$options});
+]]></content >
+	<description>Order::listInventoryOperations</description>
+	<tabTrigger>Order::listInventoryOperations</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

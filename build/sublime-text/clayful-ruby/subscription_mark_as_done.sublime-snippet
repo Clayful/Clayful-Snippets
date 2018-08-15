@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Subscription.mark_as_done(${1:subscription_id}, ${2:options})
+]]></content >
+	<description>Subscription.markAsDone</description>
+	<tabTrigger>Subscription.markAsDone</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

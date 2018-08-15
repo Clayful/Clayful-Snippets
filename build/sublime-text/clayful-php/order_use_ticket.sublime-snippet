@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Order::useTicket(${1:\$code}, ${2:\$options});
+]]></content >
+	<description>Order::useTicket</description>
+	<tabTrigger>Order::useTicket</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

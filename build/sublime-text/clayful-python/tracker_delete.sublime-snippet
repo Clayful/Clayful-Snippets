@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Tracker.delete(${1:tracker_id}, ${2:options})
+]]></content >
+	<description>Tracker.delete</description>
+	<tabTrigger>Tracker.delete</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

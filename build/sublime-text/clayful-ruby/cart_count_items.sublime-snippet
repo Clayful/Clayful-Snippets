@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Cart.count_items(${1:customer_id}, ${2:options})
+]]></content >
+	<description>Cart.countItems</description>
+	<tabTrigger>Cart.countItems</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

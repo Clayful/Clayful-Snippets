@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = WishList.count_for_me(${1:options})
+]]></content >
+	<description>WishList.countForMe</description>
+	<tabTrigger>WishList.countForMe</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

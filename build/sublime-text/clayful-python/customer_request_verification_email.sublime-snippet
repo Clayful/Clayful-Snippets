@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Customer.request_verification_email(${1:payload}, ${2:options})
+]]></content >
+	<description>Customer.requestVerificationEmail</description>
+	<tabTrigger>Customer.requestVerificationEmail</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

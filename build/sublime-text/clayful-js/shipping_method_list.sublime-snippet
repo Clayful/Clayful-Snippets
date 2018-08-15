@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ShippingMethod.list(${1:options}, ${2:callback});
+]]></content >
+	<description>ShippingMethod.list</description>
+	<tabTrigger>ShippingMethod.list</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

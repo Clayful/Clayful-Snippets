@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Customer.get_me(${1:options})
+]]></content >
+	<description>Customer.getMe</description>
+	<tabTrigger>Customer.getMe</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

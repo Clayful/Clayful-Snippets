@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Order.requestRefund(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});
+]]></content >
+	<description>Order.requestRefund</description>
+	<tabTrigger>Order.requestRefund</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

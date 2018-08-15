@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Subscription::fulfillSchedule(${1:\$subscriptionId}, ${2:\$payload}, ${3:\$options});
+]]></content >
+	<description>Subscription::fulfillSchedule</description>
+	<tabTrigger>Subscription::fulfillSchedule</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

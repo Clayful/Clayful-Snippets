@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Cart.empty_for_me(${1:options})
+]]></content >
+	<description>Cart.emptyForMe</description>
+	<tabTrigger>Cart.emptyForMe</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

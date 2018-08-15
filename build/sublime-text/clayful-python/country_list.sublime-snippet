@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Country.list(${1:options})
+]]></content >
+	<description>Country.list</description>
+	<tabTrigger>Country.list</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = ShippingMethod::get(${1:\$shippingMethodId}, ${2:\$options});
+]]></content >
+	<description>ShippingMethod::get</description>
+	<tabTrigger>ShippingMethod::get</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

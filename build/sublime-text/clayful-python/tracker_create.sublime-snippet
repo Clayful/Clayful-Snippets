@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Tracker.create(${1:payload}, ${2:options})
+]]></content >
+	<description>Tracker.create</description>
+	<tabTrigger>Tracker.create</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

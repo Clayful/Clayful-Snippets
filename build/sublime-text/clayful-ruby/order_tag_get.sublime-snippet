@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = OrderTag.get(${1:order_tag_id}, ${2:options})
+]]></content >
+	<description>OrderTag.get</description>
+	<tabTrigger>OrderTag.get</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

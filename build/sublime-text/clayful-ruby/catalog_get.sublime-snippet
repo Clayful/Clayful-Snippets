@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Catalog.get(${1:catalog_id}, ${2:options})
+]]></content >
+	<description>Catalog.get</description>
+	<tabTrigger>Catalog.get</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

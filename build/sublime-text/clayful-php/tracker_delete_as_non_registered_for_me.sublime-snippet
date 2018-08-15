@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Tracker::deleteAsNonRegisteredForMe(${1:\$trackerId}, ${2:\$options});
+]]></content >
+	<description>Tracker::deleteAsNonRegisteredForMe</description>
+	<tabTrigger>Tracker::deleteAsNonRegisteredForMe</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

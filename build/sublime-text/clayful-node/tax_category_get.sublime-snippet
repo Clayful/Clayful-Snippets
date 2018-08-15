@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+TaxCategory.get(${1:taxCategoryId}, ${2:options}, ${3:callback});
+]]></content >
+	<description>TaxCategory.get</description>
+	<tabTrigger>TaxCategory.get</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

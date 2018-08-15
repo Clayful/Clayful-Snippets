@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Store::deleteMetafield(${1:\$field}, ${2:\$options});
+]]></content >
+	<description>Store::deleteMetafield</description>
+	<tabTrigger>Store::deleteMetafield</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

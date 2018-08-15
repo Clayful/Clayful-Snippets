@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Order.createDownloadUrl(${1:orderId}, ${2:itemId}, ${3:options}, ${4:callback});
+]]></content >
+	<description>Order.createDownloadUrl</description>
+	<tabTrigger>Order.createDownloadUrl</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

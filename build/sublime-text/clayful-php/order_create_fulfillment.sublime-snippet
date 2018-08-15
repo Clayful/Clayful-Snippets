@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Order::createFulfillment(${1:\$orderId}, ${2:\$payload}, ${3:\$options});
+]]></content >
+	<description>Order::createFulfillment</description>
+	<tabTrigger>Order::createFulfillment</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

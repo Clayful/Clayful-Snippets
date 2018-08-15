@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = WishList.delete_item_for_me(${1:wish_list_id}, ${2:product_id}, ${3:options})
+]]></content >
+	<description>WishList.deleteItemForMe</description>
+	<tabTrigger>WishList.deleteItemForMe</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

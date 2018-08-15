@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Order::delete(${1:\$orderId}, ${2:\$options});
+]]></content >
+	<description>Order::delete</description>
+	<tabTrigger>Order::delete</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Customer::listByHelpVotes(${1:\$voteModel}, ${2:\$voteModelId}, ${3:\$upDown}, ${4:\$options});
+]]></content >
+	<description>Customer::listByHelpVotes</description>
+	<tabTrigger>Customer::listByHelpVotes</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

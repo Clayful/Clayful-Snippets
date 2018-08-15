@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Review.increase_metafield(${1:review_id}, ${2:field}, ${3:payload}, ${4:options})
+]]></content >
+	<description>Review.increaseMetafield</description>
+	<tabTrigger>Review.increaseMetafield</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

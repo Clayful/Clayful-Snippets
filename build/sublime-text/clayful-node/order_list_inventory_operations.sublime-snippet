@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Order.listInventoryOperations(${1:orderId}, ${2:options}, ${3:callback});
+]]></content >
+	<description>Order.listInventoryOperations</description>
+	<tabTrigger>Order.listInventoryOperations</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

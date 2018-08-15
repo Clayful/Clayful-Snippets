@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Order.list(${1:options})
+]]></content >
+	<description>Order.list</description>
+	<tabTrigger>Order.list</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Image::delete(${1:\$imageId}, ${2:\$options});
+]]></content >
+	<description>Image::delete</description>
+	<tabTrigger>Image::delete</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

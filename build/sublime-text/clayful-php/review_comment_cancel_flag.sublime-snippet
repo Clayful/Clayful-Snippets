@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = ReviewComment::cancelFlag(${1:\$reviewCommentId}, ${2:\$customerId}, ${3:\$options});
+]]></content >
+	<description>ReviewComment::cancelFlag</description>
+	<tabTrigger>ReviewComment::cancelFlag</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

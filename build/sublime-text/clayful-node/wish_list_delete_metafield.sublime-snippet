@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+WishList.deleteMetafield(${1:wishListId}, ${2:field}, ${3:options}, ${4:callback});
+]]></content >
+	<description>WishList.deleteMetafield</description>
+	<tabTrigger>WishList.deleteMetafield</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Catalog.increase_metafield(${1:catalog_id}, ${2:field}, ${3:payload}, ${4:options})
+]]></content >
+	<description>Catalog.increaseMetafield</description>
+	<tabTrigger>Catalog.increaseMetafield</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Store::pushToMetafield(${1:\$field}, ${2:\$payload}, ${3:\$options});
+]]></content >
+	<description>Store::pushToMetafield</description>
+	<tabTrigger>Store::pushToMetafield</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

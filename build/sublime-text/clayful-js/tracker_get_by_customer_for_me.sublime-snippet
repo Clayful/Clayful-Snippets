@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Tracker.getByCustomerForMe(${1:options}, ${2:callback});
+]]></content >
+	<description>Tracker.getByCustomerForMe</description>
+	<tabTrigger>Tracker.getByCustomerForMe</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

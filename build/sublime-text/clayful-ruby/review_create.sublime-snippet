@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Review.create(${1:payload}, ${2:options})
+]]></content >
+	<description>Review.create</description>
+	<tabTrigger>Review.create</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

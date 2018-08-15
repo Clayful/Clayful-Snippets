@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Catalog.deleteMetafield(${1:catalogId}, ${2:field}, ${3:options}, ${4:callback});
+]]></content >
+	<description>Catalog.deleteMetafield</description>
+	<tabTrigger>Catalog.deleteMetafield</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Customer.count_coupons(${1:customer_id}, ${2:options})
+]]></content >
+	<description>Customer.countCoupons</description>
+	<tabTrigger>Customer.countCoupons</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Cart.get_as_non_registered(${1:payload}, ${2:options})
+]]></content >
+	<description>Cart.getAsNonRegistered</description>
+	<tabTrigger>Cart.getAsNonRegistered</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Cart.empty(${1:customer_id}, ${2:options})
+]]></content >
+	<description>Cart.empty</description>
+	<tabTrigger>Cart.empty</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

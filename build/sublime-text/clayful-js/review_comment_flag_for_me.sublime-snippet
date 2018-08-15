@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ReviewComment.flagForMe(${1:reviewCommentId}, ${2:options}, ${3:callback});
+]]></content >
+	<description>ReviewComment.flagForMe</description>
+	<tabTrigger>ReviewComment.flagForMe</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Collection.pull_from_metafield(${1:collection_id}, ${2:field}, ${3:payload}, ${4:options})
+]]></content >
+	<description>Collection.pullFromMetafield</description>
+	<tabTrigger>Collection.pullFromMetafield</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

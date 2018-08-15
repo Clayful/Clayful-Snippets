@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Image.create_as_customer(${1:customer_id}, ${2:payload}, ${3:options})
+]]></content >
+	<description>Image.createAsCustomer</description>
+	<tabTrigger>Image.createAsCustomer</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

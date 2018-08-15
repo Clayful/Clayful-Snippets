@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Subscription.markAsUndone(${1:subscriptionId}, ${2:options}, ${3:callback});
+]]></content >
+	<description>Subscription.markAsUndone</description>
+	<tabTrigger>Subscription.markAsUndone</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

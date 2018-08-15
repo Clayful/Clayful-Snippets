@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Currency.get(${1:currencyId}, ${2:options}, ${3:callback});
+]]></content >
+	<description>Currency.get</description>
+	<tabTrigger>Currency.get</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

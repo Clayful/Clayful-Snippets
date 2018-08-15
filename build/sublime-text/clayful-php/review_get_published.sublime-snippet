@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Review::getPublished(${1:\$reviewId}, ${2:\$options});
+]]></content >
+	<description>Review::getPublished</description>
+	<tabTrigger>Review::getPublished</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = ReviewComment::update(${1:\$reviewCommentId}, ${2:\$payload}, ${3:\$options});
+]]></content >
+	<description>ReviewComment::update</description>
+	<tabTrigger>ReviewComment::update</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

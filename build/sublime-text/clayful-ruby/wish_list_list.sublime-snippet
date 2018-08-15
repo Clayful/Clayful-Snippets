@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = WishList.list(${1:options})
+]]></content >
+	<description>WishList.list</description>
+	<tabTrigger>WishList.list</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

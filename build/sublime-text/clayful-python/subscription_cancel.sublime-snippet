@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Subscription.cancel(${1:subscription_id}, ${2:payload}, ${3:options})
+]]></content >
+	<description>Subscription.cancel</description>
+	<tabTrigger>Subscription.cancel</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

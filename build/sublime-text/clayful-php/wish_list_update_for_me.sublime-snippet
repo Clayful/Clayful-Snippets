@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = WishList::updateForMe(${1:\$wishListId}, ${2:\$payload}, ${3:\$options});
+]]></content >
+	<description>WishList::updateForMe</description>
+	<tabTrigger>WishList::updateForMe</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

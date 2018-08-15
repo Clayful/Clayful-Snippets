@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Review.update(${1:reviewId}, ${2:payload}, ${3:options}, ${4:callback});
+]]></content >
+	<description>Review.update</description>
+	<tabTrigger>Review.update</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

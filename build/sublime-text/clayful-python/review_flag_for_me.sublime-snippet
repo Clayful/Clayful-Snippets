@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Review.flag_for_me(${1:review_id}, ${2:options})
+]]></content >
+	<description>Review.flagForMe</description>
+	<tabTrigger>Review.flagForMe</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

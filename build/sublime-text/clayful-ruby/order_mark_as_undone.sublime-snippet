@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Order.mark_as_undone(${1:order_id}, ${2:options})
+]]></content >
+	<description>Order.markAsUndone</description>
+	<tabTrigger>Order.markAsUndone</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

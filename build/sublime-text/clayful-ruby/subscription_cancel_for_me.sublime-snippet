@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Subscription.cancel_for_me(${1:subscription_id}, ${2:payload}, ${3:options})
+]]></content >
+	<description>Subscription.cancelForMe</description>
+	<tabTrigger>Subscription.cancelForMe</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

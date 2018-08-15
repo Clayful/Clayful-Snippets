@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Subscription.fulfill_schedule(${1:subscription_id}, ${2:payload}, ${3:options})
+]]></content >
+	<description>Subscription.fulfillSchedule</description>
+	<tabTrigger>Subscription.fulfillSchedule</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Collection.list(${1:options}, ${2:callback});
+]]></content >
+	<description>Collection.list</description>
+	<tabTrigger>Collection.list</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

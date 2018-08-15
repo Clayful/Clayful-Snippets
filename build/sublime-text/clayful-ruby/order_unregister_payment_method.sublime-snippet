@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Order.unregister_payment_method(${1:order_id}, ${2:payment_method_id}, ${3:options})
+]]></content >
+	<description>Order.unregisterPaymentMethod</description>
+	<tabTrigger>Order.unregisterPaymentMethod</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

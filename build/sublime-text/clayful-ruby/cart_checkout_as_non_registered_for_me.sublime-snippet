@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Cart.checkout_as_non_registered_for_me(${1:type}, ${2:payload}, ${3:options})
+]]></content >
+	<description>Cart.checkoutAsNonRegisteredForMe</description>
+	<tabTrigger>Cart.checkoutAsNonRegisteredForMe</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Impression.topProducts(${1:scope}, ${2:options}, ${3:callback});
+]]></content >
+	<description>Impression.topProducts</description>
+	<tabTrigger>Impression.topProducts</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

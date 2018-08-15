@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Order::markAsArrived(${1:\$orderId}, ${2:\$options});
+]]></content >
+	<description>Order::markAsArrived</description>
+	<tabTrigger>Order::markAsArrived</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

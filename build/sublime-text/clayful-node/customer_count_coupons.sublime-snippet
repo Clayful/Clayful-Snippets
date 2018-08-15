@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Customer.countCoupons(${1:customerId}, ${2:options}, ${3:callback});
+]]></content >
+	<description>Customer.countCoupons</description>
+	<tabTrigger>Customer.countCoupons</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Order.createFulfillment(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});
+]]></content >
+	<description>Order.createFulfillment</description>
+	<tabTrigger>Order.createFulfillment</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

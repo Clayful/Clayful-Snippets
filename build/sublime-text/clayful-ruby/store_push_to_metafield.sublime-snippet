@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Store.push_to_metafield(${1:field}, ${2:payload}, ${3:options})
+]]></content >
+	<description>Store.pushToMetafield</description>
+	<tabTrigger>Store.pushToMetafield</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

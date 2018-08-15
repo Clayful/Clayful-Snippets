@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Order.cancelForMe(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});
+]]></content >
+	<description>Order.cancelForMe</description>
+	<tabTrigger>Order.cancelForMe</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

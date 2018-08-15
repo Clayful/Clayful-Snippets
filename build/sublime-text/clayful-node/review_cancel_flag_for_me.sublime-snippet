@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Review.cancelFlagForMe(${1:reviewId}, ${2:options}, ${3:callback});
+]]></content >
+	<description>Review.cancelFlagForMe</description>
+	<tabTrigger>Review.cancelFlagForMe</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

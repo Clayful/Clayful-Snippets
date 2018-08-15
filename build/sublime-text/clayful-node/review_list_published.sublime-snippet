@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Review.listPublished(${1:options}, ${2:callback});
+]]></content >
+	<description>Review.listPublished</description>
+	<tabTrigger>Review.listPublished</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

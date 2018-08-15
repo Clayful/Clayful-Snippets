@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Coupon.get(${1:coupon_id}, ${2:options})
+]]></content >
+	<description>Coupon.get</description>
+	<tabTrigger>Coupon.get</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

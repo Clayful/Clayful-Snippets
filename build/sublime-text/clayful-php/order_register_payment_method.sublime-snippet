@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Order::registerPaymentMethod(${1:\$orderId}, ${2:\$payload}, ${3:\$options});
+]]></content >
+	<description>Order::registerPaymentMethod</description>
+	<tabTrigger>Order::registerPaymentMethod</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Coupon.count(${1:options})
+]]></content >
+	<description>Coupon.count</description>
+	<tabTrigger>Coupon.count</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

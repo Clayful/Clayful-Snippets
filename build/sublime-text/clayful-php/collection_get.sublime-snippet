@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Collection::get(${1:\$collectionId}, ${2:\$options});
+]]></content >
+	<description>Collection::get</description>
+	<tabTrigger>Collection::get</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

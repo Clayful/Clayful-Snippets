@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Order::count(${1:\$options});
+]]></content >
+	<description>Order::count</description>
+	<tabTrigger>Order::count</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

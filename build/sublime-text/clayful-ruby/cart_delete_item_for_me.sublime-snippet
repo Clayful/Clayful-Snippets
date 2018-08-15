@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Cart.delete_item_for_me(${1:item_id}, ${2:options})
+]]></content >
+	<description>Cart.deleteItemForMe</description>
+	<tabTrigger>Cart.deleteItemForMe</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

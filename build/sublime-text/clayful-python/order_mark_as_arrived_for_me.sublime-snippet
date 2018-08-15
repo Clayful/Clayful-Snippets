@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Order.mark_as_arrived_for_me(${1:order_id}, ${2:options})
+]]></content >
+	<description>Order.markAsArrivedForMe</description>
+	<tabTrigger>Order.markAsArrivedForMe</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Order::updateForMe(${1:\$orderId}, ${2:\$payload}, ${3:\$options});
+]]></content >
+	<description>Order::updateForMe</description>
+	<tabTrigger>Order::updateForMe</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

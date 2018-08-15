@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ReviewComment.get(${1:reviewCommentId}, ${2:options}, ${3:callback});
+]]></content >
+	<description>ReviewComment.get</description>
+	<tabTrigger>ReviewComment.get</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

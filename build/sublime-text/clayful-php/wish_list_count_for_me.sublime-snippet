@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = WishList::countForMe(${1:\$options});
+]]></content >
+	<description>WishList::countForMe</description>
+	<tabTrigger>WishList::countForMe</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

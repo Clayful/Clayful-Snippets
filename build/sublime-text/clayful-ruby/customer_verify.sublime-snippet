@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Customer.verify(${1:customer_id}, ${2:payload}, ${3:options})
+]]></content >
+	<description>Customer.verify</description>
+	<tabTrigger>Customer.verify</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

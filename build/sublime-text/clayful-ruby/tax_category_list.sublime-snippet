@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = TaxCategory.list(${1:options})
+]]></content >
+	<description>TaxCategory.list</description>
+	<tabTrigger>TaxCategory.list</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

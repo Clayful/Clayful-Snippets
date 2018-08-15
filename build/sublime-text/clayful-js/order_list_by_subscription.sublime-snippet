@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Order.listBySubscription(${1:subscriptionId}, ${2:options}, ${3:callback});
+]]></content >
+	<description>Order.listBySubscription</description>
+	<tabTrigger>Order.listBySubscription</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

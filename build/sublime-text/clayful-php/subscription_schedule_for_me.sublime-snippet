@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Subscription::scheduleForMe(${1:\$subscriptionId}, ${2:\$payload}, ${3:\$options});
+]]></content >
+	<description>Subscription::scheduleForMe</description>
+	<tabTrigger>Subscription::scheduleForMe</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

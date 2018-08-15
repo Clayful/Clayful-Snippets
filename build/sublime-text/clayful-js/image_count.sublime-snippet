@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Image.count(${1:options}, ${2:callback});
+]]></content >
+	<description>Image.count</description>
+	<tabTrigger>Image.count</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Customer::authenticate(${1:\$payload}, ${2:\$options});
+]]></content >
+	<description>Customer::authenticate</description>
+	<tabTrigger>Customer::authenticate</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

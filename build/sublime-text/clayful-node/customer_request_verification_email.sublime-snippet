@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Customer.requestVerificationEmail(${1:payload}, ${2:options}, ${3:callback});
+]]></content >
+	<description>Customer.requestVerificationEmail</description>
+	<tabTrigger>Customer.requestVerificationEmail</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

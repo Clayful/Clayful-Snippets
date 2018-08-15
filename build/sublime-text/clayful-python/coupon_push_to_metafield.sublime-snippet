@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Coupon.push_to_metafield(${1:coupon_id}, ${2:field}, ${3:payload}, ${4:options})
+]]></content >
+	<description>Coupon.pushToMetafield</description>
+	<tabTrigger>Coupon.pushToMetafield</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

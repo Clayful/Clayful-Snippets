@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Cart.checkoutAsNonRegistered(${1:type}, ${2:payload}, ${3:options}, ${4:callback});
+]]></content >
+	<description>Cart.checkoutAsNonRegistered</description>
+	<tabTrigger>Cart.checkoutAsNonRegistered</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

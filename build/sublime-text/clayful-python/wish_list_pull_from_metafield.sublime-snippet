@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = WishList.pull_from_metafield(${1:wish_list_id}, ${2:field}, ${3:payload}, ${4:options})
+]]></content >
+	<description>WishList.pullFromMetafield</description>
+	<tabTrigger>WishList.pullFromMetafield</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Order.useTicket(${1:code}, ${2:options}, ${3:callback});
+]]></content >
+	<description>Order.useTicket</description>
+	<tabTrigger>Order.useTicket</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

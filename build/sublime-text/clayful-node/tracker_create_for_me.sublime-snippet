@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Tracker.createForMe(${1:options}, ${2:callback});
+]]></content >
+	<description>Tracker.createForMe</description>
+	<tabTrigger>Tracker.createForMe</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

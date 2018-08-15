@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Downloadable.count(${1:options}, ${2:callback});
+]]></content >
+	<description>Downloadable.count</description>
+	<tabTrigger>Downloadable.count</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

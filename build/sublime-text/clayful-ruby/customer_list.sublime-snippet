@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Customer.list(${1:options})
+]]></content >
+	<description>Customer.list</description>
+	<tabTrigger>Customer.list</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

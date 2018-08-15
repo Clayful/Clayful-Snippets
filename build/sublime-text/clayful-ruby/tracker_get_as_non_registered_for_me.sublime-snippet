@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Tracker.get_as_non_registered_for_me(${1:tracker_id}, ${2:options})
+]]></content >
+	<description>Tracker.getAsNonRegisteredForMe</description>
+	<tabTrigger>Tracker.getAsNonRegisteredForMe</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Subscription.list_for_me(${1:options})
+]]></content >
+	<description>Subscription.listForMe</description>
+	<tabTrigger>Subscription.listForMe</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

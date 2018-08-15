@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Group.list(${1:options})
+]]></content >
+	<description>Group.list</description>
+	<tabTrigger>Group.list</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Order.delete_metafield(${1:order_id}, ${2:field}, ${3:options})
+]]></content >
+	<description>Order.deleteMetafield</description>
+	<tabTrigger>Order.deleteMetafield</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

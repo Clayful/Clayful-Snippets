@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Order.restockAllRefundItems(${1:orderId}, ${2:refundId}, ${3:options}, ${4:callback});
+]]></content >
+	<description>Order.restockAllRefundItems</description>
+	<tabTrigger>Order.restockAllRefundItems</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

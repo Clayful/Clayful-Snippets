@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = PaymentMethod.list(${1:options})
+]]></content >
+	<description>PaymentMethod.list</description>
+	<tabTrigger>PaymentMethod.list</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Customer::isAuthenticated(${1:\$options});
+]]></content >
+	<description>Customer::isAuthenticated</description>
+	<tabTrigger>Customer::isAuthenticated</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

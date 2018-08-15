@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Discount.count(${1:options}, ${2:callback});
+]]></content >
+	<description>Discount.count</description>
+	<tabTrigger>Discount.count</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

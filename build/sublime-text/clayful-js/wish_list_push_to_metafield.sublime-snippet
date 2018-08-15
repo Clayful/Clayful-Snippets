@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+WishList.pushToMetafield(${1:wishListId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+]]></content >
+	<description>WishList.pushToMetafield</description>
+	<tabTrigger>WishList.pushToMetafield</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

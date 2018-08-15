@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Image.getForMe(${1:imageId}, ${2:options}, ${3:callback});
+]]></content >
+	<description>Image.getForMe</description>
+	<tabTrigger>Image.getForMe</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

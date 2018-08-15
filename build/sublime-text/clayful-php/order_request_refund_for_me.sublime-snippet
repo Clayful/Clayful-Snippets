@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Order::requestRefundForMe(${1:\$orderId}, ${2:\$payload}, ${3:\$options});
+]]></content >
+	<description>Order::requestRefundForMe</description>
+	<tabTrigger>Order::requestRefundForMe</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

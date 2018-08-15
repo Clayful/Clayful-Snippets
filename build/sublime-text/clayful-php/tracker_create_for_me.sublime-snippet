@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Tracker::createForMe(${1:\$options});
+]]></content >
+	<description>Tracker::createForMe</description>
+	<tabTrigger>Tracker::createForMe</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

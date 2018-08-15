@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Subscription.delete(${1:subscription_id}, ${2:options})
+]]></content >
+	<description>Subscription.delete</description>
+	<tabTrigger>Subscription.delete</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

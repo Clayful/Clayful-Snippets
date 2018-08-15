@@ -1,0 +1,1849 @@
+'.source.php':
+
+	'Brand::list':
+		'prefix': 'Brand::list'
+		'body': """
+			\$result = Brand::list(${1:\$options});
+		"""
+
+	'Brand::count':
+		'prefix': 'Brand::count'
+		'body': """
+			\$result = Brand::count(${1:\$options});
+		"""
+
+	'Brand::get':
+		'prefix': 'Brand::get'
+		'body': """
+			\$result = Brand::get(${1:\$brandId}, ${2:\$options});
+		"""
+
+	'Brand::pullFromMetafield':
+		'prefix': 'Brand::pullFromMetafield'
+		'body': """
+			\$result = Brand::pullFromMetafield(${1:\$brandId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Brand::pushToMetafield':
+		'prefix': 'Brand::pushToMetafield'
+		'body': """
+			\$result = Brand::pushToMetafield(${1:\$brandId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Brand::increaseMetafield':
+		'prefix': 'Brand::increaseMetafield'
+		'body': """
+			\$result = Brand::increaseMetafield(${1:\$brandId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Brand::deleteMetafield':
+		'prefix': 'Brand::deleteMetafield'
+		'body': """
+			\$result = Brand::deleteMetafield(${1:\$brandId}, ${2:\$field}, ${3:\$options});
+		"""
+
+	'Cart::countItemsForMe':
+		'prefix': 'Cart::countItemsForMe'
+		'body': """
+			\$result = Cart::countItemsForMe(${1:\$options});
+		"""
+
+	'Cart::countItems':
+		'prefix': 'Cart::countItems'
+		'body': """
+			\$result = Cart::countItems(${1:\$customerId}, ${2:\$options});
+		"""
+
+	'Cart::getForMe':
+		'prefix': 'Cart::getForMe'
+		'body': """
+			\$result = Cart::getForMe(${1:\$payload}, ${2:\$options});
+		"""
+
+	'Cart::getAsNonRegistered':
+		'prefix': 'Cart::getAsNonRegistered'
+		'body': """
+			\$result = Cart::getAsNonRegistered(${1:\$payload}, ${2:\$options});
+		"""
+
+	'Cart::get':
+		'prefix': 'Cart::get'
+		'body': """
+			\$result = Cart::get(${1:\$customerId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Cart::addItemForMe':
+		'prefix': 'Cart::addItemForMe'
+		'body': """
+			\$result = Cart::addItemForMe(${1:\$payload}, ${2:\$options});
+		"""
+
+	'Cart::getAsNonRegisteredForMe':
+		'prefix': 'Cart::getAsNonRegisteredForMe'
+		'body': """
+			\$result = Cart::getAsNonRegisteredForMe(${1:\$payload}, ${2:\$options});
+		"""
+
+	'Cart::addItem':
+		'prefix': 'Cart::addItem'
+		'body': """
+			\$result = Cart::addItem(${1:\$customerId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Cart::checkoutForMe':
+		'prefix': 'Cart::checkoutForMe'
+		'body': """
+			\$result = Cart::checkoutForMe(${1:\$type}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Cart::checkoutAsNonRegistered':
+		'prefix': 'Cart::checkoutAsNonRegistered'
+		'body': """
+			\$result = Cart::checkoutAsNonRegistered(${1:\$type}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Cart::checkout':
+		'prefix': 'Cart::checkout'
+		'body': """
+			\$result = Cart::checkout(${1:\$customerId}, ${2:\$type}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Cart::checkoutAsNonRegisteredForMe':
+		'prefix': 'Cart::checkoutAsNonRegisteredForMe'
+		'body': """
+			\$result = Cart::checkoutAsNonRegisteredForMe(${1:\$type}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Cart::updateItemForMe':
+		'prefix': 'Cart::updateItemForMe'
+		'body': """
+			\$result = Cart::updateItemForMe(${1:\$itemId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Cart::updateItem':
+		'prefix': 'Cart::updateItem'
+		'body': """
+			\$result = Cart::updateItem(${1:\$customerId}, ${2:\$itemId}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Cart::emptyForMe':
+		'prefix': 'Cart::emptyForMe'
+		'body': """
+			\$result = Cart::emptyForMe(${1:\$options});
+		"""
+
+	'Cart::empty':
+		'prefix': 'Cart::empty'
+		'body': """
+			\$result = Cart::empty(${1:\$customerId}, ${2:\$options});
+		"""
+
+	'Cart::deleteItemForMe':
+		'prefix': 'Cart::deleteItemForMe'
+		'body': """
+			\$result = Cart::deleteItemForMe(${1:\$itemId}, ${2:\$options});
+		"""
+
+	'Cart::deleteItem':
+		'prefix': 'Cart::deleteItem'
+		'body': """
+			\$result = Cart::deleteItem(${1:\$customerId}, ${2:\$itemId}, ${3:\$options});
+		"""
+
+	'Catalog::list':
+		'prefix': 'Catalog::list'
+		'body': """
+			\$result = Catalog::list(${1:\$options});
+		"""
+
+	'Catalog::count':
+		'prefix': 'Catalog::count'
+		'body': """
+			\$result = Catalog::count(${1:\$options});
+		"""
+
+	'Catalog::get':
+		'prefix': 'Catalog::get'
+		'body': """
+			\$result = Catalog::get(${1:\$catalogId}, ${2:\$options});
+		"""
+
+	'Catalog::pullFromMetafield':
+		'prefix': 'Catalog::pullFromMetafield'
+		'body': """
+			\$result = Catalog::pullFromMetafield(${1:\$catalogId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Catalog::increaseMetafield':
+		'prefix': 'Catalog::increaseMetafield'
+		'body': """
+			\$result = Catalog::increaseMetafield(${1:\$catalogId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Catalog::pushToMetafield':
+		'prefix': 'Catalog::pushToMetafield'
+		'body': """
+			\$result = Catalog::pushToMetafield(${1:\$catalogId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Catalog::deleteMetafield':
+		'prefix': 'Catalog::deleteMetafield'
+		'body': """
+			\$result = Catalog::deleteMetafield(${1:\$catalogId}, ${2:\$field}, ${3:\$options});
+		"""
+
+	'Collection::list':
+		'prefix': 'Collection::list'
+		'body': """
+			\$result = Collection::list(${1:\$options});
+		"""
+
+	'Collection::count':
+		'prefix': 'Collection::count'
+		'body': """
+			\$result = Collection::count(${1:\$options});
+		"""
+
+	'Collection::get':
+		'prefix': 'Collection::get'
+		'body': """
+			\$result = Collection::get(${1:\$collectionId}, ${2:\$options});
+		"""
+
+	'Collection::pushToMetafield':
+		'prefix': 'Collection::pushToMetafield'
+		'body': """
+			\$result = Collection::pushToMetafield(${1:\$collectionId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Collection::pullFromMetafield':
+		'prefix': 'Collection::pullFromMetafield'
+		'body': """
+			\$result = Collection::pullFromMetafield(${1:\$collectionId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Collection::increaseMetafield':
+		'prefix': 'Collection::increaseMetafield'
+		'body': """
+			\$result = Collection::increaseMetafield(${1:\$collectionId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Collection::deleteMetafield':
+		'prefix': 'Collection::deleteMetafield'
+		'body': """
+			\$result = Collection::deleteMetafield(${1:\$collectionId}, ${2:\$field}, ${3:\$options});
+		"""
+
+	'Country::list':
+		'prefix': 'Country::list'
+		'body': """
+			\$result = Country::list(${1:\$options});
+		"""
+
+	'Country::count':
+		'prefix': 'Country::count'
+		'body': """
+			\$result = Country::count(${1:\$options});
+		"""
+
+	'Country::get':
+		'prefix': 'Country::get'
+		'body': """
+			\$result = Country::get(${1:\$countryId}, ${2:\$options});
+		"""
+
+	'Coupon::list':
+		'prefix': 'Coupon::list'
+		'body': """
+			\$result = Coupon::list(${1:\$options});
+		"""
+
+	'Coupon::count':
+		'prefix': 'Coupon::count'
+		'body': """
+			\$result = Coupon::count(${1:\$options});
+		"""
+
+	'Coupon::get':
+		'prefix': 'Coupon::get'
+		'body': """
+			\$result = Coupon::get(${1:\$couponId}, ${2:\$options});
+		"""
+
+	'Coupon::increaseMetafield':
+		'prefix': 'Coupon::increaseMetafield'
+		'body': """
+			\$result = Coupon::increaseMetafield(${1:\$couponId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Coupon::pullFromMetafield':
+		'prefix': 'Coupon::pullFromMetafield'
+		'body': """
+			\$result = Coupon::pullFromMetafield(${1:\$couponId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Coupon::pushToMetafield':
+		'prefix': 'Coupon::pushToMetafield'
+		'body': """
+			\$result = Coupon::pushToMetafield(${1:\$couponId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Coupon::deleteMetafield':
+		'prefix': 'Coupon::deleteMetafield'
+		'body': """
+			\$result = Coupon::deleteMetafield(${1:\$couponId}, ${2:\$field}, ${3:\$options});
+		"""
+
+	'Currency::list':
+		'prefix': 'Currency::list'
+		'body': """
+			\$result = Currency::list(${1:\$options});
+		"""
+
+	'Currency::count':
+		'prefix': 'Currency::count'
+		'body': """
+			\$result = Currency::count(${1:\$options});
+		"""
+
+	'Currency::get':
+		'prefix': 'Currency::get'
+		'body': """
+			\$result = Currency::get(${1:\$currencyId}, ${2:\$options});
+		"""
+
+	'Customer::list':
+		'prefix': 'Customer::list'
+		'body': """
+			\$result = Customer::list(${1:\$options});
+		"""
+
+	'Customer::getMe':
+		'prefix': 'Customer::getMe'
+		'body': """
+			\$result = Customer::getMe(${1:\$options});
+		"""
+
+	'Customer::isAuthenticated':
+		'prefix': 'Customer::isAuthenticated'
+		'body': """
+			\$result = Customer::isAuthenticated(${1:\$options});
+		"""
+
+	'Customer::count':
+		'prefix': 'Customer::count'
+		'body': """
+			\$result = Customer::count(${1:\$options});
+		"""
+
+	'Customer::get':
+		'prefix': 'Customer::get'
+		'body': """
+			\$result = Customer::get(${1:\$customerId}, ${2:\$options});
+		"""
+
+	'Customer::listCouponsForMe':
+		'prefix': 'Customer::listCouponsForMe'
+		'body': """
+			\$result = Customer::listCouponsForMe(${1:\$options});
+		"""
+
+	'Customer::listCoupons':
+		'prefix': 'Customer::listCoupons'
+		'body': """
+			\$result = Customer::listCoupons(${1:\$customerId}, ${2:\$options});
+		"""
+
+	'Customer::countCouponsForMe':
+		'prefix': 'Customer::countCouponsForMe'
+		'body': """
+			\$result = Customer::countCouponsForMe(${1:\$options});
+		"""
+
+	'Customer::countCoupons':
+		'prefix': 'Customer::countCoupons'
+		'body': """
+			\$result = Customer::countCoupons(${1:\$customerId}, ${2:\$options});
+		"""
+
+	'Customer::listByFlagVotes':
+		'prefix': 'Customer::listByFlagVotes'
+		'body': """
+			\$result = Customer::listByFlagVotes(${1:\$voteModel}, ${2:\$voteModelId}, ${3:\$options});
+		"""
+
+	'Customer::listByHelpVotes':
+		'prefix': 'Customer::listByHelpVotes'
+		'body': """
+			\$result = Customer::listByHelpVotes(${1:\$voteModel}, ${2:\$voteModelId}, ${3:\$upDown}, ${4:\$options});
+		"""
+
+	'Customer::create':
+		'prefix': 'Customer::create'
+		'body': """
+			\$result = Customer::create(${1:\$payload}, ${2:\$options});
+		"""
+
+	'Customer::createMe':
+		'prefix': 'Customer::createMe'
+		'body': """
+			\$result = Customer::createMe(${1:\$payload}, ${2:\$options});
+		"""
+
+	'Customer::authenticate':
+		'prefix': 'Customer::authenticate'
+		'body': """
+			\$result = Customer::authenticate(${1:\$payload}, ${2:\$options});
+		"""
+
+	'Customer::createVerification':
+		'prefix': 'Customer::createVerification'
+		'body': """
+			\$result = Customer::createVerification(${1:\$payload}, ${2:\$options});
+		"""
+
+	'Customer::authenticateBy3rdParty':
+		'prefix': 'Customer::authenticateBy3rdParty'
+		'body': """
+			\$result = Customer::authenticateBy3rdParty(${1:\$vendor}, ${2:\$options});
+		"""
+
+	'Customer::requestVerificationEmail':
+		'prefix': 'Customer::requestVerificationEmail'
+		'body': """
+			\$result = Customer::requestVerificationEmail(${1:\$payload}, ${2:\$options});
+		"""
+
+	'Customer::addCoupon':
+		'prefix': 'Customer::addCoupon'
+		'body': """
+			\$result = Customer::addCoupon(${1:\$customerId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Customer::verify':
+		'prefix': 'Customer::verify'
+		'body': """
+			\$result = Customer::verify(${1:\$customerId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Customer::pushToMetafield':
+		'prefix': 'Customer::pushToMetafield'
+		'body': """
+			\$result = Customer::pushToMetafield(${1:\$customerId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Customer::pullFromMetafield':
+		'prefix': 'Customer::pullFromMetafield'
+		'body': """
+			\$result = Customer::pullFromMetafield(${1:\$customerId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Customer::increaseMetafield':
+		'prefix': 'Customer::increaseMetafield'
+		'body': """
+			\$result = Customer::increaseMetafield(${1:\$customerId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Customer::updateMe':
+		'prefix': 'Customer::updateMe'
+		'body': """
+			\$result = Customer::updateMe(${1:\$payload}, ${2:\$options});
+		"""
+
+	'Customer::update':
+		'prefix': 'Customer::update'
+		'body': """
+			\$result = Customer::update(${1:\$customerId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Customer::updateCredentialsForMe':
+		'prefix': 'Customer::updateCredentialsForMe'
+		'body': """
+			\$result = Customer::updateCredentialsForMe(${1:\$payload}, ${2:\$options});
+		"""
+
+	'Customer::resetPassword':
+		'prefix': 'Customer::resetPassword'
+		'body': """
+			\$result = Customer::resetPassword(${1:\$customerId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Customer::updateCredentials':
+		'prefix': 'Customer::updateCredentials'
+		'body': """
+			\$result = Customer::updateCredentials(${1:\$customerId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Customer::deleteMe':
+		'prefix': 'Customer::deleteMe'
+		'body': """
+			\$result = Customer::deleteMe(${1:\$options});
+		"""
+
+	'Customer::delete':
+		'prefix': 'Customer::delete'
+		'body': """
+			\$result = Customer::delete(${1:\$customerId}, ${2:\$options});
+		"""
+
+	'Customer::deleteCouponForMe':
+		'prefix': 'Customer::deleteCouponForMe'
+		'body': """
+			\$result = Customer::deleteCouponForMe(${1:\$couponId}, ${2:\$options});
+		"""
+
+	'Customer::deleteCoupon':
+		'prefix': 'Customer::deleteCoupon'
+		'body': """
+			\$result = Customer::deleteCoupon(${1:\$customerId}, ${2:\$couponId}, ${3:\$options});
+		"""
+
+	'Customer::deleteMetafield':
+		'prefix': 'Customer::deleteMetafield'
+		'body': """
+			\$result = Customer::deleteMetafield(${1:\$customerId}, ${2:\$field}, ${3:\$options});
+		"""
+
+	'Discount::list':
+		'prefix': 'Discount::list'
+		'body': """
+			\$result = Discount::list(${1:\$options});
+		"""
+
+	'Discount::count':
+		'prefix': 'Discount::count'
+		'body': """
+			\$result = Discount::count(${1:\$options});
+		"""
+
+	'Discount::get':
+		'prefix': 'Discount::get'
+		'body': """
+			\$result = Discount::get(${1:\$discountId}, ${2:\$options});
+		"""
+
+	'Discount::pushToMetafield':
+		'prefix': 'Discount::pushToMetafield'
+		'body': """
+			\$result = Discount::pushToMetafield(${1:\$discountId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Discount::pullFromMetafield':
+		'prefix': 'Discount::pullFromMetafield'
+		'body': """
+			\$result = Discount::pullFromMetafield(${1:\$discountId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Discount::increaseMetafield':
+		'prefix': 'Discount::increaseMetafield'
+		'body': """
+			\$result = Discount::increaseMetafield(${1:\$discountId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Discount::deleteMetafield':
+		'prefix': 'Discount::deleteMetafield'
+		'body': """
+			\$result = Discount::deleteMetafield(${1:\$discountId}, ${2:\$field}, ${3:\$options});
+		"""
+
+	'Downloadable::list':
+		'prefix': 'Downloadable::list'
+		'body': """
+			\$result = Downloadable::list(${1:\$options});
+		"""
+
+	'Downloadable::count':
+		'prefix': 'Downloadable::count'
+		'body': """
+			\$result = Downloadable::count(${1:\$options});
+		"""
+
+	'Downloadable::get':
+		'prefix': 'Downloadable::get'
+		'body': """
+			\$result = Downloadable::get(${1:\$downloadableId}, ${2:\$options});
+		"""
+
+	'Downloadable::createDownloadUrl':
+		'prefix': 'Downloadable::createDownloadUrl'
+		'body': """
+			\$result = Downloadable::createDownloadUrl(${1:\$downloadableId}, ${2:\$options});
+		"""
+
+	'Group::list':
+		'prefix': 'Group::list'
+		'body': """
+			\$result = Group::list(${1:\$options});
+		"""
+
+	'Group::count':
+		'prefix': 'Group::count'
+		'body': """
+			\$result = Group::count(${1:\$options});
+		"""
+
+	'Group::get':
+		'prefix': 'Group::get'
+		'body': """
+			\$result = Group::get(${1:\$groupId}, ${2:\$options});
+		"""
+
+	'Group::pullFromMetafield':
+		'prefix': 'Group::pullFromMetafield'
+		'body': """
+			\$result = Group::pullFromMetafield(${1:\$groupId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Group::pushToMetafield':
+		'prefix': 'Group::pushToMetafield'
+		'body': """
+			\$result = Group::pushToMetafield(${1:\$groupId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Group::increaseMetafield':
+		'prefix': 'Group::increaseMetafield'
+		'body': """
+			\$result = Group::increaseMetafield(${1:\$groupId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Group::deleteMetafield':
+		'prefix': 'Group::deleteMetafield'
+		'body': """
+			\$result = Group::deleteMetafield(${1:\$groupId}, ${2:\$field}, ${3:\$options});
+		"""
+
+	'Image::list':
+		'prefix': 'Image::list'
+		'body': """
+			\$result = Image::list(${1:\$options});
+		"""
+
+	'Image::count':
+		'prefix': 'Image::count'
+		'body': """
+			\$result = Image::count(${1:\$options});
+		"""
+
+	'Image::get':
+		'prefix': 'Image::get'
+		'body': """
+			\$result = Image::get(${1:\$imageId}, ${2:\$options});
+		"""
+
+	'Image::listForMe':
+		'prefix': 'Image::listForMe'
+		'body': """
+			\$result = Image::listForMe(${1:\$options});
+		"""
+
+	'Image::countForMe':
+		'prefix': 'Image::countForMe'
+		'body': """
+			\$result = Image::countForMe(${1:\$options});
+		"""
+
+	'Image::getForMe':
+		'prefix': 'Image::getForMe'
+		'body': """
+			\$result = Image::getForMe(${1:\$imageId}, ${2:\$options});
+		"""
+
+	'Image::create':
+		'prefix': 'Image::create'
+		'body': """
+			\$result = Image::create(${1:\$payload}, ${2:\$options});
+		"""
+
+	'Image::createForMe':
+		'prefix': 'Image::createForMe'
+		'body': """
+			\$result = Image::createForMe(${1:\$payload}, ${2:\$options});
+		"""
+
+	'Image::createAsCustomer':
+		'prefix': 'Image::createAsCustomer'
+		'body': """
+			\$result = Image::createAsCustomer(${1:\$customerId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Image::update':
+		'prefix': 'Image::update'
+		'body': """
+			\$result = Image::update(${1:\$imageId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Image::updateForMe':
+		'prefix': 'Image::updateForMe'
+		'body': """
+			\$result = Image::updateForMe(${1:\$imageId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Image::updateAsCustomer':
+		'prefix': 'Image::updateAsCustomer'
+		'body': """
+			\$result = Image::updateAsCustomer(${1:\$customerId}, ${2:\$imageId}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Image::delete':
+		'prefix': 'Image::delete'
+		'body': """
+			\$result = Image::delete(${1:\$imageId}, ${2:\$options});
+		"""
+
+	'Image::deleteForMe':
+		'prefix': 'Image::deleteForMe'
+		'body': """
+			\$result = Image::deleteForMe(${1:\$imageId}, ${2:\$options});
+		"""
+
+	'Image::deleteAsCustomer':
+		'prefix': 'Image::deleteAsCustomer'
+		'body': """
+			\$result = Image::deleteAsCustomer(${1:\$customerId}, ${2:\$imageId}, ${3:\$options});
+		"""
+
+	'Impression::topBrands':
+		'prefix': 'Impression::topBrands'
+		'body': """
+			\$result = Impression::topBrands(${1:\$scope}, ${2:\$options});
+		"""
+
+	'Impression::topProducts':
+		'prefix': 'Impression::topProducts'
+		'body': """
+			\$result = Impression::topProducts(${1:\$scope}, ${2:\$options});
+		"""
+
+	'Impression::topCollections':
+		'prefix': 'Impression::topCollections'
+		'body': """
+			\$result = Impression::topCollections(${1:\$scope}, ${2:\$options});
+		"""
+
+	'Impression::gather':
+		'prefix': 'Impression::gather'
+		'body': """
+			\$result = Impression::gather(${1:\$scope}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Order::list':
+		'prefix': 'Order::list'
+		'body': """
+			\$result = Order::list(${1:\$options});
+		"""
+
+	'Order::listForMe':
+		'prefix': 'Order::listForMe'
+		'body': """
+			\$result = Order::listForMe(${1:\$options});
+		"""
+
+	'Order::count':
+		'prefix': 'Order::count'
+		'body': """
+			\$result = Order::count(${1:\$options});
+		"""
+
+	'Order::get':
+		'prefix': 'Order::get'
+		'body': """
+			\$result = Order::get(${1:\$orderId}, ${2:\$options});
+		"""
+
+	'Order::countForMe':
+		'prefix': 'Order::countForMe'
+		'body': """
+			\$result = Order::countForMe(${1:\$options});
+		"""
+
+	'Order::getForMe':
+		'prefix': 'Order::getForMe'
+		'body': """
+			\$result = Order::getForMe(${1:\$orderId}, ${2:\$options});
+		"""
+
+	'Order::listBySubscription':
+		'prefix': 'Order::listBySubscription'
+		'body': """
+			\$result = Order::listBySubscription(${1:\$subscriptionId}, ${2:\$options});
+		"""
+
+	'Order::listBySubscriptionForMe':
+		'prefix': 'Order::listBySubscriptionForMe'
+		'body': """
+			\$result = Order::listBySubscriptionForMe(${1:\$subscriptionId}, ${2:\$options});
+		"""
+
+	'Order::listInventoryOperations':
+		'prefix': 'Order::listInventoryOperations'
+		'body': """
+			\$result = Order::listInventoryOperations(${1:\$orderId}, ${2:\$options});
+		"""
+
+	'Order::markAsArrived':
+		'prefix': 'Order::markAsArrived'
+		'body': """
+			\$result = Order::markAsArrived(${1:\$orderId}, ${2:\$options});
+		"""
+
+	'Order::markAsDone':
+		'prefix': 'Order::markAsDone'
+		'body': """
+			\$result = Order::markAsDone(${1:\$orderId}, ${2:\$options});
+		"""
+
+	'Order::syncInventory':
+		'prefix': 'Order::syncInventory'
+		'body': """
+			\$result = Order::syncInventory(${1:\$orderId}, ${2:\$options});
+		"""
+
+	'Order::createFulfillment':
+		'prefix': 'Order::createFulfillment'
+		'body': """
+			\$result = Order::createFulfillment(${1:\$orderId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Order::authenticate':
+		'prefix': 'Order::authenticate'
+		'body': """
+			\$result = Order::authenticate(${1:\$orderId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Order::cancel':
+		'prefix': 'Order::cancel'
+		'body': """
+			\$result = Order::cancel(${1:\$orderId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Order::requestRefund':
+		'prefix': 'Order::requestRefund'
+		'body': """
+			\$result = Order::requestRefund(${1:\$orderId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Order::cancelForMe':
+		'prefix': 'Order::cancelForMe'
+		'body': """
+			\$result = Order::cancelForMe(${1:\$orderId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Order::markAsArrivedForMe':
+		'prefix': 'Order::markAsArrivedForMe'
+		'body': """
+			\$result = Order::markAsArrivedForMe(${1:\$orderId}, ${2:\$options});
+		"""
+
+	'Order::requestRefundForMe':
+		'prefix': 'Order::requestRefundForMe'
+		'body': """
+			\$result = Order::requestRefundForMe(${1:\$orderId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Order::checkTicket':
+		'prefix': 'Order::checkTicket'
+		'body': """
+			\$result = Order::checkTicket(${1:\$code}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Order::useTicket':
+		'prefix': 'Order::useTicket'
+		'body': """
+			\$result = Order::useTicket(${1:\$code}, ${2:\$options});
+		"""
+
+	'Order::requestFullRefund':
+		'prefix': 'Order::requestFullRefund'
+		'body': """
+			\$result = Order::requestFullRefund(${1:\$orderId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Order::requestFullRefundForMe':
+		'prefix': 'Order::requestFullRefundForMe'
+		'body': """
+			\$result = Order::requestFullRefundForMe(${1:\$orderId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Order::restockRefundItems':
+		'prefix': 'Order::restockRefundItems'
+		'body': """
+			\$result = Order::restockRefundItems(${1:\$orderId}, ${2:\$refundId}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Order::registerPaymentMethod':
+		'prefix': 'Order::registerPaymentMethod'
+		'body': """
+			\$result = Order::registerPaymentMethod(${1:\$orderId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Order::pullFromMetafield':
+		'prefix': 'Order::pullFromMetafield'
+		'body': """
+			\$result = Order::pullFromMetafield(${1:\$orderId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Order::pushToMetafield':
+		'prefix': 'Order::pushToMetafield'
+		'body': """
+			\$result = Order::pushToMetafield(${1:\$orderId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Order::cancelRefund':
+		'prefix': 'Order::cancelRefund'
+		'body': """
+			\$result = Order::cancelRefund(${1:\$orderId}, ${2:\$refundId}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Order::acceptRefund':
+		'prefix': 'Order::acceptRefund'
+		'body': """
+			\$result = Order::acceptRefund(${1:\$orderId}, ${2:\$refundId}, ${3:\$options});
+		"""
+
+	'Order::increaseMetafield':
+		'prefix': 'Order::increaseMetafield'
+		'body': """
+			\$result = Order::increaseMetafield(${1:\$orderId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Order::cancelRefundForMe':
+		'prefix': 'Order::cancelRefundForMe'
+		'body': """
+			\$result = Order::cancelRefundForMe(${1:\$orderId}, ${2:\$refundId}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Order::createDownloadUrl':
+		'prefix': 'Order::createDownloadUrl'
+		'body': """
+			\$result = Order::createDownloadUrl(${1:\$orderId}, ${2:\$itemId}, ${3:\$options});
+		"""
+
+	'Order::restockAllRefundItems':
+		'prefix': 'Order::restockAllRefundItems'
+		'body': """
+			\$result = Order::restockAllRefundItems(${1:\$orderId}, ${2:\$refundId}, ${3:\$options});
+		"""
+
+	'Order::createDownloadUrlForMe':
+		'prefix': 'Order::createDownloadUrlForMe'
+		'body': """
+			\$result = Order::createDownloadUrlForMe(${1:\$orderId}, ${2:\$itemId}, ${3:\$options});
+		"""
+
+	'Order::update':
+		'prefix': 'Order::update'
+		'body': """
+			\$result = Order::update(${1:\$orderId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Order::updateForMe':
+		'prefix': 'Order::updateForMe'
+		'body': """
+			\$result = Order::updateForMe(${1:\$orderId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Order::updateCancellation':
+		'prefix': 'Order::updateCancellation'
+		'body': """
+			\$result = Order::updateCancellation(${1:\$orderId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Order::updateTransactions':
+		'prefix': 'Order::updateTransactions'
+		'body': """
+			\$result = Order::updateTransactions(${1:\$orderId}, ${2:\$options});
+		"""
+
+	'Order::updateTransactionsForMe':
+		'prefix': 'Order::updateTransactionsForMe'
+		'body': """
+			\$result = Order::updateTransactionsForMe(${1:\$orderId}, ${2:\$options});
+		"""
+
+	'Order::updateCancellationForMe':
+		'prefix': 'Order::updateCancellationForMe'
+		'body': """
+			\$result = Order::updateCancellationForMe(${1:\$orderId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Order::updateRefund':
+		'prefix': 'Order::updateRefund'
+		'body': """
+			\$result = Order::updateRefund(${1:\$orderId}, ${2:\$refundId}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Order::updateFulfillment':
+		'prefix': 'Order::updateFulfillment'
+		'body': """
+			\$result = Order::updateFulfillment(${1:\$orderId}, ${2:\$fulfillmentId}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Order::updateItem':
+		'prefix': 'Order::updateItem'
+		'body': """
+			\$result = Order::updateItem(${1:\$orderId}, ${2:\$itemId}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Order::updateRefundForMe':
+		'prefix': 'Order::updateRefundForMe'
+		'body': """
+			\$result = Order::updateRefundForMe(${1:\$orderId}, ${2:\$refundId}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Order::updateRefundCancellation':
+		'prefix': 'Order::updateRefundCancellation'
+		'body': """
+			\$result = Order::updateRefundCancellation(${1:\$orderId}, ${2:\$refundId}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Order::updateRefundCancellationForMe':
+		'prefix': 'Order::updateRefundCancellationForMe'
+		'body': """
+			\$result = Order::updateRefundCancellationForMe(${1:\$orderId}, ${2:\$refundId}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Order::delete':
+		'prefix': 'Order::delete'
+		'body': """
+			\$result = Order::delete(${1:\$orderId}, ${2:\$options});
+		"""
+
+	'Order::markAsUndone':
+		'prefix': 'Order::markAsUndone'
+		'body': """
+			\$result = Order::markAsUndone(${1:\$orderId}, ${2:\$options});
+		"""
+
+	'Order::markAsNotArrived':
+		'prefix': 'Order::markAsNotArrived'
+		'body': """
+			\$result = Order::markAsNotArrived(${1:\$orderId}, ${2:\$options});
+		"""
+
+	'Order::markAsNotArrivedForMe':
+		'prefix': 'Order::markAsNotArrivedForMe'
+		'body': """
+			\$result = Order::markAsNotArrivedForMe(${1:\$orderId}, ${2:\$options});
+		"""
+
+	'Order::deleteFulfillment':
+		'prefix': 'Order::deleteFulfillment'
+		'body': """
+			\$result = Order::deleteFulfillment(${1:\$orderId}, ${2:\$fulfillmentId}, ${3:\$options});
+		"""
+
+	'Order::deleteMetafield':
+		'prefix': 'Order::deleteMetafield'
+		'body': """
+			\$result = Order::deleteMetafield(${1:\$orderId}, ${2:\$field}, ${3:\$options});
+		"""
+
+	'Order::deleteRefund':
+		'prefix': 'Order::deleteRefund'
+		'body': """
+			\$result = Order::deleteRefund(${1:\$orderId}, ${2:\$refundId}, ${3:\$options});
+		"""
+
+	'Order::deleteInventoryOperation':
+		'prefix': 'Order::deleteInventoryOperation'
+		'body': """
+			\$result = Order::deleteInventoryOperation(${1:\$orderId}, ${2:\$operationId}, ${3:\$options});
+		"""
+
+	'Order::unacceptRefund':
+		'prefix': 'Order::unacceptRefund'
+		'body': """
+			\$result = Order::unacceptRefund(${1:\$orderId}, ${2:\$refundId}, ${3:\$options});
+		"""
+
+	'Order::unregisterPaymentMethod':
+		'prefix': 'Order::unregisterPaymentMethod'
+		'body': """
+			\$result = Order::unregisterPaymentMethod(${1:\$orderId}, ${2:\$paymentMethodId}, ${3:\$options});
+		"""
+
+	'OrderTag::list':
+		'prefix': 'OrderTag::list'
+		'body': """
+			\$result = OrderTag::list(${1:\$options});
+		"""
+
+	'OrderTag::count':
+		'prefix': 'OrderTag::count'
+		'body': """
+			\$result = OrderTag::count(${1:\$options});
+		"""
+
+	'OrderTag::get':
+		'prefix': 'OrderTag::get'
+		'body': """
+			\$result = OrderTag::get(${1:\$orderTagId}, ${2:\$options});
+		"""
+
+	'PaymentMethod::list':
+		'prefix': 'PaymentMethod::list'
+		'body': """
+			\$result = PaymentMethod::list(${1:\$options});
+		"""
+
+	'PaymentMethod::count':
+		'prefix': 'PaymentMethod::count'
+		'body': """
+			\$result = PaymentMethod::count(${1:\$options});
+		"""
+
+	'PaymentMethod::get':
+		'prefix': 'PaymentMethod::get'
+		'body': """
+			\$result = PaymentMethod::get(${1:\$paymentMethodId}, ${2:\$options});
+		"""
+
+	'Product::list':
+		'prefix': 'Product::list'
+		'body': """
+			\$result = Product::list(${1:\$options});
+		"""
+
+	'Product::count':
+		'prefix': 'Product::count'
+		'body': """
+			\$result = Product::count(${1:\$options});
+		"""
+
+	'Product::get':
+		'prefix': 'Product::get'
+		'body': """
+			\$result = Product::get(${1:\$productId}, ${2:\$options});
+		"""
+
+	'Product::increaseMetafield':
+		'prefix': 'Product::increaseMetafield'
+		'body': """
+			\$result = Product::increaseMetafield(${1:\$productId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Product::pullFromMetafield':
+		'prefix': 'Product::pullFromMetafield'
+		'body': """
+			\$result = Product::pullFromMetafield(${1:\$productId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Product::pushToMetafield':
+		'prefix': 'Product::pushToMetafield'
+		'body': """
+			\$result = Product::pushToMetafield(${1:\$productId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Product::deleteMetafield':
+		'prefix': 'Product::deleteMetafield'
+		'body': """
+			\$result = Product::deleteMetafield(${1:\$productId}, ${2:\$field}, ${3:\$options});
+		"""
+
+	'Review::list':
+		'prefix': 'Review::list'
+		'body': """
+			\$result = Review::list(${1:\$options});
+		"""
+
+	'Review::count':
+		'prefix': 'Review::count'
+		'body': """
+			\$result = Review::count(${1:\$options});
+		"""
+
+	'Review::listPublished':
+		'prefix': 'Review::listPublished'
+		'body': """
+			\$result = Review::listPublished(${1:\$options});
+		"""
+
+	'Review::get':
+		'prefix': 'Review::get'
+		'body': """
+			\$result = Review::get(${1:\$reviewId}, ${2:\$options});
+		"""
+
+	'Review::countPublished':
+		'prefix': 'Review::countPublished'
+		'body': """
+			\$result = Review::countPublished(${1:\$options});
+		"""
+
+	'Review::getPublished':
+		'prefix': 'Review::getPublished'
+		'body': """
+			\$result = Review::getPublished(${1:\$reviewId}, ${2:\$options});
+		"""
+
+	'Review::create':
+		'prefix': 'Review::create'
+		'body': """
+			\$result = Review::create(${1:\$payload}, ${2:\$options});
+		"""
+
+	'Review::createForMe':
+		'prefix': 'Review::createForMe'
+		'body': """
+			\$result = Review::createForMe(${1:\$payload}, ${2:\$options});
+		"""
+
+	'Review::flag':
+		'prefix': 'Review::flag'
+		'body': """
+			\$result = Review::flag(${1:\$reviewId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Review::flagForMe':
+		'prefix': 'Review::flagForMe'
+		'body': """
+			\$result = Review::flagForMe(${1:\$reviewId}, ${2:\$options});
+		"""
+
+	'Review::helped':
+		'prefix': 'Review::helped'
+		'body': """
+			\$result = Review::helped(${1:\$reviewId}, ${2:\$upDown}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Review::helpedForMe':
+		'prefix': 'Review::helpedForMe'
+		'body': """
+			\$result = Review::helpedForMe(${1:\$reviewId}, ${2:\$upDown}, ${3:\$options});
+		"""
+
+	'Review::increaseMetafield':
+		'prefix': 'Review::increaseMetafield'
+		'body': """
+			\$result = Review::increaseMetafield(${1:\$reviewId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Review::pullFromMetafield':
+		'prefix': 'Review::pullFromMetafield'
+		'body': """
+			\$result = Review::pullFromMetafield(${1:\$reviewId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Review::pushToMetafield':
+		'prefix': 'Review::pushToMetafield'
+		'body': """
+			\$result = Review::pushToMetafield(${1:\$reviewId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Review::update':
+		'prefix': 'Review::update'
+		'body': """
+			\$result = Review::update(${1:\$reviewId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Review::updateForMe':
+		'prefix': 'Review::updateForMe'
+		'body': """
+			\$result = Review::updateForMe(${1:\$reviewId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Review::delete':
+		'prefix': 'Review::delete'
+		'body': """
+			\$result = Review::delete(${1:\$reviewId}, ${2:\$options});
+		"""
+
+	'Review::deleteForMe':
+		'prefix': 'Review::deleteForMe'
+		'body': """
+			\$result = Review::deleteForMe(${1:\$reviewId}, ${2:\$options});
+		"""
+
+	'Review::cancelFlagForMe':
+		'prefix': 'Review::cancelFlagForMe'
+		'body': """
+			\$result = Review::cancelFlagForMe(${1:\$reviewId}, ${2:\$options});
+		"""
+
+	'Review::cancelFlag':
+		'prefix': 'Review::cancelFlag'
+		'body': """
+			\$result = Review::cancelFlag(${1:\$reviewId}, ${2:\$customerId}, ${3:\$options});
+		"""
+
+	'Review::deleteMetafield':
+		'prefix': 'Review::deleteMetafield'
+		'body': """
+			\$result = Review::deleteMetafield(${1:\$reviewId}, ${2:\$field}, ${3:\$options});
+		"""
+
+	'Review::cancelHelpedForMe':
+		'prefix': 'Review::cancelHelpedForMe'
+		'body': """
+			\$result = Review::cancelHelpedForMe(${1:\$reviewId}, ${2:\$upDown}, ${3:\$options});
+		"""
+
+	'Review::cancelHelped':
+		'prefix': 'Review::cancelHelped'
+		'body': """
+			\$result = Review::cancelHelped(${1:\$reviewId}, ${2:\$upDown}, ${3:\$customerId}, ${4:\$options});
+		"""
+
+	'ReviewComment::list':
+		'prefix': 'ReviewComment::list'
+		'body': """
+			\$result = ReviewComment::list(${1:\$options});
+		"""
+
+	'ReviewComment::count':
+		'prefix': 'ReviewComment::count'
+		'body': """
+			\$result = ReviewComment::count(${1:\$options});
+		"""
+
+	'ReviewComment::get':
+		'prefix': 'ReviewComment::get'
+		'body': """
+			\$result = ReviewComment::get(${1:\$reviewCommentId}, ${2:\$options});
+		"""
+
+	'ReviewComment::create':
+		'prefix': 'ReviewComment::create'
+		'body': """
+			\$result = ReviewComment::create(${1:\$payload}, ${2:\$options});
+		"""
+
+	'ReviewComment::createForMe':
+		'prefix': 'ReviewComment::createForMe'
+		'body': """
+			\$result = ReviewComment::createForMe(${1:\$payload}, ${2:\$options});
+		"""
+
+	'ReviewComment::flag':
+		'prefix': 'ReviewComment::flag'
+		'body': """
+			\$result = ReviewComment::flag(${1:\$reviewCommentId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'ReviewComment::flagForMe':
+		'prefix': 'ReviewComment::flagForMe'
+		'body': """
+			\$result = ReviewComment::flagForMe(${1:\$reviewCommentId}, ${2:\$options});
+		"""
+
+	'ReviewComment::increaseMetafield':
+		'prefix': 'ReviewComment::increaseMetafield'
+		'body': """
+			\$result = ReviewComment::increaseMetafield(${1:\$reviewCommentId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'ReviewComment::pushToMetafield':
+		'prefix': 'ReviewComment::pushToMetafield'
+		'body': """
+			\$result = ReviewComment::pushToMetafield(${1:\$reviewCommentId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'ReviewComment::pullFromMetafield':
+		'prefix': 'ReviewComment::pullFromMetafield'
+		'body': """
+			\$result = ReviewComment::pullFromMetafield(${1:\$reviewCommentId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'ReviewComment::update':
+		'prefix': 'ReviewComment::update'
+		'body': """
+			\$result = ReviewComment::update(${1:\$reviewCommentId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'ReviewComment::updateForMe':
+		'prefix': 'ReviewComment::updateForMe'
+		'body': """
+			\$result = ReviewComment::updateForMe(${1:\$reviewCommentId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'ReviewComment::delete':
+		'prefix': 'ReviewComment::delete'
+		'body': """
+			\$result = ReviewComment::delete(${1:\$reviewCommentId}, ${2:\$options});
+		"""
+
+	'ReviewComment::deleteForMe':
+		'prefix': 'ReviewComment::deleteForMe'
+		'body': """
+			\$result = ReviewComment::deleteForMe(${1:\$reviewCommentId}, ${2:\$options});
+		"""
+
+	'ReviewComment::cancelFlagForMe':
+		'prefix': 'ReviewComment::cancelFlagForMe'
+		'body': """
+			\$result = ReviewComment::cancelFlagForMe(${1:\$reviewCommentId}, ${2:\$options});
+		"""
+
+	'ReviewComment::deleteMetafield':
+		'prefix': 'ReviewComment::deleteMetafield'
+		'body': """
+			\$result = ReviewComment::deleteMetafield(${1:\$reviewCommentId}, ${2:\$field}, ${3:\$options});
+		"""
+
+	'ReviewComment::cancelFlag':
+		'prefix': 'ReviewComment::cancelFlag'
+		'body': """
+			\$result = ReviewComment::cancelFlag(${1:\$reviewCommentId}, ${2:\$customerId}, ${3:\$options});
+		"""
+
+	'ShippingMethod::list':
+		'prefix': 'ShippingMethod::list'
+		'body': """
+			\$result = ShippingMethod::list(${1:\$options});
+		"""
+
+	'ShippingMethod::count':
+		'prefix': 'ShippingMethod::count'
+		'body': """
+			\$result = ShippingMethod::count(${1:\$options});
+		"""
+
+	'ShippingMethod::get':
+		'prefix': 'ShippingMethod::get'
+		'body': """
+			\$result = ShippingMethod::get(${1:\$shippingMethodId}, ${2:\$options});
+		"""
+
+	'Store::get':
+		'prefix': 'Store::get'
+		'body': """
+			\$result = Store::get(${1:\$options});
+		"""
+
+	'Store::pushToMetafield':
+		'prefix': 'Store::pushToMetafield'
+		'body': """
+			\$result = Store::pushToMetafield(${1:\$field}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Store::increaseMetafield':
+		'prefix': 'Store::increaseMetafield'
+		'body': """
+			\$result = Store::increaseMetafield(${1:\$field}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Store::pullFromMetafield':
+		'prefix': 'Store::pullFromMetafield'
+		'body': """
+			\$result = Store::pullFromMetafield(${1:\$field}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Store::deleteMetafield':
+		'prefix': 'Store::deleteMetafield'
+		'body': """
+			\$result = Store::deleteMetafield(${1:\$field}, ${2:\$options});
+		"""
+
+	'Subscription::list':
+		'prefix': 'Subscription::list'
+		'body': """
+			\$result = Subscription::list(${1:\$options});
+		"""
+
+	'Subscription::listForMe':
+		'prefix': 'Subscription::listForMe'
+		'body': """
+			\$result = Subscription::listForMe(${1:\$options});
+		"""
+
+	'Subscription::count':
+		'prefix': 'Subscription::count'
+		'body': """
+			\$result = Subscription::count(${1:\$options});
+		"""
+
+	'Subscription::get':
+		'prefix': 'Subscription::get'
+		'body': """
+			\$result = Subscription::get(${1:\$subscriptionId}, ${2:\$options});
+		"""
+
+	'Subscription::countForMe':
+		'prefix': 'Subscription::countForMe'
+		'body': """
+			\$result = Subscription::countForMe(${1:\$options});
+		"""
+
+	'Subscription::getForMe':
+		'prefix': 'Subscription::getForMe'
+		'body': """
+			\$result = Subscription::getForMe(${1:\$subscriptionId}, ${2:\$options});
+		"""
+
+	'Subscription::listInventoryOperations':
+		'prefix': 'Subscription::listInventoryOperations'
+		'body': """
+			\$result = Subscription::listInventoryOperations(${1:\$subscriptionId}, ${2:\$options});
+		"""
+
+	'Subscription::authenticate':
+		'prefix': 'Subscription::authenticate'
+		'body': """
+			\$result = Subscription::authenticate(${1:\$subscriptionId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Subscription::markAsDone':
+		'prefix': 'Subscription::markAsDone'
+		'body': """
+			\$result = Subscription::markAsDone(${1:\$subscriptionId}, ${2:\$options});
+		"""
+
+	'Subscription::cancel':
+		'prefix': 'Subscription::cancel'
+		'body': """
+			\$result = Subscription::cancel(${1:\$subscriptionId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Subscription::syncInventory':
+		'prefix': 'Subscription::syncInventory'
+		'body': """
+			\$result = Subscription::syncInventory(${1:\$subscriptionId}, ${2:\$options});
+		"""
+
+	'Subscription::schedule':
+		'prefix': 'Subscription::schedule'
+		'body': """
+			\$result = Subscription::schedule(${1:\$subscriptionId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Subscription::cancelForMe':
+		'prefix': 'Subscription::cancelForMe'
+		'body': """
+			\$result = Subscription::cancelForMe(${1:\$subscriptionId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Subscription::scheduleForMe':
+		'prefix': 'Subscription::scheduleForMe'
+		'body': """
+			\$result = Subscription::scheduleForMe(${1:\$subscriptionId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Subscription::fulfillSchedule':
+		'prefix': 'Subscription::fulfillSchedule'
+		'body': """
+			\$result = Subscription::fulfillSchedule(${1:\$subscriptionId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Subscription::pullFromMetafield':
+		'prefix': 'Subscription::pullFromMetafield'
+		'body': """
+			\$result = Subscription::pullFromMetafield(${1:\$subscriptionId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Subscription::pushToMetafield':
+		'prefix': 'Subscription::pushToMetafield'
+		'body': """
+			\$result = Subscription::pushToMetafield(${1:\$subscriptionId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Subscription::increaseMetafield':
+		'prefix': 'Subscription::increaseMetafield'
+		'body': """
+			\$result = Subscription::increaseMetafield(${1:\$subscriptionId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'Subscription::updateCancellation':
+		'prefix': 'Subscription::updateCancellation'
+		'body': """
+			\$result = Subscription::updateCancellation(${1:\$subscriptionId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Subscription::updateCancellationForMe':
+		'prefix': 'Subscription::updateCancellationForMe'
+		'body': """
+			\$result = Subscription::updateCancellationForMe(${1:\$subscriptionId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Subscription::delete':
+		'prefix': 'Subscription::delete'
+		'body': """
+			\$result = Subscription::delete(${1:\$subscriptionId}, ${2:\$options});
+		"""
+
+	'Subscription::markAsUndone':
+		'prefix': 'Subscription::markAsUndone'
+		'body': """
+			\$result = Subscription::markAsUndone(${1:\$subscriptionId}, ${2:\$options});
+		"""
+
+	'Subscription::deleteMetafield':
+		'prefix': 'Subscription::deleteMetafield'
+		'body': """
+			\$result = Subscription::deleteMetafield(${1:\$subscriptionId}, ${2:\$field}, ${3:\$options});
+		"""
+
+	'Subscription::deleteInventoryOperation':
+		'prefix': 'Subscription::deleteInventoryOperation'
+		'body': """
+			\$result = Subscription::deleteInventoryOperation(${1:\$subscriptionId}, ${2:\$operationId}, ${3:\$options});
+		"""
+
+	'SubscriptionPlan::list':
+		'prefix': 'SubscriptionPlan::list'
+		'body': """
+			\$result = SubscriptionPlan::list(${1:\$options});
+		"""
+
+	'SubscriptionPlan::count':
+		'prefix': 'SubscriptionPlan::count'
+		'body': """
+			\$result = SubscriptionPlan::count(${1:\$options});
+		"""
+
+	'SubscriptionPlan::get':
+		'prefix': 'SubscriptionPlan::get'
+		'body': """
+			\$result = SubscriptionPlan::get(${1:\$subscriptionPlanId}, ${2:\$options});
+		"""
+
+	'TaxCategory::list':
+		'prefix': 'TaxCategory::list'
+		'body': """
+			\$result = TaxCategory::list(${1:\$options});
+		"""
+
+	'TaxCategory::count':
+		'prefix': 'TaxCategory::count'
+		'body': """
+			\$result = TaxCategory::count(${1:\$options});
+		"""
+
+	'TaxCategory::get':
+		'prefix': 'TaxCategory::get'
+		'body': """
+			\$result = TaxCategory::get(${1:\$taxCategoryId}, ${2:\$options});
+		"""
+
+	'Tracker::getByCustomerForMe':
+		'prefix': 'Tracker::getByCustomerForMe'
+		'body': """
+			\$result = Tracker::getByCustomerForMe(${1:\$options});
+		"""
+
+	'Tracker::get':
+		'prefix': 'Tracker::get'
+		'body': """
+			\$result = Tracker::get(${1:\$trackerId}, ${2:\$options});
+		"""
+
+	'Tracker::getByCustomer':
+		'prefix': 'Tracker::getByCustomer'
+		'body': """
+			\$result = Tracker::getByCustomer(${1:\$customerId}, ${2:\$options});
+		"""
+
+	'Tracker::getForMe':
+		'prefix': 'Tracker::getForMe'
+		'body': """
+			\$result = Tracker::getForMe(${1:\$trackerId}, ${2:\$options});
+		"""
+
+	'Tracker::getAsNonRegisteredForMe':
+		'prefix': 'Tracker::getAsNonRegisteredForMe'
+		'body': """
+			\$result = Tracker::getAsNonRegisteredForMe(${1:\$trackerId}, ${2:\$options});
+		"""
+
+	'Tracker::create':
+		'prefix': 'Tracker::create'
+		'body': """
+			\$result = Tracker::create(${1:\$payload}, ${2:\$options});
+		"""
+
+	'Tracker::createForMe':
+		'prefix': 'Tracker::createForMe'
+		'body': """
+			\$result = Tracker::createForMe(${1:\$options});
+		"""
+
+	'Tracker::createAsNonRegisteredForMe':
+		'prefix': 'Tracker::createAsNonRegisteredForMe'
+		'body': """
+			\$result = Tracker::createAsNonRegisteredForMe(${1:\$options});
+		"""
+
+	'Tracker::changeOwner':
+		'prefix': 'Tracker::changeOwner'
+		'body': """
+			\$result = Tracker::changeOwner(${1:\$trackerId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'Tracker::changeOwnerForMe':
+		'prefix': 'Tracker::changeOwnerForMe'
+		'body': """
+			\$result = Tracker::changeOwnerForMe(${1:\$trackerId}, ${2:\$options});
+		"""
+
+	'Tracker::delete':
+		'prefix': 'Tracker::delete'
+		'body': """
+			\$result = Tracker::delete(${1:\$trackerId}, ${2:\$options});
+		"""
+
+	'Tracker::deleteForMe':
+		'prefix': 'Tracker::deleteForMe'
+		'body': """
+			\$result = Tracker::deleteForMe(${1:\$trackerId}, ${2:\$options});
+		"""
+
+	'Tracker::deleteAsNonRegisteredForMe':
+		'prefix': 'Tracker::deleteAsNonRegisteredForMe'
+		'body': """
+			\$result = Tracker::deleteAsNonRegisteredForMe(${1:\$trackerId}, ${2:\$options});
+		"""
+
+	'WishList::list':
+		'prefix': 'WishList::list'
+		'body': """
+			\$result = WishList::list(${1:\$options});
+		"""
+
+	'WishList::listForMe':
+		'prefix': 'WishList::listForMe'
+		'body': """
+			\$result = WishList::listForMe(${1:\$options});
+		"""
+
+	'WishList::count':
+		'prefix': 'WishList::count'
+		'body': """
+			\$result = WishList::count(${1:\$options});
+		"""
+
+	'WishList::get':
+		'prefix': 'WishList::get'
+		'body': """
+			\$result = WishList::get(${1:\$wishListId}, ${2:\$options});
+		"""
+
+	'WishList::countForMe':
+		'prefix': 'WishList::countForMe'
+		'body': """
+			\$result = WishList::countForMe(${1:\$options});
+		"""
+
+	'WishList::getForMe':
+		'prefix': 'WishList::getForMe'
+		'body': """
+			\$result = WishList::getForMe(${1:\$wishListId}, ${2:\$options});
+		"""
+
+	'WishList::listProducts':
+		'prefix': 'WishList::listProducts'
+		'body': """
+			\$result = WishList::listProducts(${1:\$wishListId}, ${2:\$options});
+		"""
+
+	'WishList::listProductsForMe':
+		'prefix': 'WishList::listProductsForMe'
+		'body': """
+			\$result = WishList::listProductsForMe(${1:\$wishListId}, ${2:\$options});
+		"""
+
+	'WishList::countProducts':
+		'prefix': 'WishList::countProducts'
+		'body': """
+			\$result = WishList::countProducts(${1:\$wishListId}, ${2:\$options});
+		"""
+
+	'WishList::countProductsForMe':
+		'prefix': 'WishList::countProductsForMe'
+		'body': """
+			\$result = WishList::countProductsForMe(${1:\$wishListId}, ${2:\$options});
+		"""
+
+	'WishList::create':
+		'prefix': 'WishList::create'
+		'body': """
+			\$result = WishList::create(${1:\$payload}, ${2:\$options});
+		"""
+
+	'WishList::createForMe':
+		'prefix': 'WishList::createForMe'
+		'body': """
+			\$result = WishList::createForMe(${1:\$payload}, ${2:\$options});
+		"""
+
+	'WishList::addItem':
+		'prefix': 'WishList::addItem'
+		'body': """
+			\$result = WishList::addItem(${1:\$wishListId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'WishList::addItemForMe':
+		'prefix': 'WishList::addItemForMe'
+		'body': """
+			\$result = WishList::addItemForMe(${1:\$wishListId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'WishList::pullFromMetafield':
+		'prefix': 'WishList::pullFromMetafield'
+		'body': """
+			\$result = WishList::pullFromMetafield(${1:\$wishListId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'WishList::pushToMetafield':
+		'prefix': 'WishList::pushToMetafield'
+		'body': """
+			\$result = WishList::pushToMetafield(${1:\$wishListId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'WishList::increaseMetafield':
+		'prefix': 'WishList::increaseMetafield'
+		'body': """
+			\$result = WishList::increaseMetafield(${1:\$wishListId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+		"""
+
+	'WishList::update':
+		'prefix': 'WishList::update'
+		'body': """
+			\$result = WishList::update(${1:\$wishListId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'WishList::updateForMe':
+		'prefix': 'WishList::updateForMe'
+		'body': """
+			\$result = WishList::updateForMe(${1:\$wishListId}, ${2:\$payload}, ${3:\$options});
+		"""
+
+	'WishList::delete':
+		'prefix': 'WishList::delete'
+		'body': """
+			\$result = WishList::delete(${1:\$wishListId}, ${2:\$options});
+		"""
+
+	'WishList::deleteForMe':
+		'prefix': 'WishList::deleteForMe'
+		'body': """
+			\$result = WishList::deleteForMe(${1:\$wishListId}, ${2:\$options});
+		"""
+
+	'WishList::empty':
+		'prefix': 'WishList::empty'
+		'body': """
+			\$result = WishList::empty(${1:\$wishListId}, ${2:\$options});
+		"""
+
+	'WishList::emptyForMe':
+		'prefix': 'WishList::emptyForMe'
+		'body': """
+			\$result = WishList::emptyForMe(${1:\$wishListId}, ${2:\$options});
+		"""
+
+	'WishList::deleteItem':
+		'prefix': 'WishList::deleteItem'
+		'body': """
+			\$result = WishList::deleteItem(${1:\$wishListId}, ${2:\$productId}, ${3:\$options});
+		"""
+
+	'WishList::deleteMetafield':
+		'prefix': 'WishList::deleteMetafield'
+		'body': """
+			\$result = WishList::deleteMetafield(${1:\$wishListId}, ${2:\$field}, ${3:\$options});
+		"""
+
+	'WishList::deleteItemForMe':
+		'prefix': 'WishList::deleteItemForMe'
+		'body': """
+			\$result = WishList::deleteItemForMe(${1:\$wishListId}, ${2:\$productId}, ${3:\$options});
+		"""

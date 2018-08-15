@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Order::markAsNotArrivedForMe(${1:\$orderId}, ${2:\$options});
+]]></content >
+	<description>Order::markAsNotArrivedForMe</description>
+	<tabTrigger>Order::markAsNotArrivedForMe</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

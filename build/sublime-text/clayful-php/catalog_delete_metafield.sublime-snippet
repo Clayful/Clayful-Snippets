@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Catalog::deleteMetafield(${1:\$catalogId}, ${2:\$field}, ${3:\$options});
+]]></content >
+	<description>Catalog::deleteMetafield</description>
+	<tabTrigger>Catalog::deleteMetafield</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Cart::getForMe(${1:\$payload}, ${2:\$options});
+]]></content >
+	<description>Cart::getForMe</description>
+	<tabTrigger>Cart::getForMe</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

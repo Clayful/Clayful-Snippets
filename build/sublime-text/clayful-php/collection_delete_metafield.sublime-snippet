@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Collection::deleteMetafield(${1:\$collectionId}, ${2:\$field}, ${3:\$options});
+]]></content >
+	<description>Collection::deleteMetafield</description>
+	<tabTrigger>Collection::deleteMetafield</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

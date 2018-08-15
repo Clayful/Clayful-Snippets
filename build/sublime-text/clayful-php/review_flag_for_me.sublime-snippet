@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Review::flagForMe(${1:\$reviewId}, ${2:\$options});
+]]></content >
+	<description>Review::flagForMe</description>
+	<tabTrigger>Review::flagForMe</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

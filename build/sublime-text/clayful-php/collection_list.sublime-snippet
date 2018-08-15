@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Collection::list(${1:\$options});
+]]></content >
+	<description>Collection::list</description>
+	<tabTrigger>Collection::list</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

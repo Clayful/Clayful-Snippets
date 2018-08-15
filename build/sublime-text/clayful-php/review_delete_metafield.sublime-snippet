@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Review::deleteMetafield(${1:\$reviewId}, ${2:\$field}, ${3:\$options});
+]]></content >
+	<description>Review::deleteMetafield</description>
+	<tabTrigger>Review::deleteMetafield</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

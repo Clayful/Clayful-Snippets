@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Review.update(${1:review_id}, ${2:payload}, ${3:options})
+]]></content >
+	<description>Review.update</description>
+	<tabTrigger>Review.update</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

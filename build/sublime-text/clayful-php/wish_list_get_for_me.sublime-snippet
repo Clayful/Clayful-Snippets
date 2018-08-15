@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = WishList::getForMe(${1:\$wishListId}, ${2:\$options});
+]]></content >
+	<description>WishList::getForMe</description>
+	<tabTrigger>WishList::getForMe</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

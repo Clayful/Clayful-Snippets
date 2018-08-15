@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Group.count(${1:options})
+]]></content >
+	<description>Group.count</description>
+	<tabTrigger>Group.count</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

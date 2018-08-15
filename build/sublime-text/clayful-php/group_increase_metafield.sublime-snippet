@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Group::increaseMetafield(${1:\$groupId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+]]></content >
+	<description>Group::increaseMetafield</description>
+	<tabTrigger>Group::increaseMetafield</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

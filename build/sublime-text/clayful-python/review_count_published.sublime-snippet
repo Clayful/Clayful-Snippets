@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Review.count_published(${1:options})
+]]></content >
+	<description>Review.countPublished</description>
+	<tabTrigger>Review.countPublished</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Order.push_to_metafield(${1:order_id}, ${2:field}, ${3:payload}, ${4:options})
+]]></content >
+	<description>Order.pushToMetafield</description>
+	<tabTrigger>Order.pushToMetafield</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Customer.update_me(${1:payload}, ${2:options})
+]]></content >
+	<description>Customer.updateMe</description>
+	<tabTrigger>Customer.updateMe</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

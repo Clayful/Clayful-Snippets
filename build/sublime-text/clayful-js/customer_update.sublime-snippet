@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Customer.update(${1:customerId}, ${2:payload}, ${3:options}, ${4:callback});
+]]></content >
+	<description>Customer.update</description>
+	<tabTrigger>Customer.update</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

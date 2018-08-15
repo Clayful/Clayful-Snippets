@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Collection.count(${1:options})
+]]></content >
+	<description>Collection.count</description>
+	<tabTrigger>Collection.count</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

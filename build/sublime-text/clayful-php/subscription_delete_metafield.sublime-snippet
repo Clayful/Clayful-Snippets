@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Subscription::deleteMetafield(${1:\$subscriptionId}, ${2:\$field}, ${3:\$options});
+]]></content >
+	<description>Subscription::deleteMetafield</description>
+	<tabTrigger>Subscription::deleteMetafield</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

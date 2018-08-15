@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Product.get(${1:product_id}, ${2:options})
+]]></content >
+	<description>Product.get</description>
+	<tabTrigger>Product.get</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

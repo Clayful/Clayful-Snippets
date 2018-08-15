@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Order::markAsUndone(${1:\$orderId}, ${2:\$options});
+]]></content >
+	<description>Order::markAsUndone</description>
+	<tabTrigger>Order::markAsUndone</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

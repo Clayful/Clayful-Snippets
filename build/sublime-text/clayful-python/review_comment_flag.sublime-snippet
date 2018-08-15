@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = ReviewComment.flag(${1:review_comment_id}, ${2:payload}, ${3:options})
+]]></content >
+	<description>ReviewComment.flag</description>
+	<tabTrigger>ReviewComment.flag</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Group.delete_metafield(${1:group_id}, ${2:field}, ${3:options})
+]]></content >
+	<description>Group.deleteMetafield</description>
+	<tabTrigger>Group.deleteMetafield</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

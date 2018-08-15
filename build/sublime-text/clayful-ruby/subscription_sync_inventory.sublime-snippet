@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Subscription.sync_inventory(${1:subscription_id}, ${2:options})
+]]></content >
+	<description>Subscription.syncInventory</description>
+	<tabTrigger>Subscription.syncInventory</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

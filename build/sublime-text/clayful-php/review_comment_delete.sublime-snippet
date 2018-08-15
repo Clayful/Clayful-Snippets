@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = ReviewComment::delete(${1:\$reviewCommentId}, ${2:\$options});
+]]></content >
+	<description>ReviewComment::delete</description>
+	<tabTrigger>ReviewComment::delete</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

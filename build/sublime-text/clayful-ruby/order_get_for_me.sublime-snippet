@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Order.get_for_me(${1:order_id}, ${2:options})
+]]></content >
+	<description>Order.getForMe</description>
+	<tabTrigger>Order.getForMe</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

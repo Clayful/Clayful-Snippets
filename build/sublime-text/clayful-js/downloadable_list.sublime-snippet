@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Downloadable.list(${1:options}, ${2:callback});
+]]></content >
+	<description>Downloadable.list</description>
+	<tabTrigger>Downloadable.list</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

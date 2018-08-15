@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Tracker.change_owner(${1:tracker_id}, ${2:payload}, ${3:options})
+]]></content >
+	<description>Tracker.changeOwner</description>
+	<tabTrigger>Tracker.changeOwner</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

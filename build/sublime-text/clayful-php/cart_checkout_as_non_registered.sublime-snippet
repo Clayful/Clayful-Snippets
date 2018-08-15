@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Cart::checkoutAsNonRegistered(${1:\$type}, ${2:\$payload}, ${3:\$options});
+]]></content >
+	<description>Cart::checkoutAsNonRegistered</description>
+	<tabTrigger>Cart::checkoutAsNonRegistered</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

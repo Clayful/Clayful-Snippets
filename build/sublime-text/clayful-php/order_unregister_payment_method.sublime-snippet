@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Order::unregisterPaymentMethod(${1:\$orderId}, ${2:\$paymentMethodId}, ${3:\$options});
+]]></content >
+	<description>Order::unregisterPaymentMethod</description>
+	<tabTrigger>Order::unregisterPaymentMethod</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

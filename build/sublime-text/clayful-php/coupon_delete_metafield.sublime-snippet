@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Coupon::deleteMetafield(${1:\$couponId}, ${2:\$field}, ${3:\$options});
+]]></content >
+	<description>Coupon::deleteMetafield</description>
+	<tabTrigger>Coupon::deleteMetafield</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

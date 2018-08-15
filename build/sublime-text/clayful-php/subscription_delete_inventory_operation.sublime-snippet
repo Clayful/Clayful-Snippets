@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Subscription::deleteInventoryOperation(${1:\$subscriptionId}, ${2:\$operationId}, ${3:\$options});
+]]></content >
+	<description>Subscription::deleteInventoryOperation</description>
+	<tabTrigger>Subscription::deleteInventoryOperation</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

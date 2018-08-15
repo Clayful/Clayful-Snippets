@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Image.delete_for_me(${1:image_id}, ${2:options})
+]]></content >
+	<description>Image.deleteForMe</description>
+	<tabTrigger>Image.deleteForMe</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

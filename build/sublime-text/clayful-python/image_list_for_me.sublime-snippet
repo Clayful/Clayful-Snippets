@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Image.list_for_me(${1:options})
+]]></content >
+	<description>Image.listForMe</description>
+	<tabTrigger>Image.listForMe</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

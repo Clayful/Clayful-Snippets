@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Order.mark_as_done(${1:order_id}, ${2:options})
+]]></content >
+	<description>Order.markAsDone</description>
+	<tabTrigger>Order.markAsDone</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+WishList.update(${1:wishListId}, ${2:payload}, ${3:options}, ${4:callback});
+]]></content >
+	<description>WishList.update</description>
+	<tabTrigger>WishList.update</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

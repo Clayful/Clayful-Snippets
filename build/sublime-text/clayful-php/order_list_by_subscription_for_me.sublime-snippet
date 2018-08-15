@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Order::listBySubscriptionForMe(${1:\$subscriptionId}, ${2:\$options});
+]]></content >
+	<description>Order::listBySubscriptionForMe</description>
+	<tabTrigger>Order::listBySubscriptionForMe</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Coupon.get(${1:couponId}, ${2:options}, ${3:callback});
+]]></content >
+	<description>Coupon.get</description>
+	<tabTrigger>Coupon.get</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

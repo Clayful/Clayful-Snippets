@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Image.delete_as_customer(${1:customer_id}, ${2:image_id}, ${3:options})
+]]></content >
+	<description>Image.deleteAsCustomer</description>
+	<tabTrigger>Image.deleteAsCustomer</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

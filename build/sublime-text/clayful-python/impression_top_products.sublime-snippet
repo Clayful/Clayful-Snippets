@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Impression.top_products(${1:scope}, ${2:options})
+]]></content >
+	<description>Impression.topProducts</description>
+	<tabTrigger>Impression.topProducts</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

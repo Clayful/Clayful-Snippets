@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Order::pushToMetafield(${1:\$orderId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+]]></content >
+	<description>Order::pushToMetafield</description>
+	<tabTrigger>Order::pushToMetafield</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

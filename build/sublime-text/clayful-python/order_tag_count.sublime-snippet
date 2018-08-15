@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = OrderTag.count(${1:options})
+]]></content >
+	<description>OrderTag.count</description>
+	<tabTrigger>OrderTag.count</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

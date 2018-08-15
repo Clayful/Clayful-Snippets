@@ -1,0 +1,1849 @@
+'.source.js':
+
+	'Brand.list':
+		'prefix': 'Brand.list'
+		'body': """
+			Brand.list(${1:options}, ${2:callback});
+		"""
+
+	'Brand.count':
+		'prefix': 'Brand.count'
+		'body': """
+			Brand.count(${1:options}, ${2:callback});
+		"""
+
+	'Brand.get':
+		'prefix': 'Brand.get'
+		'body': """
+			Brand.get(${1:brandId}, ${2:options}, ${3:callback});
+		"""
+
+	'Brand.pullFromMetafield':
+		'prefix': 'Brand.pullFromMetafield'
+		'body': """
+			Brand.pullFromMetafield(${1:brandId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Brand.pushToMetafield':
+		'prefix': 'Brand.pushToMetafield'
+		'body': """
+			Brand.pushToMetafield(${1:brandId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Brand.increaseMetafield':
+		'prefix': 'Brand.increaseMetafield'
+		'body': """
+			Brand.increaseMetafield(${1:brandId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Brand.deleteMetafield':
+		'prefix': 'Brand.deleteMetafield'
+		'body': """
+			Brand.deleteMetafield(${1:brandId}, ${2:field}, ${3:options}, ${4:callback});
+		"""
+
+	'Cart.countItemsForMe':
+		'prefix': 'Cart.countItemsForMe'
+		'body': """
+			Cart.countItemsForMe(${1:options}, ${2:callback});
+		"""
+
+	'Cart.countItems':
+		'prefix': 'Cart.countItems'
+		'body': """
+			Cart.countItems(${1:customerId}, ${2:options}, ${3:callback});
+		"""
+
+	'Cart.getForMe':
+		'prefix': 'Cart.getForMe'
+		'body': """
+			Cart.getForMe(${1:payload}, ${2:options}, ${3:callback});
+		"""
+
+	'Cart.getAsNonRegistered':
+		'prefix': 'Cart.getAsNonRegistered'
+		'body': """
+			Cart.getAsNonRegistered(${1:payload}, ${2:options}, ${3:callback});
+		"""
+
+	'Cart.get':
+		'prefix': 'Cart.get'
+		'body': """
+			Cart.get(${1:customerId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Cart.addItemForMe':
+		'prefix': 'Cart.addItemForMe'
+		'body': """
+			Cart.addItemForMe(${1:payload}, ${2:options}, ${3:callback});
+		"""
+
+	'Cart.getAsNonRegisteredForMe':
+		'prefix': 'Cart.getAsNonRegisteredForMe'
+		'body': """
+			Cart.getAsNonRegisteredForMe(${1:payload}, ${2:options}, ${3:callback});
+		"""
+
+	'Cart.addItem':
+		'prefix': 'Cart.addItem'
+		'body': """
+			Cart.addItem(${1:customerId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Cart.checkoutForMe':
+		'prefix': 'Cart.checkoutForMe'
+		'body': """
+			Cart.checkoutForMe(${1:type}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Cart.checkoutAsNonRegistered':
+		'prefix': 'Cart.checkoutAsNonRegistered'
+		'body': """
+			Cart.checkoutAsNonRegistered(${1:type}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Cart.checkout':
+		'prefix': 'Cart.checkout'
+		'body': """
+			Cart.checkout(${1:customerId}, ${2:type}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Cart.checkoutAsNonRegisteredForMe':
+		'prefix': 'Cart.checkoutAsNonRegisteredForMe'
+		'body': """
+			Cart.checkoutAsNonRegisteredForMe(${1:type}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Cart.updateItemForMe':
+		'prefix': 'Cart.updateItemForMe'
+		'body': """
+			Cart.updateItemForMe(${1:itemId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Cart.updateItem':
+		'prefix': 'Cart.updateItem'
+		'body': """
+			Cart.updateItem(${1:customerId}, ${2:itemId}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Cart.emptyForMe':
+		'prefix': 'Cart.emptyForMe'
+		'body': """
+			Cart.emptyForMe(${1:options}, ${2:callback});
+		"""
+
+	'Cart.empty':
+		'prefix': 'Cart.empty'
+		'body': """
+			Cart.empty(${1:customerId}, ${2:options}, ${3:callback});
+		"""
+
+	'Cart.deleteItemForMe':
+		'prefix': 'Cart.deleteItemForMe'
+		'body': """
+			Cart.deleteItemForMe(${1:itemId}, ${2:options}, ${3:callback});
+		"""
+
+	'Cart.deleteItem':
+		'prefix': 'Cart.deleteItem'
+		'body': """
+			Cart.deleteItem(${1:customerId}, ${2:itemId}, ${3:options}, ${4:callback});
+		"""
+
+	'Catalog.list':
+		'prefix': 'Catalog.list'
+		'body': """
+			Catalog.list(${1:options}, ${2:callback});
+		"""
+
+	'Catalog.count':
+		'prefix': 'Catalog.count'
+		'body': """
+			Catalog.count(${1:options}, ${2:callback});
+		"""
+
+	'Catalog.get':
+		'prefix': 'Catalog.get'
+		'body': """
+			Catalog.get(${1:catalogId}, ${2:options}, ${3:callback});
+		"""
+
+	'Catalog.pullFromMetafield':
+		'prefix': 'Catalog.pullFromMetafield'
+		'body': """
+			Catalog.pullFromMetafield(${1:catalogId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Catalog.increaseMetafield':
+		'prefix': 'Catalog.increaseMetafield'
+		'body': """
+			Catalog.increaseMetafield(${1:catalogId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Catalog.pushToMetafield':
+		'prefix': 'Catalog.pushToMetafield'
+		'body': """
+			Catalog.pushToMetafield(${1:catalogId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Catalog.deleteMetafield':
+		'prefix': 'Catalog.deleteMetafield'
+		'body': """
+			Catalog.deleteMetafield(${1:catalogId}, ${2:field}, ${3:options}, ${4:callback});
+		"""
+
+	'Collection.list':
+		'prefix': 'Collection.list'
+		'body': """
+			Collection.list(${1:options}, ${2:callback});
+		"""
+
+	'Collection.count':
+		'prefix': 'Collection.count'
+		'body': """
+			Collection.count(${1:options}, ${2:callback});
+		"""
+
+	'Collection.get':
+		'prefix': 'Collection.get'
+		'body': """
+			Collection.get(${1:collectionId}, ${2:options}, ${3:callback});
+		"""
+
+	'Collection.pushToMetafield':
+		'prefix': 'Collection.pushToMetafield'
+		'body': """
+			Collection.pushToMetafield(${1:collectionId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Collection.pullFromMetafield':
+		'prefix': 'Collection.pullFromMetafield'
+		'body': """
+			Collection.pullFromMetafield(${1:collectionId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Collection.increaseMetafield':
+		'prefix': 'Collection.increaseMetafield'
+		'body': """
+			Collection.increaseMetafield(${1:collectionId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Collection.deleteMetafield':
+		'prefix': 'Collection.deleteMetafield'
+		'body': """
+			Collection.deleteMetafield(${1:collectionId}, ${2:field}, ${3:options}, ${4:callback});
+		"""
+
+	'Country.list':
+		'prefix': 'Country.list'
+		'body': """
+			Country.list(${1:options}, ${2:callback});
+		"""
+
+	'Country.count':
+		'prefix': 'Country.count'
+		'body': """
+			Country.count(${1:options}, ${2:callback});
+		"""
+
+	'Country.get':
+		'prefix': 'Country.get'
+		'body': """
+			Country.get(${1:countryId}, ${2:options}, ${3:callback});
+		"""
+
+	'Coupon.list':
+		'prefix': 'Coupon.list'
+		'body': """
+			Coupon.list(${1:options}, ${2:callback});
+		"""
+
+	'Coupon.count':
+		'prefix': 'Coupon.count'
+		'body': """
+			Coupon.count(${1:options}, ${2:callback});
+		"""
+
+	'Coupon.get':
+		'prefix': 'Coupon.get'
+		'body': """
+			Coupon.get(${1:couponId}, ${2:options}, ${3:callback});
+		"""
+
+	'Coupon.increaseMetafield':
+		'prefix': 'Coupon.increaseMetafield'
+		'body': """
+			Coupon.increaseMetafield(${1:couponId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Coupon.pullFromMetafield':
+		'prefix': 'Coupon.pullFromMetafield'
+		'body': """
+			Coupon.pullFromMetafield(${1:couponId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Coupon.pushToMetafield':
+		'prefix': 'Coupon.pushToMetafield'
+		'body': """
+			Coupon.pushToMetafield(${1:couponId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Coupon.deleteMetafield':
+		'prefix': 'Coupon.deleteMetafield'
+		'body': """
+			Coupon.deleteMetafield(${1:couponId}, ${2:field}, ${3:options}, ${4:callback});
+		"""
+
+	'Currency.list':
+		'prefix': 'Currency.list'
+		'body': """
+			Currency.list(${1:options}, ${2:callback});
+		"""
+
+	'Currency.count':
+		'prefix': 'Currency.count'
+		'body': """
+			Currency.count(${1:options}, ${2:callback});
+		"""
+
+	'Currency.get':
+		'prefix': 'Currency.get'
+		'body': """
+			Currency.get(${1:currencyId}, ${2:options}, ${3:callback});
+		"""
+
+	'Customer.list':
+		'prefix': 'Customer.list'
+		'body': """
+			Customer.list(${1:options}, ${2:callback});
+		"""
+
+	'Customer.getMe':
+		'prefix': 'Customer.getMe'
+		'body': """
+			Customer.getMe(${1:options}, ${2:callback});
+		"""
+
+	'Customer.isAuthenticated':
+		'prefix': 'Customer.isAuthenticated'
+		'body': """
+			Customer.isAuthenticated(${1:options}, ${2:callback});
+		"""
+
+	'Customer.count':
+		'prefix': 'Customer.count'
+		'body': """
+			Customer.count(${1:options}, ${2:callback});
+		"""
+
+	'Customer.get':
+		'prefix': 'Customer.get'
+		'body': """
+			Customer.get(${1:customerId}, ${2:options}, ${3:callback});
+		"""
+
+	'Customer.listCouponsForMe':
+		'prefix': 'Customer.listCouponsForMe'
+		'body': """
+			Customer.listCouponsForMe(${1:options}, ${2:callback});
+		"""
+
+	'Customer.listCoupons':
+		'prefix': 'Customer.listCoupons'
+		'body': """
+			Customer.listCoupons(${1:customerId}, ${2:options}, ${3:callback});
+		"""
+
+	'Customer.countCouponsForMe':
+		'prefix': 'Customer.countCouponsForMe'
+		'body': """
+			Customer.countCouponsForMe(${1:options}, ${2:callback});
+		"""
+
+	'Customer.countCoupons':
+		'prefix': 'Customer.countCoupons'
+		'body': """
+			Customer.countCoupons(${1:customerId}, ${2:options}, ${3:callback});
+		"""
+
+	'Customer.listByFlagVotes':
+		'prefix': 'Customer.listByFlagVotes'
+		'body': """
+			Customer.listByFlagVotes(${1:voteModel}, ${2:voteModelId}, ${3:options}, ${4:callback});
+		"""
+
+	'Customer.listByHelpVotes':
+		'prefix': 'Customer.listByHelpVotes'
+		'body': """
+			Customer.listByHelpVotes(${1:voteModel}, ${2:voteModelId}, ${3:upDown}, ${4:options}, ${5:callback});
+		"""
+
+	'Customer.create':
+		'prefix': 'Customer.create'
+		'body': """
+			Customer.create(${1:payload}, ${2:options}, ${3:callback});
+		"""
+
+	'Customer.createMe':
+		'prefix': 'Customer.createMe'
+		'body': """
+			Customer.createMe(${1:payload}, ${2:options}, ${3:callback});
+		"""
+
+	'Customer.authenticate':
+		'prefix': 'Customer.authenticate'
+		'body': """
+			Customer.authenticate(${1:payload}, ${2:options}, ${3:callback});
+		"""
+
+	'Customer.createVerification':
+		'prefix': 'Customer.createVerification'
+		'body': """
+			Customer.createVerification(${1:payload}, ${2:options}, ${3:callback});
+		"""
+
+	'Customer.authenticateBy3rdParty':
+		'prefix': 'Customer.authenticateBy3rdParty'
+		'body': """
+			Customer.authenticateBy3rdParty(${1:vendor}, ${2:options}, ${3:callback});
+		"""
+
+	'Customer.requestVerificationEmail':
+		'prefix': 'Customer.requestVerificationEmail'
+		'body': """
+			Customer.requestVerificationEmail(${1:payload}, ${2:options}, ${3:callback});
+		"""
+
+	'Customer.addCoupon':
+		'prefix': 'Customer.addCoupon'
+		'body': """
+			Customer.addCoupon(${1:customerId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Customer.verify':
+		'prefix': 'Customer.verify'
+		'body': """
+			Customer.verify(${1:customerId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Customer.pushToMetafield':
+		'prefix': 'Customer.pushToMetafield'
+		'body': """
+			Customer.pushToMetafield(${1:customerId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Customer.pullFromMetafield':
+		'prefix': 'Customer.pullFromMetafield'
+		'body': """
+			Customer.pullFromMetafield(${1:customerId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Customer.increaseMetafield':
+		'prefix': 'Customer.increaseMetafield'
+		'body': """
+			Customer.increaseMetafield(${1:customerId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Customer.updateMe':
+		'prefix': 'Customer.updateMe'
+		'body': """
+			Customer.updateMe(${1:payload}, ${2:options}, ${3:callback});
+		"""
+
+	'Customer.update':
+		'prefix': 'Customer.update'
+		'body': """
+			Customer.update(${1:customerId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Customer.updateCredentialsForMe':
+		'prefix': 'Customer.updateCredentialsForMe'
+		'body': """
+			Customer.updateCredentialsForMe(${1:payload}, ${2:options}, ${3:callback});
+		"""
+
+	'Customer.resetPassword':
+		'prefix': 'Customer.resetPassword'
+		'body': """
+			Customer.resetPassword(${1:customerId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Customer.updateCredentials':
+		'prefix': 'Customer.updateCredentials'
+		'body': """
+			Customer.updateCredentials(${1:customerId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Customer.deleteMe':
+		'prefix': 'Customer.deleteMe'
+		'body': """
+			Customer.deleteMe(${1:options}, ${2:callback});
+		"""
+
+	'Customer.delete':
+		'prefix': 'Customer.delete'
+		'body': """
+			Customer.delete(${1:customerId}, ${2:options}, ${3:callback});
+		"""
+
+	'Customer.deleteCouponForMe':
+		'prefix': 'Customer.deleteCouponForMe'
+		'body': """
+			Customer.deleteCouponForMe(${1:couponId}, ${2:options}, ${3:callback});
+		"""
+
+	'Customer.deleteCoupon':
+		'prefix': 'Customer.deleteCoupon'
+		'body': """
+			Customer.deleteCoupon(${1:customerId}, ${2:couponId}, ${3:options}, ${4:callback});
+		"""
+
+	'Customer.deleteMetafield':
+		'prefix': 'Customer.deleteMetafield'
+		'body': """
+			Customer.deleteMetafield(${1:customerId}, ${2:field}, ${3:options}, ${4:callback});
+		"""
+
+	'Discount.list':
+		'prefix': 'Discount.list'
+		'body': """
+			Discount.list(${1:options}, ${2:callback});
+		"""
+
+	'Discount.count':
+		'prefix': 'Discount.count'
+		'body': """
+			Discount.count(${1:options}, ${2:callback});
+		"""
+
+	'Discount.get':
+		'prefix': 'Discount.get'
+		'body': """
+			Discount.get(${1:discountId}, ${2:options}, ${3:callback});
+		"""
+
+	'Discount.pushToMetafield':
+		'prefix': 'Discount.pushToMetafield'
+		'body': """
+			Discount.pushToMetafield(${1:discountId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Discount.pullFromMetafield':
+		'prefix': 'Discount.pullFromMetafield'
+		'body': """
+			Discount.pullFromMetafield(${1:discountId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Discount.increaseMetafield':
+		'prefix': 'Discount.increaseMetafield'
+		'body': """
+			Discount.increaseMetafield(${1:discountId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Discount.deleteMetafield':
+		'prefix': 'Discount.deleteMetafield'
+		'body': """
+			Discount.deleteMetafield(${1:discountId}, ${2:field}, ${3:options}, ${4:callback});
+		"""
+
+	'Downloadable.list':
+		'prefix': 'Downloadable.list'
+		'body': """
+			Downloadable.list(${1:options}, ${2:callback});
+		"""
+
+	'Downloadable.count':
+		'prefix': 'Downloadable.count'
+		'body': """
+			Downloadable.count(${1:options}, ${2:callback});
+		"""
+
+	'Downloadable.get':
+		'prefix': 'Downloadable.get'
+		'body': """
+			Downloadable.get(${1:downloadableId}, ${2:options}, ${3:callback});
+		"""
+
+	'Downloadable.createDownloadUrl':
+		'prefix': 'Downloadable.createDownloadUrl'
+		'body': """
+			Downloadable.createDownloadUrl(${1:downloadableId}, ${2:options}, ${3:callback});
+		"""
+
+	'Group.list':
+		'prefix': 'Group.list'
+		'body': """
+			Group.list(${1:options}, ${2:callback});
+		"""
+
+	'Group.count':
+		'prefix': 'Group.count'
+		'body': """
+			Group.count(${1:options}, ${2:callback});
+		"""
+
+	'Group.get':
+		'prefix': 'Group.get'
+		'body': """
+			Group.get(${1:groupId}, ${2:options}, ${3:callback});
+		"""
+
+	'Group.pullFromMetafield':
+		'prefix': 'Group.pullFromMetafield'
+		'body': """
+			Group.pullFromMetafield(${1:groupId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Group.pushToMetafield':
+		'prefix': 'Group.pushToMetafield'
+		'body': """
+			Group.pushToMetafield(${1:groupId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Group.increaseMetafield':
+		'prefix': 'Group.increaseMetafield'
+		'body': """
+			Group.increaseMetafield(${1:groupId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Group.deleteMetafield':
+		'prefix': 'Group.deleteMetafield'
+		'body': """
+			Group.deleteMetafield(${1:groupId}, ${2:field}, ${3:options}, ${4:callback});
+		"""
+
+	'Image.list':
+		'prefix': 'Image.list'
+		'body': """
+			Image.list(${1:options}, ${2:callback});
+		"""
+
+	'Image.count':
+		'prefix': 'Image.count'
+		'body': """
+			Image.count(${1:options}, ${2:callback});
+		"""
+
+	'Image.get':
+		'prefix': 'Image.get'
+		'body': """
+			Image.get(${1:imageId}, ${2:options}, ${3:callback});
+		"""
+
+	'Image.listForMe':
+		'prefix': 'Image.listForMe'
+		'body': """
+			Image.listForMe(${1:options}, ${2:callback});
+		"""
+
+	'Image.countForMe':
+		'prefix': 'Image.countForMe'
+		'body': """
+			Image.countForMe(${1:options}, ${2:callback});
+		"""
+
+	'Image.getForMe':
+		'prefix': 'Image.getForMe'
+		'body': """
+			Image.getForMe(${1:imageId}, ${2:options}, ${3:callback});
+		"""
+
+	'Image.create':
+		'prefix': 'Image.create'
+		'body': """
+			Image.create(${1:payload}, ${2:options}, ${3:callback});
+		"""
+
+	'Image.createForMe':
+		'prefix': 'Image.createForMe'
+		'body': """
+			Image.createForMe(${1:payload}, ${2:options}, ${3:callback});
+		"""
+
+	'Image.createAsCustomer':
+		'prefix': 'Image.createAsCustomer'
+		'body': """
+			Image.createAsCustomer(${1:customerId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Image.update':
+		'prefix': 'Image.update'
+		'body': """
+			Image.update(${1:imageId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Image.updateForMe':
+		'prefix': 'Image.updateForMe'
+		'body': """
+			Image.updateForMe(${1:imageId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Image.updateAsCustomer':
+		'prefix': 'Image.updateAsCustomer'
+		'body': """
+			Image.updateAsCustomer(${1:customerId}, ${2:imageId}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Image.delete':
+		'prefix': 'Image.delete'
+		'body': """
+			Image.delete(${1:imageId}, ${2:options}, ${3:callback});
+		"""
+
+	'Image.deleteForMe':
+		'prefix': 'Image.deleteForMe'
+		'body': """
+			Image.deleteForMe(${1:imageId}, ${2:options}, ${3:callback});
+		"""
+
+	'Image.deleteAsCustomer':
+		'prefix': 'Image.deleteAsCustomer'
+		'body': """
+			Image.deleteAsCustomer(${1:customerId}, ${2:imageId}, ${3:options}, ${4:callback});
+		"""
+
+	'Impression.topBrands':
+		'prefix': 'Impression.topBrands'
+		'body': """
+			Impression.topBrands(${1:scope}, ${2:options}, ${3:callback});
+		"""
+
+	'Impression.topProducts':
+		'prefix': 'Impression.topProducts'
+		'body': """
+			Impression.topProducts(${1:scope}, ${2:options}, ${3:callback});
+		"""
+
+	'Impression.topCollections':
+		'prefix': 'Impression.topCollections'
+		'body': """
+			Impression.topCollections(${1:scope}, ${2:options}, ${3:callback});
+		"""
+
+	'Impression.gather':
+		'prefix': 'Impression.gather'
+		'body': """
+			Impression.gather(${1:scope}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Order.list':
+		'prefix': 'Order.list'
+		'body': """
+			Order.list(${1:options}, ${2:callback});
+		"""
+
+	'Order.listForMe':
+		'prefix': 'Order.listForMe'
+		'body': """
+			Order.listForMe(${1:options}, ${2:callback});
+		"""
+
+	'Order.count':
+		'prefix': 'Order.count'
+		'body': """
+			Order.count(${1:options}, ${2:callback});
+		"""
+
+	'Order.get':
+		'prefix': 'Order.get'
+		'body': """
+			Order.get(${1:orderId}, ${2:options}, ${3:callback});
+		"""
+
+	'Order.countForMe':
+		'prefix': 'Order.countForMe'
+		'body': """
+			Order.countForMe(${1:options}, ${2:callback});
+		"""
+
+	'Order.getForMe':
+		'prefix': 'Order.getForMe'
+		'body': """
+			Order.getForMe(${1:orderId}, ${2:options}, ${3:callback});
+		"""
+
+	'Order.listBySubscription':
+		'prefix': 'Order.listBySubscription'
+		'body': """
+			Order.listBySubscription(${1:subscriptionId}, ${2:options}, ${3:callback});
+		"""
+
+	'Order.listBySubscriptionForMe':
+		'prefix': 'Order.listBySubscriptionForMe'
+		'body': """
+			Order.listBySubscriptionForMe(${1:subscriptionId}, ${2:options}, ${3:callback});
+		"""
+
+	'Order.listInventoryOperations':
+		'prefix': 'Order.listInventoryOperations'
+		'body': """
+			Order.listInventoryOperations(${1:orderId}, ${2:options}, ${3:callback});
+		"""
+
+	'Order.markAsArrived':
+		'prefix': 'Order.markAsArrived'
+		'body': """
+			Order.markAsArrived(${1:orderId}, ${2:options}, ${3:callback});
+		"""
+
+	'Order.markAsDone':
+		'prefix': 'Order.markAsDone'
+		'body': """
+			Order.markAsDone(${1:orderId}, ${2:options}, ${3:callback});
+		"""
+
+	'Order.syncInventory':
+		'prefix': 'Order.syncInventory'
+		'body': """
+			Order.syncInventory(${1:orderId}, ${2:options}, ${3:callback});
+		"""
+
+	'Order.createFulfillment':
+		'prefix': 'Order.createFulfillment'
+		'body': """
+			Order.createFulfillment(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Order.authenticate':
+		'prefix': 'Order.authenticate'
+		'body': """
+			Order.authenticate(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Order.cancel':
+		'prefix': 'Order.cancel'
+		'body': """
+			Order.cancel(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Order.requestRefund':
+		'prefix': 'Order.requestRefund'
+		'body': """
+			Order.requestRefund(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Order.cancelForMe':
+		'prefix': 'Order.cancelForMe'
+		'body': """
+			Order.cancelForMe(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Order.markAsArrivedForMe':
+		'prefix': 'Order.markAsArrivedForMe'
+		'body': """
+			Order.markAsArrivedForMe(${1:orderId}, ${2:options}, ${3:callback});
+		"""
+
+	'Order.requestRefundForMe':
+		'prefix': 'Order.requestRefundForMe'
+		'body': """
+			Order.requestRefundForMe(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Order.checkTicket':
+		'prefix': 'Order.checkTicket'
+		'body': """
+			Order.checkTicket(${1:code}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Order.useTicket':
+		'prefix': 'Order.useTicket'
+		'body': """
+			Order.useTicket(${1:code}, ${2:options}, ${3:callback});
+		"""
+
+	'Order.requestFullRefund':
+		'prefix': 'Order.requestFullRefund'
+		'body': """
+			Order.requestFullRefund(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Order.requestFullRefundForMe':
+		'prefix': 'Order.requestFullRefundForMe'
+		'body': """
+			Order.requestFullRefundForMe(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Order.restockRefundItems':
+		'prefix': 'Order.restockRefundItems'
+		'body': """
+			Order.restockRefundItems(${1:orderId}, ${2:refundId}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Order.registerPaymentMethod':
+		'prefix': 'Order.registerPaymentMethod'
+		'body': """
+			Order.registerPaymentMethod(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Order.pullFromMetafield':
+		'prefix': 'Order.pullFromMetafield'
+		'body': """
+			Order.pullFromMetafield(${1:orderId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Order.pushToMetafield':
+		'prefix': 'Order.pushToMetafield'
+		'body': """
+			Order.pushToMetafield(${1:orderId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Order.cancelRefund':
+		'prefix': 'Order.cancelRefund'
+		'body': """
+			Order.cancelRefund(${1:orderId}, ${2:refundId}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Order.acceptRefund':
+		'prefix': 'Order.acceptRefund'
+		'body': """
+			Order.acceptRefund(${1:orderId}, ${2:refundId}, ${3:options}, ${4:callback});
+		"""
+
+	'Order.increaseMetafield':
+		'prefix': 'Order.increaseMetafield'
+		'body': """
+			Order.increaseMetafield(${1:orderId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Order.cancelRefundForMe':
+		'prefix': 'Order.cancelRefundForMe'
+		'body': """
+			Order.cancelRefundForMe(${1:orderId}, ${2:refundId}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Order.createDownloadUrl':
+		'prefix': 'Order.createDownloadUrl'
+		'body': """
+			Order.createDownloadUrl(${1:orderId}, ${2:itemId}, ${3:options}, ${4:callback});
+		"""
+
+	'Order.restockAllRefundItems':
+		'prefix': 'Order.restockAllRefundItems'
+		'body': """
+			Order.restockAllRefundItems(${1:orderId}, ${2:refundId}, ${3:options}, ${4:callback});
+		"""
+
+	'Order.createDownloadUrlForMe':
+		'prefix': 'Order.createDownloadUrlForMe'
+		'body': """
+			Order.createDownloadUrlForMe(${1:orderId}, ${2:itemId}, ${3:options}, ${4:callback});
+		"""
+
+	'Order.update':
+		'prefix': 'Order.update'
+		'body': """
+			Order.update(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Order.updateForMe':
+		'prefix': 'Order.updateForMe'
+		'body': """
+			Order.updateForMe(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Order.updateCancellation':
+		'prefix': 'Order.updateCancellation'
+		'body': """
+			Order.updateCancellation(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Order.updateTransactions':
+		'prefix': 'Order.updateTransactions'
+		'body': """
+			Order.updateTransactions(${1:orderId}, ${2:options}, ${3:callback});
+		"""
+
+	'Order.updateTransactionsForMe':
+		'prefix': 'Order.updateTransactionsForMe'
+		'body': """
+			Order.updateTransactionsForMe(${1:orderId}, ${2:options}, ${3:callback});
+		"""
+
+	'Order.updateCancellationForMe':
+		'prefix': 'Order.updateCancellationForMe'
+		'body': """
+			Order.updateCancellationForMe(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Order.updateRefund':
+		'prefix': 'Order.updateRefund'
+		'body': """
+			Order.updateRefund(${1:orderId}, ${2:refundId}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Order.updateFulfillment':
+		'prefix': 'Order.updateFulfillment'
+		'body': """
+			Order.updateFulfillment(${1:orderId}, ${2:fulfillmentId}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Order.updateItem':
+		'prefix': 'Order.updateItem'
+		'body': """
+			Order.updateItem(${1:orderId}, ${2:itemId}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Order.updateRefundForMe':
+		'prefix': 'Order.updateRefundForMe'
+		'body': """
+			Order.updateRefundForMe(${1:orderId}, ${2:refundId}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Order.updateRefundCancellation':
+		'prefix': 'Order.updateRefundCancellation'
+		'body': """
+			Order.updateRefundCancellation(${1:orderId}, ${2:refundId}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Order.updateRefundCancellationForMe':
+		'prefix': 'Order.updateRefundCancellationForMe'
+		'body': """
+			Order.updateRefundCancellationForMe(${1:orderId}, ${2:refundId}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Order.delete':
+		'prefix': 'Order.delete'
+		'body': """
+			Order.delete(${1:orderId}, ${2:options}, ${3:callback});
+		"""
+
+	'Order.markAsUndone':
+		'prefix': 'Order.markAsUndone'
+		'body': """
+			Order.markAsUndone(${1:orderId}, ${2:options}, ${3:callback});
+		"""
+
+	'Order.markAsNotArrived':
+		'prefix': 'Order.markAsNotArrived'
+		'body': """
+			Order.markAsNotArrived(${1:orderId}, ${2:options}, ${3:callback});
+		"""
+
+	'Order.markAsNotArrivedForMe':
+		'prefix': 'Order.markAsNotArrivedForMe'
+		'body': """
+			Order.markAsNotArrivedForMe(${1:orderId}, ${2:options}, ${3:callback});
+		"""
+
+	'Order.deleteFulfillment':
+		'prefix': 'Order.deleteFulfillment'
+		'body': """
+			Order.deleteFulfillment(${1:orderId}, ${2:fulfillmentId}, ${3:options}, ${4:callback});
+		"""
+
+	'Order.deleteMetafield':
+		'prefix': 'Order.deleteMetafield'
+		'body': """
+			Order.deleteMetafield(${1:orderId}, ${2:field}, ${3:options}, ${4:callback});
+		"""
+
+	'Order.deleteRefund':
+		'prefix': 'Order.deleteRefund'
+		'body': """
+			Order.deleteRefund(${1:orderId}, ${2:refundId}, ${3:options}, ${4:callback});
+		"""
+
+	'Order.deleteInventoryOperation':
+		'prefix': 'Order.deleteInventoryOperation'
+		'body': """
+			Order.deleteInventoryOperation(${1:orderId}, ${2:operationId}, ${3:options}, ${4:callback});
+		"""
+
+	'Order.unacceptRefund':
+		'prefix': 'Order.unacceptRefund'
+		'body': """
+			Order.unacceptRefund(${1:orderId}, ${2:refundId}, ${3:options}, ${4:callback});
+		"""
+
+	'Order.unregisterPaymentMethod':
+		'prefix': 'Order.unregisterPaymentMethod'
+		'body': """
+			Order.unregisterPaymentMethod(${1:orderId}, ${2:paymentMethodId}, ${3:options}, ${4:callback});
+		"""
+
+	'OrderTag.list':
+		'prefix': 'OrderTag.list'
+		'body': """
+			OrderTag.list(${1:options}, ${2:callback});
+		"""
+
+	'OrderTag.count':
+		'prefix': 'OrderTag.count'
+		'body': """
+			OrderTag.count(${1:options}, ${2:callback});
+		"""
+
+	'OrderTag.get':
+		'prefix': 'OrderTag.get'
+		'body': """
+			OrderTag.get(${1:orderTagId}, ${2:options}, ${3:callback});
+		"""
+
+	'PaymentMethod.list':
+		'prefix': 'PaymentMethod.list'
+		'body': """
+			PaymentMethod.list(${1:options}, ${2:callback});
+		"""
+
+	'PaymentMethod.count':
+		'prefix': 'PaymentMethod.count'
+		'body': """
+			PaymentMethod.count(${1:options}, ${2:callback});
+		"""
+
+	'PaymentMethod.get':
+		'prefix': 'PaymentMethod.get'
+		'body': """
+			PaymentMethod.get(${1:paymentMethodId}, ${2:options}, ${3:callback});
+		"""
+
+	'Product.list':
+		'prefix': 'Product.list'
+		'body': """
+			Product.list(${1:options}, ${2:callback});
+		"""
+
+	'Product.count':
+		'prefix': 'Product.count'
+		'body': """
+			Product.count(${1:options}, ${2:callback});
+		"""
+
+	'Product.get':
+		'prefix': 'Product.get'
+		'body': """
+			Product.get(${1:productId}, ${2:options}, ${3:callback});
+		"""
+
+	'Product.increaseMetafield':
+		'prefix': 'Product.increaseMetafield'
+		'body': """
+			Product.increaseMetafield(${1:productId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Product.pullFromMetafield':
+		'prefix': 'Product.pullFromMetafield'
+		'body': """
+			Product.pullFromMetafield(${1:productId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Product.pushToMetafield':
+		'prefix': 'Product.pushToMetafield'
+		'body': """
+			Product.pushToMetafield(${1:productId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Product.deleteMetafield':
+		'prefix': 'Product.deleteMetafield'
+		'body': """
+			Product.deleteMetafield(${1:productId}, ${2:field}, ${3:options}, ${4:callback});
+		"""
+
+	'Review.list':
+		'prefix': 'Review.list'
+		'body': """
+			Review.list(${1:options}, ${2:callback});
+		"""
+
+	'Review.count':
+		'prefix': 'Review.count'
+		'body': """
+			Review.count(${1:options}, ${2:callback});
+		"""
+
+	'Review.listPublished':
+		'prefix': 'Review.listPublished'
+		'body': """
+			Review.listPublished(${1:options}, ${2:callback});
+		"""
+
+	'Review.get':
+		'prefix': 'Review.get'
+		'body': """
+			Review.get(${1:reviewId}, ${2:options}, ${3:callback});
+		"""
+
+	'Review.countPublished':
+		'prefix': 'Review.countPublished'
+		'body': """
+			Review.countPublished(${1:options}, ${2:callback});
+		"""
+
+	'Review.getPublished':
+		'prefix': 'Review.getPublished'
+		'body': """
+			Review.getPublished(${1:reviewId}, ${2:options}, ${3:callback});
+		"""
+
+	'Review.create':
+		'prefix': 'Review.create'
+		'body': """
+			Review.create(${1:payload}, ${2:options}, ${3:callback});
+		"""
+
+	'Review.createForMe':
+		'prefix': 'Review.createForMe'
+		'body': """
+			Review.createForMe(${1:payload}, ${2:options}, ${3:callback});
+		"""
+
+	'Review.flag':
+		'prefix': 'Review.flag'
+		'body': """
+			Review.flag(${1:reviewId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Review.flagForMe':
+		'prefix': 'Review.flagForMe'
+		'body': """
+			Review.flagForMe(${1:reviewId}, ${2:options}, ${3:callback});
+		"""
+
+	'Review.helped':
+		'prefix': 'Review.helped'
+		'body': """
+			Review.helped(${1:reviewId}, ${2:upDown}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Review.helpedForMe':
+		'prefix': 'Review.helpedForMe'
+		'body': """
+			Review.helpedForMe(${1:reviewId}, ${2:upDown}, ${3:options}, ${4:callback});
+		"""
+
+	'Review.increaseMetafield':
+		'prefix': 'Review.increaseMetafield'
+		'body': """
+			Review.increaseMetafield(${1:reviewId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Review.pullFromMetafield':
+		'prefix': 'Review.pullFromMetafield'
+		'body': """
+			Review.pullFromMetafield(${1:reviewId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Review.pushToMetafield':
+		'prefix': 'Review.pushToMetafield'
+		'body': """
+			Review.pushToMetafield(${1:reviewId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Review.update':
+		'prefix': 'Review.update'
+		'body': """
+			Review.update(${1:reviewId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Review.updateForMe':
+		'prefix': 'Review.updateForMe'
+		'body': """
+			Review.updateForMe(${1:reviewId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Review.delete':
+		'prefix': 'Review.delete'
+		'body': """
+			Review.delete(${1:reviewId}, ${2:options}, ${3:callback});
+		"""
+
+	'Review.deleteForMe':
+		'prefix': 'Review.deleteForMe'
+		'body': """
+			Review.deleteForMe(${1:reviewId}, ${2:options}, ${3:callback});
+		"""
+
+	'Review.cancelFlagForMe':
+		'prefix': 'Review.cancelFlagForMe'
+		'body': """
+			Review.cancelFlagForMe(${1:reviewId}, ${2:options}, ${3:callback});
+		"""
+
+	'Review.cancelFlag':
+		'prefix': 'Review.cancelFlag'
+		'body': """
+			Review.cancelFlag(${1:reviewId}, ${2:customerId}, ${3:options}, ${4:callback});
+		"""
+
+	'Review.deleteMetafield':
+		'prefix': 'Review.deleteMetafield'
+		'body': """
+			Review.deleteMetafield(${1:reviewId}, ${2:field}, ${3:options}, ${4:callback});
+		"""
+
+	'Review.cancelHelpedForMe':
+		'prefix': 'Review.cancelHelpedForMe'
+		'body': """
+			Review.cancelHelpedForMe(${1:reviewId}, ${2:upDown}, ${3:options}, ${4:callback});
+		"""
+
+	'Review.cancelHelped':
+		'prefix': 'Review.cancelHelped'
+		'body': """
+			Review.cancelHelped(${1:reviewId}, ${2:upDown}, ${3:customerId}, ${4:options}, ${5:callback});
+		"""
+
+	'ReviewComment.list':
+		'prefix': 'ReviewComment.list'
+		'body': """
+			ReviewComment.list(${1:options}, ${2:callback});
+		"""
+
+	'ReviewComment.count':
+		'prefix': 'ReviewComment.count'
+		'body': """
+			ReviewComment.count(${1:options}, ${2:callback});
+		"""
+
+	'ReviewComment.get':
+		'prefix': 'ReviewComment.get'
+		'body': """
+			ReviewComment.get(${1:reviewCommentId}, ${2:options}, ${3:callback});
+		"""
+
+	'ReviewComment.create':
+		'prefix': 'ReviewComment.create'
+		'body': """
+			ReviewComment.create(${1:payload}, ${2:options}, ${3:callback});
+		"""
+
+	'ReviewComment.createForMe':
+		'prefix': 'ReviewComment.createForMe'
+		'body': """
+			ReviewComment.createForMe(${1:payload}, ${2:options}, ${3:callback});
+		"""
+
+	'ReviewComment.flag':
+		'prefix': 'ReviewComment.flag'
+		'body': """
+			ReviewComment.flag(${1:reviewCommentId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'ReviewComment.flagForMe':
+		'prefix': 'ReviewComment.flagForMe'
+		'body': """
+			ReviewComment.flagForMe(${1:reviewCommentId}, ${2:options}, ${3:callback});
+		"""
+
+	'ReviewComment.increaseMetafield':
+		'prefix': 'ReviewComment.increaseMetafield'
+		'body': """
+			ReviewComment.increaseMetafield(${1:reviewCommentId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'ReviewComment.pushToMetafield':
+		'prefix': 'ReviewComment.pushToMetafield'
+		'body': """
+			ReviewComment.pushToMetafield(${1:reviewCommentId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'ReviewComment.pullFromMetafield':
+		'prefix': 'ReviewComment.pullFromMetafield'
+		'body': """
+			ReviewComment.pullFromMetafield(${1:reviewCommentId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'ReviewComment.update':
+		'prefix': 'ReviewComment.update'
+		'body': """
+			ReviewComment.update(${1:reviewCommentId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'ReviewComment.updateForMe':
+		'prefix': 'ReviewComment.updateForMe'
+		'body': """
+			ReviewComment.updateForMe(${1:reviewCommentId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'ReviewComment.delete':
+		'prefix': 'ReviewComment.delete'
+		'body': """
+			ReviewComment.delete(${1:reviewCommentId}, ${2:options}, ${3:callback});
+		"""
+
+	'ReviewComment.deleteForMe':
+		'prefix': 'ReviewComment.deleteForMe'
+		'body': """
+			ReviewComment.deleteForMe(${1:reviewCommentId}, ${2:options}, ${3:callback});
+		"""
+
+	'ReviewComment.cancelFlagForMe':
+		'prefix': 'ReviewComment.cancelFlagForMe'
+		'body': """
+			ReviewComment.cancelFlagForMe(${1:reviewCommentId}, ${2:options}, ${3:callback});
+		"""
+
+	'ReviewComment.deleteMetafield':
+		'prefix': 'ReviewComment.deleteMetafield'
+		'body': """
+			ReviewComment.deleteMetafield(${1:reviewCommentId}, ${2:field}, ${3:options}, ${4:callback});
+		"""
+
+	'ReviewComment.cancelFlag':
+		'prefix': 'ReviewComment.cancelFlag'
+		'body': """
+			ReviewComment.cancelFlag(${1:reviewCommentId}, ${2:customerId}, ${3:options}, ${4:callback});
+		"""
+
+	'ShippingMethod.list':
+		'prefix': 'ShippingMethod.list'
+		'body': """
+			ShippingMethod.list(${1:options}, ${2:callback});
+		"""
+
+	'ShippingMethod.count':
+		'prefix': 'ShippingMethod.count'
+		'body': """
+			ShippingMethod.count(${1:options}, ${2:callback});
+		"""
+
+	'ShippingMethod.get':
+		'prefix': 'ShippingMethod.get'
+		'body': """
+			ShippingMethod.get(${1:shippingMethodId}, ${2:options}, ${3:callback});
+		"""
+
+	'Store.get':
+		'prefix': 'Store.get'
+		'body': """
+			Store.get(${1:options}, ${2:callback});
+		"""
+
+	'Store.pushToMetafield':
+		'prefix': 'Store.pushToMetafield'
+		'body': """
+			Store.pushToMetafield(${1:field}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Store.increaseMetafield':
+		'prefix': 'Store.increaseMetafield'
+		'body': """
+			Store.increaseMetafield(${1:field}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Store.pullFromMetafield':
+		'prefix': 'Store.pullFromMetafield'
+		'body': """
+			Store.pullFromMetafield(${1:field}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Store.deleteMetafield':
+		'prefix': 'Store.deleteMetafield'
+		'body': """
+			Store.deleteMetafield(${1:field}, ${2:options}, ${3:callback});
+		"""
+
+	'Subscription.list':
+		'prefix': 'Subscription.list'
+		'body': """
+			Subscription.list(${1:options}, ${2:callback});
+		"""
+
+	'Subscription.listForMe':
+		'prefix': 'Subscription.listForMe'
+		'body': """
+			Subscription.listForMe(${1:options}, ${2:callback});
+		"""
+
+	'Subscription.count':
+		'prefix': 'Subscription.count'
+		'body': """
+			Subscription.count(${1:options}, ${2:callback});
+		"""
+
+	'Subscription.get':
+		'prefix': 'Subscription.get'
+		'body': """
+			Subscription.get(${1:subscriptionId}, ${2:options}, ${3:callback});
+		"""
+
+	'Subscription.countForMe':
+		'prefix': 'Subscription.countForMe'
+		'body': """
+			Subscription.countForMe(${1:options}, ${2:callback});
+		"""
+
+	'Subscription.getForMe':
+		'prefix': 'Subscription.getForMe'
+		'body': """
+			Subscription.getForMe(${1:subscriptionId}, ${2:options}, ${3:callback});
+		"""
+
+	'Subscription.listInventoryOperations':
+		'prefix': 'Subscription.listInventoryOperations'
+		'body': """
+			Subscription.listInventoryOperations(${1:subscriptionId}, ${2:options}, ${3:callback});
+		"""
+
+	'Subscription.authenticate':
+		'prefix': 'Subscription.authenticate'
+		'body': """
+			Subscription.authenticate(${1:subscriptionId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Subscription.markAsDone':
+		'prefix': 'Subscription.markAsDone'
+		'body': """
+			Subscription.markAsDone(${1:subscriptionId}, ${2:options}, ${3:callback});
+		"""
+
+	'Subscription.cancel':
+		'prefix': 'Subscription.cancel'
+		'body': """
+			Subscription.cancel(${1:subscriptionId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Subscription.syncInventory':
+		'prefix': 'Subscription.syncInventory'
+		'body': """
+			Subscription.syncInventory(${1:subscriptionId}, ${2:options}, ${3:callback});
+		"""
+
+	'Subscription.schedule':
+		'prefix': 'Subscription.schedule'
+		'body': """
+			Subscription.schedule(${1:subscriptionId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Subscription.cancelForMe':
+		'prefix': 'Subscription.cancelForMe'
+		'body': """
+			Subscription.cancelForMe(${1:subscriptionId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Subscription.scheduleForMe':
+		'prefix': 'Subscription.scheduleForMe'
+		'body': """
+			Subscription.scheduleForMe(${1:subscriptionId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Subscription.fulfillSchedule':
+		'prefix': 'Subscription.fulfillSchedule'
+		'body': """
+			Subscription.fulfillSchedule(${1:subscriptionId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Subscription.pullFromMetafield':
+		'prefix': 'Subscription.pullFromMetafield'
+		'body': """
+			Subscription.pullFromMetafield(${1:subscriptionId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Subscription.pushToMetafield':
+		'prefix': 'Subscription.pushToMetafield'
+		'body': """
+			Subscription.pushToMetafield(${1:subscriptionId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Subscription.increaseMetafield':
+		'prefix': 'Subscription.increaseMetafield'
+		'body': """
+			Subscription.increaseMetafield(${1:subscriptionId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'Subscription.updateCancellation':
+		'prefix': 'Subscription.updateCancellation'
+		'body': """
+			Subscription.updateCancellation(${1:subscriptionId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Subscription.updateCancellationForMe':
+		'prefix': 'Subscription.updateCancellationForMe'
+		'body': """
+			Subscription.updateCancellationForMe(${1:subscriptionId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Subscription.delete':
+		'prefix': 'Subscription.delete'
+		'body': """
+			Subscription.delete(${1:subscriptionId}, ${2:options}, ${3:callback});
+		"""
+
+	'Subscription.markAsUndone':
+		'prefix': 'Subscription.markAsUndone'
+		'body': """
+			Subscription.markAsUndone(${1:subscriptionId}, ${2:options}, ${3:callback});
+		"""
+
+	'Subscription.deleteMetafield':
+		'prefix': 'Subscription.deleteMetafield'
+		'body': """
+			Subscription.deleteMetafield(${1:subscriptionId}, ${2:field}, ${3:options}, ${4:callback});
+		"""
+
+	'Subscription.deleteInventoryOperation':
+		'prefix': 'Subscription.deleteInventoryOperation'
+		'body': """
+			Subscription.deleteInventoryOperation(${1:subscriptionId}, ${2:operationId}, ${3:options}, ${4:callback});
+		"""
+
+	'SubscriptionPlan.list':
+		'prefix': 'SubscriptionPlan.list'
+		'body': """
+			SubscriptionPlan.list(${1:options}, ${2:callback});
+		"""
+
+	'SubscriptionPlan.count':
+		'prefix': 'SubscriptionPlan.count'
+		'body': """
+			SubscriptionPlan.count(${1:options}, ${2:callback});
+		"""
+
+	'SubscriptionPlan.get':
+		'prefix': 'SubscriptionPlan.get'
+		'body': """
+			SubscriptionPlan.get(${1:subscriptionPlanId}, ${2:options}, ${3:callback});
+		"""
+
+	'TaxCategory.list':
+		'prefix': 'TaxCategory.list'
+		'body': """
+			TaxCategory.list(${1:options}, ${2:callback});
+		"""
+
+	'TaxCategory.count':
+		'prefix': 'TaxCategory.count'
+		'body': """
+			TaxCategory.count(${1:options}, ${2:callback});
+		"""
+
+	'TaxCategory.get':
+		'prefix': 'TaxCategory.get'
+		'body': """
+			TaxCategory.get(${1:taxCategoryId}, ${2:options}, ${3:callback});
+		"""
+
+	'Tracker.getByCustomerForMe':
+		'prefix': 'Tracker.getByCustomerForMe'
+		'body': """
+			Tracker.getByCustomerForMe(${1:options}, ${2:callback});
+		"""
+
+	'Tracker.get':
+		'prefix': 'Tracker.get'
+		'body': """
+			Tracker.get(${1:trackerId}, ${2:options}, ${3:callback});
+		"""
+
+	'Tracker.getByCustomer':
+		'prefix': 'Tracker.getByCustomer'
+		'body': """
+			Tracker.getByCustomer(${1:customerId}, ${2:options}, ${3:callback});
+		"""
+
+	'Tracker.getForMe':
+		'prefix': 'Tracker.getForMe'
+		'body': """
+			Tracker.getForMe(${1:trackerId}, ${2:options}, ${3:callback});
+		"""
+
+	'Tracker.getAsNonRegisteredForMe':
+		'prefix': 'Tracker.getAsNonRegisteredForMe'
+		'body': """
+			Tracker.getAsNonRegisteredForMe(${1:trackerId}, ${2:options}, ${3:callback});
+		"""
+
+	'Tracker.create':
+		'prefix': 'Tracker.create'
+		'body': """
+			Tracker.create(${1:payload}, ${2:options}, ${3:callback});
+		"""
+
+	'Tracker.createForMe':
+		'prefix': 'Tracker.createForMe'
+		'body': """
+			Tracker.createForMe(${1:options}, ${2:callback});
+		"""
+
+	'Tracker.createAsNonRegisteredForMe':
+		'prefix': 'Tracker.createAsNonRegisteredForMe'
+		'body': """
+			Tracker.createAsNonRegisteredForMe(${1:options}, ${2:callback});
+		"""
+
+	'Tracker.changeOwner':
+		'prefix': 'Tracker.changeOwner'
+		'body': """
+			Tracker.changeOwner(${1:trackerId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'Tracker.changeOwnerForMe':
+		'prefix': 'Tracker.changeOwnerForMe'
+		'body': """
+			Tracker.changeOwnerForMe(${1:trackerId}, ${2:options}, ${3:callback});
+		"""
+
+	'Tracker.delete':
+		'prefix': 'Tracker.delete'
+		'body': """
+			Tracker.delete(${1:trackerId}, ${2:options}, ${3:callback});
+		"""
+
+	'Tracker.deleteForMe':
+		'prefix': 'Tracker.deleteForMe'
+		'body': """
+			Tracker.deleteForMe(${1:trackerId}, ${2:options}, ${3:callback});
+		"""
+
+	'Tracker.deleteAsNonRegisteredForMe':
+		'prefix': 'Tracker.deleteAsNonRegisteredForMe'
+		'body': """
+			Tracker.deleteAsNonRegisteredForMe(${1:trackerId}, ${2:options}, ${3:callback});
+		"""
+
+	'WishList.list':
+		'prefix': 'WishList.list'
+		'body': """
+			WishList.list(${1:options}, ${2:callback});
+		"""
+
+	'WishList.listForMe':
+		'prefix': 'WishList.listForMe'
+		'body': """
+			WishList.listForMe(${1:options}, ${2:callback});
+		"""
+
+	'WishList.count':
+		'prefix': 'WishList.count'
+		'body': """
+			WishList.count(${1:options}, ${2:callback});
+		"""
+
+	'WishList.get':
+		'prefix': 'WishList.get'
+		'body': """
+			WishList.get(${1:wishListId}, ${2:options}, ${3:callback});
+		"""
+
+	'WishList.countForMe':
+		'prefix': 'WishList.countForMe'
+		'body': """
+			WishList.countForMe(${1:options}, ${2:callback});
+		"""
+
+	'WishList.getForMe':
+		'prefix': 'WishList.getForMe'
+		'body': """
+			WishList.getForMe(${1:wishListId}, ${2:options}, ${3:callback});
+		"""
+
+	'WishList.listProducts':
+		'prefix': 'WishList.listProducts'
+		'body': """
+			WishList.listProducts(${1:wishListId}, ${2:options}, ${3:callback});
+		"""
+
+	'WishList.listProductsForMe':
+		'prefix': 'WishList.listProductsForMe'
+		'body': """
+			WishList.listProductsForMe(${1:wishListId}, ${2:options}, ${3:callback});
+		"""
+
+	'WishList.countProducts':
+		'prefix': 'WishList.countProducts'
+		'body': """
+			WishList.countProducts(${1:wishListId}, ${2:options}, ${3:callback});
+		"""
+
+	'WishList.countProductsForMe':
+		'prefix': 'WishList.countProductsForMe'
+		'body': """
+			WishList.countProductsForMe(${1:wishListId}, ${2:options}, ${3:callback});
+		"""
+
+	'WishList.create':
+		'prefix': 'WishList.create'
+		'body': """
+			WishList.create(${1:payload}, ${2:options}, ${3:callback});
+		"""
+
+	'WishList.createForMe':
+		'prefix': 'WishList.createForMe'
+		'body': """
+			WishList.createForMe(${1:payload}, ${2:options}, ${3:callback});
+		"""
+
+	'WishList.addItem':
+		'prefix': 'WishList.addItem'
+		'body': """
+			WishList.addItem(${1:wishListId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'WishList.addItemForMe':
+		'prefix': 'WishList.addItemForMe'
+		'body': """
+			WishList.addItemForMe(${1:wishListId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'WishList.pullFromMetafield':
+		'prefix': 'WishList.pullFromMetafield'
+		'body': """
+			WishList.pullFromMetafield(${1:wishListId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'WishList.pushToMetafield':
+		'prefix': 'WishList.pushToMetafield'
+		'body': """
+			WishList.pushToMetafield(${1:wishListId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'WishList.increaseMetafield':
+		'prefix': 'WishList.increaseMetafield'
+		'body': """
+			WishList.increaseMetafield(${1:wishListId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+		"""
+
+	'WishList.update':
+		'prefix': 'WishList.update'
+		'body': """
+			WishList.update(${1:wishListId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'WishList.updateForMe':
+		'prefix': 'WishList.updateForMe'
+		'body': """
+			WishList.updateForMe(${1:wishListId}, ${2:payload}, ${3:options}, ${4:callback});
+		"""
+
+	'WishList.delete':
+		'prefix': 'WishList.delete'
+		'body': """
+			WishList.delete(${1:wishListId}, ${2:options}, ${3:callback});
+		"""
+
+	'WishList.deleteForMe':
+		'prefix': 'WishList.deleteForMe'
+		'body': """
+			WishList.deleteForMe(${1:wishListId}, ${2:options}, ${3:callback});
+		"""
+
+	'WishList.empty':
+		'prefix': 'WishList.empty'
+		'body': """
+			WishList.empty(${1:wishListId}, ${2:options}, ${3:callback});
+		"""
+
+	'WishList.emptyForMe':
+		'prefix': 'WishList.emptyForMe'
+		'body': """
+			WishList.emptyForMe(${1:wishListId}, ${2:options}, ${3:callback});
+		"""
+
+	'WishList.deleteItem':
+		'prefix': 'WishList.deleteItem'
+		'body': """
+			WishList.deleteItem(${1:wishListId}, ${2:productId}, ${3:options}, ${4:callback});
+		"""
+
+	'WishList.deleteMetafield':
+		'prefix': 'WishList.deleteMetafield'
+		'body': """
+			WishList.deleteMetafield(${1:wishListId}, ${2:field}, ${3:options}, ${4:callback});
+		"""
+
+	'WishList.deleteItemForMe':
+		'prefix': 'WishList.deleteItemForMe'
+		'body': """
+			WishList.deleteItemForMe(${1:wishListId}, ${2:productId}, ${3:options}, ${4:callback});
+		"""

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = ReviewComment::list(${1:\$options});
+]]></content >
+	<description>ReviewComment::list</description>
+	<tabTrigger>ReviewComment::list</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

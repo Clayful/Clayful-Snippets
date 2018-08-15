@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Image.get(${1:image_id}, ${2:options})
+]]></content >
+	<description>Image.get</description>
+	<tabTrigger>Image.get</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Image::createAsCustomer(${1:\$customerId}, ${2:\$payload}, ${3:\$options});
+]]></content >
+	<description>Image::createAsCustomer</description>
+	<tabTrigger>Image::createAsCustomer</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

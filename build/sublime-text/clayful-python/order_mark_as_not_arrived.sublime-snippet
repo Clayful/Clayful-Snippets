@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Order.mark_as_not_arrived(${1:order_id}, ${2:options})
+]]></content >
+	<description>Order.markAsNotArrived</description>
+	<tabTrigger>Order.markAsNotArrived</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

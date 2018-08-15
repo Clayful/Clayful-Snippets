@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Subscription::authenticate(${1:\$subscriptionId}, ${2:\$payload}, ${3:\$options});
+]]></content >
+	<description>Subscription::authenticate</description>
+	<tabTrigger>Subscription::authenticate</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

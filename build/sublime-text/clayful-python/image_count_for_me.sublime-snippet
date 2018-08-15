@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Image.count_for_me(${1:options})
+]]></content >
+	<description>Image.countForMe</description>
+	<tabTrigger>Image.countForMe</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

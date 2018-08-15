@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Store.pullFromMetafield(${1:field}, ${2:payload}, ${3:options}, ${4:callback});
+]]></content >
+	<description>Store.pullFromMetafield</description>
+	<tabTrigger>Store.pullFromMetafield</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

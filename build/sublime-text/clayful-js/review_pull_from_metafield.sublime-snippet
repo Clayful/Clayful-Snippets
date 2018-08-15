@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Review.pullFromMetafield(${1:reviewId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+]]></content >
+	<description>Review.pullFromMetafield</description>
+	<tabTrigger>Review.pullFromMetafield</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

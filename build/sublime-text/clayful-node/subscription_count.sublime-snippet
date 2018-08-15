@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Subscription.count(${1:options}, ${2:callback});
+]]></content >
+	<description>Subscription.count</description>
+	<tabTrigger>Subscription.count</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

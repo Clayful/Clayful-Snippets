@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = ReviewComment::pullFromMetafield(${1:\$reviewCommentId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+]]></content >
+	<description>ReviewComment::pullFromMetafield</description>
+	<tabTrigger>ReviewComment::pullFromMetafield</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Customer::listCoupons(${1:\$customerId}, ${2:\$options});
+]]></content >
+	<description>Customer::listCoupons</description>
+	<tabTrigger>Customer::listCoupons</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

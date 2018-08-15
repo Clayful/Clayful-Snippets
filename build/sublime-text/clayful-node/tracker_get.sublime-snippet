@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Tracker.get(${1:trackerId}, ${2:options}, ${3:callback});
+]]></content >
+	<description>Tracker.get</description>
+	<tabTrigger>Tracker.get</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

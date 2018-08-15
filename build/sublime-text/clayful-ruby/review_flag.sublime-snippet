@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Review.flag(${1:review_id}, ${2:payload}, ${3:options})
+]]></content >
+	<description>Review.flag</description>
+	<tabTrigger>Review.flag</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

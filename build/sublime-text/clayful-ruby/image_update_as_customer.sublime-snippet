@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Image.update_as_customer(${1:customer_id}, ${2:image_id}, ${3:payload}, ${4:options})
+]]></content >
+	<description>Image.updateAsCustomer</description>
+	<tabTrigger>Image.updateAsCustomer</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ReviewComment.pushToMetafield(${1:reviewCommentId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+]]></content >
+	<description>ReviewComment.pushToMetafield</description>
+	<tabTrigger>ReviewComment.pushToMetafield</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Customer::createMe(${1:\$payload}, ${2:\$options});
+]]></content >
+	<description>Customer::createMe</description>
+	<tabTrigger>Customer::createMe</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

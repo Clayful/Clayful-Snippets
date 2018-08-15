@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Image.update(${1:imageId}, ${2:payload}, ${3:options}, ${4:callback});
+]]></content >
+	<description>Image.update</description>
+	<tabTrigger>Image.update</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

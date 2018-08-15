@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Tracker.delete_as_non_registered_for_me(${1:tracker_id}, ${2:options})
+]]></content >
+	<description>Tracker.deleteAsNonRegisteredForMe</description>
+	<tabTrigger>Tracker.deleteAsNonRegisteredForMe</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

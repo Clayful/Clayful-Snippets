@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Discount.list(${1:options}, ${2:callback});
+]]></content >
+	<description>Discount.list</description>
+	<tabTrigger>Discount.list</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

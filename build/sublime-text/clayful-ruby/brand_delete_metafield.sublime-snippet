@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Brand.delete_metafield(${1:brand_id}, ${2:field}, ${3:options})
+]]></content >
+	<description>Brand.deleteMetafield</description>
+	<tabTrigger>Brand.deleteMetafield</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Subscription.list_inventory_operations(${1:subscription_id}, ${2:options})
+]]></content >
+	<description>Subscription.listInventoryOperations</description>
+	<tabTrigger>Subscription.listInventoryOperations</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

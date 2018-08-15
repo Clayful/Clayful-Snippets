@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Cart.count_items_for_me(${1:options})
+]]></content >
+	<description>Cart.countItemsForMe</description>
+	<tabTrigger>Cart.countItemsForMe</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

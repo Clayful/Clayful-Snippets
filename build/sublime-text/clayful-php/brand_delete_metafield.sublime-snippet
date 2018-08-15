@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Brand::deleteMetafield(${1:\$brandId}, ${2:\$field}, ${3:\$options});
+]]></content >
+	<description>Brand::deleteMetafield</description>
+	<tabTrigger>Brand::deleteMetafield</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

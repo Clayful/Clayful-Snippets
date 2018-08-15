@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Cart.countItemsForMe(${1:options}, ${2:callback});
+]]></content >
+	<description>Cart.countItemsForMe</description>
+	<tabTrigger>Cart.countItemsForMe</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Review.pull_from_metafield(${1:review_id}, ${2:field}, ${3:payload}, ${4:options})
+]]></content >
+	<description>Review.pullFromMetafield</description>
+	<tabTrigger>Review.pullFromMetafield</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Image::create(${1:\$payload}, ${2:\$options});
+]]></content >
+	<description>Image::create</description>
+	<tabTrigger>Image::create</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

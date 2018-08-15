@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Review::helped(${1:\$reviewId}, ${2:\$upDown}, ${3:\$payload}, ${4:\$options});
+]]></content >
+	<description>Review::helped</description>
+	<tabTrigger>Review::helped</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

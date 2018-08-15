@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Subscription.updateCancellationForMe(${1:subscriptionId}, ${2:payload}, ${3:options}, ${4:callback});
+]]></content >
+	<description>Subscription.updateCancellationForMe</description>
+	<tabTrigger>Subscription.updateCancellationForMe</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

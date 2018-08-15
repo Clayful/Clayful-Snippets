@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Cart.add_item(${1:customer_id}, ${2:payload}, ${3:options})
+]]></content >
+	<description>Cart.addItem</description>
+	<tabTrigger>Cart.addItem</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

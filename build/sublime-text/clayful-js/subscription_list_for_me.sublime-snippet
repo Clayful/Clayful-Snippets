@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Subscription.listForMe(${1:options}, ${2:callback});
+]]></content >
+	<description>Subscription.listForMe</description>
+	<tabTrigger>Subscription.listForMe</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

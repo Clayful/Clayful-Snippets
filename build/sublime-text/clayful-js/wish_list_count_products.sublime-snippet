@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+WishList.countProducts(${1:wishListId}, ${2:options}, ${3:callback});
+]]></content >
+	<description>WishList.countProducts</description>
+	<tabTrigger>WishList.countProducts</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

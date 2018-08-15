@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Store::increaseMetafield(${1:\$field}, ${2:\$payload}, ${3:\$options});
+]]></content >
+	<description>Store::increaseMetafield</description>
+	<tabTrigger>Store::increaseMetafield</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Cart::addItem(${1:\$customerId}, ${2:\$payload}, ${3:\$options});
+]]></content >
+	<description>Cart::addItem</description>
+	<tabTrigger>Cart::addItem</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

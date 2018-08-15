@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Order.create_fulfillment(${1:order_id}, ${2:payload}, ${3:options})
+]]></content >
+	<description>Order.createFulfillment</description>
+	<tabTrigger>Order.createFulfillment</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Coupon.pull_from_metafield(${1:coupon_id}, ${2:field}, ${3:payload}, ${4:options})
+]]></content >
+	<description>Coupon.pullFromMetafield</description>
+	<tabTrigger>Coupon.pullFromMetafield</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Discount.get(${1:discount_id}, ${2:options})
+]]></content >
+	<description>Discount.get</description>
+	<tabTrigger>Discount.get</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

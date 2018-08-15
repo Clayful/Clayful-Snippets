@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ReviewComment.delete(${1:reviewCommentId}, ${2:options}, ${3:callback});
+]]></content >
+	<description>ReviewComment.delete</description>
+	<tabTrigger>ReviewComment.delete</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

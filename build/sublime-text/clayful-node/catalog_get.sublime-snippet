@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Catalog.get(${1:catalogId}, ${2:options}, ${3:callback});
+]]></content >
+	<description>Catalog.get</description>
+	<tabTrigger>Catalog.get</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Group.count(${1:options}, ${2:callback});
+]]></content >
+	<description>Group.count</description>
+	<tabTrigger>Group.count</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

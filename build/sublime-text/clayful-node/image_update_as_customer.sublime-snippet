@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Image.updateAsCustomer(${1:customerId}, ${2:imageId}, ${3:payload}, ${4:options}, ${5:callback});
+]]></content >
+	<description>Image.updateAsCustomer</description>
+	<tabTrigger>Image.updateAsCustomer</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

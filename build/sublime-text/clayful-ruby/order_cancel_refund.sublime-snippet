@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Order.cancel_refund(${1:order_id}, ${2:refund_id}, ${3:payload}, ${4:options})
+]]></content >
+	<description>Order.cancelRefund</description>
+	<tabTrigger>Order.cancelRefund</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

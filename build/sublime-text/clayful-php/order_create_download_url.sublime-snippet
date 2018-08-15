@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Order::createDownloadUrl(${1:\$orderId}, ${2:\$itemId}, ${3:\$options});
+]]></content >
+	<description>Order::createDownloadUrl</description>
+	<tabTrigger>Order::createDownloadUrl</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

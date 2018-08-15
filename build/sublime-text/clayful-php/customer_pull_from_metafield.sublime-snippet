@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Customer::pullFromMetafield(${1:\$customerId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+]]></content >
+	<description>Customer::pullFromMetafield</description>
+	<tabTrigger>Customer::pullFromMetafield</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

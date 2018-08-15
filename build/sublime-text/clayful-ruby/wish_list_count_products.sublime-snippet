@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = WishList.count_products(${1:wish_list_id}, ${2:options})
+]]></content >
+	<description>WishList.countProducts</description>
+	<tabTrigger>WishList.countProducts</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

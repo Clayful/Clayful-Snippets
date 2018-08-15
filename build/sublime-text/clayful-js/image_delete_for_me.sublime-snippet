@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Image.deleteForMe(${1:imageId}, ${2:options}, ${3:callback});
+]]></content >
+	<description>Image.deleteForMe</description>
+	<tabTrigger>Image.deleteForMe</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

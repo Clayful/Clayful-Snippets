@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Downloadable::get(${1:\$downloadableId}, ${2:\$options});
+]]></content >
+	<description>Downloadable::get</description>
+	<tabTrigger>Downloadable::get</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

@@ -1,0 +1,2468 @@
+
+{
+
+	"Brand.list": {
+		"prefix": "Brand.list",
+		"scope": "javascript",
+		"body": [
+			"Brand.list(${1:options}, ${2:callback});"
+		],
+		"description": "Brand.list"
+	},
+	"Brand.count": {
+		"prefix": "Brand.count",
+		"scope": "javascript",
+		"body": [
+			"Brand.count(${1:options}, ${2:callback});"
+		],
+		"description": "Brand.count"
+	},
+	"Brand.get": {
+		"prefix": "Brand.get",
+		"scope": "javascript",
+		"body": [
+			"Brand.get(${1:brandId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Brand.get"
+	},
+	"Brand.pullFromMetafield": {
+		"prefix": "Brand.pullFromMetafield",
+		"scope": "javascript",
+		"body": [
+			"Brand.pullFromMetafield(${1:brandId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Brand.pullFromMetafield"
+	},
+	"Brand.pushToMetafield": {
+		"prefix": "Brand.pushToMetafield",
+		"scope": "javascript",
+		"body": [
+			"Brand.pushToMetafield(${1:brandId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Brand.pushToMetafield"
+	},
+	"Brand.increaseMetafield": {
+		"prefix": "Brand.increaseMetafield",
+		"scope": "javascript",
+		"body": [
+			"Brand.increaseMetafield(${1:brandId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Brand.increaseMetafield"
+	},
+	"Brand.deleteMetafield": {
+		"prefix": "Brand.deleteMetafield",
+		"scope": "javascript",
+		"body": [
+			"Brand.deleteMetafield(${1:brandId}, ${2:field}, ${3:options}, ${4:callback});"
+		],
+		"description": "Brand.deleteMetafield"
+	},
+	"Cart.countItemsForMe": {
+		"prefix": "Cart.countItemsForMe",
+		"scope": "javascript",
+		"body": [
+			"Cart.countItemsForMe(${1:options}, ${2:callback});"
+		],
+		"description": "Cart.countItemsForMe"
+	},
+	"Cart.countItems": {
+		"prefix": "Cart.countItems",
+		"scope": "javascript",
+		"body": [
+			"Cart.countItems(${1:customerId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Cart.countItems"
+	},
+	"Cart.getForMe": {
+		"prefix": "Cart.getForMe",
+		"scope": "javascript",
+		"body": [
+			"Cart.getForMe(${1:payload}, ${2:options}, ${3:callback});"
+		],
+		"description": "Cart.getForMe"
+	},
+	"Cart.getAsNonRegistered": {
+		"prefix": "Cart.getAsNonRegistered",
+		"scope": "javascript",
+		"body": [
+			"Cart.getAsNonRegistered(${1:payload}, ${2:options}, ${3:callback});"
+		],
+		"description": "Cart.getAsNonRegistered"
+	},
+	"Cart.get": {
+		"prefix": "Cart.get",
+		"scope": "javascript",
+		"body": [
+			"Cart.get(${1:customerId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Cart.get"
+	},
+	"Cart.addItemForMe": {
+		"prefix": "Cart.addItemForMe",
+		"scope": "javascript",
+		"body": [
+			"Cart.addItemForMe(${1:payload}, ${2:options}, ${3:callback});"
+		],
+		"description": "Cart.addItemForMe"
+	},
+	"Cart.getAsNonRegisteredForMe": {
+		"prefix": "Cart.getAsNonRegisteredForMe",
+		"scope": "javascript",
+		"body": [
+			"Cart.getAsNonRegisteredForMe(${1:payload}, ${2:options}, ${3:callback});"
+		],
+		"description": "Cart.getAsNonRegisteredForMe"
+	},
+	"Cart.addItem": {
+		"prefix": "Cart.addItem",
+		"scope": "javascript",
+		"body": [
+			"Cart.addItem(${1:customerId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Cart.addItem"
+	},
+	"Cart.checkoutForMe": {
+		"prefix": "Cart.checkoutForMe",
+		"scope": "javascript",
+		"body": [
+			"Cart.checkoutForMe(${1:type}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Cart.checkoutForMe"
+	},
+	"Cart.checkoutAsNonRegistered": {
+		"prefix": "Cart.checkoutAsNonRegistered",
+		"scope": "javascript",
+		"body": [
+			"Cart.checkoutAsNonRegistered(${1:type}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Cart.checkoutAsNonRegistered"
+	},
+	"Cart.checkout": {
+		"prefix": "Cart.checkout",
+		"scope": "javascript",
+		"body": [
+			"Cart.checkout(${1:customerId}, ${2:type}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Cart.checkout"
+	},
+	"Cart.checkoutAsNonRegisteredForMe": {
+		"prefix": "Cart.checkoutAsNonRegisteredForMe",
+		"scope": "javascript",
+		"body": [
+			"Cart.checkoutAsNonRegisteredForMe(${1:type}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Cart.checkoutAsNonRegisteredForMe"
+	},
+	"Cart.updateItemForMe": {
+		"prefix": "Cart.updateItemForMe",
+		"scope": "javascript",
+		"body": [
+			"Cart.updateItemForMe(${1:itemId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Cart.updateItemForMe"
+	},
+	"Cart.updateItem": {
+		"prefix": "Cart.updateItem",
+		"scope": "javascript",
+		"body": [
+			"Cart.updateItem(${1:customerId}, ${2:itemId}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Cart.updateItem"
+	},
+	"Cart.emptyForMe": {
+		"prefix": "Cart.emptyForMe",
+		"scope": "javascript",
+		"body": [
+			"Cart.emptyForMe(${1:options}, ${2:callback});"
+		],
+		"description": "Cart.emptyForMe"
+	},
+	"Cart.empty": {
+		"prefix": "Cart.empty",
+		"scope": "javascript",
+		"body": [
+			"Cart.empty(${1:customerId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Cart.empty"
+	},
+	"Cart.deleteItemForMe": {
+		"prefix": "Cart.deleteItemForMe",
+		"scope": "javascript",
+		"body": [
+			"Cart.deleteItemForMe(${1:itemId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Cart.deleteItemForMe"
+	},
+	"Cart.deleteItem": {
+		"prefix": "Cart.deleteItem",
+		"scope": "javascript",
+		"body": [
+			"Cart.deleteItem(${1:customerId}, ${2:itemId}, ${3:options}, ${4:callback});"
+		],
+		"description": "Cart.deleteItem"
+	},
+	"Catalog.list": {
+		"prefix": "Catalog.list",
+		"scope": "javascript",
+		"body": [
+			"Catalog.list(${1:options}, ${2:callback});"
+		],
+		"description": "Catalog.list"
+	},
+	"Catalog.count": {
+		"prefix": "Catalog.count",
+		"scope": "javascript",
+		"body": [
+			"Catalog.count(${1:options}, ${2:callback});"
+		],
+		"description": "Catalog.count"
+	},
+	"Catalog.get": {
+		"prefix": "Catalog.get",
+		"scope": "javascript",
+		"body": [
+			"Catalog.get(${1:catalogId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Catalog.get"
+	},
+	"Catalog.pullFromMetafield": {
+		"prefix": "Catalog.pullFromMetafield",
+		"scope": "javascript",
+		"body": [
+			"Catalog.pullFromMetafield(${1:catalogId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Catalog.pullFromMetafield"
+	},
+	"Catalog.increaseMetafield": {
+		"prefix": "Catalog.increaseMetafield",
+		"scope": "javascript",
+		"body": [
+			"Catalog.increaseMetafield(${1:catalogId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Catalog.increaseMetafield"
+	},
+	"Catalog.pushToMetafield": {
+		"prefix": "Catalog.pushToMetafield",
+		"scope": "javascript",
+		"body": [
+			"Catalog.pushToMetafield(${1:catalogId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Catalog.pushToMetafield"
+	},
+	"Catalog.deleteMetafield": {
+		"prefix": "Catalog.deleteMetafield",
+		"scope": "javascript",
+		"body": [
+			"Catalog.deleteMetafield(${1:catalogId}, ${2:field}, ${3:options}, ${4:callback});"
+		],
+		"description": "Catalog.deleteMetafield"
+	},
+	"Collection.list": {
+		"prefix": "Collection.list",
+		"scope": "javascript",
+		"body": [
+			"Collection.list(${1:options}, ${2:callback});"
+		],
+		"description": "Collection.list"
+	},
+	"Collection.count": {
+		"prefix": "Collection.count",
+		"scope": "javascript",
+		"body": [
+			"Collection.count(${1:options}, ${2:callback});"
+		],
+		"description": "Collection.count"
+	},
+	"Collection.get": {
+		"prefix": "Collection.get",
+		"scope": "javascript",
+		"body": [
+			"Collection.get(${1:collectionId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Collection.get"
+	},
+	"Collection.pushToMetafield": {
+		"prefix": "Collection.pushToMetafield",
+		"scope": "javascript",
+		"body": [
+			"Collection.pushToMetafield(${1:collectionId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Collection.pushToMetafield"
+	},
+	"Collection.pullFromMetafield": {
+		"prefix": "Collection.pullFromMetafield",
+		"scope": "javascript",
+		"body": [
+			"Collection.pullFromMetafield(${1:collectionId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Collection.pullFromMetafield"
+	},
+	"Collection.increaseMetafield": {
+		"prefix": "Collection.increaseMetafield",
+		"scope": "javascript",
+		"body": [
+			"Collection.increaseMetafield(${1:collectionId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Collection.increaseMetafield"
+	},
+	"Collection.deleteMetafield": {
+		"prefix": "Collection.deleteMetafield",
+		"scope": "javascript",
+		"body": [
+			"Collection.deleteMetafield(${1:collectionId}, ${2:field}, ${3:options}, ${4:callback});"
+		],
+		"description": "Collection.deleteMetafield"
+	},
+	"Country.list": {
+		"prefix": "Country.list",
+		"scope": "javascript",
+		"body": [
+			"Country.list(${1:options}, ${2:callback});"
+		],
+		"description": "Country.list"
+	},
+	"Country.count": {
+		"prefix": "Country.count",
+		"scope": "javascript",
+		"body": [
+			"Country.count(${1:options}, ${2:callback});"
+		],
+		"description": "Country.count"
+	},
+	"Country.get": {
+		"prefix": "Country.get",
+		"scope": "javascript",
+		"body": [
+			"Country.get(${1:countryId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Country.get"
+	},
+	"Coupon.list": {
+		"prefix": "Coupon.list",
+		"scope": "javascript",
+		"body": [
+			"Coupon.list(${1:options}, ${2:callback});"
+		],
+		"description": "Coupon.list"
+	},
+	"Coupon.count": {
+		"prefix": "Coupon.count",
+		"scope": "javascript",
+		"body": [
+			"Coupon.count(${1:options}, ${2:callback});"
+		],
+		"description": "Coupon.count"
+	},
+	"Coupon.get": {
+		"prefix": "Coupon.get",
+		"scope": "javascript",
+		"body": [
+			"Coupon.get(${1:couponId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Coupon.get"
+	},
+	"Coupon.increaseMetafield": {
+		"prefix": "Coupon.increaseMetafield",
+		"scope": "javascript",
+		"body": [
+			"Coupon.increaseMetafield(${1:couponId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Coupon.increaseMetafield"
+	},
+	"Coupon.pullFromMetafield": {
+		"prefix": "Coupon.pullFromMetafield",
+		"scope": "javascript",
+		"body": [
+			"Coupon.pullFromMetafield(${1:couponId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Coupon.pullFromMetafield"
+	},
+	"Coupon.pushToMetafield": {
+		"prefix": "Coupon.pushToMetafield",
+		"scope": "javascript",
+		"body": [
+			"Coupon.pushToMetafield(${1:couponId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Coupon.pushToMetafield"
+	},
+	"Coupon.deleteMetafield": {
+		"prefix": "Coupon.deleteMetafield",
+		"scope": "javascript",
+		"body": [
+			"Coupon.deleteMetafield(${1:couponId}, ${2:field}, ${3:options}, ${4:callback});"
+		],
+		"description": "Coupon.deleteMetafield"
+	},
+	"Currency.list": {
+		"prefix": "Currency.list",
+		"scope": "javascript",
+		"body": [
+			"Currency.list(${1:options}, ${2:callback});"
+		],
+		"description": "Currency.list"
+	},
+	"Currency.count": {
+		"prefix": "Currency.count",
+		"scope": "javascript",
+		"body": [
+			"Currency.count(${1:options}, ${2:callback});"
+		],
+		"description": "Currency.count"
+	},
+	"Currency.get": {
+		"prefix": "Currency.get",
+		"scope": "javascript",
+		"body": [
+			"Currency.get(${1:currencyId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Currency.get"
+	},
+	"Customer.list": {
+		"prefix": "Customer.list",
+		"scope": "javascript",
+		"body": [
+			"Customer.list(${1:options}, ${2:callback});"
+		],
+		"description": "Customer.list"
+	},
+	"Customer.getMe": {
+		"prefix": "Customer.getMe",
+		"scope": "javascript",
+		"body": [
+			"Customer.getMe(${1:options}, ${2:callback});"
+		],
+		"description": "Customer.getMe"
+	},
+	"Customer.isAuthenticated": {
+		"prefix": "Customer.isAuthenticated",
+		"scope": "javascript",
+		"body": [
+			"Customer.isAuthenticated(${1:options}, ${2:callback});"
+		],
+		"description": "Customer.isAuthenticated"
+	},
+	"Customer.count": {
+		"prefix": "Customer.count",
+		"scope": "javascript",
+		"body": [
+			"Customer.count(${1:options}, ${2:callback});"
+		],
+		"description": "Customer.count"
+	},
+	"Customer.get": {
+		"prefix": "Customer.get",
+		"scope": "javascript",
+		"body": [
+			"Customer.get(${1:customerId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Customer.get"
+	},
+	"Customer.listCouponsForMe": {
+		"prefix": "Customer.listCouponsForMe",
+		"scope": "javascript",
+		"body": [
+			"Customer.listCouponsForMe(${1:options}, ${2:callback});"
+		],
+		"description": "Customer.listCouponsForMe"
+	},
+	"Customer.listCoupons": {
+		"prefix": "Customer.listCoupons",
+		"scope": "javascript",
+		"body": [
+			"Customer.listCoupons(${1:customerId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Customer.listCoupons"
+	},
+	"Customer.countCouponsForMe": {
+		"prefix": "Customer.countCouponsForMe",
+		"scope": "javascript",
+		"body": [
+			"Customer.countCouponsForMe(${1:options}, ${2:callback});"
+		],
+		"description": "Customer.countCouponsForMe"
+	},
+	"Customer.countCoupons": {
+		"prefix": "Customer.countCoupons",
+		"scope": "javascript",
+		"body": [
+			"Customer.countCoupons(${1:customerId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Customer.countCoupons"
+	},
+	"Customer.listByFlagVotes": {
+		"prefix": "Customer.listByFlagVotes",
+		"scope": "javascript",
+		"body": [
+			"Customer.listByFlagVotes(${1:voteModel}, ${2:voteModelId}, ${3:options}, ${4:callback});"
+		],
+		"description": "Customer.listByFlagVotes"
+	},
+	"Customer.listByHelpVotes": {
+		"prefix": "Customer.listByHelpVotes",
+		"scope": "javascript",
+		"body": [
+			"Customer.listByHelpVotes(${1:voteModel}, ${2:voteModelId}, ${3:upDown}, ${4:options}, ${5:callback});"
+		],
+		"description": "Customer.listByHelpVotes"
+	},
+	"Customer.create": {
+		"prefix": "Customer.create",
+		"scope": "javascript",
+		"body": [
+			"Customer.create(${1:payload}, ${2:options}, ${3:callback});"
+		],
+		"description": "Customer.create"
+	},
+	"Customer.createMe": {
+		"prefix": "Customer.createMe",
+		"scope": "javascript",
+		"body": [
+			"Customer.createMe(${1:payload}, ${2:options}, ${3:callback});"
+		],
+		"description": "Customer.createMe"
+	},
+	"Customer.authenticate": {
+		"prefix": "Customer.authenticate",
+		"scope": "javascript",
+		"body": [
+			"Customer.authenticate(${1:payload}, ${2:options}, ${3:callback});"
+		],
+		"description": "Customer.authenticate"
+	},
+	"Customer.createVerification": {
+		"prefix": "Customer.createVerification",
+		"scope": "javascript",
+		"body": [
+			"Customer.createVerification(${1:payload}, ${2:options}, ${3:callback});"
+		],
+		"description": "Customer.createVerification"
+	},
+	"Customer.authenticateBy3rdParty": {
+		"prefix": "Customer.authenticateBy3rdParty",
+		"scope": "javascript",
+		"body": [
+			"Customer.authenticateBy3rdParty(${1:vendor}, ${2:options}, ${3:callback});"
+		],
+		"description": "Customer.authenticateBy3rdParty"
+	},
+	"Customer.requestVerificationEmail": {
+		"prefix": "Customer.requestVerificationEmail",
+		"scope": "javascript",
+		"body": [
+			"Customer.requestVerificationEmail(${1:payload}, ${2:options}, ${3:callback});"
+		],
+		"description": "Customer.requestVerificationEmail"
+	},
+	"Customer.addCoupon": {
+		"prefix": "Customer.addCoupon",
+		"scope": "javascript",
+		"body": [
+			"Customer.addCoupon(${1:customerId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Customer.addCoupon"
+	},
+	"Customer.verify": {
+		"prefix": "Customer.verify",
+		"scope": "javascript",
+		"body": [
+			"Customer.verify(${1:customerId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Customer.verify"
+	},
+	"Customer.pushToMetafield": {
+		"prefix": "Customer.pushToMetafield",
+		"scope": "javascript",
+		"body": [
+			"Customer.pushToMetafield(${1:customerId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Customer.pushToMetafield"
+	},
+	"Customer.pullFromMetafield": {
+		"prefix": "Customer.pullFromMetafield",
+		"scope": "javascript",
+		"body": [
+			"Customer.pullFromMetafield(${1:customerId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Customer.pullFromMetafield"
+	},
+	"Customer.increaseMetafield": {
+		"prefix": "Customer.increaseMetafield",
+		"scope": "javascript",
+		"body": [
+			"Customer.increaseMetafield(${1:customerId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Customer.increaseMetafield"
+	},
+	"Customer.updateMe": {
+		"prefix": "Customer.updateMe",
+		"scope": "javascript",
+		"body": [
+			"Customer.updateMe(${1:payload}, ${2:options}, ${3:callback});"
+		],
+		"description": "Customer.updateMe"
+	},
+	"Customer.update": {
+		"prefix": "Customer.update",
+		"scope": "javascript",
+		"body": [
+			"Customer.update(${1:customerId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Customer.update"
+	},
+	"Customer.updateCredentialsForMe": {
+		"prefix": "Customer.updateCredentialsForMe",
+		"scope": "javascript",
+		"body": [
+			"Customer.updateCredentialsForMe(${1:payload}, ${2:options}, ${3:callback});"
+		],
+		"description": "Customer.updateCredentialsForMe"
+	},
+	"Customer.resetPassword": {
+		"prefix": "Customer.resetPassword",
+		"scope": "javascript",
+		"body": [
+			"Customer.resetPassword(${1:customerId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Customer.resetPassword"
+	},
+	"Customer.updateCredentials": {
+		"prefix": "Customer.updateCredentials",
+		"scope": "javascript",
+		"body": [
+			"Customer.updateCredentials(${1:customerId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Customer.updateCredentials"
+	},
+	"Customer.deleteMe": {
+		"prefix": "Customer.deleteMe",
+		"scope": "javascript",
+		"body": [
+			"Customer.deleteMe(${1:options}, ${2:callback});"
+		],
+		"description": "Customer.deleteMe"
+	},
+	"Customer.delete": {
+		"prefix": "Customer.delete",
+		"scope": "javascript",
+		"body": [
+			"Customer.delete(${1:customerId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Customer.delete"
+	},
+	"Customer.deleteCouponForMe": {
+		"prefix": "Customer.deleteCouponForMe",
+		"scope": "javascript",
+		"body": [
+			"Customer.deleteCouponForMe(${1:couponId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Customer.deleteCouponForMe"
+	},
+	"Customer.deleteCoupon": {
+		"prefix": "Customer.deleteCoupon",
+		"scope": "javascript",
+		"body": [
+			"Customer.deleteCoupon(${1:customerId}, ${2:couponId}, ${3:options}, ${4:callback});"
+		],
+		"description": "Customer.deleteCoupon"
+	},
+	"Customer.deleteMetafield": {
+		"prefix": "Customer.deleteMetafield",
+		"scope": "javascript",
+		"body": [
+			"Customer.deleteMetafield(${1:customerId}, ${2:field}, ${3:options}, ${4:callback});"
+		],
+		"description": "Customer.deleteMetafield"
+	},
+	"Discount.list": {
+		"prefix": "Discount.list",
+		"scope": "javascript",
+		"body": [
+			"Discount.list(${1:options}, ${2:callback});"
+		],
+		"description": "Discount.list"
+	},
+	"Discount.count": {
+		"prefix": "Discount.count",
+		"scope": "javascript",
+		"body": [
+			"Discount.count(${1:options}, ${2:callback});"
+		],
+		"description": "Discount.count"
+	},
+	"Discount.get": {
+		"prefix": "Discount.get",
+		"scope": "javascript",
+		"body": [
+			"Discount.get(${1:discountId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Discount.get"
+	},
+	"Discount.pushToMetafield": {
+		"prefix": "Discount.pushToMetafield",
+		"scope": "javascript",
+		"body": [
+			"Discount.pushToMetafield(${1:discountId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Discount.pushToMetafield"
+	},
+	"Discount.pullFromMetafield": {
+		"prefix": "Discount.pullFromMetafield",
+		"scope": "javascript",
+		"body": [
+			"Discount.pullFromMetafield(${1:discountId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Discount.pullFromMetafield"
+	},
+	"Discount.increaseMetafield": {
+		"prefix": "Discount.increaseMetafield",
+		"scope": "javascript",
+		"body": [
+			"Discount.increaseMetafield(${1:discountId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Discount.increaseMetafield"
+	},
+	"Discount.deleteMetafield": {
+		"prefix": "Discount.deleteMetafield",
+		"scope": "javascript",
+		"body": [
+			"Discount.deleteMetafield(${1:discountId}, ${2:field}, ${3:options}, ${4:callback});"
+		],
+		"description": "Discount.deleteMetafield"
+	},
+	"Downloadable.list": {
+		"prefix": "Downloadable.list",
+		"scope": "javascript",
+		"body": [
+			"Downloadable.list(${1:options}, ${2:callback});"
+		],
+		"description": "Downloadable.list"
+	},
+	"Downloadable.count": {
+		"prefix": "Downloadable.count",
+		"scope": "javascript",
+		"body": [
+			"Downloadable.count(${1:options}, ${2:callback});"
+		],
+		"description": "Downloadable.count"
+	},
+	"Downloadable.get": {
+		"prefix": "Downloadable.get",
+		"scope": "javascript",
+		"body": [
+			"Downloadable.get(${1:downloadableId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Downloadable.get"
+	},
+	"Downloadable.createDownloadUrl": {
+		"prefix": "Downloadable.createDownloadUrl",
+		"scope": "javascript",
+		"body": [
+			"Downloadable.createDownloadUrl(${1:downloadableId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Downloadable.createDownloadUrl"
+	},
+	"Group.list": {
+		"prefix": "Group.list",
+		"scope": "javascript",
+		"body": [
+			"Group.list(${1:options}, ${2:callback});"
+		],
+		"description": "Group.list"
+	},
+	"Group.count": {
+		"prefix": "Group.count",
+		"scope": "javascript",
+		"body": [
+			"Group.count(${1:options}, ${2:callback});"
+		],
+		"description": "Group.count"
+	},
+	"Group.get": {
+		"prefix": "Group.get",
+		"scope": "javascript",
+		"body": [
+			"Group.get(${1:groupId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Group.get"
+	},
+	"Group.pullFromMetafield": {
+		"prefix": "Group.pullFromMetafield",
+		"scope": "javascript",
+		"body": [
+			"Group.pullFromMetafield(${1:groupId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Group.pullFromMetafield"
+	},
+	"Group.pushToMetafield": {
+		"prefix": "Group.pushToMetafield",
+		"scope": "javascript",
+		"body": [
+			"Group.pushToMetafield(${1:groupId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Group.pushToMetafield"
+	},
+	"Group.increaseMetafield": {
+		"prefix": "Group.increaseMetafield",
+		"scope": "javascript",
+		"body": [
+			"Group.increaseMetafield(${1:groupId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Group.increaseMetafield"
+	},
+	"Group.deleteMetafield": {
+		"prefix": "Group.deleteMetafield",
+		"scope": "javascript",
+		"body": [
+			"Group.deleteMetafield(${1:groupId}, ${2:field}, ${3:options}, ${4:callback});"
+		],
+		"description": "Group.deleteMetafield"
+	},
+	"Image.list": {
+		"prefix": "Image.list",
+		"scope": "javascript",
+		"body": [
+			"Image.list(${1:options}, ${2:callback});"
+		],
+		"description": "Image.list"
+	},
+	"Image.count": {
+		"prefix": "Image.count",
+		"scope": "javascript",
+		"body": [
+			"Image.count(${1:options}, ${2:callback});"
+		],
+		"description": "Image.count"
+	},
+	"Image.get": {
+		"prefix": "Image.get",
+		"scope": "javascript",
+		"body": [
+			"Image.get(${1:imageId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Image.get"
+	},
+	"Image.listForMe": {
+		"prefix": "Image.listForMe",
+		"scope": "javascript",
+		"body": [
+			"Image.listForMe(${1:options}, ${2:callback});"
+		],
+		"description": "Image.listForMe"
+	},
+	"Image.countForMe": {
+		"prefix": "Image.countForMe",
+		"scope": "javascript",
+		"body": [
+			"Image.countForMe(${1:options}, ${2:callback});"
+		],
+		"description": "Image.countForMe"
+	},
+	"Image.getForMe": {
+		"prefix": "Image.getForMe",
+		"scope": "javascript",
+		"body": [
+			"Image.getForMe(${1:imageId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Image.getForMe"
+	},
+	"Image.create": {
+		"prefix": "Image.create",
+		"scope": "javascript",
+		"body": [
+			"Image.create(${1:payload}, ${2:options}, ${3:callback});"
+		],
+		"description": "Image.create"
+	},
+	"Image.createForMe": {
+		"prefix": "Image.createForMe",
+		"scope": "javascript",
+		"body": [
+			"Image.createForMe(${1:payload}, ${2:options}, ${3:callback});"
+		],
+		"description": "Image.createForMe"
+	},
+	"Image.createAsCustomer": {
+		"prefix": "Image.createAsCustomer",
+		"scope": "javascript",
+		"body": [
+			"Image.createAsCustomer(${1:customerId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Image.createAsCustomer"
+	},
+	"Image.update": {
+		"prefix": "Image.update",
+		"scope": "javascript",
+		"body": [
+			"Image.update(${1:imageId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Image.update"
+	},
+	"Image.updateForMe": {
+		"prefix": "Image.updateForMe",
+		"scope": "javascript",
+		"body": [
+			"Image.updateForMe(${1:imageId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Image.updateForMe"
+	},
+	"Image.updateAsCustomer": {
+		"prefix": "Image.updateAsCustomer",
+		"scope": "javascript",
+		"body": [
+			"Image.updateAsCustomer(${1:customerId}, ${2:imageId}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Image.updateAsCustomer"
+	},
+	"Image.delete": {
+		"prefix": "Image.delete",
+		"scope": "javascript",
+		"body": [
+			"Image.delete(${1:imageId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Image.delete"
+	},
+	"Image.deleteForMe": {
+		"prefix": "Image.deleteForMe",
+		"scope": "javascript",
+		"body": [
+			"Image.deleteForMe(${1:imageId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Image.deleteForMe"
+	},
+	"Image.deleteAsCustomer": {
+		"prefix": "Image.deleteAsCustomer",
+		"scope": "javascript",
+		"body": [
+			"Image.deleteAsCustomer(${1:customerId}, ${2:imageId}, ${3:options}, ${4:callback});"
+		],
+		"description": "Image.deleteAsCustomer"
+	},
+	"Impression.topBrands": {
+		"prefix": "Impression.topBrands",
+		"scope": "javascript",
+		"body": [
+			"Impression.topBrands(${1:scope}, ${2:options}, ${3:callback});"
+		],
+		"description": "Impression.topBrands"
+	},
+	"Impression.topProducts": {
+		"prefix": "Impression.topProducts",
+		"scope": "javascript",
+		"body": [
+			"Impression.topProducts(${1:scope}, ${2:options}, ${3:callback});"
+		],
+		"description": "Impression.topProducts"
+	},
+	"Impression.topCollections": {
+		"prefix": "Impression.topCollections",
+		"scope": "javascript",
+		"body": [
+			"Impression.topCollections(${1:scope}, ${2:options}, ${3:callback});"
+		],
+		"description": "Impression.topCollections"
+	},
+	"Impression.gather": {
+		"prefix": "Impression.gather",
+		"scope": "javascript",
+		"body": [
+			"Impression.gather(${1:scope}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Impression.gather"
+	},
+	"Order.list": {
+		"prefix": "Order.list",
+		"scope": "javascript",
+		"body": [
+			"Order.list(${1:options}, ${2:callback});"
+		],
+		"description": "Order.list"
+	},
+	"Order.listForMe": {
+		"prefix": "Order.listForMe",
+		"scope": "javascript",
+		"body": [
+			"Order.listForMe(${1:options}, ${2:callback});"
+		],
+		"description": "Order.listForMe"
+	},
+	"Order.count": {
+		"prefix": "Order.count",
+		"scope": "javascript",
+		"body": [
+			"Order.count(${1:options}, ${2:callback});"
+		],
+		"description": "Order.count"
+	},
+	"Order.get": {
+		"prefix": "Order.get",
+		"scope": "javascript",
+		"body": [
+			"Order.get(${1:orderId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Order.get"
+	},
+	"Order.countForMe": {
+		"prefix": "Order.countForMe",
+		"scope": "javascript",
+		"body": [
+			"Order.countForMe(${1:options}, ${2:callback});"
+		],
+		"description": "Order.countForMe"
+	},
+	"Order.getForMe": {
+		"prefix": "Order.getForMe",
+		"scope": "javascript",
+		"body": [
+			"Order.getForMe(${1:orderId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Order.getForMe"
+	},
+	"Order.listBySubscription": {
+		"prefix": "Order.listBySubscription",
+		"scope": "javascript",
+		"body": [
+			"Order.listBySubscription(${1:subscriptionId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Order.listBySubscription"
+	},
+	"Order.listBySubscriptionForMe": {
+		"prefix": "Order.listBySubscriptionForMe",
+		"scope": "javascript",
+		"body": [
+			"Order.listBySubscriptionForMe(${1:subscriptionId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Order.listBySubscriptionForMe"
+	},
+	"Order.listInventoryOperations": {
+		"prefix": "Order.listInventoryOperations",
+		"scope": "javascript",
+		"body": [
+			"Order.listInventoryOperations(${1:orderId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Order.listInventoryOperations"
+	},
+	"Order.markAsArrived": {
+		"prefix": "Order.markAsArrived",
+		"scope": "javascript",
+		"body": [
+			"Order.markAsArrived(${1:orderId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Order.markAsArrived"
+	},
+	"Order.markAsDone": {
+		"prefix": "Order.markAsDone",
+		"scope": "javascript",
+		"body": [
+			"Order.markAsDone(${1:orderId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Order.markAsDone"
+	},
+	"Order.syncInventory": {
+		"prefix": "Order.syncInventory",
+		"scope": "javascript",
+		"body": [
+			"Order.syncInventory(${1:orderId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Order.syncInventory"
+	},
+	"Order.createFulfillment": {
+		"prefix": "Order.createFulfillment",
+		"scope": "javascript",
+		"body": [
+			"Order.createFulfillment(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Order.createFulfillment"
+	},
+	"Order.authenticate": {
+		"prefix": "Order.authenticate",
+		"scope": "javascript",
+		"body": [
+			"Order.authenticate(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Order.authenticate"
+	},
+	"Order.cancel": {
+		"prefix": "Order.cancel",
+		"scope": "javascript",
+		"body": [
+			"Order.cancel(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Order.cancel"
+	},
+	"Order.requestRefund": {
+		"prefix": "Order.requestRefund",
+		"scope": "javascript",
+		"body": [
+			"Order.requestRefund(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Order.requestRefund"
+	},
+	"Order.cancelForMe": {
+		"prefix": "Order.cancelForMe",
+		"scope": "javascript",
+		"body": [
+			"Order.cancelForMe(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Order.cancelForMe"
+	},
+	"Order.markAsArrivedForMe": {
+		"prefix": "Order.markAsArrivedForMe",
+		"scope": "javascript",
+		"body": [
+			"Order.markAsArrivedForMe(${1:orderId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Order.markAsArrivedForMe"
+	},
+	"Order.requestRefundForMe": {
+		"prefix": "Order.requestRefundForMe",
+		"scope": "javascript",
+		"body": [
+			"Order.requestRefundForMe(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Order.requestRefundForMe"
+	},
+	"Order.checkTicket": {
+		"prefix": "Order.checkTicket",
+		"scope": "javascript",
+		"body": [
+			"Order.checkTicket(${1:code}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Order.checkTicket"
+	},
+	"Order.useTicket": {
+		"prefix": "Order.useTicket",
+		"scope": "javascript",
+		"body": [
+			"Order.useTicket(${1:code}, ${2:options}, ${3:callback});"
+		],
+		"description": "Order.useTicket"
+	},
+	"Order.requestFullRefund": {
+		"prefix": "Order.requestFullRefund",
+		"scope": "javascript",
+		"body": [
+			"Order.requestFullRefund(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Order.requestFullRefund"
+	},
+	"Order.requestFullRefundForMe": {
+		"prefix": "Order.requestFullRefundForMe",
+		"scope": "javascript",
+		"body": [
+			"Order.requestFullRefundForMe(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Order.requestFullRefundForMe"
+	},
+	"Order.restockRefundItems": {
+		"prefix": "Order.restockRefundItems",
+		"scope": "javascript",
+		"body": [
+			"Order.restockRefundItems(${1:orderId}, ${2:refundId}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Order.restockRefundItems"
+	},
+	"Order.registerPaymentMethod": {
+		"prefix": "Order.registerPaymentMethod",
+		"scope": "javascript",
+		"body": [
+			"Order.registerPaymentMethod(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Order.registerPaymentMethod"
+	},
+	"Order.pullFromMetafield": {
+		"prefix": "Order.pullFromMetafield",
+		"scope": "javascript",
+		"body": [
+			"Order.pullFromMetafield(${1:orderId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Order.pullFromMetafield"
+	},
+	"Order.pushToMetafield": {
+		"prefix": "Order.pushToMetafield",
+		"scope": "javascript",
+		"body": [
+			"Order.pushToMetafield(${1:orderId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Order.pushToMetafield"
+	},
+	"Order.cancelRefund": {
+		"prefix": "Order.cancelRefund",
+		"scope": "javascript",
+		"body": [
+			"Order.cancelRefund(${1:orderId}, ${2:refundId}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Order.cancelRefund"
+	},
+	"Order.acceptRefund": {
+		"prefix": "Order.acceptRefund",
+		"scope": "javascript",
+		"body": [
+			"Order.acceptRefund(${1:orderId}, ${2:refundId}, ${3:options}, ${4:callback});"
+		],
+		"description": "Order.acceptRefund"
+	},
+	"Order.increaseMetafield": {
+		"prefix": "Order.increaseMetafield",
+		"scope": "javascript",
+		"body": [
+			"Order.increaseMetafield(${1:orderId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Order.increaseMetafield"
+	},
+	"Order.cancelRefundForMe": {
+		"prefix": "Order.cancelRefundForMe",
+		"scope": "javascript",
+		"body": [
+			"Order.cancelRefundForMe(${1:orderId}, ${2:refundId}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Order.cancelRefundForMe"
+	},
+	"Order.createDownloadUrl": {
+		"prefix": "Order.createDownloadUrl",
+		"scope": "javascript",
+		"body": [
+			"Order.createDownloadUrl(${1:orderId}, ${2:itemId}, ${3:options}, ${4:callback});"
+		],
+		"description": "Order.createDownloadUrl"
+	},
+	"Order.restockAllRefundItems": {
+		"prefix": "Order.restockAllRefundItems",
+		"scope": "javascript",
+		"body": [
+			"Order.restockAllRefundItems(${1:orderId}, ${2:refundId}, ${3:options}, ${4:callback});"
+		],
+		"description": "Order.restockAllRefundItems"
+	},
+	"Order.createDownloadUrlForMe": {
+		"prefix": "Order.createDownloadUrlForMe",
+		"scope": "javascript",
+		"body": [
+			"Order.createDownloadUrlForMe(${1:orderId}, ${2:itemId}, ${3:options}, ${4:callback});"
+		],
+		"description": "Order.createDownloadUrlForMe"
+	},
+	"Order.update": {
+		"prefix": "Order.update",
+		"scope": "javascript",
+		"body": [
+			"Order.update(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Order.update"
+	},
+	"Order.updateForMe": {
+		"prefix": "Order.updateForMe",
+		"scope": "javascript",
+		"body": [
+			"Order.updateForMe(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Order.updateForMe"
+	},
+	"Order.updateCancellation": {
+		"prefix": "Order.updateCancellation",
+		"scope": "javascript",
+		"body": [
+			"Order.updateCancellation(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Order.updateCancellation"
+	},
+	"Order.updateTransactions": {
+		"prefix": "Order.updateTransactions",
+		"scope": "javascript",
+		"body": [
+			"Order.updateTransactions(${1:orderId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Order.updateTransactions"
+	},
+	"Order.updateTransactionsForMe": {
+		"prefix": "Order.updateTransactionsForMe",
+		"scope": "javascript",
+		"body": [
+			"Order.updateTransactionsForMe(${1:orderId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Order.updateTransactionsForMe"
+	},
+	"Order.updateCancellationForMe": {
+		"prefix": "Order.updateCancellationForMe",
+		"scope": "javascript",
+		"body": [
+			"Order.updateCancellationForMe(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Order.updateCancellationForMe"
+	},
+	"Order.updateRefund": {
+		"prefix": "Order.updateRefund",
+		"scope": "javascript",
+		"body": [
+			"Order.updateRefund(${1:orderId}, ${2:refundId}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Order.updateRefund"
+	},
+	"Order.updateFulfillment": {
+		"prefix": "Order.updateFulfillment",
+		"scope": "javascript",
+		"body": [
+			"Order.updateFulfillment(${1:orderId}, ${2:fulfillmentId}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Order.updateFulfillment"
+	},
+	"Order.updateItem": {
+		"prefix": "Order.updateItem",
+		"scope": "javascript",
+		"body": [
+			"Order.updateItem(${1:orderId}, ${2:itemId}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Order.updateItem"
+	},
+	"Order.updateRefundForMe": {
+		"prefix": "Order.updateRefundForMe",
+		"scope": "javascript",
+		"body": [
+			"Order.updateRefundForMe(${1:orderId}, ${2:refundId}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Order.updateRefundForMe"
+	},
+	"Order.updateRefundCancellation": {
+		"prefix": "Order.updateRefundCancellation",
+		"scope": "javascript",
+		"body": [
+			"Order.updateRefundCancellation(${1:orderId}, ${2:refundId}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Order.updateRefundCancellation"
+	},
+	"Order.updateRefundCancellationForMe": {
+		"prefix": "Order.updateRefundCancellationForMe",
+		"scope": "javascript",
+		"body": [
+			"Order.updateRefundCancellationForMe(${1:orderId}, ${2:refundId}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Order.updateRefundCancellationForMe"
+	},
+	"Order.delete": {
+		"prefix": "Order.delete",
+		"scope": "javascript",
+		"body": [
+			"Order.delete(${1:orderId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Order.delete"
+	},
+	"Order.markAsUndone": {
+		"prefix": "Order.markAsUndone",
+		"scope": "javascript",
+		"body": [
+			"Order.markAsUndone(${1:orderId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Order.markAsUndone"
+	},
+	"Order.markAsNotArrived": {
+		"prefix": "Order.markAsNotArrived",
+		"scope": "javascript",
+		"body": [
+			"Order.markAsNotArrived(${1:orderId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Order.markAsNotArrived"
+	},
+	"Order.markAsNotArrivedForMe": {
+		"prefix": "Order.markAsNotArrivedForMe",
+		"scope": "javascript",
+		"body": [
+			"Order.markAsNotArrivedForMe(${1:orderId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Order.markAsNotArrivedForMe"
+	},
+	"Order.deleteFulfillment": {
+		"prefix": "Order.deleteFulfillment",
+		"scope": "javascript",
+		"body": [
+			"Order.deleteFulfillment(${1:orderId}, ${2:fulfillmentId}, ${3:options}, ${4:callback});"
+		],
+		"description": "Order.deleteFulfillment"
+	},
+	"Order.deleteMetafield": {
+		"prefix": "Order.deleteMetafield",
+		"scope": "javascript",
+		"body": [
+			"Order.deleteMetafield(${1:orderId}, ${2:field}, ${3:options}, ${4:callback});"
+		],
+		"description": "Order.deleteMetafield"
+	},
+	"Order.deleteRefund": {
+		"prefix": "Order.deleteRefund",
+		"scope": "javascript",
+		"body": [
+			"Order.deleteRefund(${1:orderId}, ${2:refundId}, ${3:options}, ${4:callback});"
+		],
+		"description": "Order.deleteRefund"
+	},
+	"Order.deleteInventoryOperation": {
+		"prefix": "Order.deleteInventoryOperation",
+		"scope": "javascript",
+		"body": [
+			"Order.deleteInventoryOperation(${1:orderId}, ${2:operationId}, ${3:options}, ${4:callback});"
+		],
+		"description": "Order.deleteInventoryOperation"
+	},
+	"Order.unacceptRefund": {
+		"prefix": "Order.unacceptRefund",
+		"scope": "javascript",
+		"body": [
+			"Order.unacceptRefund(${1:orderId}, ${2:refundId}, ${3:options}, ${4:callback});"
+		],
+		"description": "Order.unacceptRefund"
+	},
+	"Order.unregisterPaymentMethod": {
+		"prefix": "Order.unregisterPaymentMethod",
+		"scope": "javascript",
+		"body": [
+			"Order.unregisterPaymentMethod(${1:orderId}, ${2:paymentMethodId}, ${3:options}, ${4:callback});"
+		],
+		"description": "Order.unregisterPaymentMethod"
+	},
+	"OrderTag.list": {
+		"prefix": "OrderTag.list",
+		"scope": "javascript",
+		"body": [
+			"OrderTag.list(${1:options}, ${2:callback});"
+		],
+		"description": "OrderTag.list"
+	},
+	"OrderTag.count": {
+		"prefix": "OrderTag.count",
+		"scope": "javascript",
+		"body": [
+			"OrderTag.count(${1:options}, ${2:callback});"
+		],
+		"description": "OrderTag.count"
+	},
+	"OrderTag.get": {
+		"prefix": "OrderTag.get",
+		"scope": "javascript",
+		"body": [
+			"OrderTag.get(${1:orderTagId}, ${2:options}, ${3:callback});"
+		],
+		"description": "OrderTag.get"
+	},
+	"PaymentMethod.list": {
+		"prefix": "PaymentMethod.list",
+		"scope": "javascript",
+		"body": [
+			"PaymentMethod.list(${1:options}, ${2:callback});"
+		],
+		"description": "PaymentMethod.list"
+	},
+	"PaymentMethod.count": {
+		"prefix": "PaymentMethod.count",
+		"scope": "javascript",
+		"body": [
+			"PaymentMethod.count(${1:options}, ${2:callback});"
+		],
+		"description": "PaymentMethod.count"
+	},
+	"PaymentMethod.get": {
+		"prefix": "PaymentMethod.get",
+		"scope": "javascript",
+		"body": [
+			"PaymentMethod.get(${1:paymentMethodId}, ${2:options}, ${3:callback});"
+		],
+		"description": "PaymentMethod.get"
+	},
+	"Product.list": {
+		"prefix": "Product.list",
+		"scope": "javascript",
+		"body": [
+			"Product.list(${1:options}, ${2:callback});"
+		],
+		"description": "Product.list"
+	},
+	"Product.count": {
+		"prefix": "Product.count",
+		"scope": "javascript",
+		"body": [
+			"Product.count(${1:options}, ${2:callback});"
+		],
+		"description": "Product.count"
+	},
+	"Product.get": {
+		"prefix": "Product.get",
+		"scope": "javascript",
+		"body": [
+			"Product.get(${1:productId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Product.get"
+	},
+	"Product.increaseMetafield": {
+		"prefix": "Product.increaseMetafield",
+		"scope": "javascript",
+		"body": [
+			"Product.increaseMetafield(${1:productId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Product.increaseMetafield"
+	},
+	"Product.pullFromMetafield": {
+		"prefix": "Product.pullFromMetafield",
+		"scope": "javascript",
+		"body": [
+			"Product.pullFromMetafield(${1:productId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Product.pullFromMetafield"
+	},
+	"Product.pushToMetafield": {
+		"prefix": "Product.pushToMetafield",
+		"scope": "javascript",
+		"body": [
+			"Product.pushToMetafield(${1:productId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Product.pushToMetafield"
+	},
+	"Product.deleteMetafield": {
+		"prefix": "Product.deleteMetafield",
+		"scope": "javascript",
+		"body": [
+			"Product.deleteMetafield(${1:productId}, ${2:field}, ${3:options}, ${4:callback});"
+		],
+		"description": "Product.deleteMetafield"
+	},
+	"Review.list": {
+		"prefix": "Review.list",
+		"scope": "javascript",
+		"body": [
+			"Review.list(${1:options}, ${2:callback});"
+		],
+		"description": "Review.list"
+	},
+	"Review.count": {
+		"prefix": "Review.count",
+		"scope": "javascript",
+		"body": [
+			"Review.count(${1:options}, ${2:callback});"
+		],
+		"description": "Review.count"
+	},
+	"Review.listPublished": {
+		"prefix": "Review.listPublished",
+		"scope": "javascript",
+		"body": [
+			"Review.listPublished(${1:options}, ${2:callback});"
+		],
+		"description": "Review.listPublished"
+	},
+	"Review.get": {
+		"prefix": "Review.get",
+		"scope": "javascript",
+		"body": [
+			"Review.get(${1:reviewId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Review.get"
+	},
+	"Review.countPublished": {
+		"prefix": "Review.countPublished",
+		"scope": "javascript",
+		"body": [
+			"Review.countPublished(${1:options}, ${2:callback});"
+		],
+		"description": "Review.countPublished"
+	},
+	"Review.getPublished": {
+		"prefix": "Review.getPublished",
+		"scope": "javascript",
+		"body": [
+			"Review.getPublished(${1:reviewId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Review.getPublished"
+	},
+	"Review.create": {
+		"prefix": "Review.create",
+		"scope": "javascript",
+		"body": [
+			"Review.create(${1:payload}, ${2:options}, ${3:callback});"
+		],
+		"description": "Review.create"
+	},
+	"Review.createForMe": {
+		"prefix": "Review.createForMe",
+		"scope": "javascript",
+		"body": [
+			"Review.createForMe(${1:payload}, ${2:options}, ${3:callback});"
+		],
+		"description": "Review.createForMe"
+	},
+	"Review.flag": {
+		"prefix": "Review.flag",
+		"scope": "javascript",
+		"body": [
+			"Review.flag(${1:reviewId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Review.flag"
+	},
+	"Review.flagForMe": {
+		"prefix": "Review.flagForMe",
+		"scope": "javascript",
+		"body": [
+			"Review.flagForMe(${1:reviewId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Review.flagForMe"
+	},
+	"Review.helped": {
+		"prefix": "Review.helped",
+		"scope": "javascript",
+		"body": [
+			"Review.helped(${1:reviewId}, ${2:upDown}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Review.helped"
+	},
+	"Review.helpedForMe": {
+		"prefix": "Review.helpedForMe",
+		"scope": "javascript",
+		"body": [
+			"Review.helpedForMe(${1:reviewId}, ${2:upDown}, ${3:options}, ${4:callback});"
+		],
+		"description": "Review.helpedForMe"
+	},
+	"Review.increaseMetafield": {
+		"prefix": "Review.increaseMetafield",
+		"scope": "javascript",
+		"body": [
+			"Review.increaseMetafield(${1:reviewId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Review.increaseMetafield"
+	},
+	"Review.pullFromMetafield": {
+		"prefix": "Review.pullFromMetafield",
+		"scope": "javascript",
+		"body": [
+			"Review.pullFromMetafield(${1:reviewId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Review.pullFromMetafield"
+	},
+	"Review.pushToMetafield": {
+		"prefix": "Review.pushToMetafield",
+		"scope": "javascript",
+		"body": [
+			"Review.pushToMetafield(${1:reviewId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Review.pushToMetafield"
+	},
+	"Review.update": {
+		"prefix": "Review.update",
+		"scope": "javascript",
+		"body": [
+			"Review.update(${1:reviewId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Review.update"
+	},
+	"Review.updateForMe": {
+		"prefix": "Review.updateForMe",
+		"scope": "javascript",
+		"body": [
+			"Review.updateForMe(${1:reviewId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Review.updateForMe"
+	},
+	"Review.delete": {
+		"prefix": "Review.delete",
+		"scope": "javascript",
+		"body": [
+			"Review.delete(${1:reviewId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Review.delete"
+	},
+	"Review.deleteForMe": {
+		"prefix": "Review.deleteForMe",
+		"scope": "javascript",
+		"body": [
+			"Review.deleteForMe(${1:reviewId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Review.deleteForMe"
+	},
+	"Review.cancelFlagForMe": {
+		"prefix": "Review.cancelFlagForMe",
+		"scope": "javascript",
+		"body": [
+			"Review.cancelFlagForMe(${1:reviewId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Review.cancelFlagForMe"
+	},
+	"Review.cancelFlag": {
+		"prefix": "Review.cancelFlag",
+		"scope": "javascript",
+		"body": [
+			"Review.cancelFlag(${1:reviewId}, ${2:customerId}, ${3:options}, ${4:callback});"
+		],
+		"description": "Review.cancelFlag"
+	},
+	"Review.deleteMetafield": {
+		"prefix": "Review.deleteMetafield",
+		"scope": "javascript",
+		"body": [
+			"Review.deleteMetafield(${1:reviewId}, ${2:field}, ${3:options}, ${4:callback});"
+		],
+		"description": "Review.deleteMetafield"
+	},
+	"Review.cancelHelpedForMe": {
+		"prefix": "Review.cancelHelpedForMe",
+		"scope": "javascript",
+		"body": [
+			"Review.cancelHelpedForMe(${1:reviewId}, ${2:upDown}, ${3:options}, ${4:callback});"
+		],
+		"description": "Review.cancelHelpedForMe"
+	},
+	"Review.cancelHelped": {
+		"prefix": "Review.cancelHelped",
+		"scope": "javascript",
+		"body": [
+			"Review.cancelHelped(${1:reviewId}, ${2:upDown}, ${3:customerId}, ${4:options}, ${5:callback});"
+		],
+		"description": "Review.cancelHelped"
+	},
+	"ReviewComment.list": {
+		"prefix": "ReviewComment.list",
+		"scope": "javascript",
+		"body": [
+			"ReviewComment.list(${1:options}, ${2:callback});"
+		],
+		"description": "ReviewComment.list"
+	},
+	"ReviewComment.count": {
+		"prefix": "ReviewComment.count",
+		"scope": "javascript",
+		"body": [
+			"ReviewComment.count(${1:options}, ${2:callback});"
+		],
+		"description": "ReviewComment.count"
+	},
+	"ReviewComment.get": {
+		"prefix": "ReviewComment.get",
+		"scope": "javascript",
+		"body": [
+			"ReviewComment.get(${1:reviewCommentId}, ${2:options}, ${3:callback});"
+		],
+		"description": "ReviewComment.get"
+	},
+	"ReviewComment.create": {
+		"prefix": "ReviewComment.create",
+		"scope": "javascript",
+		"body": [
+			"ReviewComment.create(${1:payload}, ${2:options}, ${3:callback});"
+		],
+		"description": "ReviewComment.create"
+	},
+	"ReviewComment.createForMe": {
+		"prefix": "ReviewComment.createForMe",
+		"scope": "javascript",
+		"body": [
+			"ReviewComment.createForMe(${1:payload}, ${2:options}, ${3:callback});"
+		],
+		"description": "ReviewComment.createForMe"
+	},
+	"ReviewComment.flag": {
+		"prefix": "ReviewComment.flag",
+		"scope": "javascript",
+		"body": [
+			"ReviewComment.flag(${1:reviewCommentId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "ReviewComment.flag"
+	},
+	"ReviewComment.flagForMe": {
+		"prefix": "ReviewComment.flagForMe",
+		"scope": "javascript",
+		"body": [
+			"ReviewComment.flagForMe(${1:reviewCommentId}, ${2:options}, ${3:callback});"
+		],
+		"description": "ReviewComment.flagForMe"
+	},
+	"ReviewComment.increaseMetafield": {
+		"prefix": "ReviewComment.increaseMetafield",
+		"scope": "javascript",
+		"body": [
+			"ReviewComment.increaseMetafield(${1:reviewCommentId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "ReviewComment.increaseMetafield"
+	},
+	"ReviewComment.pushToMetafield": {
+		"prefix": "ReviewComment.pushToMetafield",
+		"scope": "javascript",
+		"body": [
+			"ReviewComment.pushToMetafield(${1:reviewCommentId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "ReviewComment.pushToMetafield"
+	},
+	"ReviewComment.pullFromMetafield": {
+		"prefix": "ReviewComment.pullFromMetafield",
+		"scope": "javascript",
+		"body": [
+			"ReviewComment.pullFromMetafield(${1:reviewCommentId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "ReviewComment.pullFromMetafield"
+	},
+	"ReviewComment.update": {
+		"prefix": "ReviewComment.update",
+		"scope": "javascript",
+		"body": [
+			"ReviewComment.update(${1:reviewCommentId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "ReviewComment.update"
+	},
+	"ReviewComment.updateForMe": {
+		"prefix": "ReviewComment.updateForMe",
+		"scope": "javascript",
+		"body": [
+			"ReviewComment.updateForMe(${1:reviewCommentId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "ReviewComment.updateForMe"
+	},
+	"ReviewComment.delete": {
+		"prefix": "ReviewComment.delete",
+		"scope": "javascript",
+		"body": [
+			"ReviewComment.delete(${1:reviewCommentId}, ${2:options}, ${3:callback});"
+		],
+		"description": "ReviewComment.delete"
+	},
+	"ReviewComment.deleteForMe": {
+		"prefix": "ReviewComment.deleteForMe",
+		"scope": "javascript",
+		"body": [
+			"ReviewComment.deleteForMe(${1:reviewCommentId}, ${2:options}, ${3:callback});"
+		],
+		"description": "ReviewComment.deleteForMe"
+	},
+	"ReviewComment.cancelFlagForMe": {
+		"prefix": "ReviewComment.cancelFlagForMe",
+		"scope": "javascript",
+		"body": [
+			"ReviewComment.cancelFlagForMe(${1:reviewCommentId}, ${2:options}, ${3:callback});"
+		],
+		"description": "ReviewComment.cancelFlagForMe"
+	},
+	"ReviewComment.deleteMetafield": {
+		"prefix": "ReviewComment.deleteMetafield",
+		"scope": "javascript",
+		"body": [
+			"ReviewComment.deleteMetafield(${1:reviewCommentId}, ${2:field}, ${3:options}, ${4:callback});"
+		],
+		"description": "ReviewComment.deleteMetafield"
+	},
+	"ReviewComment.cancelFlag": {
+		"prefix": "ReviewComment.cancelFlag",
+		"scope": "javascript",
+		"body": [
+			"ReviewComment.cancelFlag(${1:reviewCommentId}, ${2:customerId}, ${3:options}, ${4:callback});"
+		],
+		"description": "ReviewComment.cancelFlag"
+	},
+	"ShippingMethod.list": {
+		"prefix": "ShippingMethod.list",
+		"scope": "javascript",
+		"body": [
+			"ShippingMethod.list(${1:options}, ${2:callback});"
+		],
+		"description": "ShippingMethod.list"
+	},
+	"ShippingMethod.count": {
+		"prefix": "ShippingMethod.count",
+		"scope": "javascript",
+		"body": [
+			"ShippingMethod.count(${1:options}, ${2:callback});"
+		],
+		"description": "ShippingMethod.count"
+	},
+	"ShippingMethod.get": {
+		"prefix": "ShippingMethod.get",
+		"scope": "javascript",
+		"body": [
+			"ShippingMethod.get(${1:shippingMethodId}, ${2:options}, ${3:callback});"
+		],
+		"description": "ShippingMethod.get"
+	},
+	"Store.get": {
+		"prefix": "Store.get",
+		"scope": "javascript",
+		"body": [
+			"Store.get(${1:options}, ${2:callback});"
+		],
+		"description": "Store.get"
+	},
+	"Store.pushToMetafield": {
+		"prefix": "Store.pushToMetafield",
+		"scope": "javascript",
+		"body": [
+			"Store.pushToMetafield(${1:field}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Store.pushToMetafield"
+	},
+	"Store.increaseMetafield": {
+		"prefix": "Store.increaseMetafield",
+		"scope": "javascript",
+		"body": [
+			"Store.increaseMetafield(${1:field}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Store.increaseMetafield"
+	},
+	"Store.pullFromMetafield": {
+		"prefix": "Store.pullFromMetafield",
+		"scope": "javascript",
+		"body": [
+			"Store.pullFromMetafield(${1:field}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Store.pullFromMetafield"
+	},
+	"Store.deleteMetafield": {
+		"prefix": "Store.deleteMetafield",
+		"scope": "javascript",
+		"body": [
+			"Store.deleteMetafield(${1:field}, ${2:options}, ${3:callback});"
+		],
+		"description": "Store.deleteMetafield"
+	},
+	"Subscription.list": {
+		"prefix": "Subscription.list",
+		"scope": "javascript",
+		"body": [
+			"Subscription.list(${1:options}, ${2:callback});"
+		],
+		"description": "Subscription.list"
+	},
+	"Subscription.listForMe": {
+		"prefix": "Subscription.listForMe",
+		"scope": "javascript",
+		"body": [
+			"Subscription.listForMe(${1:options}, ${2:callback});"
+		],
+		"description": "Subscription.listForMe"
+	},
+	"Subscription.count": {
+		"prefix": "Subscription.count",
+		"scope": "javascript",
+		"body": [
+			"Subscription.count(${1:options}, ${2:callback});"
+		],
+		"description": "Subscription.count"
+	},
+	"Subscription.get": {
+		"prefix": "Subscription.get",
+		"scope": "javascript",
+		"body": [
+			"Subscription.get(${1:subscriptionId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Subscription.get"
+	},
+	"Subscription.countForMe": {
+		"prefix": "Subscription.countForMe",
+		"scope": "javascript",
+		"body": [
+			"Subscription.countForMe(${1:options}, ${2:callback});"
+		],
+		"description": "Subscription.countForMe"
+	},
+	"Subscription.getForMe": {
+		"prefix": "Subscription.getForMe",
+		"scope": "javascript",
+		"body": [
+			"Subscription.getForMe(${1:subscriptionId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Subscription.getForMe"
+	},
+	"Subscription.listInventoryOperations": {
+		"prefix": "Subscription.listInventoryOperations",
+		"scope": "javascript",
+		"body": [
+			"Subscription.listInventoryOperations(${1:subscriptionId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Subscription.listInventoryOperations"
+	},
+	"Subscription.authenticate": {
+		"prefix": "Subscription.authenticate",
+		"scope": "javascript",
+		"body": [
+			"Subscription.authenticate(${1:subscriptionId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Subscription.authenticate"
+	},
+	"Subscription.markAsDone": {
+		"prefix": "Subscription.markAsDone",
+		"scope": "javascript",
+		"body": [
+			"Subscription.markAsDone(${1:subscriptionId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Subscription.markAsDone"
+	},
+	"Subscription.cancel": {
+		"prefix": "Subscription.cancel",
+		"scope": "javascript",
+		"body": [
+			"Subscription.cancel(${1:subscriptionId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Subscription.cancel"
+	},
+	"Subscription.syncInventory": {
+		"prefix": "Subscription.syncInventory",
+		"scope": "javascript",
+		"body": [
+			"Subscription.syncInventory(${1:subscriptionId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Subscription.syncInventory"
+	},
+	"Subscription.schedule": {
+		"prefix": "Subscription.schedule",
+		"scope": "javascript",
+		"body": [
+			"Subscription.schedule(${1:subscriptionId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Subscription.schedule"
+	},
+	"Subscription.cancelForMe": {
+		"prefix": "Subscription.cancelForMe",
+		"scope": "javascript",
+		"body": [
+			"Subscription.cancelForMe(${1:subscriptionId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Subscription.cancelForMe"
+	},
+	"Subscription.scheduleForMe": {
+		"prefix": "Subscription.scheduleForMe",
+		"scope": "javascript",
+		"body": [
+			"Subscription.scheduleForMe(${1:subscriptionId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Subscription.scheduleForMe"
+	},
+	"Subscription.fulfillSchedule": {
+		"prefix": "Subscription.fulfillSchedule",
+		"scope": "javascript",
+		"body": [
+			"Subscription.fulfillSchedule(${1:subscriptionId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Subscription.fulfillSchedule"
+	},
+	"Subscription.pullFromMetafield": {
+		"prefix": "Subscription.pullFromMetafield",
+		"scope": "javascript",
+		"body": [
+			"Subscription.pullFromMetafield(${1:subscriptionId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Subscription.pullFromMetafield"
+	},
+	"Subscription.pushToMetafield": {
+		"prefix": "Subscription.pushToMetafield",
+		"scope": "javascript",
+		"body": [
+			"Subscription.pushToMetafield(${1:subscriptionId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Subscription.pushToMetafield"
+	},
+	"Subscription.increaseMetafield": {
+		"prefix": "Subscription.increaseMetafield",
+		"scope": "javascript",
+		"body": [
+			"Subscription.increaseMetafield(${1:subscriptionId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "Subscription.increaseMetafield"
+	},
+	"Subscription.updateCancellation": {
+		"prefix": "Subscription.updateCancellation",
+		"scope": "javascript",
+		"body": [
+			"Subscription.updateCancellation(${1:subscriptionId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Subscription.updateCancellation"
+	},
+	"Subscription.updateCancellationForMe": {
+		"prefix": "Subscription.updateCancellationForMe",
+		"scope": "javascript",
+		"body": [
+			"Subscription.updateCancellationForMe(${1:subscriptionId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Subscription.updateCancellationForMe"
+	},
+	"Subscription.delete": {
+		"prefix": "Subscription.delete",
+		"scope": "javascript",
+		"body": [
+			"Subscription.delete(${1:subscriptionId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Subscription.delete"
+	},
+	"Subscription.markAsUndone": {
+		"prefix": "Subscription.markAsUndone",
+		"scope": "javascript",
+		"body": [
+			"Subscription.markAsUndone(${1:subscriptionId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Subscription.markAsUndone"
+	},
+	"Subscription.deleteMetafield": {
+		"prefix": "Subscription.deleteMetafield",
+		"scope": "javascript",
+		"body": [
+			"Subscription.deleteMetafield(${1:subscriptionId}, ${2:field}, ${3:options}, ${4:callback});"
+		],
+		"description": "Subscription.deleteMetafield"
+	},
+	"Subscription.deleteInventoryOperation": {
+		"prefix": "Subscription.deleteInventoryOperation",
+		"scope": "javascript",
+		"body": [
+			"Subscription.deleteInventoryOperation(${1:subscriptionId}, ${2:operationId}, ${3:options}, ${4:callback});"
+		],
+		"description": "Subscription.deleteInventoryOperation"
+	},
+	"SubscriptionPlan.list": {
+		"prefix": "SubscriptionPlan.list",
+		"scope": "javascript",
+		"body": [
+			"SubscriptionPlan.list(${1:options}, ${2:callback});"
+		],
+		"description": "SubscriptionPlan.list"
+	},
+	"SubscriptionPlan.count": {
+		"prefix": "SubscriptionPlan.count",
+		"scope": "javascript",
+		"body": [
+			"SubscriptionPlan.count(${1:options}, ${2:callback});"
+		],
+		"description": "SubscriptionPlan.count"
+	},
+	"SubscriptionPlan.get": {
+		"prefix": "SubscriptionPlan.get",
+		"scope": "javascript",
+		"body": [
+			"SubscriptionPlan.get(${1:subscriptionPlanId}, ${2:options}, ${3:callback});"
+		],
+		"description": "SubscriptionPlan.get"
+	},
+	"TaxCategory.list": {
+		"prefix": "TaxCategory.list",
+		"scope": "javascript",
+		"body": [
+			"TaxCategory.list(${1:options}, ${2:callback});"
+		],
+		"description": "TaxCategory.list"
+	},
+	"TaxCategory.count": {
+		"prefix": "TaxCategory.count",
+		"scope": "javascript",
+		"body": [
+			"TaxCategory.count(${1:options}, ${2:callback});"
+		],
+		"description": "TaxCategory.count"
+	},
+	"TaxCategory.get": {
+		"prefix": "TaxCategory.get",
+		"scope": "javascript",
+		"body": [
+			"TaxCategory.get(${1:taxCategoryId}, ${2:options}, ${3:callback});"
+		],
+		"description": "TaxCategory.get"
+	},
+	"Tracker.getByCustomerForMe": {
+		"prefix": "Tracker.getByCustomerForMe",
+		"scope": "javascript",
+		"body": [
+			"Tracker.getByCustomerForMe(${1:options}, ${2:callback});"
+		],
+		"description": "Tracker.getByCustomerForMe"
+	},
+	"Tracker.get": {
+		"prefix": "Tracker.get",
+		"scope": "javascript",
+		"body": [
+			"Tracker.get(${1:trackerId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Tracker.get"
+	},
+	"Tracker.getByCustomer": {
+		"prefix": "Tracker.getByCustomer",
+		"scope": "javascript",
+		"body": [
+			"Tracker.getByCustomer(${1:customerId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Tracker.getByCustomer"
+	},
+	"Tracker.getForMe": {
+		"prefix": "Tracker.getForMe",
+		"scope": "javascript",
+		"body": [
+			"Tracker.getForMe(${1:trackerId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Tracker.getForMe"
+	},
+	"Tracker.getAsNonRegisteredForMe": {
+		"prefix": "Tracker.getAsNonRegisteredForMe",
+		"scope": "javascript",
+		"body": [
+			"Tracker.getAsNonRegisteredForMe(${1:trackerId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Tracker.getAsNonRegisteredForMe"
+	},
+	"Tracker.create": {
+		"prefix": "Tracker.create",
+		"scope": "javascript",
+		"body": [
+			"Tracker.create(${1:payload}, ${2:options}, ${3:callback});"
+		],
+		"description": "Tracker.create"
+	},
+	"Tracker.createForMe": {
+		"prefix": "Tracker.createForMe",
+		"scope": "javascript",
+		"body": [
+			"Tracker.createForMe(${1:options}, ${2:callback});"
+		],
+		"description": "Tracker.createForMe"
+	},
+	"Tracker.createAsNonRegisteredForMe": {
+		"prefix": "Tracker.createAsNonRegisteredForMe",
+		"scope": "javascript",
+		"body": [
+			"Tracker.createAsNonRegisteredForMe(${1:options}, ${2:callback});"
+		],
+		"description": "Tracker.createAsNonRegisteredForMe"
+	},
+	"Tracker.changeOwner": {
+		"prefix": "Tracker.changeOwner",
+		"scope": "javascript",
+		"body": [
+			"Tracker.changeOwner(${1:trackerId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "Tracker.changeOwner"
+	},
+	"Tracker.changeOwnerForMe": {
+		"prefix": "Tracker.changeOwnerForMe",
+		"scope": "javascript",
+		"body": [
+			"Tracker.changeOwnerForMe(${1:trackerId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Tracker.changeOwnerForMe"
+	},
+	"Tracker.delete": {
+		"prefix": "Tracker.delete",
+		"scope": "javascript",
+		"body": [
+			"Tracker.delete(${1:trackerId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Tracker.delete"
+	},
+	"Tracker.deleteForMe": {
+		"prefix": "Tracker.deleteForMe",
+		"scope": "javascript",
+		"body": [
+			"Tracker.deleteForMe(${1:trackerId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Tracker.deleteForMe"
+	},
+	"Tracker.deleteAsNonRegisteredForMe": {
+		"prefix": "Tracker.deleteAsNonRegisteredForMe",
+		"scope": "javascript",
+		"body": [
+			"Tracker.deleteAsNonRegisteredForMe(${1:trackerId}, ${2:options}, ${3:callback});"
+		],
+		"description": "Tracker.deleteAsNonRegisteredForMe"
+	},
+	"WishList.list": {
+		"prefix": "WishList.list",
+		"scope": "javascript",
+		"body": [
+			"WishList.list(${1:options}, ${2:callback});"
+		],
+		"description": "WishList.list"
+	},
+	"WishList.listForMe": {
+		"prefix": "WishList.listForMe",
+		"scope": "javascript",
+		"body": [
+			"WishList.listForMe(${1:options}, ${2:callback});"
+		],
+		"description": "WishList.listForMe"
+	},
+	"WishList.count": {
+		"prefix": "WishList.count",
+		"scope": "javascript",
+		"body": [
+			"WishList.count(${1:options}, ${2:callback});"
+		],
+		"description": "WishList.count"
+	},
+	"WishList.get": {
+		"prefix": "WishList.get",
+		"scope": "javascript",
+		"body": [
+			"WishList.get(${1:wishListId}, ${2:options}, ${3:callback});"
+		],
+		"description": "WishList.get"
+	},
+	"WishList.countForMe": {
+		"prefix": "WishList.countForMe",
+		"scope": "javascript",
+		"body": [
+			"WishList.countForMe(${1:options}, ${2:callback});"
+		],
+		"description": "WishList.countForMe"
+	},
+	"WishList.getForMe": {
+		"prefix": "WishList.getForMe",
+		"scope": "javascript",
+		"body": [
+			"WishList.getForMe(${1:wishListId}, ${2:options}, ${3:callback});"
+		],
+		"description": "WishList.getForMe"
+	},
+	"WishList.listProducts": {
+		"prefix": "WishList.listProducts",
+		"scope": "javascript",
+		"body": [
+			"WishList.listProducts(${1:wishListId}, ${2:options}, ${3:callback});"
+		],
+		"description": "WishList.listProducts"
+	},
+	"WishList.listProductsForMe": {
+		"prefix": "WishList.listProductsForMe",
+		"scope": "javascript",
+		"body": [
+			"WishList.listProductsForMe(${1:wishListId}, ${2:options}, ${3:callback});"
+		],
+		"description": "WishList.listProductsForMe"
+	},
+	"WishList.countProducts": {
+		"prefix": "WishList.countProducts",
+		"scope": "javascript",
+		"body": [
+			"WishList.countProducts(${1:wishListId}, ${2:options}, ${3:callback});"
+		],
+		"description": "WishList.countProducts"
+	},
+	"WishList.countProductsForMe": {
+		"prefix": "WishList.countProductsForMe",
+		"scope": "javascript",
+		"body": [
+			"WishList.countProductsForMe(${1:wishListId}, ${2:options}, ${3:callback});"
+		],
+		"description": "WishList.countProductsForMe"
+	},
+	"WishList.create": {
+		"prefix": "WishList.create",
+		"scope": "javascript",
+		"body": [
+			"WishList.create(${1:payload}, ${2:options}, ${3:callback});"
+		],
+		"description": "WishList.create"
+	},
+	"WishList.createForMe": {
+		"prefix": "WishList.createForMe",
+		"scope": "javascript",
+		"body": [
+			"WishList.createForMe(${1:payload}, ${2:options}, ${3:callback});"
+		],
+		"description": "WishList.createForMe"
+	},
+	"WishList.addItem": {
+		"prefix": "WishList.addItem",
+		"scope": "javascript",
+		"body": [
+			"WishList.addItem(${1:wishListId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "WishList.addItem"
+	},
+	"WishList.addItemForMe": {
+		"prefix": "WishList.addItemForMe",
+		"scope": "javascript",
+		"body": [
+			"WishList.addItemForMe(${1:wishListId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "WishList.addItemForMe"
+	},
+	"WishList.pullFromMetafield": {
+		"prefix": "WishList.pullFromMetafield",
+		"scope": "javascript",
+		"body": [
+			"WishList.pullFromMetafield(${1:wishListId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "WishList.pullFromMetafield"
+	},
+	"WishList.pushToMetafield": {
+		"prefix": "WishList.pushToMetafield",
+		"scope": "javascript",
+		"body": [
+			"WishList.pushToMetafield(${1:wishListId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "WishList.pushToMetafield"
+	},
+	"WishList.increaseMetafield": {
+		"prefix": "WishList.increaseMetafield",
+		"scope": "javascript",
+		"body": [
+			"WishList.increaseMetafield(${1:wishListId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});"
+		],
+		"description": "WishList.increaseMetafield"
+	},
+	"WishList.update": {
+		"prefix": "WishList.update",
+		"scope": "javascript",
+		"body": [
+			"WishList.update(${1:wishListId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "WishList.update"
+	},
+	"WishList.updateForMe": {
+		"prefix": "WishList.updateForMe",
+		"scope": "javascript",
+		"body": [
+			"WishList.updateForMe(${1:wishListId}, ${2:payload}, ${3:options}, ${4:callback});"
+		],
+		"description": "WishList.updateForMe"
+	},
+	"WishList.delete": {
+		"prefix": "WishList.delete",
+		"scope": "javascript",
+		"body": [
+			"WishList.delete(${1:wishListId}, ${2:options}, ${3:callback});"
+		],
+		"description": "WishList.delete"
+	},
+	"WishList.deleteForMe": {
+		"prefix": "WishList.deleteForMe",
+		"scope": "javascript",
+		"body": [
+			"WishList.deleteForMe(${1:wishListId}, ${2:options}, ${3:callback});"
+		],
+		"description": "WishList.deleteForMe"
+	},
+	"WishList.empty": {
+		"prefix": "WishList.empty",
+		"scope": "javascript",
+		"body": [
+			"WishList.empty(${1:wishListId}, ${2:options}, ${3:callback});"
+		],
+		"description": "WishList.empty"
+	},
+	"WishList.emptyForMe": {
+		"prefix": "WishList.emptyForMe",
+		"scope": "javascript",
+		"body": [
+			"WishList.emptyForMe(${1:wishListId}, ${2:options}, ${3:callback});"
+		],
+		"description": "WishList.emptyForMe"
+	},
+	"WishList.deleteItem": {
+		"prefix": "WishList.deleteItem",
+		"scope": "javascript",
+		"body": [
+			"WishList.deleteItem(${1:wishListId}, ${2:productId}, ${3:options}, ${4:callback});"
+		],
+		"description": "WishList.deleteItem"
+	},
+	"WishList.deleteMetafield": {
+		"prefix": "WishList.deleteMetafield",
+		"scope": "javascript",
+		"body": [
+			"WishList.deleteMetafield(${1:wishListId}, ${2:field}, ${3:options}, ${4:callback});"
+		],
+		"description": "WishList.deleteMetafield"
+	},
+	"WishList.deleteItemForMe": {
+		"prefix": "WishList.deleteItemForMe",
+		"scope": "javascript",
+		"body": [
+			"WishList.deleteItemForMe(${1:wishListId}, ${2:productId}, ${3:options}, ${4:callback});"
+		],
+		"description": "WishList.deleteItemForMe"
+	}
+}

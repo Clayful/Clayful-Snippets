@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Customer.list_by_flag_votes(${1:vote_model}, ${2:vote_model_id}, ${3:options})
+]]></content >
+	<description>Customer.listByFlagVotes</description>
+	<tabTrigger>Customer.listByFlagVotes</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

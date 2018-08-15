@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Order.sync_inventory(${1:order_id}, ${2:options})
+]]></content >
+	<description>Order.syncInventory</description>
+	<tabTrigger>Order.syncInventory</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

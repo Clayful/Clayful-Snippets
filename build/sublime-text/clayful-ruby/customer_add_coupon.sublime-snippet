@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Customer.add_coupon(${1:customer_id}, ${2:payload}, ${3:options})
+]]></content >
+	<description>Customer.addCoupon</description>
+	<tabTrigger>Customer.addCoupon</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

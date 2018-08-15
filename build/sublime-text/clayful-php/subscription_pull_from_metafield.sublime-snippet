@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Subscription::pullFromMetafield(${1:\$subscriptionId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+]]></content >
+	<description>Subscription::pullFromMetafield</description>
+	<tabTrigger>Subscription::pullFromMetafield</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

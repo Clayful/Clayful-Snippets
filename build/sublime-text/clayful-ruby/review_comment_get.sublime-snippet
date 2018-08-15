@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = ReviewComment.get(${1:review_comment_id}, ${2:options})
+]]></content >
+	<description>ReviewComment.get</description>
+	<tabTrigger>ReviewComment.get</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

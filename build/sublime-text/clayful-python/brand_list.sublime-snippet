@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Brand.list(${1:options})
+]]></content >
+	<description>Brand.list</description>
+	<tabTrigger>Brand.list</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

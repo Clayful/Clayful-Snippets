@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Downloadable.createDownloadUrl(${1:downloadableId}, ${2:options}, ${3:callback});
+]]></content >
+	<description>Downloadable.createDownloadUrl</description>
+	<tabTrigger>Downloadable.createDownloadUrl</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

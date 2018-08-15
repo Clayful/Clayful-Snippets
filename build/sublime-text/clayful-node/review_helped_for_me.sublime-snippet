@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Review.helpedForMe(${1:reviewId}, ${2:upDown}, ${3:options}, ${4:callback});
+]]></content >
+	<description>Review.helpedForMe</description>
+	<tabTrigger>Review.helpedForMe</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

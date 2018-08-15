@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Order.restock_all_refund_items(${1:order_id}, ${2:refund_id}, ${3:options})
+]]></content >
+	<description>Order.restockAllRefundItems</description>
+	<tabTrigger>Order.restockAllRefundItems</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

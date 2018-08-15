@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Group.pushToMetafield(${1:groupId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+]]></content >
+	<description>Group.pushToMetafield</description>
+	<tabTrigger>Group.pushToMetafield</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

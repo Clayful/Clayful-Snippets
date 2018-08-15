@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Order.list_inventory_operations(${1:order_id}, ${2:options})
+]]></content >
+	<description>Order.listInventoryOperations</description>
+	<tabTrigger>Order.listInventoryOperations</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

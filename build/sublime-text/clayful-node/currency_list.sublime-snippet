@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Currency.list(${1:options}, ${2:callback});
+]]></content >
+	<description>Currency.list</description>
+	<tabTrigger>Currency.list</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

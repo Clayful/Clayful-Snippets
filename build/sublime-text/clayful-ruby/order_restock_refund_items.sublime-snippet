@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Order.restock_refund_items(${1:order_id}, ${2:refund_id}, ${3:payload}, ${4:options})
+]]></content >
+	<description>Order.restockRefundItems</description>
+	<tabTrigger>Order.restockRefundItems</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

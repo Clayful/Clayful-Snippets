@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = ReviewComment.delete_metafield(${1:review_comment_id}, ${2:field}, ${3:options})
+]]></content >
+	<description>ReviewComment.deleteMetafield</description>
+	<tabTrigger>ReviewComment.deleteMetafield</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

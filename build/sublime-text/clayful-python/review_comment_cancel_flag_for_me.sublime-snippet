@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = ReviewComment.cancel_flag_for_me(${1:review_comment_id}, ${2:options})
+]]></content >
+	<description>ReviewComment.cancelFlagForMe</description>
+	<tabTrigger>ReviewComment.cancelFlagForMe</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

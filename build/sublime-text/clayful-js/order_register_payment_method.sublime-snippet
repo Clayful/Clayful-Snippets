@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Order.registerPaymentMethod(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});
+]]></content >
+	<description>Order.registerPaymentMethod</description>
+	<tabTrigger>Order.registerPaymentMethod</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

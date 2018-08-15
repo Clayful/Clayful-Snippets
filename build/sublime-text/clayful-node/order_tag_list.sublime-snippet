@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+OrderTag.list(${1:options}, ${2:callback});
+]]></content >
+	<description>OrderTag.list</description>
+	<tabTrigger>OrderTag.list</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

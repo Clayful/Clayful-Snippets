@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = WishList.get(${1:wish_list_id}, ${2:options})
+]]></content >
+	<description>WishList.get</description>
+	<tabTrigger>WishList.get</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

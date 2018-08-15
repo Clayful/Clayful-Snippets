@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+TaxCategory.count(${1:options}, ${2:callback});
+]]></content >
+	<description>TaxCategory.count</description>
+	<tabTrigger>TaxCategory.count</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

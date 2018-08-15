@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Order.authenticate(${1:order_id}, ${2:payload}, ${3:options})
+]]></content >
+	<description>Order.authenticate</description>
+	<tabTrigger>Order.authenticate</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

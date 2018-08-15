@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Cart.checkout(${1:customer_id}, ${2:type}, ${3:payload}, ${4:options})
+]]></content >
+	<description>Cart.checkout</description>
+	<tabTrigger>Cart.checkout</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

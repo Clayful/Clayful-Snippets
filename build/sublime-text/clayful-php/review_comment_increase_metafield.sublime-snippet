@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = ReviewComment::increaseMetafield(${1:\$reviewCommentId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+]]></content >
+	<description>ReviewComment::increaseMetafield</description>
+	<tabTrigger>ReviewComment::increaseMetafield</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

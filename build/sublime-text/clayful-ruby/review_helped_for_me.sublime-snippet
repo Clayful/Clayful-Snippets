@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Review.helped_for_me(${1:review_id}, ${2:up_down}, ${3:options})
+]]></content >
+	<description>Review.helpedForMe</description>
+	<tabTrigger>Review.helpedForMe</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

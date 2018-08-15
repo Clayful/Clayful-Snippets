@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Subscription.get_for_me(${1:subscription_id}, ${2:options})
+]]></content >
+	<description>Subscription.getForMe</description>
+	<tabTrigger>Subscription.getForMe</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

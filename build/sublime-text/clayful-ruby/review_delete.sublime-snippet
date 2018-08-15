@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Review.delete(${1:review_id}, ${2:options})
+]]></content >
+	<description>Review.delete</description>
+	<tabTrigger>Review.delete</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

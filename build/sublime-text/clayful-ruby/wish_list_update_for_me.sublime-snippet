@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = WishList.update_for_me(${1:wish_list_id}, ${2:payload}, ${3:options})
+]]></content >
+	<description>WishList.updateForMe</description>
+	<tabTrigger>WishList.updateForMe</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

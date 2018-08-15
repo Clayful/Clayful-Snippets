@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Image.list(${1:options}, ${2:callback});
+]]></content >
+	<description>Image.list</description>
+	<tabTrigger>Image.list</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

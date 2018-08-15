@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Review::deleteForMe(${1:\$reviewId}, ${2:\$options});
+]]></content >
+	<description>Review::deleteForMe</description>
+	<tabTrigger>Review::deleteForMe</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Order.request_full_refund(${1:order_id}, ${2:payload}, ${3:options})
+]]></content >
+	<description>Order.requestFullRefund</description>
+	<tabTrigger>Order.requestFullRefund</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

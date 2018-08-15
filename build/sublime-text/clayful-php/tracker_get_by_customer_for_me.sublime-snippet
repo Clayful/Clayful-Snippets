@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Tracker::getByCustomerForMe(${1:\$options});
+]]></content >
+	<description>Tracker::getByCustomerForMe</description>
+	<tabTrigger>Tracker::getByCustomerForMe</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

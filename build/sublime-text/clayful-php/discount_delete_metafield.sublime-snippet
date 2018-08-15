@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Discount::deleteMetafield(${1:\$discountId}, ${2:\$field}, ${3:\$options});
+]]></content >
+	<description>Discount::deleteMetafield</description>
+	<tabTrigger>Discount::deleteMetafield</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

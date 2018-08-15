@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Country.get(${1:country_id}, ${2:options})
+]]></content >
+	<description>Country.get</description>
+	<tabTrigger>Country.get</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

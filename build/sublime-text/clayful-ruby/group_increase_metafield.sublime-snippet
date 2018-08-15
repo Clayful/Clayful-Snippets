@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Group.increase_metafield(${1:group_id}, ${2:field}, ${3:payload}, ${4:options})
+]]></content >
+	<description>Group.increaseMetafield</description>
+	<tabTrigger>Group.increaseMetafield</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

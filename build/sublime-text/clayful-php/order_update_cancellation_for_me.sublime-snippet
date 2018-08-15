@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Order::updateCancellationForMe(${1:\$orderId}, ${2:\$payload}, ${3:\$options});
+]]></content >
+	<description>Order::updateCancellationForMe</description>
+	<tabTrigger>Order::updateCancellationForMe</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

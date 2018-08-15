@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = ReviewComment.cancel_flag(${1:review_comment_id}, ${2:customer_id}, ${3:options})
+]]></content >
+	<description>ReviewComment.cancelFlag</description>
+	<tabTrigger>ReviewComment.cancelFlag</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

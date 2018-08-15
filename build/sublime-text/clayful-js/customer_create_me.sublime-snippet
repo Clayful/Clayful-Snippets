@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Customer.createMe(${1:payload}, ${2:options}, ${3:callback});
+]]></content >
+	<description>Customer.createMe</description>
+	<tabTrigger>Customer.createMe</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

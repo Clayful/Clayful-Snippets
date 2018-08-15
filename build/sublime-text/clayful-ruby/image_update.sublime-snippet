@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Image.update(${1:image_id}, ${2:payload}, ${3:options})
+]]></content >
+	<description>Image.update</description>
+	<tabTrigger>Image.update</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = ReviewComment.update_for_me(${1:review_comment_id}, ${2:payload}, ${3:options})
+]]></content >
+	<description>ReviewComment.updateForMe</description>
+	<tabTrigger>ReviewComment.updateForMe</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

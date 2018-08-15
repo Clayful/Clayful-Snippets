@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = WishList.delete_metafield(${1:wish_list_id}, ${2:field}, ${3:options})
+]]></content >
+	<description>WishList.deleteMetafield</description>
+	<tabTrigger>WishList.deleteMetafield</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

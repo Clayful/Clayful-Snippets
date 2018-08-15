@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Customer::deleteCoupon(${1:\$customerId}, ${2:\$couponId}, ${3:\$options});
+]]></content >
+	<description>Customer::deleteCoupon</description>
+	<tabTrigger>Customer::deleteCoupon</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

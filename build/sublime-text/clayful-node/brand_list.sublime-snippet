@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Brand.list(${1:options}, ${2:callback});
+]]></content >
+	<description>Brand.list</description>
+	<tabTrigger>Brand.list</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

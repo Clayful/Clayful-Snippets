@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Image::updateForMe(${1:\$imageId}, ${2:\$payload}, ${3:\$options});
+]]></content >
+	<description>Image::updateForMe</description>
+	<tabTrigger>Image::updateForMe</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

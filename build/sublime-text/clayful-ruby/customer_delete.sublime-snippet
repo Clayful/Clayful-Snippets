@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Customer.delete(${1:customer_id}, ${2:options})
+]]></content >
+	<description>Customer.delete</description>
+	<tabTrigger>Customer.delete</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

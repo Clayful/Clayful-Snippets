@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Downloadable.count(${1:options})
+]]></content >
+	<description>Downloadable.count</description>
+	<tabTrigger>Downloadable.count</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

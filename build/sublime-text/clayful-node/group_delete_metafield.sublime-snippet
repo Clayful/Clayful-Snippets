@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Group.deleteMetafield(${1:groupId}, ${2:field}, ${3:options}, ${4:callback});
+]]></content >
+	<description>Group.deleteMetafield</description>
+	<tabTrigger>Group.deleteMetafield</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

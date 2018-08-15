@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Image::listForMe(${1:\$options});
+]]></content >
+	<description>Image::listForMe</description>
+	<tabTrigger>Image::listForMe</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Group::deleteMetafield(${1:\$groupId}, ${2:\$field}, ${3:\$options});
+]]></content >
+	<description>Group::deleteMetafield</description>
+	<tabTrigger>Group::deleteMetafield</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

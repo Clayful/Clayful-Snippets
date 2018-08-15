@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Review.list_published(${1:options})
+]]></content >
+	<description>Review.listPublished</description>
+	<tabTrigger>Review.listPublished</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

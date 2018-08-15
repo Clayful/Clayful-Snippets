@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Cart.emptyForMe(${1:options}, ${2:callback});
+]]></content >
+	<description>Cart.emptyForMe</description>
+	<tabTrigger>Cart.emptyForMe</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

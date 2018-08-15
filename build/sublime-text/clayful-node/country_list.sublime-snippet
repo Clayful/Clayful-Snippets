@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Country.list(${1:options}, ${2:callback});
+]]></content >
+	<description>Country.list</description>
+	<tabTrigger>Country.list</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

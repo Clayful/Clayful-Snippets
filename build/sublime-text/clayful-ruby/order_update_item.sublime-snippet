@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Order.update_item(${1:order_id}, ${2:item_id}, ${3:payload}, ${4:options})
+]]></content >
+	<description>Order.updateItem</description>
+	<tabTrigger>Order.updateItem</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Subscription::delete(${1:\$subscriptionId}, ${2:\$options});
+]]></content >
+	<description>Subscription::delete</description>
+	<tabTrigger>Subscription::delete</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

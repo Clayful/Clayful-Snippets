@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Order.list_by_subscription(${1:subscription_id}, ${2:options})
+]]></content >
+	<description>Order.listBySubscription</description>
+	<tabTrigger>Order.listBySubscription</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

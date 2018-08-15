@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Currency.list(${1:options})
+]]></content >
+	<description>Currency.list</description>
+	<tabTrigger>Currency.list</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

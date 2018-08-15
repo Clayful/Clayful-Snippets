@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Brand.pullFromMetafield(${1:brandId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+]]></content >
+	<description>Brand.pullFromMetafield</description>
+	<tabTrigger>Brand.pullFromMetafield</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

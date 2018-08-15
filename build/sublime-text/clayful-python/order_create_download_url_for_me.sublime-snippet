@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Order.create_download_url_for_me(${1:order_id}, ${2:item_id}, ${3:options})
+]]></content >
+	<description>Order.createDownloadUrlForMe</description>
+	<tabTrigger>Order.createDownloadUrlForMe</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

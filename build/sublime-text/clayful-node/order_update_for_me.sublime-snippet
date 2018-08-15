@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Order.updateForMe(${1:orderId}, ${2:payload}, ${3:options}, ${4:callback});
+]]></content >
+	<description>Order.updateForMe</description>
+	<tabTrigger>Order.updateForMe</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

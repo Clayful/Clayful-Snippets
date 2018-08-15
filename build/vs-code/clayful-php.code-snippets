@@ -1,0 +1,2468 @@
+
+{
+
+	"Brand::list": {
+		"prefix": "Brand::list",
+		"scope": "php",
+		"body": [
+			"\\$result = Brand::list(${1:\\$options});"
+		],
+		"description": "Brand::list"
+	},
+	"Brand::count": {
+		"prefix": "Brand::count",
+		"scope": "php",
+		"body": [
+			"\\$result = Brand::count(${1:\\$options});"
+		],
+		"description": "Brand::count"
+	},
+	"Brand::get": {
+		"prefix": "Brand::get",
+		"scope": "php",
+		"body": [
+			"\\$result = Brand::get(${1:\\$brandId}, ${2:\\$options});"
+		],
+		"description": "Brand::get"
+	},
+	"Brand::pullFromMetafield": {
+		"prefix": "Brand::pullFromMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Brand::pullFromMetafield(${1:\\$brandId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Brand::pullFromMetafield"
+	},
+	"Brand::pushToMetafield": {
+		"prefix": "Brand::pushToMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Brand::pushToMetafield(${1:\\$brandId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Brand::pushToMetafield"
+	},
+	"Brand::increaseMetafield": {
+		"prefix": "Brand::increaseMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Brand::increaseMetafield(${1:\\$brandId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Brand::increaseMetafield"
+	},
+	"Brand::deleteMetafield": {
+		"prefix": "Brand::deleteMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Brand::deleteMetafield(${1:\\$brandId}, ${2:\\$field}, ${3:\\$options});"
+		],
+		"description": "Brand::deleteMetafield"
+	},
+	"Cart::countItemsForMe": {
+		"prefix": "Cart::countItemsForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Cart::countItemsForMe(${1:\\$options});"
+		],
+		"description": "Cart::countItemsForMe"
+	},
+	"Cart::countItems": {
+		"prefix": "Cart::countItems",
+		"scope": "php",
+		"body": [
+			"\\$result = Cart::countItems(${1:\\$customerId}, ${2:\\$options});"
+		],
+		"description": "Cart::countItems"
+	},
+	"Cart::getForMe": {
+		"prefix": "Cart::getForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Cart::getForMe(${1:\\$payload}, ${2:\\$options});"
+		],
+		"description": "Cart::getForMe"
+	},
+	"Cart::getAsNonRegistered": {
+		"prefix": "Cart::getAsNonRegistered",
+		"scope": "php",
+		"body": [
+			"\\$result = Cart::getAsNonRegistered(${1:\\$payload}, ${2:\\$options});"
+		],
+		"description": "Cart::getAsNonRegistered"
+	},
+	"Cart::get": {
+		"prefix": "Cart::get",
+		"scope": "php",
+		"body": [
+			"\\$result = Cart::get(${1:\\$customerId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Cart::get"
+	},
+	"Cart::addItemForMe": {
+		"prefix": "Cart::addItemForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Cart::addItemForMe(${1:\\$payload}, ${2:\\$options});"
+		],
+		"description": "Cart::addItemForMe"
+	},
+	"Cart::getAsNonRegisteredForMe": {
+		"prefix": "Cart::getAsNonRegisteredForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Cart::getAsNonRegisteredForMe(${1:\\$payload}, ${2:\\$options});"
+		],
+		"description": "Cart::getAsNonRegisteredForMe"
+	},
+	"Cart::addItem": {
+		"prefix": "Cart::addItem",
+		"scope": "php",
+		"body": [
+			"\\$result = Cart::addItem(${1:\\$customerId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Cart::addItem"
+	},
+	"Cart::checkoutForMe": {
+		"prefix": "Cart::checkoutForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Cart::checkoutForMe(${1:\\$type}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Cart::checkoutForMe"
+	},
+	"Cart::checkoutAsNonRegistered": {
+		"prefix": "Cart::checkoutAsNonRegistered",
+		"scope": "php",
+		"body": [
+			"\\$result = Cart::checkoutAsNonRegistered(${1:\\$type}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Cart::checkoutAsNonRegistered"
+	},
+	"Cart::checkout": {
+		"prefix": "Cart::checkout",
+		"scope": "php",
+		"body": [
+			"\\$result = Cart::checkout(${1:\\$customerId}, ${2:\\$type}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Cart::checkout"
+	},
+	"Cart::checkoutAsNonRegisteredForMe": {
+		"prefix": "Cart::checkoutAsNonRegisteredForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Cart::checkoutAsNonRegisteredForMe(${1:\\$type}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Cart::checkoutAsNonRegisteredForMe"
+	},
+	"Cart::updateItemForMe": {
+		"prefix": "Cart::updateItemForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Cart::updateItemForMe(${1:\\$itemId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Cart::updateItemForMe"
+	},
+	"Cart::updateItem": {
+		"prefix": "Cart::updateItem",
+		"scope": "php",
+		"body": [
+			"\\$result = Cart::updateItem(${1:\\$customerId}, ${2:\\$itemId}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Cart::updateItem"
+	},
+	"Cart::emptyForMe": {
+		"prefix": "Cart::emptyForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Cart::emptyForMe(${1:\\$options});"
+		],
+		"description": "Cart::emptyForMe"
+	},
+	"Cart::empty": {
+		"prefix": "Cart::empty",
+		"scope": "php",
+		"body": [
+			"\\$result = Cart::empty(${1:\\$customerId}, ${2:\\$options});"
+		],
+		"description": "Cart::empty"
+	},
+	"Cart::deleteItemForMe": {
+		"prefix": "Cart::deleteItemForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Cart::deleteItemForMe(${1:\\$itemId}, ${2:\\$options});"
+		],
+		"description": "Cart::deleteItemForMe"
+	},
+	"Cart::deleteItem": {
+		"prefix": "Cart::deleteItem",
+		"scope": "php",
+		"body": [
+			"\\$result = Cart::deleteItem(${1:\\$customerId}, ${2:\\$itemId}, ${3:\\$options});"
+		],
+		"description": "Cart::deleteItem"
+	},
+	"Catalog::list": {
+		"prefix": "Catalog::list",
+		"scope": "php",
+		"body": [
+			"\\$result = Catalog::list(${1:\\$options});"
+		],
+		"description": "Catalog::list"
+	},
+	"Catalog::count": {
+		"prefix": "Catalog::count",
+		"scope": "php",
+		"body": [
+			"\\$result = Catalog::count(${1:\\$options});"
+		],
+		"description": "Catalog::count"
+	},
+	"Catalog::get": {
+		"prefix": "Catalog::get",
+		"scope": "php",
+		"body": [
+			"\\$result = Catalog::get(${1:\\$catalogId}, ${2:\\$options});"
+		],
+		"description": "Catalog::get"
+	},
+	"Catalog::pullFromMetafield": {
+		"prefix": "Catalog::pullFromMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Catalog::pullFromMetafield(${1:\\$catalogId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Catalog::pullFromMetafield"
+	},
+	"Catalog::increaseMetafield": {
+		"prefix": "Catalog::increaseMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Catalog::increaseMetafield(${1:\\$catalogId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Catalog::increaseMetafield"
+	},
+	"Catalog::pushToMetafield": {
+		"prefix": "Catalog::pushToMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Catalog::pushToMetafield(${1:\\$catalogId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Catalog::pushToMetafield"
+	},
+	"Catalog::deleteMetafield": {
+		"prefix": "Catalog::deleteMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Catalog::deleteMetafield(${1:\\$catalogId}, ${2:\\$field}, ${3:\\$options});"
+		],
+		"description": "Catalog::deleteMetafield"
+	},
+	"Collection::list": {
+		"prefix": "Collection::list",
+		"scope": "php",
+		"body": [
+			"\\$result = Collection::list(${1:\\$options});"
+		],
+		"description": "Collection::list"
+	},
+	"Collection::count": {
+		"prefix": "Collection::count",
+		"scope": "php",
+		"body": [
+			"\\$result = Collection::count(${1:\\$options});"
+		],
+		"description": "Collection::count"
+	},
+	"Collection::get": {
+		"prefix": "Collection::get",
+		"scope": "php",
+		"body": [
+			"\\$result = Collection::get(${1:\\$collectionId}, ${2:\\$options});"
+		],
+		"description": "Collection::get"
+	},
+	"Collection::pushToMetafield": {
+		"prefix": "Collection::pushToMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Collection::pushToMetafield(${1:\\$collectionId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Collection::pushToMetafield"
+	},
+	"Collection::pullFromMetafield": {
+		"prefix": "Collection::pullFromMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Collection::pullFromMetafield(${1:\\$collectionId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Collection::pullFromMetafield"
+	},
+	"Collection::increaseMetafield": {
+		"prefix": "Collection::increaseMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Collection::increaseMetafield(${1:\\$collectionId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Collection::increaseMetafield"
+	},
+	"Collection::deleteMetafield": {
+		"prefix": "Collection::deleteMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Collection::deleteMetafield(${1:\\$collectionId}, ${2:\\$field}, ${3:\\$options});"
+		],
+		"description": "Collection::deleteMetafield"
+	},
+	"Country::list": {
+		"prefix": "Country::list",
+		"scope": "php",
+		"body": [
+			"\\$result = Country::list(${1:\\$options});"
+		],
+		"description": "Country::list"
+	},
+	"Country::count": {
+		"prefix": "Country::count",
+		"scope": "php",
+		"body": [
+			"\\$result = Country::count(${1:\\$options});"
+		],
+		"description": "Country::count"
+	},
+	"Country::get": {
+		"prefix": "Country::get",
+		"scope": "php",
+		"body": [
+			"\\$result = Country::get(${1:\\$countryId}, ${2:\\$options});"
+		],
+		"description": "Country::get"
+	},
+	"Coupon::list": {
+		"prefix": "Coupon::list",
+		"scope": "php",
+		"body": [
+			"\\$result = Coupon::list(${1:\\$options});"
+		],
+		"description": "Coupon::list"
+	},
+	"Coupon::count": {
+		"prefix": "Coupon::count",
+		"scope": "php",
+		"body": [
+			"\\$result = Coupon::count(${1:\\$options});"
+		],
+		"description": "Coupon::count"
+	},
+	"Coupon::get": {
+		"prefix": "Coupon::get",
+		"scope": "php",
+		"body": [
+			"\\$result = Coupon::get(${1:\\$couponId}, ${2:\\$options});"
+		],
+		"description": "Coupon::get"
+	},
+	"Coupon::increaseMetafield": {
+		"prefix": "Coupon::increaseMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Coupon::increaseMetafield(${1:\\$couponId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Coupon::increaseMetafield"
+	},
+	"Coupon::pullFromMetafield": {
+		"prefix": "Coupon::pullFromMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Coupon::pullFromMetafield(${1:\\$couponId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Coupon::pullFromMetafield"
+	},
+	"Coupon::pushToMetafield": {
+		"prefix": "Coupon::pushToMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Coupon::pushToMetafield(${1:\\$couponId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Coupon::pushToMetafield"
+	},
+	"Coupon::deleteMetafield": {
+		"prefix": "Coupon::deleteMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Coupon::deleteMetafield(${1:\\$couponId}, ${2:\\$field}, ${3:\\$options});"
+		],
+		"description": "Coupon::deleteMetafield"
+	},
+	"Currency::list": {
+		"prefix": "Currency::list",
+		"scope": "php",
+		"body": [
+			"\\$result = Currency::list(${1:\\$options});"
+		],
+		"description": "Currency::list"
+	},
+	"Currency::count": {
+		"prefix": "Currency::count",
+		"scope": "php",
+		"body": [
+			"\\$result = Currency::count(${1:\\$options});"
+		],
+		"description": "Currency::count"
+	},
+	"Currency::get": {
+		"prefix": "Currency::get",
+		"scope": "php",
+		"body": [
+			"\\$result = Currency::get(${1:\\$currencyId}, ${2:\\$options});"
+		],
+		"description": "Currency::get"
+	},
+	"Customer::list": {
+		"prefix": "Customer::list",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::list(${1:\\$options});"
+		],
+		"description": "Customer::list"
+	},
+	"Customer::getMe": {
+		"prefix": "Customer::getMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::getMe(${1:\\$options});"
+		],
+		"description": "Customer::getMe"
+	},
+	"Customer::isAuthenticated": {
+		"prefix": "Customer::isAuthenticated",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::isAuthenticated(${1:\\$options});"
+		],
+		"description": "Customer::isAuthenticated"
+	},
+	"Customer::count": {
+		"prefix": "Customer::count",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::count(${1:\\$options});"
+		],
+		"description": "Customer::count"
+	},
+	"Customer::get": {
+		"prefix": "Customer::get",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::get(${1:\\$customerId}, ${2:\\$options});"
+		],
+		"description": "Customer::get"
+	},
+	"Customer::listCouponsForMe": {
+		"prefix": "Customer::listCouponsForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::listCouponsForMe(${1:\\$options});"
+		],
+		"description": "Customer::listCouponsForMe"
+	},
+	"Customer::listCoupons": {
+		"prefix": "Customer::listCoupons",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::listCoupons(${1:\\$customerId}, ${2:\\$options});"
+		],
+		"description": "Customer::listCoupons"
+	},
+	"Customer::countCouponsForMe": {
+		"prefix": "Customer::countCouponsForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::countCouponsForMe(${1:\\$options});"
+		],
+		"description": "Customer::countCouponsForMe"
+	},
+	"Customer::countCoupons": {
+		"prefix": "Customer::countCoupons",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::countCoupons(${1:\\$customerId}, ${2:\\$options});"
+		],
+		"description": "Customer::countCoupons"
+	},
+	"Customer::listByFlagVotes": {
+		"prefix": "Customer::listByFlagVotes",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::listByFlagVotes(${1:\\$voteModel}, ${2:\\$voteModelId}, ${3:\\$options});"
+		],
+		"description": "Customer::listByFlagVotes"
+	},
+	"Customer::listByHelpVotes": {
+		"prefix": "Customer::listByHelpVotes",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::listByHelpVotes(${1:\\$voteModel}, ${2:\\$voteModelId}, ${3:\\$upDown}, ${4:\\$options});"
+		],
+		"description": "Customer::listByHelpVotes"
+	},
+	"Customer::create": {
+		"prefix": "Customer::create",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::create(${1:\\$payload}, ${2:\\$options});"
+		],
+		"description": "Customer::create"
+	},
+	"Customer::createMe": {
+		"prefix": "Customer::createMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::createMe(${1:\\$payload}, ${2:\\$options});"
+		],
+		"description": "Customer::createMe"
+	},
+	"Customer::authenticate": {
+		"prefix": "Customer::authenticate",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::authenticate(${1:\\$payload}, ${2:\\$options});"
+		],
+		"description": "Customer::authenticate"
+	},
+	"Customer::createVerification": {
+		"prefix": "Customer::createVerification",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::createVerification(${1:\\$payload}, ${2:\\$options});"
+		],
+		"description": "Customer::createVerification"
+	},
+	"Customer::authenticateBy3rdParty": {
+		"prefix": "Customer::authenticateBy3rdParty",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::authenticateBy3rdParty(${1:\\$vendor}, ${2:\\$options});"
+		],
+		"description": "Customer::authenticateBy3rdParty"
+	},
+	"Customer::requestVerificationEmail": {
+		"prefix": "Customer::requestVerificationEmail",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::requestVerificationEmail(${1:\\$payload}, ${2:\\$options});"
+		],
+		"description": "Customer::requestVerificationEmail"
+	},
+	"Customer::addCoupon": {
+		"prefix": "Customer::addCoupon",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::addCoupon(${1:\\$customerId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Customer::addCoupon"
+	},
+	"Customer::verify": {
+		"prefix": "Customer::verify",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::verify(${1:\\$customerId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Customer::verify"
+	},
+	"Customer::pushToMetafield": {
+		"prefix": "Customer::pushToMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::pushToMetafield(${1:\\$customerId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Customer::pushToMetafield"
+	},
+	"Customer::pullFromMetafield": {
+		"prefix": "Customer::pullFromMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::pullFromMetafield(${1:\\$customerId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Customer::pullFromMetafield"
+	},
+	"Customer::increaseMetafield": {
+		"prefix": "Customer::increaseMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::increaseMetafield(${1:\\$customerId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Customer::increaseMetafield"
+	},
+	"Customer::updateMe": {
+		"prefix": "Customer::updateMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::updateMe(${1:\\$payload}, ${2:\\$options});"
+		],
+		"description": "Customer::updateMe"
+	},
+	"Customer::update": {
+		"prefix": "Customer::update",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::update(${1:\\$customerId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Customer::update"
+	},
+	"Customer::updateCredentialsForMe": {
+		"prefix": "Customer::updateCredentialsForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::updateCredentialsForMe(${1:\\$payload}, ${2:\\$options});"
+		],
+		"description": "Customer::updateCredentialsForMe"
+	},
+	"Customer::resetPassword": {
+		"prefix": "Customer::resetPassword",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::resetPassword(${1:\\$customerId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Customer::resetPassword"
+	},
+	"Customer::updateCredentials": {
+		"prefix": "Customer::updateCredentials",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::updateCredentials(${1:\\$customerId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Customer::updateCredentials"
+	},
+	"Customer::deleteMe": {
+		"prefix": "Customer::deleteMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::deleteMe(${1:\\$options});"
+		],
+		"description": "Customer::deleteMe"
+	},
+	"Customer::delete": {
+		"prefix": "Customer::delete",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::delete(${1:\\$customerId}, ${2:\\$options});"
+		],
+		"description": "Customer::delete"
+	},
+	"Customer::deleteCouponForMe": {
+		"prefix": "Customer::deleteCouponForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::deleteCouponForMe(${1:\\$couponId}, ${2:\\$options});"
+		],
+		"description": "Customer::deleteCouponForMe"
+	},
+	"Customer::deleteCoupon": {
+		"prefix": "Customer::deleteCoupon",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::deleteCoupon(${1:\\$customerId}, ${2:\\$couponId}, ${3:\\$options});"
+		],
+		"description": "Customer::deleteCoupon"
+	},
+	"Customer::deleteMetafield": {
+		"prefix": "Customer::deleteMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Customer::deleteMetafield(${1:\\$customerId}, ${2:\\$field}, ${3:\\$options});"
+		],
+		"description": "Customer::deleteMetafield"
+	},
+	"Discount::list": {
+		"prefix": "Discount::list",
+		"scope": "php",
+		"body": [
+			"\\$result = Discount::list(${1:\\$options});"
+		],
+		"description": "Discount::list"
+	},
+	"Discount::count": {
+		"prefix": "Discount::count",
+		"scope": "php",
+		"body": [
+			"\\$result = Discount::count(${1:\\$options});"
+		],
+		"description": "Discount::count"
+	},
+	"Discount::get": {
+		"prefix": "Discount::get",
+		"scope": "php",
+		"body": [
+			"\\$result = Discount::get(${1:\\$discountId}, ${2:\\$options});"
+		],
+		"description": "Discount::get"
+	},
+	"Discount::pushToMetafield": {
+		"prefix": "Discount::pushToMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Discount::pushToMetafield(${1:\\$discountId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Discount::pushToMetafield"
+	},
+	"Discount::pullFromMetafield": {
+		"prefix": "Discount::pullFromMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Discount::pullFromMetafield(${1:\\$discountId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Discount::pullFromMetafield"
+	},
+	"Discount::increaseMetafield": {
+		"prefix": "Discount::increaseMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Discount::increaseMetafield(${1:\\$discountId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Discount::increaseMetafield"
+	},
+	"Discount::deleteMetafield": {
+		"prefix": "Discount::deleteMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Discount::deleteMetafield(${1:\\$discountId}, ${2:\\$field}, ${3:\\$options});"
+		],
+		"description": "Discount::deleteMetafield"
+	},
+	"Downloadable::list": {
+		"prefix": "Downloadable::list",
+		"scope": "php",
+		"body": [
+			"\\$result = Downloadable::list(${1:\\$options});"
+		],
+		"description": "Downloadable::list"
+	},
+	"Downloadable::count": {
+		"prefix": "Downloadable::count",
+		"scope": "php",
+		"body": [
+			"\\$result = Downloadable::count(${1:\\$options});"
+		],
+		"description": "Downloadable::count"
+	},
+	"Downloadable::get": {
+		"prefix": "Downloadable::get",
+		"scope": "php",
+		"body": [
+			"\\$result = Downloadable::get(${1:\\$downloadableId}, ${2:\\$options});"
+		],
+		"description": "Downloadable::get"
+	},
+	"Downloadable::createDownloadUrl": {
+		"prefix": "Downloadable::createDownloadUrl",
+		"scope": "php",
+		"body": [
+			"\\$result = Downloadable::createDownloadUrl(${1:\\$downloadableId}, ${2:\\$options});"
+		],
+		"description": "Downloadable::createDownloadUrl"
+	},
+	"Group::list": {
+		"prefix": "Group::list",
+		"scope": "php",
+		"body": [
+			"\\$result = Group::list(${1:\\$options});"
+		],
+		"description": "Group::list"
+	},
+	"Group::count": {
+		"prefix": "Group::count",
+		"scope": "php",
+		"body": [
+			"\\$result = Group::count(${1:\\$options});"
+		],
+		"description": "Group::count"
+	},
+	"Group::get": {
+		"prefix": "Group::get",
+		"scope": "php",
+		"body": [
+			"\\$result = Group::get(${1:\\$groupId}, ${2:\\$options});"
+		],
+		"description": "Group::get"
+	},
+	"Group::pullFromMetafield": {
+		"prefix": "Group::pullFromMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Group::pullFromMetafield(${1:\\$groupId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Group::pullFromMetafield"
+	},
+	"Group::pushToMetafield": {
+		"prefix": "Group::pushToMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Group::pushToMetafield(${1:\\$groupId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Group::pushToMetafield"
+	},
+	"Group::increaseMetafield": {
+		"prefix": "Group::increaseMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Group::increaseMetafield(${1:\\$groupId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Group::increaseMetafield"
+	},
+	"Group::deleteMetafield": {
+		"prefix": "Group::deleteMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Group::deleteMetafield(${1:\\$groupId}, ${2:\\$field}, ${3:\\$options});"
+		],
+		"description": "Group::deleteMetafield"
+	},
+	"Image::list": {
+		"prefix": "Image::list",
+		"scope": "php",
+		"body": [
+			"\\$result = Image::list(${1:\\$options});"
+		],
+		"description": "Image::list"
+	},
+	"Image::count": {
+		"prefix": "Image::count",
+		"scope": "php",
+		"body": [
+			"\\$result = Image::count(${1:\\$options});"
+		],
+		"description": "Image::count"
+	},
+	"Image::get": {
+		"prefix": "Image::get",
+		"scope": "php",
+		"body": [
+			"\\$result = Image::get(${1:\\$imageId}, ${2:\\$options});"
+		],
+		"description": "Image::get"
+	},
+	"Image::listForMe": {
+		"prefix": "Image::listForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Image::listForMe(${1:\\$options});"
+		],
+		"description": "Image::listForMe"
+	},
+	"Image::countForMe": {
+		"prefix": "Image::countForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Image::countForMe(${1:\\$options});"
+		],
+		"description": "Image::countForMe"
+	},
+	"Image::getForMe": {
+		"prefix": "Image::getForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Image::getForMe(${1:\\$imageId}, ${2:\\$options});"
+		],
+		"description": "Image::getForMe"
+	},
+	"Image::create": {
+		"prefix": "Image::create",
+		"scope": "php",
+		"body": [
+			"\\$result = Image::create(${1:\\$payload}, ${2:\\$options});"
+		],
+		"description": "Image::create"
+	},
+	"Image::createForMe": {
+		"prefix": "Image::createForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Image::createForMe(${1:\\$payload}, ${2:\\$options});"
+		],
+		"description": "Image::createForMe"
+	},
+	"Image::createAsCustomer": {
+		"prefix": "Image::createAsCustomer",
+		"scope": "php",
+		"body": [
+			"\\$result = Image::createAsCustomer(${1:\\$customerId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Image::createAsCustomer"
+	},
+	"Image::update": {
+		"prefix": "Image::update",
+		"scope": "php",
+		"body": [
+			"\\$result = Image::update(${1:\\$imageId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Image::update"
+	},
+	"Image::updateForMe": {
+		"prefix": "Image::updateForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Image::updateForMe(${1:\\$imageId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Image::updateForMe"
+	},
+	"Image::updateAsCustomer": {
+		"prefix": "Image::updateAsCustomer",
+		"scope": "php",
+		"body": [
+			"\\$result = Image::updateAsCustomer(${1:\\$customerId}, ${2:\\$imageId}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Image::updateAsCustomer"
+	},
+	"Image::delete": {
+		"prefix": "Image::delete",
+		"scope": "php",
+		"body": [
+			"\\$result = Image::delete(${1:\\$imageId}, ${2:\\$options});"
+		],
+		"description": "Image::delete"
+	},
+	"Image::deleteForMe": {
+		"prefix": "Image::deleteForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Image::deleteForMe(${1:\\$imageId}, ${2:\\$options});"
+		],
+		"description": "Image::deleteForMe"
+	},
+	"Image::deleteAsCustomer": {
+		"prefix": "Image::deleteAsCustomer",
+		"scope": "php",
+		"body": [
+			"\\$result = Image::deleteAsCustomer(${1:\\$customerId}, ${2:\\$imageId}, ${3:\\$options});"
+		],
+		"description": "Image::deleteAsCustomer"
+	},
+	"Impression::topBrands": {
+		"prefix": "Impression::topBrands",
+		"scope": "php",
+		"body": [
+			"\\$result = Impression::topBrands(${1:\\$scope}, ${2:\\$options});"
+		],
+		"description": "Impression::topBrands"
+	},
+	"Impression::topProducts": {
+		"prefix": "Impression::topProducts",
+		"scope": "php",
+		"body": [
+			"\\$result = Impression::topProducts(${1:\\$scope}, ${2:\\$options});"
+		],
+		"description": "Impression::topProducts"
+	},
+	"Impression::topCollections": {
+		"prefix": "Impression::topCollections",
+		"scope": "php",
+		"body": [
+			"\\$result = Impression::topCollections(${1:\\$scope}, ${2:\\$options});"
+		],
+		"description": "Impression::topCollections"
+	},
+	"Impression::gather": {
+		"prefix": "Impression::gather",
+		"scope": "php",
+		"body": [
+			"\\$result = Impression::gather(${1:\\$scope}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Impression::gather"
+	},
+	"Order::list": {
+		"prefix": "Order::list",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::list(${1:\\$options});"
+		],
+		"description": "Order::list"
+	},
+	"Order::listForMe": {
+		"prefix": "Order::listForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::listForMe(${1:\\$options});"
+		],
+		"description": "Order::listForMe"
+	},
+	"Order::count": {
+		"prefix": "Order::count",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::count(${1:\\$options});"
+		],
+		"description": "Order::count"
+	},
+	"Order::get": {
+		"prefix": "Order::get",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::get(${1:\\$orderId}, ${2:\\$options});"
+		],
+		"description": "Order::get"
+	},
+	"Order::countForMe": {
+		"prefix": "Order::countForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::countForMe(${1:\\$options});"
+		],
+		"description": "Order::countForMe"
+	},
+	"Order::getForMe": {
+		"prefix": "Order::getForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::getForMe(${1:\\$orderId}, ${2:\\$options});"
+		],
+		"description": "Order::getForMe"
+	},
+	"Order::listBySubscription": {
+		"prefix": "Order::listBySubscription",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::listBySubscription(${1:\\$subscriptionId}, ${2:\\$options});"
+		],
+		"description": "Order::listBySubscription"
+	},
+	"Order::listBySubscriptionForMe": {
+		"prefix": "Order::listBySubscriptionForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::listBySubscriptionForMe(${1:\\$subscriptionId}, ${2:\\$options});"
+		],
+		"description": "Order::listBySubscriptionForMe"
+	},
+	"Order::listInventoryOperations": {
+		"prefix": "Order::listInventoryOperations",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::listInventoryOperations(${1:\\$orderId}, ${2:\\$options});"
+		],
+		"description": "Order::listInventoryOperations"
+	},
+	"Order::markAsArrived": {
+		"prefix": "Order::markAsArrived",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::markAsArrived(${1:\\$orderId}, ${2:\\$options});"
+		],
+		"description": "Order::markAsArrived"
+	},
+	"Order::markAsDone": {
+		"prefix": "Order::markAsDone",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::markAsDone(${1:\\$orderId}, ${2:\\$options});"
+		],
+		"description": "Order::markAsDone"
+	},
+	"Order::syncInventory": {
+		"prefix": "Order::syncInventory",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::syncInventory(${1:\\$orderId}, ${2:\\$options});"
+		],
+		"description": "Order::syncInventory"
+	},
+	"Order::createFulfillment": {
+		"prefix": "Order::createFulfillment",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::createFulfillment(${1:\\$orderId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Order::createFulfillment"
+	},
+	"Order::authenticate": {
+		"prefix": "Order::authenticate",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::authenticate(${1:\\$orderId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Order::authenticate"
+	},
+	"Order::cancel": {
+		"prefix": "Order::cancel",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::cancel(${1:\\$orderId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Order::cancel"
+	},
+	"Order::requestRefund": {
+		"prefix": "Order::requestRefund",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::requestRefund(${1:\\$orderId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Order::requestRefund"
+	},
+	"Order::cancelForMe": {
+		"prefix": "Order::cancelForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::cancelForMe(${1:\\$orderId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Order::cancelForMe"
+	},
+	"Order::markAsArrivedForMe": {
+		"prefix": "Order::markAsArrivedForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::markAsArrivedForMe(${1:\\$orderId}, ${2:\\$options});"
+		],
+		"description": "Order::markAsArrivedForMe"
+	},
+	"Order::requestRefundForMe": {
+		"prefix": "Order::requestRefundForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::requestRefundForMe(${1:\\$orderId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Order::requestRefundForMe"
+	},
+	"Order::checkTicket": {
+		"prefix": "Order::checkTicket",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::checkTicket(${1:\\$code}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Order::checkTicket"
+	},
+	"Order::useTicket": {
+		"prefix": "Order::useTicket",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::useTicket(${1:\\$code}, ${2:\\$options});"
+		],
+		"description": "Order::useTicket"
+	},
+	"Order::requestFullRefund": {
+		"prefix": "Order::requestFullRefund",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::requestFullRefund(${1:\\$orderId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Order::requestFullRefund"
+	},
+	"Order::requestFullRefundForMe": {
+		"prefix": "Order::requestFullRefundForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::requestFullRefundForMe(${1:\\$orderId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Order::requestFullRefundForMe"
+	},
+	"Order::restockRefundItems": {
+		"prefix": "Order::restockRefundItems",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::restockRefundItems(${1:\\$orderId}, ${2:\\$refundId}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Order::restockRefundItems"
+	},
+	"Order::registerPaymentMethod": {
+		"prefix": "Order::registerPaymentMethod",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::registerPaymentMethod(${1:\\$orderId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Order::registerPaymentMethod"
+	},
+	"Order::pullFromMetafield": {
+		"prefix": "Order::pullFromMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::pullFromMetafield(${1:\\$orderId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Order::pullFromMetafield"
+	},
+	"Order::pushToMetafield": {
+		"prefix": "Order::pushToMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::pushToMetafield(${1:\\$orderId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Order::pushToMetafield"
+	},
+	"Order::cancelRefund": {
+		"prefix": "Order::cancelRefund",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::cancelRefund(${1:\\$orderId}, ${2:\\$refundId}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Order::cancelRefund"
+	},
+	"Order::acceptRefund": {
+		"prefix": "Order::acceptRefund",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::acceptRefund(${1:\\$orderId}, ${2:\\$refundId}, ${3:\\$options});"
+		],
+		"description": "Order::acceptRefund"
+	},
+	"Order::increaseMetafield": {
+		"prefix": "Order::increaseMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::increaseMetafield(${1:\\$orderId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Order::increaseMetafield"
+	},
+	"Order::cancelRefundForMe": {
+		"prefix": "Order::cancelRefundForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::cancelRefundForMe(${1:\\$orderId}, ${2:\\$refundId}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Order::cancelRefundForMe"
+	},
+	"Order::createDownloadUrl": {
+		"prefix": "Order::createDownloadUrl",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::createDownloadUrl(${1:\\$orderId}, ${2:\\$itemId}, ${3:\\$options});"
+		],
+		"description": "Order::createDownloadUrl"
+	},
+	"Order::restockAllRefundItems": {
+		"prefix": "Order::restockAllRefundItems",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::restockAllRefundItems(${1:\\$orderId}, ${2:\\$refundId}, ${3:\\$options});"
+		],
+		"description": "Order::restockAllRefundItems"
+	},
+	"Order::createDownloadUrlForMe": {
+		"prefix": "Order::createDownloadUrlForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::createDownloadUrlForMe(${1:\\$orderId}, ${2:\\$itemId}, ${3:\\$options});"
+		],
+		"description": "Order::createDownloadUrlForMe"
+	},
+	"Order::update": {
+		"prefix": "Order::update",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::update(${1:\\$orderId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Order::update"
+	},
+	"Order::updateForMe": {
+		"prefix": "Order::updateForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::updateForMe(${1:\\$orderId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Order::updateForMe"
+	},
+	"Order::updateCancellation": {
+		"prefix": "Order::updateCancellation",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::updateCancellation(${1:\\$orderId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Order::updateCancellation"
+	},
+	"Order::updateTransactions": {
+		"prefix": "Order::updateTransactions",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::updateTransactions(${1:\\$orderId}, ${2:\\$options});"
+		],
+		"description": "Order::updateTransactions"
+	},
+	"Order::updateTransactionsForMe": {
+		"prefix": "Order::updateTransactionsForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::updateTransactionsForMe(${1:\\$orderId}, ${2:\\$options});"
+		],
+		"description": "Order::updateTransactionsForMe"
+	},
+	"Order::updateCancellationForMe": {
+		"prefix": "Order::updateCancellationForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::updateCancellationForMe(${1:\\$orderId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Order::updateCancellationForMe"
+	},
+	"Order::updateRefund": {
+		"prefix": "Order::updateRefund",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::updateRefund(${1:\\$orderId}, ${2:\\$refundId}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Order::updateRefund"
+	},
+	"Order::updateFulfillment": {
+		"prefix": "Order::updateFulfillment",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::updateFulfillment(${1:\\$orderId}, ${2:\\$fulfillmentId}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Order::updateFulfillment"
+	},
+	"Order::updateItem": {
+		"prefix": "Order::updateItem",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::updateItem(${1:\\$orderId}, ${2:\\$itemId}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Order::updateItem"
+	},
+	"Order::updateRefundForMe": {
+		"prefix": "Order::updateRefundForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::updateRefundForMe(${1:\\$orderId}, ${2:\\$refundId}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Order::updateRefundForMe"
+	},
+	"Order::updateRefundCancellation": {
+		"prefix": "Order::updateRefundCancellation",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::updateRefundCancellation(${1:\\$orderId}, ${2:\\$refundId}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Order::updateRefundCancellation"
+	},
+	"Order::updateRefundCancellationForMe": {
+		"prefix": "Order::updateRefundCancellationForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::updateRefundCancellationForMe(${1:\\$orderId}, ${2:\\$refundId}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Order::updateRefundCancellationForMe"
+	},
+	"Order::delete": {
+		"prefix": "Order::delete",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::delete(${1:\\$orderId}, ${2:\\$options});"
+		],
+		"description": "Order::delete"
+	},
+	"Order::markAsUndone": {
+		"prefix": "Order::markAsUndone",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::markAsUndone(${1:\\$orderId}, ${2:\\$options});"
+		],
+		"description": "Order::markAsUndone"
+	},
+	"Order::markAsNotArrived": {
+		"prefix": "Order::markAsNotArrived",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::markAsNotArrived(${1:\\$orderId}, ${2:\\$options});"
+		],
+		"description": "Order::markAsNotArrived"
+	},
+	"Order::markAsNotArrivedForMe": {
+		"prefix": "Order::markAsNotArrivedForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::markAsNotArrivedForMe(${1:\\$orderId}, ${2:\\$options});"
+		],
+		"description": "Order::markAsNotArrivedForMe"
+	},
+	"Order::deleteFulfillment": {
+		"prefix": "Order::deleteFulfillment",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::deleteFulfillment(${1:\\$orderId}, ${2:\\$fulfillmentId}, ${3:\\$options});"
+		],
+		"description": "Order::deleteFulfillment"
+	},
+	"Order::deleteMetafield": {
+		"prefix": "Order::deleteMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::deleteMetafield(${1:\\$orderId}, ${2:\\$field}, ${3:\\$options});"
+		],
+		"description": "Order::deleteMetafield"
+	},
+	"Order::deleteRefund": {
+		"prefix": "Order::deleteRefund",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::deleteRefund(${1:\\$orderId}, ${2:\\$refundId}, ${3:\\$options});"
+		],
+		"description": "Order::deleteRefund"
+	},
+	"Order::deleteInventoryOperation": {
+		"prefix": "Order::deleteInventoryOperation",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::deleteInventoryOperation(${1:\\$orderId}, ${2:\\$operationId}, ${3:\\$options});"
+		],
+		"description": "Order::deleteInventoryOperation"
+	},
+	"Order::unacceptRefund": {
+		"prefix": "Order::unacceptRefund",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::unacceptRefund(${1:\\$orderId}, ${2:\\$refundId}, ${3:\\$options});"
+		],
+		"description": "Order::unacceptRefund"
+	},
+	"Order::unregisterPaymentMethod": {
+		"prefix": "Order::unregisterPaymentMethod",
+		"scope": "php",
+		"body": [
+			"\\$result = Order::unregisterPaymentMethod(${1:\\$orderId}, ${2:\\$paymentMethodId}, ${3:\\$options});"
+		],
+		"description": "Order::unregisterPaymentMethod"
+	},
+	"OrderTag::list": {
+		"prefix": "OrderTag::list",
+		"scope": "php",
+		"body": [
+			"\\$result = OrderTag::list(${1:\\$options});"
+		],
+		"description": "OrderTag::list"
+	},
+	"OrderTag::count": {
+		"prefix": "OrderTag::count",
+		"scope": "php",
+		"body": [
+			"\\$result = OrderTag::count(${1:\\$options});"
+		],
+		"description": "OrderTag::count"
+	},
+	"OrderTag::get": {
+		"prefix": "OrderTag::get",
+		"scope": "php",
+		"body": [
+			"\\$result = OrderTag::get(${1:\\$orderTagId}, ${2:\\$options});"
+		],
+		"description": "OrderTag::get"
+	},
+	"PaymentMethod::list": {
+		"prefix": "PaymentMethod::list",
+		"scope": "php",
+		"body": [
+			"\\$result = PaymentMethod::list(${1:\\$options});"
+		],
+		"description": "PaymentMethod::list"
+	},
+	"PaymentMethod::count": {
+		"prefix": "PaymentMethod::count",
+		"scope": "php",
+		"body": [
+			"\\$result = PaymentMethod::count(${1:\\$options});"
+		],
+		"description": "PaymentMethod::count"
+	},
+	"PaymentMethod::get": {
+		"prefix": "PaymentMethod::get",
+		"scope": "php",
+		"body": [
+			"\\$result = PaymentMethod::get(${1:\\$paymentMethodId}, ${2:\\$options});"
+		],
+		"description": "PaymentMethod::get"
+	},
+	"Product::list": {
+		"prefix": "Product::list",
+		"scope": "php",
+		"body": [
+			"\\$result = Product::list(${1:\\$options});"
+		],
+		"description": "Product::list"
+	},
+	"Product::count": {
+		"prefix": "Product::count",
+		"scope": "php",
+		"body": [
+			"\\$result = Product::count(${1:\\$options});"
+		],
+		"description": "Product::count"
+	},
+	"Product::get": {
+		"prefix": "Product::get",
+		"scope": "php",
+		"body": [
+			"\\$result = Product::get(${1:\\$productId}, ${2:\\$options});"
+		],
+		"description": "Product::get"
+	},
+	"Product::increaseMetafield": {
+		"prefix": "Product::increaseMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Product::increaseMetafield(${1:\\$productId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Product::increaseMetafield"
+	},
+	"Product::pullFromMetafield": {
+		"prefix": "Product::pullFromMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Product::pullFromMetafield(${1:\\$productId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Product::pullFromMetafield"
+	},
+	"Product::pushToMetafield": {
+		"prefix": "Product::pushToMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Product::pushToMetafield(${1:\\$productId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Product::pushToMetafield"
+	},
+	"Product::deleteMetafield": {
+		"prefix": "Product::deleteMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Product::deleteMetafield(${1:\\$productId}, ${2:\\$field}, ${3:\\$options});"
+		],
+		"description": "Product::deleteMetafield"
+	},
+	"Review::list": {
+		"prefix": "Review::list",
+		"scope": "php",
+		"body": [
+			"\\$result = Review::list(${1:\\$options});"
+		],
+		"description": "Review::list"
+	},
+	"Review::count": {
+		"prefix": "Review::count",
+		"scope": "php",
+		"body": [
+			"\\$result = Review::count(${1:\\$options});"
+		],
+		"description": "Review::count"
+	},
+	"Review::listPublished": {
+		"prefix": "Review::listPublished",
+		"scope": "php",
+		"body": [
+			"\\$result = Review::listPublished(${1:\\$options});"
+		],
+		"description": "Review::listPublished"
+	},
+	"Review::get": {
+		"prefix": "Review::get",
+		"scope": "php",
+		"body": [
+			"\\$result = Review::get(${1:\\$reviewId}, ${2:\\$options});"
+		],
+		"description": "Review::get"
+	},
+	"Review::countPublished": {
+		"prefix": "Review::countPublished",
+		"scope": "php",
+		"body": [
+			"\\$result = Review::countPublished(${1:\\$options});"
+		],
+		"description": "Review::countPublished"
+	},
+	"Review::getPublished": {
+		"prefix": "Review::getPublished",
+		"scope": "php",
+		"body": [
+			"\\$result = Review::getPublished(${1:\\$reviewId}, ${2:\\$options});"
+		],
+		"description": "Review::getPublished"
+	},
+	"Review::create": {
+		"prefix": "Review::create",
+		"scope": "php",
+		"body": [
+			"\\$result = Review::create(${1:\\$payload}, ${2:\\$options});"
+		],
+		"description": "Review::create"
+	},
+	"Review::createForMe": {
+		"prefix": "Review::createForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Review::createForMe(${1:\\$payload}, ${2:\\$options});"
+		],
+		"description": "Review::createForMe"
+	},
+	"Review::flag": {
+		"prefix": "Review::flag",
+		"scope": "php",
+		"body": [
+			"\\$result = Review::flag(${1:\\$reviewId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Review::flag"
+	},
+	"Review::flagForMe": {
+		"prefix": "Review::flagForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Review::flagForMe(${1:\\$reviewId}, ${2:\\$options});"
+		],
+		"description": "Review::flagForMe"
+	},
+	"Review::helped": {
+		"prefix": "Review::helped",
+		"scope": "php",
+		"body": [
+			"\\$result = Review::helped(${1:\\$reviewId}, ${2:\\$upDown}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Review::helped"
+	},
+	"Review::helpedForMe": {
+		"prefix": "Review::helpedForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Review::helpedForMe(${1:\\$reviewId}, ${2:\\$upDown}, ${3:\\$options});"
+		],
+		"description": "Review::helpedForMe"
+	},
+	"Review::increaseMetafield": {
+		"prefix": "Review::increaseMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Review::increaseMetafield(${1:\\$reviewId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Review::increaseMetafield"
+	},
+	"Review::pullFromMetafield": {
+		"prefix": "Review::pullFromMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Review::pullFromMetafield(${1:\\$reviewId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Review::pullFromMetafield"
+	},
+	"Review::pushToMetafield": {
+		"prefix": "Review::pushToMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Review::pushToMetafield(${1:\\$reviewId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Review::pushToMetafield"
+	},
+	"Review::update": {
+		"prefix": "Review::update",
+		"scope": "php",
+		"body": [
+			"\\$result = Review::update(${1:\\$reviewId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Review::update"
+	},
+	"Review::updateForMe": {
+		"prefix": "Review::updateForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Review::updateForMe(${1:\\$reviewId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Review::updateForMe"
+	},
+	"Review::delete": {
+		"prefix": "Review::delete",
+		"scope": "php",
+		"body": [
+			"\\$result = Review::delete(${1:\\$reviewId}, ${2:\\$options});"
+		],
+		"description": "Review::delete"
+	},
+	"Review::deleteForMe": {
+		"prefix": "Review::deleteForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Review::deleteForMe(${1:\\$reviewId}, ${2:\\$options});"
+		],
+		"description": "Review::deleteForMe"
+	},
+	"Review::cancelFlagForMe": {
+		"prefix": "Review::cancelFlagForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Review::cancelFlagForMe(${1:\\$reviewId}, ${2:\\$options});"
+		],
+		"description": "Review::cancelFlagForMe"
+	},
+	"Review::cancelFlag": {
+		"prefix": "Review::cancelFlag",
+		"scope": "php",
+		"body": [
+			"\\$result = Review::cancelFlag(${1:\\$reviewId}, ${2:\\$customerId}, ${3:\\$options});"
+		],
+		"description": "Review::cancelFlag"
+	},
+	"Review::deleteMetafield": {
+		"prefix": "Review::deleteMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Review::deleteMetafield(${1:\\$reviewId}, ${2:\\$field}, ${3:\\$options});"
+		],
+		"description": "Review::deleteMetafield"
+	},
+	"Review::cancelHelpedForMe": {
+		"prefix": "Review::cancelHelpedForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Review::cancelHelpedForMe(${1:\\$reviewId}, ${2:\\$upDown}, ${3:\\$options});"
+		],
+		"description": "Review::cancelHelpedForMe"
+	},
+	"Review::cancelHelped": {
+		"prefix": "Review::cancelHelped",
+		"scope": "php",
+		"body": [
+			"\\$result = Review::cancelHelped(${1:\\$reviewId}, ${2:\\$upDown}, ${3:\\$customerId}, ${4:\\$options});"
+		],
+		"description": "Review::cancelHelped"
+	},
+	"ReviewComment::list": {
+		"prefix": "ReviewComment::list",
+		"scope": "php",
+		"body": [
+			"\\$result = ReviewComment::list(${1:\\$options});"
+		],
+		"description": "ReviewComment::list"
+	},
+	"ReviewComment::count": {
+		"prefix": "ReviewComment::count",
+		"scope": "php",
+		"body": [
+			"\\$result = ReviewComment::count(${1:\\$options});"
+		],
+		"description": "ReviewComment::count"
+	},
+	"ReviewComment::get": {
+		"prefix": "ReviewComment::get",
+		"scope": "php",
+		"body": [
+			"\\$result = ReviewComment::get(${1:\\$reviewCommentId}, ${2:\\$options});"
+		],
+		"description": "ReviewComment::get"
+	},
+	"ReviewComment::create": {
+		"prefix": "ReviewComment::create",
+		"scope": "php",
+		"body": [
+			"\\$result = ReviewComment::create(${1:\\$payload}, ${2:\\$options});"
+		],
+		"description": "ReviewComment::create"
+	},
+	"ReviewComment::createForMe": {
+		"prefix": "ReviewComment::createForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = ReviewComment::createForMe(${1:\\$payload}, ${2:\\$options});"
+		],
+		"description": "ReviewComment::createForMe"
+	},
+	"ReviewComment::flag": {
+		"prefix": "ReviewComment::flag",
+		"scope": "php",
+		"body": [
+			"\\$result = ReviewComment::flag(${1:\\$reviewCommentId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "ReviewComment::flag"
+	},
+	"ReviewComment::flagForMe": {
+		"prefix": "ReviewComment::flagForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = ReviewComment::flagForMe(${1:\\$reviewCommentId}, ${2:\\$options});"
+		],
+		"description": "ReviewComment::flagForMe"
+	},
+	"ReviewComment::increaseMetafield": {
+		"prefix": "ReviewComment::increaseMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = ReviewComment::increaseMetafield(${1:\\$reviewCommentId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "ReviewComment::increaseMetafield"
+	},
+	"ReviewComment::pushToMetafield": {
+		"prefix": "ReviewComment::pushToMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = ReviewComment::pushToMetafield(${1:\\$reviewCommentId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "ReviewComment::pushToMetafield"
+	},
+	"ReviewComment::pullFromMetafield": {
+		"prefix": "ReviewComment::pullFromMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = ReviewComment::pullFromMetafield(${1:\\$reviewCommentId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "ReviewComment::pullFromMetafield"
+	},
+	"ReviewComment::update": {
+		"prefix": "ReviewComment::update",
+		"scope": "php",
+		"body": [
+			"\\$result = ReviewComment::update(${1:\\$reviewCommentId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "ReviewComment::update"
+	},
+	"ReviewComment::updateForMe": {
+		"prefix": "ReviewComment::updateForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = ReviewComment::updateForMe(${1:\\$reviewCommentId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "ReviewComment::updateForMe"
+	},
+	"ReviewComment::delete": {
+		"prefix": "ReviewComment::delete",
+		"scope": "php",
+		"body": [
+			"\\$result = ReviewComment::delete(${1:\\$reviewCommentId}, ${2:\\$options});"
+		],
+		"description": "ReviewComment::delete"
+	},
+	"ReviewComment::deleteForMe": {
+		"prefix": "ReviewComment::deleteForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = ReviewComment::deleteForMe(${1:\\$reviewCommentId}, ${2:\\$options});"
+		],
+		"description": "ReviewComment::deleteForMe"
+	},
+	"ReviewComment::cancelFlagForMe": {
+		"prefix": "ReviewComment::cancelFlagForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = ReviewComment::cancelFlagForMe(${1:\\$reviewCommentId}, ${2:\\$options});"
+		],
+		"description": "ReviewComment::cancelFlagForMe"
+	},
+	"ReviewComment::deleteMetafield": {
+		"prefix": "ReviewComment::deleteMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = ReviewComment::deleteMetafield(${1:\\$reviewCommentId}, ${2:\\$field}, ${3:\\$options});"
+		],
+		"description": "ReviewComment::deleteMetafield"
+	},
+	"ReviewComment::cancelFlag": {
+		"prefix": "ReviewComment::cancelFlag",
+		"scope": "php",
+		"body": [
+			"\\$result = ReviewComment::cancelFlag(${1:\\$reviewCommentId}, ${2:\\$customerId}, ${3:\\$options});"
+		],
+		"description": "ReviewComment::cancelFlag"
+	},
+	"ShippingMethod::list": {
+		"prefix": "ShippingMethod::list",
+		"scope": "php",
+		"body": [
+			"\\$result = ShippingMethod::list(${1:\\$options});"
+		],
+		"description": "ShippingMethod::list"
+	},
+	"ShippingMethod::count": {
+		"prefix": "ShippingMethod::count",
+		"scope": "php",
+		"body": [
+			"\\$result = ShippingMethod::count(${1:\\$options});"
+		],
+		"description": "ShippingMethod::count"
+	},
+	"ShippingMethod::get": {
+		"prefix": "ShippingMethod::get",
+		"scope": "php",
+		"body": [
+			"\\$result = ShippingMethod::get(${1:\\$shippingMethodId}, ${2:\\$options});"
+		],
+		"description": "ShippingMethod::get"
+	},
+	"Store::get": {
+		"prefix": "Store::get",
+		"scope": "php",
+		"body": [
+			"\\$result = Store::get(${1:\\$options});"
+		],
+		"description": "Store::get"
+	},
+	"Store::pushToMetafield": {
+		"prefix": "Store::pushToMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Store::pushToMetafield(${1:\\$field}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Store::pushToMetafield"
+	},
+	"Store::increaseMetafield": {
+		"prefix": "Store::increaseMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Store::increaseMetafield(${1:\\$field}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Store::increaseMetafield"
+	},
+	"Store::pullFromMetafield": {
+		"prefix": "Store::pullFromMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Store::pullFromMetafield(${1:\\$field}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Store::pullFromMetafield"
+	},
+	"Store::deleteMetafield": {
+		"prefix": "Store::deleteMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Store::deleteMetafield(${1:\\$field}, ${2:\\$options});"
+		],
+		"description": "Store::deleteMetafield"
+	},
+	"Subscription::list": {
+		"prefix": "Subscription::list",
+		"scope": "php",
+		"body": [
+			"\\$result = Subscription::list(${1:\\$options});"
+		],
+		"description": "Subscription::list"
+	},
+	"Subscription::listForMe": {
+		"prefix": "Subscription::listForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Subscription::listForMe(${1:\\$options});"
+		],
+		"description": "Subscription::listForMe"
+	},
+	"Subscription::count": {
+		"prefix": "Subscription::count",
+		"scope": "php",
+		"body": [
+			"\\$result = Subscription::count(${1:\\$options});"
+		],
+		"description": "Subscription::count"
+	},
+	"Subscription::get": {
+		"prefix": "Subscription::get",
+		"scope": "php",
+		"body": [
+			"\\$result = Subscription::get(${1:\\$subscriptionId}, ${2:\\$options});"
+		],
+		"description": "Subscription::get"
+	},
+	"Subscription::countForMe": {
+		"prefix": "Subscription::countForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Subscription::countForMe(${1:\\$options});"
+		],
+		"description": "Subscription::countForMe"
+	},
+	"Subscription::getForMe": {
+		"prefix": "Subscription::getForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Subscription::getForMe(${1:\\$subscriptionId}, ${2:\\$options});"
+		],
+		"description": "Subscription::getForMe"
+	},
+	"Subscription::listInventoryOperations": {
+		"prefix": "Subscription::listInventoryOperations",
+		"scope": "php",
+		"body": [
+			"\\$result = Subscription::listInventoryOperations(${1:\\$subscriptionId}, ${2:\\$options});"
+		],
+		"description": "Subscription::listInventoryOperations"
+	},
+	"Subscription::authenticate": {
+		"prefix": "Subscription::authenticate",
+		"scope": "php",
+		"body": [
+			"\\$result = Subscription::authenticate(${1:\\$subscriptionId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Subscription::authenticate"
+	},
+	"Subscription::markAsDone": {
+		"prefix": "Subscription::markAsDone",
+		"scope": "php",
+		"body": [
+			"\\$result = Subscription::markAsDone(${1:\\$subscriptionId}, ${2:\\$options});"
+		],
+		"description": "Subscription::markAsDone"
+	},
+	"Subscription::cancel": {
+		"prefix": "Subscription::cancel",
+		"scope": "php",
+		"body": [
+			"\\$result = Subscription::cancel(${1:\\$subscriptionId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Subscription::cancel"
+	},
+	"Subscription::syncInventory": {
+		"prefix": "Subscription::syncInventory",
+		"scope": "php",
+		"body": [
+			"\\$result = Subscription::syncInventory(${1:\\$subscriptionId}, ${2:\\$options});"
+		],
+		"description": "Subscription::syncInventory"
+	},
+	"Subscription::schedule": {
+		"prefix": "Subscription::schedule",
+		"scope": "php",
+		"body": [
+			"\\$result = Subscription::schedule(${1:\\$subscriptionId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Subscription::schedule"
+	},
+	"Subscription::cancelForMe": {
+		"prefix": "Subscription::cancelForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Subscription::cancelForMe(${1:\\$subscriptionId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Subscription::cancelForMe"
+	},
+	"Subscription::scheduleForMe": {
+		"prefix": "Subscription::scheduleForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Subscription::scheduleForMe(${1:\\$subscriptionId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Subscription::scheduleForMe"
+	},
+	"Subscription::fulfillSchedule": {
+		"prefix": "Subscription::fulfillSchedule",
+		"scope": "php",
+		"body": [
+			"\\$result = Subscription::fulfillSchedule(${1:\\$subscriptionId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Subscription::fulfillSchedule"
+	},
+	"Subscription::pullFromMetafield": {
+		"prefix": "Subscription::pullFromMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Subscription::pullFromMetafield(${1:\\$subscriptionId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Subscription::pullFromMetafield"
+	},
+	"Subscription::pushToMetafield": {
+		"prefix": "Subscription::pushToMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Subscription::pushToMetafield(${1:\\$subscriptionId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Subscription::pushToMetafield"
+	},
+	"Subscription::increaseMetafield": {
+		"prefix": "Subscription::increaseMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Subscription::increaseMetafield(${1:\\$subscriptionId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "Subscription::increaseMetafield"
+	},
+	"Subscription::updateCancellation": {
+		"prefix": "Subscription::updateCancellation",
+		"scope": "php",
+		"body": [
+			"\\$result = Subscription::updateCancellation(${1:\\$subscriptionId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Subscription::updateCancellation"
+	},
+	"Subscription::updateCancellationForMe": {
+		"prefix": "Subscription::updateCancellationForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Subscription::updateCancellationForMe(${1:\\$subscriptionId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Subscription::updateCancellationForMe"
+	},
+	"Subscription::delete": {
+		"prefix": "Subscription::delete",
+		"scope": "php",
+		"body": [
+			"\\$result = Subscription::delete(${1:\\$subscriptionId}, ${2:\\$options});"
+		],
+		"description": "Subscription::delete"
+	},
+	"Subscription::markAsUndone": {
+		"prefix": "Subscription::markAsUndone",
+		"scope": "php",
+		"body": [
+			"\\$result = Subscription::markAsUndone(${1:\\$subscriptionId}, ${2:\\$options});"
+		],
+		"description": "Subscription::markAsUndone"
+	},
+	"Subscription::deleteMetafield": {
+		"prefix": "Subscription::deleteMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = Subscription::deleteMetafield(${1:\\$subscriptionId}, ${2:\\$field}, ${3:\\$options});"
+		],
+		"description": "Subscription::deleteMetafield"
+	},
+	"Subscription::deleteInventoryOperation": {
+		"prefix": "Subscription::deleteInventoryOperation",
+		"scope": "php",
+		"body": [
+			"\\$result = Subscription::deleteInventoryOperation(${1:\\$subscriptionId}, ${2:\\$operationId}, ${3:\\$options});"
+		],
+		"description": "Subscription::deleteInventoryOperation"
+	},
+	"SubscriptionPlan::list": {
+		"prefix": "SubscriptionPlan::list",
+		"scope": "php",
+		"body": [
+			"\\$result = SubscriptionPlan::list(${1:\\$options});"
+		],
+		"description": "SubscriptionPlan::list"
+	},
+	"SubscriptionPlan::count": {
+		"prefix": "SubscriptionPlan::count",
+		"scope": "php",
+		"body": [
+			"\\$result = SubscriptionPlan::count(${1:\\$options});"
+		],
+		"description": "SubscriptionPlan::count"
+	},
+	"SubscriptionPlan::get": {
+		"prefix": "SubscriptionPlan::get",
+		"scope": "php",
+		"body": [
+			"\\$result = SubscriptionPlan::get(${1:\\$subscriptionPlanId}, ${2:\\$options});"
+		],
+		"description": "SubscriptionPlan::get"
+	},
+	"TaxCategory::list": {
+		"prefix": "TaxCategory::list",
+		"scope": "php",
+		"body": [
+			"\\$result = TaxCategory::list(${1:\\$options});"
+		],
+		"description": "TaxCategory::list"
+	},
+	"TaxCategory::count": {
+		"prefix": "TaxCategory::count",
+		"scope": "php",
+		"body": [
+			"\\$result = TaxCategory::count(${1:\\$options});"
+		],
+		"description": "TaxCategory::count"
+	},
+	"TaxCategory::get": {
+		"prefix": "TaxCategory::get",
+		"scope": "php",
+		"body": [
+			"\\$result = TaxCategory::get(${1:\\$taxCategoryId}, ${2:\\$options});"
+		],
+		"description": "TaxCategory::get"
+	},
+	"Tracker::getByCustomerForMe": {
+		"prefix": "Tracker::getByCustomerForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Tracker::getByCustomerForMe(${1:\\$options});"
+		],
+		"description": "Tracker::getByCustomerForMe"
+	},
+	"Tracker::get": {
+		"prefix": "Tracker::get",
+		"scope": "php",
+		"body": [
+			"\\$result = Tracker::get(${1:\\$trackerId}, ${2:\\$options});"
+		],
+		"description": "Tracker::get"
+	},
+	"Tracker::getByCustomer": {
+		"prefix": "Tracker::getByCustomer",
+		"scope": "php",
+		"body": [
+			"\\$result = Tracker::getByCustomer(${1:\\$customerId}, ${2:\\$options});"
+		],
+		"description": "Tracker::getByCustomer"
+	},
+	"Tracker::getForMe": {
+		"prefix": "Tracker::getForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Tracker::getForMe(${1:\\$trackerId}, ${2:\\$options});"
+		],
+		"description": "Tracker::getForMe"
+	},
+	"Tracker::getAsNonRegisteredForMe": {
+		"prefix": "Tracker::getAsNonRegisteredForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Tracker::getAsNonRegisteredForMe(${1:\\$trackerId}, ${2:\\$options});"
+		],
+		"description": "Tracker::getAsNonRegisteredForMe"
+	},
+	"Tracker::create": {
+		"prefix": "Tracker::create",
+		"scope": "php",
+		"body": [
+			"\\$result = Tracker::create(${1:\\$payload}, ${2:\\$options});"
+		],
+		"description": "Tracker::create"
+	},
+	"Tracker::createForMe": {
+		"prefix": "Tracker::createForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Tracker::createForMe(${1:\\$options});"
+		],
+		"description": "Tracker::createForMe"
+	},
+	"Tracker::createAsNonRegisteredForMe": {
+		"prefix": "Tracker::createAsNonRegisteredForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Tracker::createAsNonRegisteredForMe(${1:\\$options});"
+		],
+		"description": "Tracker::createAsNonRegisteredForMe"
+	},
+	"Tracker::changeOwner": {
+		"prefix": "Tracker::changeOwner",
+		"scope": "php",
+		"body": [
+			"\\$result = Tracker::changeOwner(${1:\\$trackerId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "Tracker::changeOwner"
+	},
+	"Tracker::changeOwnerForMe": {
+		"prefix": "Tracker::changeOwnerForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Tracker::changeOwnerForMe(${1:\\$trackerId}, ${2:\\$options});"
+		],
+		"description": "Tracker::changeOwnerForMe"
+	},
+	"Tracker::delete": {
+		"prefix": "Tracker::delete",
+		"scope": "php",
+		"body": [
+			"\\$result = Tracker::delete(${1:\\$trackerId}, ${2:\\$options});"
+		],
+		"description": "Tracker::delete"
+	},
+	"Tracker::deleteForMe": {
+		"prefix": "Tracker::deleteForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Tracker::deleteForMe(${1:\\$trackerId}, ${2:\\$options});"
+		],
+		"description": "Tracker::deleteForMe"
+	},
+	"Tracker::deleteAsNonRegisteredForMe": {
+		"prefix": "Tracker::deleteAsNonRegisteredForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = Tracker::deleteAsNonRegisteredForMe(${1:\\$trackerId}, ${2:\\$options});"
+		],
+		"description": "Tracker::deleteAsNonRegisteredForMe"
+	},
+	"WishList::list": {
+		"prefix": "WishList::list",
+		"scope": "php",
+		"body": [
+			"\\$result = WishList::list(${1:\\$options});"
+		],
+		"description": "WishList::list"
+	},
+	"WishList::listForMe": {
+		"prefix": "WishList::listForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = WishList::listForMe(${1:\\$options});"
+		],
+		"description": "WishList::listForMe"
+	},
+	"WishList::count": {
+		"prefix": "WishList::count",
+		"scope": "php",
+		"body": [
+			"\\$result = WishList::count(${1:\\$options});"
+		],
+		"description": "WishList::count"
+	},
+	"WishList::get": {
+		"prefix": "WishList::get",
+		"scope": "php",
+		"body": [
+			"\\$result = WishList::get(${1:\\$wishListId}, ${2:\\$options});"
+		],
+		"description": "WishList::get"
+	},
+	"WishList::countForMe": {
+		"prefix": "WishList::countForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = WishList::countForMe(${1:\\$options});"
+		],
+		"description": "WishList::countForMe"
+	},
+	"WishList::getForMe": {
+		"prefix": "WishList::getForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = WishList::getForMe(${1:\\$wishListId}, ${2:\\$options});"
+		],
+		"description": "WishList::getForMe"
+	},
+	"WishList::listProducts": {
+		"prefix": "WishList::listProducts",
+		"scope": "php",
+		"body": [
+			"\\$result = WishList::listProducts(${1:\\$wishListId}, ${2:\\$options});"
+		],
+		"description": "WishList::listProducts"
+	},
+	"WishList::listProductsForMe": {
+		"prefix": "WishList::listProductsForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = WishList::listProductsForMe(${1:\\$wishListId}, ${2:\\$options});"
+		],
+		"description": "WishList::listProductsForMe"
+	},
+	"WishList::countProducts": {
+		"prefix": "WishList::countProducts",
+		"scope": "php",
+		"body": [
+			"\\$result = WishList::countProducts(${1:\\$wishListId}, ${2:\\$options});"
+		],
+		"description": "WishList::countProducts"
+	},
+	"WishList::countProductsForMe": {
+		"prefix": "WishList::countProductsForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = WishList::countProductsForMe(${1:\\$wishListId}, ${2:\\$options});"
+		],
+		"description": "WishList::countProductsForMe"
+	},
+	"WishList::create": {
+		"prefix": "WishList::create",
+		"scope": "php",
+		"body": [
+			"\\$result = WishList::create(${1:\\$payload}, ${2:\\$options});"
+		],
+		"description": "WishList::create"
+	},
+	"WishList::createForMe": {
+		"prefix": "WishList::createForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = WishList::createForMe(${1:\\$payload}, ${2:\\$options});"
+		],
+		"description": "WishList::createForMe"
+	},
+	"WishList::addItem": {
+		"prefix": "WishList::addItem",
+		"scope": "php",
+		"body": [
+			"\\$result = WishList::addItem(${1:\\$wishListId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "WishList::addItem"
+	},
+	"WishList::addItemForMe": {
+		"prefix": "WishList::addItemForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = WishList::addItemForMe(${1:\\$wishListId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "WishList::addItemForMe"
+	},
+	"WishList::pullFromMetafield": {
+		"prefix": "WishList::pullFromMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = WishList::pullFromMetafield(${1:\\$wishListId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "WishList::pullFromMetafield"
+	},
+	"WishList::pushToMetafield": {
+		"prefix": "WishList::pushToMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = WishList::pushToMetafield(${1:\\$wishListId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "WishList::pushToMetafield"
+	},
+	"WishList::increaseMetafield": {
+		"prefix": "WishList::increaseMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = WishList::increaseMetafield(${1:\\$wishListId}, ${2:\\$field}, ${3:\\$payload}, ${4:\\$options});"
+		],
+		"description": "WishList::increaseMetafield"
+	},
+	"WishList::update": {
+		"prefix": "WishList::update",
+		"scope": "php",
+		"body": [
+			"\\$result = WishList::update(${1:\\$wishListId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "WishList::update"
+	},
+	"WishList::updateForMe": {
+		"prefix": "WishList::updateForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = WishList::updateForMe(${1:\\$wishListId}, ${2:\\$payload}, ${3:\\$options});"
+		],
+		"description": "WishList::updateForMe"
+	},
+	"WishList::delete": {
+		"prefix": "WishList::delete",
+		"scope": "php",
+		"body": [
+			"\\$result = WishList::delete(${1:\\$wishListId}, ${2:\\$options});"
+		],
+		"description": "WishList::delete"
+	},
+	"WishList::deleteForMe": {
+		"prefix": "WishList::deleteForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = WishList::deleteForMe(${1:\\$wishListId}, ${2:\\$options});"
+		],
+		"description": "WishList::deleteForMe"
+	},
+	"WishList::empty": {
+		"prefix": "WishList::empty",
+		"scope": "php",
+		"body": [
+			"\\$result = WishList::empty(${1:\\$wishListId}, ${2:\\$options});"
+		],
+		"description": "WishList::empty"
+	},
+	"WishList::emptyForMe": {
+		"prefix": "WishList::emptyForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = WishList::emptyForMe(${1:\\$wishListId}, ${2:\\$options});"
+		],
+		"description": "WishList::emptyForMe"
+	},
+	"WishList::deleteItem": {
+		"prefix": "WishList::deleteItem",
+		"scope": "php",
+		"body": [
+			"\\$result = WishList::deleteItem(${1:\\$wishListId}, ${2:\\$productId}, ${3:\\$options});"
+		],
+		"description": "WishList::deleteItem"
+	},
+	"WishList::deleteMetafield": {
+		"prefix": "WishList::deleteMetafield",
+		"scope": "php",
+		"body": [
+			"\\$result = WishList::deleteMetafield(${1:\\$wishListId}, ${2:\\$field}, ${3:\\$options});"
+		],
+		"description": "WishList::deleteMetafield"
+	},
+	"WishList::deleteItemForMe": {
+		"prefix": "WishList::deleteItemForMe",
+		"scope": "php",
+		"body": [
+			"\\$result = WishList::deleteItemForMe(${1:\\$wishListId}, ${2:\\$productId}, ${3:\\$options});"
+		],
+		"description": "WishList::deleteItemForMe"
+	}
+}

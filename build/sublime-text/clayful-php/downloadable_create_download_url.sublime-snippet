@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Downloadable::createDownloadUrl(${1:\$downloadableId}, ${2:\$options});
+]]></content >
+	<description>Downloadable::createDownloadUrl</description>
+	<tabTrigger>Downloadable::createDownloadUrl</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

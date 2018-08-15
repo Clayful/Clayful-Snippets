@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Order.cancel_for_me(${1:order_id}, ${2:payload}, ${3:options})
+]]></content >
+	<description>Order.cancelForMe</description>
+	<tabTrigger>Order.cancelForMe</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

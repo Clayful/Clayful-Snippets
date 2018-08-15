@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Collection.get(${1:collection_id}, ${2:options})
+]]></content >
+	<description>Collection.get</description>
+	<tabTrigger>Collection.get</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

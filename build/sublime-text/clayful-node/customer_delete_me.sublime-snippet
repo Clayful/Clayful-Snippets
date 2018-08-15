@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Customer.deleteMe(${1:options}, ${2:callback});
+]]></content >
+	<description>Customer.deleteMe</description>
+	<tabTrigger>Customer.deleteMe</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

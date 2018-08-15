@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Catalog.delete_metafield(${1:catalog_id}, ${2:field}, ${3:options})
+]]></content >
+	<description>Catalog.deleteMetafield</description>
+	<tabTrigger>Catalog.deleteMetafield</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

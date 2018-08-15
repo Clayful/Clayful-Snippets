@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = ShippingMethod.count(${1:options})
+]]></content >
+	<description>ShippingMethod.count</description>
+	<tabTrigger>ShippingMethod.count</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

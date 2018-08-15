@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Catalog.pushToMetafield(${1:catalogId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+]]></content >
+	<description>Catalog.pushToMetafield</description>
+	<tabTrigger>Catalog.pushToMetafield</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

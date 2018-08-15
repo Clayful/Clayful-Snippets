@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = WishList::pullFromMetafield(${1:\$wishListId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+]]></content >
+	<description>WishList::pullFromMetafield</description>
+	<tabTrigger>WishList::pullFromMetafield</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

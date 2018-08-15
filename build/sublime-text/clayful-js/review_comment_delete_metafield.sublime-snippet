@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ReviewComment.deleteMetafield(${1:reviewCommentId}, ${2:field}, ${3:options}, ${4:callback});
+]]></content >
+	<description>ReviewComment.deleteMetafield</description>
+	<tabTrigger>ReviewComment.deleteMetafield</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

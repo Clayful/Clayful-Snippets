@@ -1,0 +1,1849 @@
+'.source.ruby':
+
+	'Brand.list':
+		'prefix': 'Brand.list'
+		'body': """
+			result = Brand.list(${1:options})
+		"""
+
+	'Brand.count':
+		'prefix': 'Brand.count'
+		'body': """
+			result = Brand.count(${1:options})
+		"""
+
+	'Brand.get':
+		'prefix': 'Brand.get'
+		'body': """
+			result = Brand.get(${1:brand_id}, ${2:options})
+		"""
+
+	'Brand.pullFromMetafield':
+		'prefix': 'Brand.pullFromMetafield'
+		'body': """
+			result = Brand.pull_from_metafield(${1:brand_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Brand.pushToMetafield':
+		'prefix': 'Brand.pushToMetafield'
+		'body': """
+			result = Brand.push_to_metafield(${1:brand_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Brand.increaseMetafield':
+		'prefix': 'Brand.increaseMetafield'
+		'body': """
+			result = Brand.increase_metafield(${1:brand_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Brand.deleteMetafield':
+		'prefix': 'Brand.deleteMetafield'
+		'body': """
+			result = Brand.delete_metafield(${1:brand_id}, ${2:field}, ${3:options})
+		"""
+
+	'Cart.countItemsForMe':
+		'prefix': 'Cart.countItemsForMe'
+		'body': """
+			result = Cart.count_items_for_me(${1:options})
+		"""
+
+	'Cart.countItems':
+		'prefix': 'Cart.countItems'
+		'body': """
+			result = Cart.count_items(${1:customer_id}, ${2:options})
+		"""
+
+	'Cart.getForMe':
+		'prefix': 'Cart.getForMe'
+		'body': """
+			result = Cart.get_for_me(${1:payload}, ${2:options})
+		"""
+
+	'Cart.getAsNonRegistered':
+		'prefix': 'Cart.getAsNonRegistered'
+		'body': """
+			result = Cart.get_as_non_registered(${1:payload}, ${2:options})
+		"""
+
+	'Cart.get':
+		'prefix': 'Cart.get'
+		'body': """
+			result = Cart.get(${1:customer_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Cart.addItemForMe':
+		'prefix': 'Cart.addItemForMe'
+		'body': """
+			result = Cart.add_item_for_me(${1:payload}, ${2:options})
+		"""
+
+	'Cart.getAsNonRegisteredForMe':
+		'prefix': 'Cart.getAsNonRegisteredForMe'
+		'body': """
+			result = Cart.get_as_non_registered_for_me(${1:payload}, ${2:options})
+		"""
+
+	'Cart.addItem':
+		'prefix': 'Cart.addItem'
+		'body': """
+			result = Cart.add_item(${1:customer_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Cart.checkoutForMe':
+		'prefix': 'Cart.checkoutForMe'
+		'body': """
+			result = Cart.checkout_for_me(${1:type}, ${2:payload}, ${3:options})
+		"""
+
+	'Cart.checkoutAsNonRegistered':
+		'prefix': 'Cart.checkoutAsNonRegistered'
+		'body': """
+			result = Cart.checkout_as_non_registered(${1:type}, ${2:payload}, ${3:options})
+		"""
+
+	'Cart.checkout':
+		'prefix': 'Cart.checkout'
+		'body': """
+			result = Cart.checkout(${1:customer_id}, ${2:type}, ${3:payload}, ${4:options})
+		"""
+
+	'Cart.checkoutAsNonRegisteredForMe':
+		'prefix': 'Cart.checkoutAsNonRegisteredForMe'
+		'body': """
+			result = Cart.checkout_as_non_registered_for_me(${1:type}, ${2:payload}, ${3:options})
+		"""
+
+	'Cart.updateItemForMe':
+		'prefix': 'Cart.updateItemForMe'
+		'body': """
+			result = Cart.update_item_for_me(${1:item_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Cart.updateItem':
+		'prefix': 'Cart.updateItem'
+		'body': """
+			result = Cart.update_item(${1:customer_id}, ${2:item_id}, ${3:payload}, ${4:options})
+		"""
+
+	'Cart.emptyForMe':
+		'prefix': 'Cart.emptyForMe'
+		'body': """
+			result = Cart.empty_for_me(${1:options})
+		"""
+
+	'Cart.empty':
+		'prefix': 'Cart.empty'
+		'body': """
+			result = Cart.empty(${1:customer_id}, ${2:options})
+		"""
+
+	'Cart.deleteItemForMe':
+		'prefix': 'Cart.deleteItemForMe'
+		'body': """
+			result = Cart.delete_item_for_me(${1:item_id}, ${2:options})
+		"""
+
+	'Cart.deleteItem':
+		'prefix': 'Cart.deleteItem'
+		'body': """
+			result = Cart.delete_item(${1:customer_id}, ${2:item_id}, ${3:options})
+		"""
+
+	'Catalog.list':
+		'prefix': 'Catalog.list'
+		'body': """
+			result = Catalog.list(${1:options})
+		"""
+
+	'Catalog.count':
+		'prefix': 'Catalog.count'
+		'body': """
+			result = Catalog.count(${1:options})
+		"""
+
+	'Catalog.get':
+		'prefix': 'Catalog.get'
+		'body': """
+			result = Catalog.get(${1:catalog_id}, ${2:options})
+		"""
+
+	'Catalog.pullFromMetafield':
+		'prefix': 'Catalog.pullFromMetafield'
+		'body': """
+			result = Catalog.pull_from_metafield(${1:catalog_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Catalog.increaseMetafield':
+		'prefix': 'Catalog.increaseMetafield'
+		'body': """
+			result = Catalog.increase_metafield(${1:catalog_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Catalog.pushToMetafield':
+		'prefix': 'Catalog.pushToMetafield'
+		'body': """
+			result = Catalog.push_to_metafield(${1:catalog_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Catalog.deleteMetafield':
+		'prefix': 'Catalog.deleteMetafield'
+		'body': """
+			result = Catalog.delete_metafield(${1:catalog_id}, ${2:field}, ${3:options})
+		"""
+
+	'Collection.list':
+		'prefix': 'Collection.list'
+		'body': """
+			result = Collection.list(${1:options})
+		"""
+
+	'Collection.count':
+		'prefix': 'Collection.count'
+		'body': """
+			result = Collection.count(${1:options})
+		"""
+
+	'Collection.get':
+		'prefix': 'Collection.get'
+		'body': """
+			result = Collection.get(${1:collection_id}, ${2:options})
+		"""
+
+	'Collection.pushToMetafield':
+		'prefix': 'Collection.pushToMetafield'
+		'body': """
+			result = Collection.push_to_metafield(${1:collection_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Collection.pullFromMetafield':
+		'prefix': 'Collection.pullFromMetafield'
+		'body': """
+			result = Collection.pull_from_metafield(${1:collection_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Collection.increaseMetafield':
+		'prefix': 'Collection.increaseMetafield'
+		'body': """
+			result = Collection.increase_metafield(${1:collection_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Collection.deleteMetafield':
+		'prefix': 'Collection.deleteMetafield'
+		'body': """
+			result = Collection.delete_metafield(${1:collection_id}, ${2:field}, ${3:options})
+		"""
+
+	'Country.list':
+		'prefix': 'Country.list'
+		'body': """
+			result = Country.list(${1:options})
+		"""
+
+	'Country.count':
+		'prefix': 'Country.count'
+		'body': """
+			result = Country.count(${1:options})
+		"""
+
+	'Country.get':
+		'prefix': 'Country.get'
+		'body': """
+			result = Country.get(${1:country_id}, ${2:options})
+		"""
+
+	'Coupon.list':
+		'prefix': 'Coupon.list'
+		'body': """
+			result = Coupon.list(${1:options})
+		"""
+
+	'Coupon.count':
+		'prefix': 'Coupon.count'
+		'body': """
+			result = Coupon.count(${1:options})
+		"""
+
+	'Coupon.get':
+		'prefix': 'Coupon.get'
+		'body': """
+			result = Coupon.get(${1:coupon_id}, ${2:options})
+		"""
+
+	'Coupon.increaseMetafield':
+		'prefix': 'Coupon.increaseMetafield'
+		'body': """
+			result = Coupon.increase_metafield(${1:coupon_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Coupon.pullFromMetafield':
+		'prefix': 'Coupon.pullFromMetafield'
+		'body': """
+			result = Coupon.pull_from_metafield(${1:coupon_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Coupon.pushToMetafield':
+		'prefix': 'Coupon.pushToMetafield'
+		'body': """
+			result = Coupon.push_to_metafield(${1:coupon_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Coupon.deleteMetafield':
+		'prefix': 'Coupon.deleteMetafield'
+		'body': """
+			result = Coupon.delete_metafield(${1:coupon_id}, ${2:field}, ${3:options})
+		"""
+
+	'Currency.list':
+		'prefix': 'Currency.list'
+		'body': """
+			result = Currency.list(${1:options})
+		"""
+
+	'Currency.count':
+		'prefix': 'Currency.count'
+		'body': """
+			result = Currency.count(${1:options})
+		"""
+
+	'Currency.get':
+		'prefix': 'Currency.get'
+		'body': """
+			result = Currency.get(${1:currency_id}, ${2:options})
+		"""
+
+	'Customer.list':
+		'prefix': 'Customer.list'
+		'body': """
+			result = Customer.list(${1:options})
+		"""
+
+	'Customer.getMe':
+		'prefix': 'Customer.getMe'
+		'body': """
+			result = Customer.get_me(${1:options})
+		"""
+
+	'Customer.isAuthenticated':
+		'prefix': 'Customer.isAuthenticated'
+		'body': """
+			result = Customer.is_authenticated(${1:options})
+		"""
+
+	'Customer.count':
+		'prefix': 'Customer.count'
+		'body': """
+			result = Customer.count(${1:options})
+		"""
+
+	'Customer.get':
+		'prefix': 'Customer.get'
+		'body': """
+			result = Customer.get(${1:customer_id}, ${2:options})
+		"""
+
+	'Customer.listCouponsForMe':
+		'prefix': 'Customer.listCouponsForMe'
+		'body': """
+			result = Customer.list_coupons_for_me(${1:options})
+		"""
+
+	'Customer.listCoupons':
+		'prefix': 'Customer.listCoupons'
+		'body': """
+			result = Customer.list_coupons(${1:customer_id}, ${2:options})
+		"""
+
+	'Customer.countCouponsForMe':
+		'prefix': 'Customer.countCouponsForMe'
+		'body': """
+			result = Customer.count_coupons_for_me(${1:options})
+		"""
+
+	'Customer.countCoupons':
+		'prefix': 'Customer.countCoupons'
+		'body': """
+			result = Customer.count_coupons(${1:customer_id}, ${2:options})
+		"""
+
+	'Customer.listByFlagVotes':
+		'prefix': 'Customer.listByFlagVotes'
+		'body': """
+			result = Customer.list_by_flag_votes(${1:vote_model}, ${2:vote_model_id}, ${3:options})
+		"""
+
+	'Customer.listByHelpVotes':
+		'prefix': 'Customer.listByHelpVotes'
+		'body': """
+			result = Customer.list_by_help_votes(${1:vote_model}, ${2:vote_model_id}, ${3:up_down}, ${4:options})
+		"""
+
+	'Customer.create':
+		'prefix': 'Customer.create'
+		'body': """
+			result = Customer.create(${1:payload}, ${2:options})
+		"""
+
+	'Customer.createMe':
+		'prefix': 'Customer.createMe'
+		'body': """
+			result = Customer.create_me(${1:payload}, ${2:options})
+		"""
+
+	'Customer.authenticate':
+		'prefix': 'Customer.authenticate'
+		'body': """
+			result = Customer.authenticate(${1:payload}, ${2:options})
+		"""
+
+	'Customer.createVerification':
+		'prefix': 'Customer.createVerification'
+		'body': """
+			result = Customer.create_verification(${1:payload}, ${2:options})
+		"""
+
+	'Customer.authenticateBy3rdParty':
+		'prefix': 'Customer.authenticateBy3rdParty'
+		'body': """
+			result = Customer.authenticate_by_3_rd_party(${1:vendor}, ${2:options})
+		"""
+
+	'Customer.requestVerificationEmail':
+		'prefix': 'Customer.requestVerificationEmail'
+		'body': """
+			result = Customer.request_verification_email(${1:payload}, ${2:options})
+		"""
+
+	'Customer.addCoupon':
+		'prefix': 'Customer.addCoupon'
+		'body': """
+			result = Customer.add_coupon(${1:customer_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Customer.verify':
+		'prefix': 'Customer.verify'
+		'body': """
+			result = Customer.verify(${1:customer_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Customer.pushToMetafield':
+		'prefix': 'Customer.pushToMetafield'
+		'body': """
+			result = Customer.push_to_metafield(${1:customer_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Customer.pullFromMetafield':
+		'prefix': 'Customer.pullFromMetafield'
+		'body': """
+			result = Customer.pull_from_metafield(${1:customer_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Customer.increaseMetafield':
+		'prefix': 'Customer.increaseMetafield'
+		'body': """
+			result = Customer.increase_metafield(${1:customer_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Customer.updateMe':
+		'prefix': 'Customer.updateMe'
+		'body': """
+			result = Customer.update_me(${1:payload}, ${2:options})
+		"""
+
+	'Customer.update':
+		'prefix': 'Customer.update'
+		'body': """
+			result = Customer.update(${1:customer_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Customer.updateCredentialsForMe':
+		'prefix': 'Customer.updateCredentialsForMe'
+		'body': """
+			result = Customer.update_credentials_for_me(${1:payload}, ${2:options})
+		"""
+
+	'Customer.resetPassword':
+		'prefix': 'Customer.resetPassword'
+		'body': """
+			result = Customer.reset_password(${1:customer_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Customer.updateCredentials':
+		'prefix': 'Customer.updateCredentials'
+		'body': """
+			result = Customer.update_credentials(${1:customer_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Customer.deleteMe':
+		'prefix': 'Customer.deleteMe'
+		'body': """
+			result = Customer.delete_me(${1:options})
+		"""
+
+	'Customer.delete':
+		'prefix': 'Customer.delete'
+		'body': """
+			result = Customer.delete(${1:customer_id}, ${2:options})
+		"""
+
+	'Customer.deleteCouponForMe':
+		'prefix': 'Customer.deleteCouponForMe'
+		'body': """
+			result = Customer.delete_coupon_for_me(${1:coupon_id}, ${2:options})
+		"""
+
+	'Customer.deleteCoupon':
+		'prefix': 'Customer.deleteCoupon'
+		'body': """
+			result = Customer.delete_coupon(${1:customer_id}, ${2:coupon_id}, ${3:options})
+		"""
+
+	'Customer.deleteMetafield':
+		'prefix': 'Customer.deleteMetafield'
+		'body': """
+			result = Customer.delete_metafield(${1:customer_id}, ${2:field}, ${3:options})
+		"""
+
+	'Discount.list':
+		'prefix': 'Discount.list'
+		'body': """
+			result = Discount.list(${1:options})
+		"""
+
+	'Discount.count':
+		'prefix': 'Discount.count'
+		'body': """
+			result = Discount.count(${1:options})
+		"""
+
+	'Discount.get':
+		'prefix': 'Discount.get'
+		'body': """
+			result = Discount.get(${1:discount_id}, ${2:options})
+		"""
+
+	'Discount.pushToMetafield':
+		'prefix': 'Discount.pushToMetafield'
+		'body': """
+			result = Discount.push_to_metafield(${1:discount_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Discount.pullFromMetafield':
+		'prefix': 'Discount.pullFromMetafield'
+		'body': """
+			result = Discount.pull_from_metafield(${1:discount_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Discount.increaseMetafield':
+		'prefix': 'Discount.increaseMetafield'
+		'body': """
+			result = Discount.increase_metafield(${1:discount_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Discount.deleteMetafield':
+		'prefix': 'Discount.deleteMetafield'
+		'body': """
+			result = Discount.delete_metafield(${1:discount_id}, ${2:field}, ${3:options})
+		"""
+
+	'Downloadable.list':
+		'prefix': 'Downloadable.list'
+		'body': """
+			result = Downloadable.list(${1:options})
+		"""
+
+	'Downloadable.count':
+		'prefix': 'Downloadable.count'
+		'body': """
+			result = Downloadable.count(${1:options})
+		"""
+
+	'Downloadable.get':
+		'prefix': 'Downloadable.get'
+		'body': """
+			result = Downloadable.get(${1:downloadable_id}, ${2:options})
+		"""
+
+	'Downloadable.createDownloadUrl':
+		'prefix': 'Downloadable.createDownloadUrl'
+		'body': """
+			result = Downloadable.create_download_url(${1:downloadable_id}, ${2:options})
+		"""
+
+	'Group.list':
+		'prefix': 'Group.list'
+		'body': """
+			result = Group.list(${1:options})
+		"""
+
+	'Group.count':
+		'prefix': 'Group.count'
+		'body': """
+			result = Group.count(${1:options})
+		"""
+
+	'Group.get':
+		'prefix': 'Group.get'
+		'body': """
+			result = Group.get(${1:group_id}, ${2:options})
+		"""
+
+	'Group.pullFromMetafield':
+		'prefix': 'Group.pullFromMetafield'
+		'body': """
+			result = Group.pull_from_metafield(${1:group_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Group.pushToMetafield':
+		'prefix': 'Group.pushToMetafield'
+		'body': """
+			result = Group.push_to_metafield(${1:group_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Group.increaseMetafield':
+		'prefix': 'Group.increaseMetafield'
+		'body': """
+			result = Group.increase_metafield(${1:group_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Group.deleteMetafield':
+		'prefix': 'Group.deleteMetafield'
+		'body': """
+			result = Group.delete_metafield(${1:group_id}, ${2:field}, ${3:options})
+		"""
+
+	'Image.list':
+		'prefix': 'Image.list'
+		'body': """
+			result = Image.list(${1:options})
+		"""
+
+	'Image.count':
+		'prefix': 'Image.count'
+		'body': """
+			result = Image.count(${1:options})
+		"""
+
+	'Image.get':
+		'prefix': 'Image.get'
+		'body': """
+			result = Image.get(${1:image_id}, ${2:options})
+		"""
+
+	'Image.listForMe':
+		'prefix': 'Image.listForMe'
+		'body': """
+			result = Image.list_for_me(${1:options})
+		"""
+
+	'Image.countForMe':
+		'prefix': 'Image.countForMe'
+		'body': """
+			result = Image.count_for_me(${1:options})
+		"""
+
+	'Image.getForMe':
+		'prefix': 'Image.getForMe'
+		'body': """
+			result = Image.get_for_me(${1:image_id}, ${2:options})
+		"""
+
+	'Image.create':
+		'prefix': 'Image.create'
+		'body': """
+			result = Image.create(${1:payload}, ${2:options})
+		"""
+
+	'Image.createForMe':
+		'prefix': 'Image.createForMe'
+		'body': """
+			result = Image.create_for_me(${1:payload}, ${2:options})
+		"""
+
+	'Image.createAsCustomer':
+		'prefix': 'Image.createAsCustomer'
+		'body': """
+			result = Image.create_as_customer(${1:customer_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Image.update':
+		'prefix': 'Image.update'
+		'body': """
+			result = Image.update(${1:image_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Image.updateForMe':
+		'prefix': 'Image.updateForMe'
+		'body': """
+			result = Image.update_for_me(${1:image_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Image.updateAsCustomer':
+		'prefix': 'Image.updateAsCustomer'
+		'body': """
+			result = Image.update_as_customer(${1:customer_id}, ${2:image_id}, ${3:payload}, ${4:options})
+		"""
+
+	'Image.delete':
+		'prefix': 'Image.delete'
+		'body': """
+			result = Image.delete(${1:image_id}, ${2:options})
+		"""
+
+	'Image.deleteForMe':
+		'prefix': 'Image.deleteForMe'
+		'body': """
+			result = Image.delete_for_me(${1:image_id}, ${2:options})
+		"""
+
+	'Image.deleteAsCustomer':
+		'prefix': 'Image.deleteAsCustomer'
+		'body': """
+			result = Image.delete_as_customer(${1:customer_id}, ${2:image_id}, ${3:options})
+		"""
+
+	'Impression.topBrands':
+		'prefix': 'Impression.topBrands'
+		'body': """
+			result = Impression.top_brands(${1:scope}, ${2:options})
+		"""
+
+	'Impression.topProducts':
+		'prefix': 'Impression.topProducts'
+		'body': """
+			result = Impression.top_products(${1:scope}, ${2:options})
+		"""
+
+	'Impression.topCollections':
+		'prefix': 'Impression.topCollections'
+		'body': """
+			result = Impression.top_collections(${1:scope}, ${2:options})
+		"""
+
+	'Impression.gather':
+		'prefix': 'Impression.gather'
+		'body': """
+			result = Impression.gather(${1:scope}, ${2:payload}, ${3:options})
+		"""
+
+	'Order.list':
+		'prefix': 'Order.list'
+		'body': """
+			result = Order.list(${1:options})
+		"""
+
+	'Order.listForMe':
+		'prefix': 'Order.listForMe'
+		'body': """
+			result = Order.list_for_me(${1:options})
+		"""
+
+	'Order.count':
+		'prefix': 'Order.count'
+		'body': """
+			result = Order.count(${1:options})
+		"""
+
+	'Order.get':
+		'prefix': 'Order.get'
+		'body': """
+			result = Order.get(${1:order_id}, ${2:options})
+		"""
+
+	'Order.countForMe':
+		'prefix': 'Order.countForMe'
+		'body': """
+			result = Order.count_for_me(${1:options})
+		"""
+
+	'Order.getForMe':
+		'prefix': 'Order.getForMe'
+		'body': """
+			result = Order.get_for_me(${1:order_id}, ${2:options})
+		"""
+
+	'Order.listBySubscription':
+		'prefix': 'Order.listBySubscription'
+		'body': """
+			result = Order.list_by_subscription(${1:subscription_id}, ${2:options})
+		"""
+
+	'Order.listBySubscriptionForMe':
+		'prefix': 'Order.listBySubscriptionForMe'
+		'body': """
+			result = Order.list_by_subscription_for_me(${1:subscription_id}, ${2:options})
+		"""
+
+	'Order.listInventoryOperations':
+		'prefix': 'Order.listInventoryOperations'
+		'body': """
+			result = Order.list_inventory_operations(${1:order_id}, ${2:options})
+		"""
+
+	'Order.markAsArrived':
+		'prefix': 'Order.markAsArrived'
+		'body': """
+			result = Order.mark_as_arrived(${1:order_id}, ${2:options})
+		"""
+
+	'Order.markAsDone':
+		'prefix': 'Order.markAsDone'
+		'body': """
+			result = Order.mark_as_done(${1:order_id}, ${2:options})
+		"""
+
+	'Order.syncInventory':
+		'prefix': 'Order.syncInventory'
+		'body': """
+			result = Order.sync_inventory(${1:order_id}, ${2:options})
+		"""
+
+	'Order.createFulfillment':
+		'prefix': 'Order.createFulfillment'
+		'body': """
+			result = Order.create_fulfillment(${1:order_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Order.authenticate':
+		'prefix': 'Order.authenticate'
+		'body': """
+			result = Order.authenticate(${1:order_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Order.cancel':
+		'prefix': 'Order.cancel'
+		'body': """
+			result = Order.cancel(${1:order_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Order.requestRefund':
+		'prefix': 'Order.requestRefund'
+		'body': """
+			result = Order.request_refund(${1:order_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Order.cancelForMe':
+		'prefix': 'Order.cancelForMe'
+		'body': """
+			result = Order.cancel_for_me(${1:order_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Order.markAsArrivedForMe':
+		'prefix': 'Order.markAsArrivedForMe'
+		'body': """
+			result = Order.mark_as_arrived_for_me(${1:order_id}, ${2:options})
+		"""
+
+	'Order.requestRefundForMe':
+		'prefix': 'Order.requestRefundForMe'
+		'body': """
+			result = Order.request_refund_for_me(${1:order_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Order.checkTicket':
+		'prefix': 'Order.checkTicket'
+		'body': """
+			result = Order.check_ticket(${1:code}, ${2:payload}, ${3:options})
+		"""
+
+	'Order.useTicket':
+		'prefix': 'Order.useTicket'
+		'body': """
+			result = Order.use_ticket(${1:code}, ${2:options})
+		"""
+
+	'Order.requestFullRefund':
+		'prefix': 'Order.requestFullRefund'
+		'body': """
+			result = Order.request_full_refund(${1:order_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Order.requestFullRefundForMe':
+		'prefix': 'Order.requestFullRefundForMe'
+		'body': """
+			result = Order.request_full_refund_for_me(${1:order_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Order.restockRefundItems':
+		'prefix': 'Order.restockRefundItems'
+		'body': """
+			result = Order.restock_refund_items(${1:order_id}, ${2:refund_id}, ${3:payload}, ${4:options})
+		"""
+
+	'Order.registerPaymentMethod':
+		'prefix': 'Order.registerPaymentMethod'
+		'body': """
+			result = Order.register_payment_method(${1:order_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Order.pullFromMetafield':
+		'prefix': 'Order.pullFromMetafield'
+		'body': """
+			result = Order.pull_from_metafield(${1:order_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Order.pushToMetafield':
+		'prefix': 'Order.pushToMetafield'
+		'body': """
+			result = Order.push_to_metafield(${1:order_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Order.cancelRefund':
+		'prefix': 'Order.cancelRefund'
+		'body': """
+			result = Order.cancel_refund(${1:order_id}, ${2:refund_id}, ${3:payload}, ${4:options})
+		"""
+
+	'Order.acceptRefund':
+		'prefix': 'Order.acceptRefund'
+		'body': """
+			result = Order.accept_refund(${1:order_id}, ${2:refund_id}, ${3:options})
+		"""
+
+	'Order.increaseMetafield':
+		'prefix': 'Order.increaseMetafield'
+		'body': """
+			result = Order.increase_metafield(${1:order_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Order.cancelRefundForMe':
+		'prefix': 'Order.cancelRefundForMe'
+		'body': """
+			result = Order.cancel_refund_for_me(${1:order_id}, ${2:refund_id}, ${3:payload}, ${4:options})
+		"""
+
+	'Order.createDownloadUrl':
+		'prefix': 'Order.createDownloadUrl'
+		'body': """
+			result = Order.create_download_url(${1:order_id}, ${2:item_id}, ${3:options})
+		"""
+
+	'Order.restockAllRefundItems':
+		'prefix': 'Order.restockAllRefundItems'
+		'body': """
+			result = Order.restock_all_refund_items(${1:order_id}, ${2:refund_id}, ${3:options})
+		"""
+
+	'Order.createDownloadUrlForMe':
+		'prefix': 'Order.createDownloadUrlForMe'
+		'body': """
+			result = Order.create_download_url_for_me(${1:order_id}, ${2:item_id}, ${3:options})
+		"""
+
+	'Order.update':
+		'prefix': 'Order.update'
+		'body': """
+			result = Order.update(${1:order_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Order.updateForMe':
+		'prefix': 'Order.updateForMe'
+		'body': """
+			result = Order.update_for_me(${1:order_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Order.updateCancellation':
+		'prefix': 'Order.updateCancellation'
+		'body': """
+			result = Order.update_cancellation(${1:order_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Order.updateTransactions':
+		'prefix': 'Order.updateTransactions'
+		'body': """
+			result = Order.update_transactions(${1:order_id}, ${2:options})
+		"""
+
+	'Order.updateTransactionsForMe':
+		'prefix': 'Order.updateTransactionsForMe'
+		'body': """
+			result = Order.update_transactions_for_me(${1:order_id}, ${2:options})
+		"""
+
+	'Order.updateCancellationForMe':
+		'prefix': 'Order.updateCancellationForMe'
+		'body': """
+			result = Order.update_cancellation_for_me(${1:order_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Order.updateRefund':
+		'prefix': 'Order.updateRefund'
+		'body': """
+			result = Order.update_refund(${1:order_id}, ${2:refund_id}, ${3:payload}, ${4:options})
+		"""
+
+	'Order.updateFulfillment':
+		'prefix': 'Order.updateFulfillment'
+		'body': """
+			result = Order.update_fulfillment(${1:order_id}, ${2:fulfillment_id}, ${3:payload}, ${4:options})
+		"""
+
+	'Order.updateItem':
+		'prefix': 'Order.updateItem'
+		'body': """
+			result = Order.update_item(${1:order_id}, ${2:item_id}, ${3:payload}, ${4:options})
+		"""
+
+	'Order.updateRefundForMe':
+		'prefix': 'Order.updateRefundForMe'
+		'body': """
+			result = Order.update_refund_for_me(${1:order_id}, ${2:refund_id}, ${3:payload}, ${4:options})
+		"""
+
+	'Order.updateRefundCancellation':
+		'prefix': 'Order.updateRefundCancellation'
+		'body': """
+			result = Order.update_refund_cancellation(${1:order_id}, ${2:refund_id}, ${3:payload}, ${4:options})
+		"""
+
+	'Order.updateRefundCancellationForMe':
+		'prefix': 'Order.updateRefundCancellationForMe'
+		'body': """
+			result = Order.update_refund_cancellation_for_me(${1:order_id}, ${2:refund_id}, ${3:payload}, ${4:options})
+		"""
+
+	'Order.delete':
+		'prefix': 'Order.delete'
+		'body': """
+			result = Order.delete(${1:order_id}, ${2:options})
+		"""
+
+	'Order.markAsUndone':
+		'prefix': 'Order.markAsUndone'
+		'body': """
+			result = Order.mark_as_undone(${1:order_id}, ${2:options})
+		"""
+
+	'Order.markAsNotArrived':
+		'prefix': 'Order.markAsNotArrived'
+		'body': """
+			result = Order.mark_as_not_arrived(${1:order_id}, ${2:options})
+		"""
+
+	'Order.markAsNotArrivedForMe':
+		'prefix': 'Order.markAsNotArrivedForMe'
+		'body': """
+			result = Order.mark_as_not_arrived_for_me(${1:order_id}, ${2:options})
+		"""
+
+	'Order.deleteFulfillment':
+		'prefix': 'Order.deleteFulfillment'
+		'body': """
+			result = Order.delete_fulfillment(${1:order_id}, ${2:fulfillment_id}, ${3:options})
+		"""
+
+	'Order.deleteMetafield':
+		'prefix': 'Order.deleteMetafield'
+		'body': """
+			result = Order.delete_metafield(${1:order_id}, ${2:field}, ${3:options})
+		"""
+
+	'Order.deleteRefund':
+		'prefix': 'Order.deleteRefund'
+		'body': """
+			result = Order.delete_refund(${1:order_id}, ${2:refund_id}, ${3:options})
+		"""
+
+	'Order.deleteInventoryOperation':
+		'prefix': 'Order.deleteInventoryOperation'
+		'body': """
+			result = Order.delete_inventory_operation(${1:order_id}, ${2:operation_id}, ${3:options})
+		"""
+
+	'Order.unacceptRefund':
+		'prefix': 'Order.unacceptRefund'
+		'body': """
+			result = Order.unaccept_refund(${1:order_id}, ${2:refund_id}, ${3:options})
+		"""
+
+	'Order.unregisterPaymentMethod':
+		'prefix': 'Order.unregisterPaymentMethod'
+		'body': """
+			result = Order.unregister_payment_method(${1:order_id}, ${2:payment_method_id}, ${3:options})
+		"""
+
+	'OrderTag.list':
+		'prefix': 'OrderTag.list'
+		'body': """
+			result = OrderTag.list(${1:options})
+		"""
+
+	'OrderTag.count':
+		'prefix': 'OrderTag.count'
+		'body': """
+			result = OrderTag.count(${1:options})
+		"""
+
+	'OrderTag.get':
+		'prefix': 'OrderTag.get'
+		'body': """
+			result = OrderTag.get(${1:order_tag_id}, ${2:options})
+		"""
+
+	'PaymentMethod.list':
+		'prefix': 'PaymentMethod.list'
+		'body': """
+			result = PaymentMethod.list(${1:options})
+		"""
+
+	'PaymentMethod.count':
+		'prefix': 'PaymentMethod.count'
+		'body': """
+			result = PaymentMethod.count(${1:options})
+		"""
+
+	'PaymentMethod.get':
+		'prefix': 'PaymentMethod.get'
+		'body': """
+			result = PaymentMethod.get(${1:payment_method_id}, ${2:options})
+		"""
+
+	'Product.list':
+		'prefix': 'Product.list'
+		'body': """
+			result = Product.list(${1:options})
+		"""
+
+	'Product.count':
+		'prefix': 'Product.count'
+		'body': """
+			result = Product.count(${1:options})
+		"""
+
+	'Product.get':
+		'prefix': 'Product.get'
+		'body': """
+			result = Product.get(${1:product_id}, ${2:options})
+		"""
+
+	'Product.increaseMetafield':
+		'prefix': 'Product.increaseMetafield'
+		'body': """
+			result = Product.increase_metafield(${1:product_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Product.pullFromMetafield':
+		'prefix': 'Product.pullFromMetafield'
+		'body': """
+			result = Product.pull_from_metafield(${1:product_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Product.pushToMetafield':
+		'prefix': 'Product.pushToMetafield'
+		'body': """
+			result = Product.push_to_metafield(${1:product_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Product.deleteMetafield':
+		'prefix': 'Product.deleteMetafield'
+		'body': """
+			result = Product.delete_metafield(${1:product_id}, ${2:field}, ${3:options})
+		"""
+
+	'Review.list':
+		'prefix': 'Review.list'
+		'body': """
+			result = Review.list(${1:options})
+		"""
+
+	'Review.count':
+		'prefix': 'Review.count'
+		'body': """
+			result = Review.count(${1:options})
+		"""
+
+	'Review.listPublished':
+		'prefix': 'Review.listPublished'
+		'body': """
+			result = Review.list_published(${1:options})
+		"""
+
+	'Review.get':
+		'prefix': 'Review.get'
+		'body': """
+			result = Review.get(${1:review_id}, ${2:options})
+		"""
+
+	'Review.countPublished':
+		'prefix': 'Review.countPublished'
+		'body': """
+			result = Review.count_published(${1:options})
+		"""
+
+	'Review.getPublished':
+		'prefix': 'Review.getPublished'
+		'body': """
+			result = Review.get_published(${1:review_id}, ${2:options})
+		"""
+
+	'Review.create':
+		'prefix': 'Review.create'
+		'body': """
+			result = Review.create(${1:payload}, ${2:options})
+		"""
+
+	'Review.createForMe':
+		'prefix': 'Review.createForMe'
+		'body': """
+			result = Review.create_for_me(${1:payload}, ${2:options})
+		"""
+
+	'Review.flag':
+		'prefix': 'Review.flag'
+		'body': """
+			result = Review.flag(${1:review_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Review.flagForMe':
+		'prefix': 'Review.flagForMe'
+		'body': """
+			result = Review.flag_for_me(${1:review_id}, ${2:options})
+		"""
+
+	'Review.helped':
+		'prefix': 'Review.helped'
+		'body': """
+			result = Review.helped(${1:review_id}, ${2:up_down}, ${3:payload}, ${4:options})
+		"""
+
+	'Review.helpedForMe':
+		'prefix': 'Review.helpedForMe'
+		'body': """
+			result = Review.helped_for_me(${1:review_id}, ${2:up_down}, ${3:options})
+		"""
+
+	'Review.increaseMetafield':
+		'prefix': 'Review.increaseMetafield'
+		'body': """
+			result = Review.increase_metafield(${1:review_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Review.pullFromMetafield':
+		'prefix': 'Review.pullFromMetafield'
+		'body': """
+			result = Review.pull_from_metafield(${1:review_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Review.pushToMetafield':
+		'prefix': 'Review.pushToMetafield'
+		'body': """
+			result = Review.push_to_metafield(${1:review_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Review.update':
+		'prefix': 'Review.update'
+		'body': """
+			result = Review.update(${1:review_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Review.updateForMe':
+		'prefix': 'Review.updateForMe'
+		'body': """
+			result = Review.update_for_me(${1:review_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Review.delete':
+		'prefix': 'Review.delete'
+		'body': """
+			result = Review.delete(${1:review_id}, ${2:options})
+		"""
+
+	'Review.deleteForMe':
+		'prefix': 'Review.deleteForMe'
+		'body': """
+			result = Review.delete_for_me(${1:review_id}, ${2:options})
+		"""
+
+	'Review.cancelFlagForMe':
+		'prefix': 'Review.cancelFlagForMe'
+		'body': """
+			result = Review.cancel_flag_for_me(${1:review_id}, ${2:options})
+		"""
+
+	'Review.cancelFlag':
+		'prefix': 'Review.cancelFlag'
+		'body': """
+			result = Review.cancel_flag(${1:review_id}, ${2:customer_id}, ${3:options})
+		"""
+
+	'Review.deleteMetafield':
+		'prefix': 'Review.deleteMetafield'
+		'body': """
+			result = Review.delete_metafield(${1:review_id}, ${2:field}, ${3:options})
+		"""
+
+	'Review.cancelHelpedForMe':
+		'prefix': 'Review.cancelHelpedForMe'
+		'body': """
+			result = Review.cancel_helped_for_me(${1:review_id}, ${2:up_down}, ${3:options})
+		"""
+
+	'Review.cancelHelped':
+		'prefix': 'Review.cancelHelped'
+		'body': """
+			result = Review.cancel_helped(${1:review_id}, ${2:up_down}, ${3:customer_id}, ${4:options})
+		"""
+
+	'ReviewComment.list':
+		'prefix': 'ReviewComment.list'
+		'body': """
+			result = ReviewComment.list(${1:options})
+		"""
+
+	'ReviewComment.count':
+		'prefix': 'ReviewComment.count'
+		'body': """
+			result = ReviewComment.count(${1:options})
+		"""
+
+	'ReviewComment.get':
+		'prefix': 'ReviewComment.get'
+		'body': """
+			result = ReviewComment.get(${1:review_comment_id}, ${2:options})
+		"""
+
+	'ReviewComment.create':
+		'prefix': 'ReviewComment.create'
+		'body': """
+			result = ReviewComment.create(${1:payload}, ${2:options})
+		"""
+
+	'ReviewComment.createForMe':
+		'prefix': 'ReviewComment.createForMe'
+		'body': """
+			result = ReviewComment.create_for_me(${1:payload}, ${2:options})
+		"""
+
+	'ReviewComment.flag':
+		'prefix': 'ReviewComment.flag'
+		'body': """
+			result = ReviewComment.flag(${1:review_comment_id}, ${2:payload}, ${3:options})
+		"""
+
+	'ReviewComment.flagForMe':
+		'prefix': 'ReviewComment.flagForMe'
+		'body': """
+			result = ReviewComment.flag_for_me(${1:review_comment_id}, ${2:options})
+		"""
+
+	'ReviewComment.increaseMetafield':
+		'prefix': 'ReviewComment.increaseMetafield'
+		'body': """
+			result = ReviewComment.increase_metafield(${1:review_comment_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'ReviewComment.pushToMetafield':
+		'prefix': 'ReviewComment.pushToMetafield'
+		'body': """
+			result = ReviewComment.push_to_metafield(${1:review_comment_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'ReviewComment.pullFromMetafield':
+		'prefix': 'ReviewComment.pullFromMetafield'
+		'body': """
+			result = ReviewComment.pull_from_metafield(${1:review_comment_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'ReviewComment.update':
+		'prefix': 'ReviewComment.update'
+		'body': """
+			result = ReviewComment.update(${1:review_comment_id}, ${2:payload}, ${3:options})
+		"""
+
+	'ReviewComment.updateForMe':
+		'prefix': 'ReviewComment.updateForMe'
+		'body': """
+			result = ReviewComment.update_for_me(${1:review_comment_id}, ${2:payload}, ${3:options})
+		"""
+
+	'ReviewComment.delete':
+		'prefix': 'ReviewComment.delete'
+		'body': """
+			result = ReviewComment.delete(${1:review_comment_id}, ${2:options})
+		"""
+
+	'ReviewComment.deleteForMe':
+		'prefix': 'ReviewComment.deleteForMe'
+		'body': """
+			result = ReviewComment.delete_for_me(${1:review_comment_id}, ${2:options})
+		"""
+
+	'ReviewComment.cancelFlagForMe':
+		'prefix': 'ReviewComment.cancelFlagForMe'
+		'body': """
+			result = ReviewComment.cancel_flag_for_me(${1:review_comment_id}, ${2:options})
+		"""
+
+	'ReviewComment.deleteMetafield':
+		'prefix': 'ReviewComment.deleteMetafield'
+		'body': """
+			result = ReviewComment.delete_metafield(${1:review_comment_id}, ${2:field}, ${3:options})
+		"""
+
+	'ReviewComment.cancelFlag':
+		'prefix': 'ReviewComment.cancelFlag'
+		'body': """
+			result = ReviewComment.cancel_flag(${1:review_comment_id}, ${2:customer_id}, ${3:options})
+		"""
+
+	'ShippingMethod.list':
+		'prefix': 'ShippingMethod.list'
+		'body': """
+			result = ShippingMethod.list(${1:options})
+		"""
+
+	'ShippingMethod.count':
+		'prefix': 'ShippingMethod.count'
+		'body': """
+			result = ShippingMethod.count(${1:options})
+		"""
+
+	'ShippingMethod.get':
+		'prefix': 'ShippingMethod.get'
+		'body': """
+			result = ShippingMethod.get(${1:shipping_method_id}, ${2:options})
+		"""
+
+	'Store.get':
+		'prefix': 'Store.get'
+		'body': """
+			result = Store.get(${1:options})
+		"""
+
+	'Store.pushToMetafield':
+		'prefix': 'Store.pushToMetafield'
+		'body': """
+			result = Store.push_to_metafield(${1:field}, ${2:payload}, ${3:options})
+		"""
+
+	'Store.increaseMetafield':
+		'prefix': 'Store.increaseMetafield'
+		'body': """
+			result = Store.increase_metafield(${1:field}, ${2:payload}, ${3:options})
+		"""
+
+	'Store.pullFromMetafield':
+		'prefix': 'Store.pullFromMetafield'
+		'body': """
+			result = Store.pull_from_metafield(${1:field}, ${2:payload}, ${3:options})
+		"""
+
+	'Store.deleteMetafield':
+		'prefix': 'Store.deleteMetafield'
+		'body': """
+			result = Store.delete_metafield(${1:field}, ${2:options})
+		"""
+
+	'Subscription.list':
+		'prefix': 'Subscription.list'
+		'body': """
+			result = Subscription.list(${1:options})
+		"""
+
+	'Subscription.listForMe':
+		'prefix': 'Subscription.listForMe'
+		'body': """
+			result = Subscription.list_for_me(${1:options})
+		"""
+
+	'Subscription.count':
+		'prefix': 'Subscription.count'
+		'body': """
+			result = Subscription.count(${1:options})
+		"""
+
+	'Subscription.get':
+		'prefix': 'Subscription.get'
+		'body': """
+			result = Subscription.get(${1:subscription_id}, ${2:options})
+		"""
+
+	'Subscription.countForMe':
+		'prefix': 'Subscription.countForMe'
+		'body': """
+			result = Subscription.count_for_me(${1:options})
+		"""
+
+	'Subscription.getForMe':
+		'prefix': 'Subscription.getForMe'
+		'body': """
+			result = Subscription.get_for_me(${1:subscription_id}, ${2:options})
+		"""
+
+	'Subscription.listInventoryOperations':
+		'prefix': 'Subscription.listInventoryOperations'
+		'body': """
+			result = Subscription.list_inventory_operations(${1:subscription_id}, ${2:options})
+		"""
+
+	'Subscription.authenticate':
+		'prefix': 'Subscription.authenticate'
+		'body': """
+			result = Subscription.authenticate(${1:subscription_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Subscription.markAsDone':
+		'prefix': 'Subscription.markAsDone'
+		'body': """
+			result = Subscription.mark_as_done(${1:subscription_id}, ${2:options})
+		"""
+
+	'Subscription.cancel':
+		'prefix': 'Subscription.cancel'
+		'body': """
+			result = Subscription.cancel(${1:subscription_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Subscription.syncInventory':
+		'prefix': 'Subscription.syncInventory'
+		'body': """
+			result = Subscription.sync_inventory(${1:subscription_id}, ${2:options})
+		"""
+
+	'Subscription.schedule':
+		'prefix': 'Subscription.schedule'
+		'body': """
+			result = Subscription.schedule(${1:subscription_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Subscription.cancelForMe':
+		'prefix': 'Subscription.cancelForMe'
+		'body': """
+			result = Subscription.cancel_for_me(${1:subscription_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Subscription.scheduleForMe':
+		'prefix': 'Subscription.scheduleForMe'
+		'body': """
+			result = Subscription.schedule_for_me(${1:subscription_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Subscription.fulfillSchedule':
+		'prefix': 'Subscription.fulfillSchedule'
+		'body': """
+			result = Subscription.fulfill_schedule(${1:subscription_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Subscription.pullFromMetafield':
+		'prefix': 'Subscription.pullFromMetafield'
+		'body': """
+			result = Subscription.pull_from_metafield(${1:subscription_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Subscription.pushToMetafield':
+		'prefix': 'Subscription.pushToMetafield'
+		'body': """
+			result = Subscription.push_to_metafield(${1:subscription_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Subscription.increaseMetafield':
+		'prefix': 'Subscription.increaseMetafield'
+		'body': """
+			result = Subscription.increase_metafield(${1:subscription_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'Subscription.updateCancellation':
+		'prefix': 'Subscription.updateCancellation'
+		'body': """
+			result = Subscription.update_cancellation(${1:subscription_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Subscription.updateCancellationForMe':
+		'prefix': 'Subscription.updateCancellationForMe'
+		'body': """
+			result = Subscription.update_cancellation_for_me(${1:subscription_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Subscription.delete':
+		'prefix': 'Subscription.delete'
+		'body': """
+			result = Subscription.delete(${1:subscription_id}, ${2:options})
+		"""
+
+	'Subscription.markAsUndone':
+		'prefix': 'Subscription.markAsUndone'
+		'body': """
+			result = Subscription.mark_as_undone(${1:subscription_id}, ${2:options})
+		"""
+
+	'Subscription.deleteMetafield':
+		'prefix': 'Subscription.deleteMetafield'
+		'body': """
+			result = Subscription.delete_metafield(${1:subscription_id}, ${2:field}, ${3:options})
+		"""
+
+	'Subscription.deleteInventoryOperation':
+		'prefix': 'Subscription.deleteInventoryOperation'
+		'body': """
+			result = Subscription.delete_inventory_operation(${1:subscription_id}, ${2:operation_id}, ${3:options})
+		"""
+
+	'SubscriptionPlan.list':
+		'prefix': 'SubscriptionPlan.list'
+		'body': """
+			result = SubscriptionPlan.list(${1:options})
+		"""
+
+	'SubscriptionPlan.count':
+		'prefix': 'SubscriptionPlan.count'
+		'body': """
+			result = SubscriptionPlan.count(${1:options})
+		"""
+
+	'SubscriptionPlan.get':
+		'prefix': 'SubscriptionPlan.get'
+		'body': """
+			result = SubscriptionPlan.get(${1:subscription_plan_id}, ${2:options})
+		"""
+
+	'TaxCategory.list':
+		'prefix': 'TaxCategory.list'
+		'body': """
+			result = TaxCategory.list(${1:options})
+		"""
+
+	'TaxCategory.count':
+		'prefix': 'TaxCategory.count'
+		'body': """
+			result = TaxCategory.count(${1:options})
+		"""
+
+	'TaxCategory.get':
+		'prefix': 'TaxCategory.get'
+		'body': """
+			result = TaxCategory.get(${1:tax_category_id}, ${2:options})
+		"""
+
+	'Tracker.getByCustomerForMe':
+		'prefix': 'Tracker.getByCustomerForMe'
+		'body': """
+			result = Tracker.get_by_customer_for_me(${1:options})
+		"""
+
+	'Tracker.get':
+		'prefix': 'Tracker.get'
+		'body': """
+			result = Tracker.get(${1:tracker_id}, ${2:options})
+		"""
+
+	'Tracker.getByCustomer':
+		'prefix': 'Tracker.getByCustomer'
+		'body': """
+			result = Tracker.get_by_customer(${1:customer_id}, ${2:options})
+		"""
+
+	'Tracker.getForMe':
+		'prefix': 'Tracker.getForMe'
+		'body': """
+			result = Tracker.get_for_me(${1:tracker_id}, ${2:options})
+		"""
+
+	'Tracker.getAsNonRegisteredForMe':
+		'prefix': 'Tracker.getAsNonRegisteredForMe'
+		'body': """
+			result = Tracker.get_as_non_registered_for_me(${1:tracker_id}, ${2:options})
+		"""
+
+	'Tracker.create':
+		'prefix': 'Tracker.create'
+		'body': """
+			result = Tracker.create(${1:payload}, ${2:options})
+		"""
+
+	'Tracker.createForMe':
+		'prefix': 'Tracker.createForMe'
+		'body': """
+			result = Tracker.create_for_me(${1:options})
+		"""
+
+	'Tracker.createAsNonRegisteredForMe':
+		'prefix': 'Tracker.createAsNonRegisteredForMe'
+		'body': """
+			result = Tracker.create_as_non_registered_for_me(${1:options})
+		"""
+
+	'Tracker.changeOwner':
+		'prefix': 'Tracker.changeOwner'
+		'body': """
+			result = Tracker.change_owner(${1:tracker_id}, ${2:payload}, ${3:options})
+		"""
+
+	'Tracker.changeOwnerForMe':
+		'prefix': 'Tracker.changeOwnerForMe'
+		'body': """
+			result = Tracker.change_owner_for_me(${1:tracker_id}, ${2:options})
+		"""
+
+	'Tracker.delete':
+		'prefix': 'Tracker.delete'
+		'body': """
+			result = Tracker.delete(${1:tracker_id}, ${2:options})
+		"""
+
+	'Tracker.deleteForMe':
+		'prefix': 'Tracker.deleteForMe'
+		'body': """
+			result = Tracker.delete_for_me(${1:tracker_id}, ${2:options})
+		"""
+
+	'Tracker.deleteAsNonRegisteredForMe':
+		'prefix': 'Tracker.deleteAsNonRegisteredForMe'
+		'body': """
+			result = Tracker.delete_as_non_registered_for_me(${1:tracker_id}, ${2:options})
+		"""
+
+	'WishList.list':
+		'prefix': 'WishList.list'
+		'body': """
+			result = WishList.list(${1:options})
+		"""
+
+	'WishList.listForMe':
+		'prefix': 'WishList.listForMe'
+		'body': """
+			result = WishList.list_for_me(${1:options})
+		"""
+
+	'WishList.count':
+		'prefix': 'WishList.count'
+		'body': """
+			result = WishList.count(${1:options})
+		"""
+
+	'WishList.get':
+		'prefix': 'WishList.get'
+		'body': """
+			result = WishList.get(${1:wish_list_id}, ${2:options})
+		"""
+
+	'WishList.countForMe':
+		'prefix': 'WishList.countForMe'
+		'body': """
+			result = WishList.count_for_me(${1:options})
+		"""
+
+	'WishList.getForMe':
+		'prefix': 'WishList.getForMe'
+		'body': """
+			result = WishList.get_for_me(${1:wish_list_id}, ${2:options})
+		"""
+
+	'WishList.listProducts':
+		'prefix': 'WishList.listProducts'
+		'body': """
+			result = WishList.list_products(${1:wish_list_id}, ${2:options})
+		"""
+
+	'WishList.listProductsForMe':
+		'prefix': 'WishList.listProductsForMe'
+		'body': """
+			result = WishList.list_products_for_me(${1:wish_list_id}, ${2:options})
+		"""
+
+	'WishList.countProducts':
+		'prefix': 'WishList.countProducts'
+		'body': """
+			result = WishList.count_products(${1:wish_list_id}, ${2:options})
+		"""
+
+	'WishList.countProductsForMe':
+		'prefix': 'WishList.countProductsForMe'
+		'body': """
+			result = WishList.count_products_for_me(${1:wish_list_id}, ${2:options})
+		"""
+
+	'WishList.create':
+		'prefix': 'WishList.create'
+		'body': """
+			result = WishList.create(${1:payload}, ${2:options})
+		"""
+
+	'WishList.createForMe':
+		'prefix': 'WishList.createForMe'
+		'body': """
+			result = WishList.create_for_me(${1:payload}, ${2:options})
+		"""
+
+	'WishList.addItem':
+		'prefix': 'WishList.addItem'
+		'body': """
+			result = WishList.add_item(${1:wish_list_id}, ${2:payload}, ${3:options})
+		"""
+
+	'WishList.addItemForMe':
+		'prefix': 'WishList.addItemForMe'
+		'body': """
+			result = WishList.add_item_for_me(${1:wish_list_id}, ${2:payload}, ${3:options})
+		"""
+
+	'WishList.pullFromMetafield':
+		'prefix': 'WishList.pullFromMetafield'
+		'body': """
+			result = WishList.pull_from_metafield(${1:wish_list_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'WishList.pushToMetafield':
+		'prefix': 'WishList.pushToMetafield'
+		'body': """
+			result = WishList.push_to_metafield(${1:wish_list_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'WishList.increaseMetafield':
+		'prefix': 'WishList.increaseMetafield'
+		'body': """
+			result = WishList.increase_metafield(${1:wish_list_id}, ${2:field}, ${3:payload}, ${4:options})
+		"""
+
+	'WishList.update':
+		'prefix': 'WishList.update'
+		'body': """
+			result = WishList.update(${1:wish_list_id}, ${2:payload}, ${3:options})
+		"""
+
+	'WishList.updateForMe':
+		'prefix': 'WishList.updateForMe'
+		'body': """
+			result = WishList.update_for_me(${1:wish_list_id}, ${2:payload}, ${3:options})
+		"""
+
+	'WishList.delete':
+		'prefix': 'WishList.delete'
+		'body': """
+			result = WishList.delete(${1:wish_list_id}, ${2:options})
+		"""
+
+	'WishList.deleteForMe':
+		'prefix': 'WishList.deleteForMe'
+		'body': """
+			result = WishList.delete_for_me(${1:wish_list_id}, ${2:options})
+		"""
+
+	'WishList.empty':
+		'prefix': 'WishList.empty'
+		'body': """
+			result = WishList.empty(${1:wish_list_id}, ${2:options})
+		"""
+
+	'WishList.emptyForMe':
+		'prefix': 'WishList.emptyForMe'
+		'body': """
+			result = WishList.empty_for_me(${1:wish_list_id}, ${2:options})
+		"""
+
+	'WishList.deleteItem':
+		'prefix': 'WishList.deleteItem'
+		'body': """
+			result = WishList.delete_item(${1:wish_list_id}, ${2:product_id}, ${3:options})
+		"""
+
+	'WishList.deleteMetafield':
+		'prefix': 'WishList.deleteMetafield'
+		'body': """
+			result = WishList.delete_metafield(${1:wish_list_id}, ${2:field}, ${3:options})
+		"""
+
+	'WishList.deleteItemForMe':
+		'prefix': 'WishList.deleteItemForMe'
+		'body': """
+			result = WishList.delete_item_for_me(${1:wish_list_id}, ${2:product_id}, ${3:options})
+		"""

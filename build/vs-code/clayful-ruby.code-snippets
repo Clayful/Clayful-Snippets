@@ -1,0 +1,2468 @@
+
+{
+
+	"Brand.list": {
+		"prefix": "Brand.list",
+		"scope": "ruby",
+		"body": [
+			"result = Brand.list(${1:options})"
+		],
+		"description": "Brand.list"
+	},
+	"Brand.count": {
+		"prefix": "Brand.count",
+		"scope": "ruby",
+		"body": [
+			"result = Brand.count(${1:options})"
+		],
+		"description": "Brand.count"
+	},
+	"Brand.get": {
+		"prefix": "Brand.get",
+		"scope": "ruby",
+		"body": [
+			"result = Brand.get(${1:brand_id}, ${2:options})"
+		],
+		"description": "Brand.get"
+	},
+	"Brand.pullFromMetafield": {
+		"prefix": "Brand.pullFromMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Brand.pull_from_metafield(${1:brand_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Brand.pullFromMetafield"
+	},
+	"Brand.pushToMetafield": {
+		"prefix": "Brand.pushToMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Brand.push_to_metafield(${1:brand_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Brand.pushToMetafield"
+	},
+	"Brand.increaseMetafield": {
+		"prefix": "Brand.increaseMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Brand.increase_metafield(${1:brand_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Brand.increaseMetafield"
+	},
+	"Brand.deleteMetafield": {
+		"prefix": "Brand.deleteMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Brand.delete_metafield(${1:brand_id}, ${2:field}, ${3:options})"
+		],
+		"description": "Brand.deleteMetafield"
+	},
+	"Cart.countItemsForMe": {
+		"prefix": "Cart.countItemsForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Cart.count_items_for_me(${1:options})"
+		],
+		"description": "Cart.countItemsForMe"
+	},
+	"Cart.countItems": {
+		"prefix": "Cart.countItems",
+		"scope": "ruby",
+		"body": [
+			"result = Cart.count_items(${1:customer_id}, ${2:options})"
+		],
+		"description": "Cart.countItems"
+	},
+	"Cart.getForMe": {
+		"prefix": "Cart.getForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Cart.get_for_me(${1:payload}, ${2:options})"
+		],
+		"description": "Cart.getForMe"
+	},
+	"Cart.getAsNonRegistered": {
+		"prefix": "Cart.getAsNonRegistered",
+		"scope": "ruby",
+		"body": [
+			"result = Cart.get_as_non_registered(${1:payload}, ${2:options})"
+		],
+		"description": "Cart.getAsNonRegistered"
+	},
+	"Cart.get": {
+		"prefix": "Cart.get",
+		"scope": "ruby",
+		"body": [
+			"result = Cart.get(${1:customer_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Cart.get"
+	},
+	"Cart.addItemForMe": {
+		"prefix": "Cart.addItemForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Cart.add_item_for_me(${1:payload}, ${2:options})"
+		],
+		"description": "Cart.addItemForMe"
+	},
+	"Cart.getAsNonRegisteredForMe": {
+		"prefix": "Cart.getAsNonRegisteredForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Cart.get_as_non_registered_for_me(${1:payload}, ${2:options})"
+		],
+		"description": "Cart.getAsNonRegisteredForMe"
+	},
+	"Cart.addItem": {
+		"prefix": "Cart.addItem",
+		"scope": "ruby",
+		"body": [
+			"result = Cart.add_item(${1:customer_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Cart.addItem"
+	},
+	"Cart.checkoutForMe": {
+		"prefix": "Cart.checkoutForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Cart.checkout_for_me(${1:type}, ${2:payload}, ${3:options})"
+		],
+		"description": "Cart.checkoutForMe"
+	},
+	"Cart.checkoutAsNonRegistered": {
+		"prefix": "Cart.checkoutAsNonRegistered",
+		"scope": "ruby",
+		"body": [
+			"result = Cart.checkout_as_non_registered(${1:type}, ${2:payload}, ${3:options})"
+		],
+		"description": "Cart.checkoutAsNonRegistered"
+	},
+	"Cart.checkout": {
+		"prefix": "Cart.checkout",
+		"scope": "ruby",
+		"body": [
+			"result = Cart.checkout(${1:customer_id}, ${2:type}, ${3:payload}, ${4:options})"
+		],
+		"description": "Cart.checkout"
+	},
+	"Cart.checkoutAsNonRegisteredForMe": {
+		"prefix": "Cart.checkoutAsNonRegisteredForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Cart.checkout_as_non_registered_for_me(${1:type}, ${2:payload}, ${3:options})"
+		],
+		"description": "Cart.checkoutAsNonRegisteredForMe"
+	},
+	"Cart.updateItemForMe": {
+		"prefix": "Cart.updateItemForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Cart.update_item_for_me(${1:item_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Cart.updateItemForMe"
+	},
+	"Cart.updateItem": {
+		"prefix": "Cart.updateItem",
+		"scope": "ruby",
+		"body": [
+			"result = Cart.update_item(${1:customer_id}, ${2:item_id}, ${3:payload}, ${4:options})"
+		],
+		"description": "Cart.updateItem"
+	},
+	"Cart.emptyForMe": {
+		"prefix": "Cart.emptyForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Cart.empty_for_me(${1:options})"
+		],
+		"description": "Cart.emptyForMe"
+	},
+	"Cart.empty": {
+		"prefix": "Cart.empty",
+		"scope": "ruby",
+		"body": [
+			"result = Cart.empty(${1:customer_id}, ${2:options})"
+		],
+		"description": "Cart.empty"
+	},
+	"Cart.deleteItemForMe": {
+		"prefix": "Cart.deleteItemForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Cart.delete_item_for_me(${1:item_id}, ${2:options})"
+		],
+		"description": "Cart.deleteItemForMe"
+	},
+	"Cart.deleteItem": {
+		"prefix": "Cart.deleteItem",
+		"scope": "ruby",
+		"body": [
+			"result = Cart.delete_item(${1:customer_id}, ${2:item_id}, ${3:options})"
+		],
+		"description": "Cart.deleteItem"
+	},
+	"Catalog.list": {
+		"prefix": "Catalog.list",
+		"scope": "ruby",
+		"body": [
+			"result = Catalog.list(${1:options})"
+		],
+		"description": "Catalog.list"
+	},
+	"Catalog.count": {
+		"prefix": "Catalog.count",
+		"scope": "ruby",
+		"body": [
+			"result = Catalog.count(${1:options})"
+		],
+		"description": "Catalog.count"
+	},
+	"Catalog.get": {
+		"prefix": "Catalog.get",
+		"scope": "ruby",
+		"body": [
+			"result = Catalog.get(${1:catalog_id}, ${2:options})"
+		],
+		"description": "Catalog.get"
+	},
+	"Catalog.pullFromMetafield": {
+		"prefix": "Catalog.pullFromMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Catalog.pull_from_metafield(${1:catalog_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Catalog.pullFromMetafield"
+	},
+	"Catalog.increaseMetafield": {
+		"prefix": "Catalog.increaseMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Catalog.increase_metafield(${1:catalog_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Catalog.increaseMetafield"
+	},
+	"Catalog.pushToMetafield": {
+		"prefix": "Catalog.pushToMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Catalog.push_to_metafield(${1:catalog_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Catalog.pushToMetafield"
+	},
+	"Catalog.deleteMetafield": {
+		"prefix": "Catalog.deleteMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Catalog.delete_metafield(${1:catalog_id}, ${2:field}, ${3:options})"
+		],
+		"description": "Catalog.deleteMetafield"
+	},
+	"Collection.list": {
+		"prefix": "Collection.list",
+		"scope": "ruby",
+		"body": [
+			"result = Collection.list(${1:options})"
+		],
+		"description": "Collection.list"
+	},
+	"Collection.count": {
+		"prefix": "Collection.count",
+		"scope": "ruby",
+		"body": [
+			"result = Collection.count(${1:options})"
+		],
+		"description": "Collection.count"
+	},
+	"Collection.get": {
+		"prefix": "Collection.get",
+		"scope": "ruby",
+		"body": [
+			"result = Collection.get(${1:collection_id}, ${2:options})"
+		],
+		"description": "Collection.get"
+	},
+	"Collection.pushToMetafield": {
+		"prefix": "Collection.pushToMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Collection.push_to_metafield(${1:collection_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Collection.pushToMetafield"
+	},
+	"Collection.pullFromMetafield": {
+		"prefix": "Collection.pullFromMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Collection.pull_from_metafield(${1:collection_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Collection.pullFromMetafield"
+	},
+	"Collection.increaseMetafield": {
+		"prefix": "Collection.increaseMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Collection.increase_metafield(${1:collection_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Collection.increaseMetafield"
+	},
+	"Collection.deleteMetafield": {
+		"prefix": "Collection.deleteMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Collection.delete_metafield(${1:collection_id}, ${2:field}, ${3:options})"
+		],
+		"description": "Collection.deleteMetafield"
+	},
+	"Country.list": {
+		"prefix": "Country.list",
+		"scope": "ruby",
+		"body": [
+			"result = Country.list(${1:options})"
+		],
+		"description": "Country.list"
+	},
+	"Country.count": {
+		"prefix": "Country.count",
+		"scope": "ruby",
+		"body": [
+			"result = Country.count(${1:options})"
+		],
+		"description": "Country.count"
+	},
+	"Country.get": {
+		"prefix": "Country.get",
+		"scope": "ruby",
+		"body": [
+			"result = Country.get(${1:country_id}, ${2:options})"
+		],
+		"description": "Country.get"
+	},
+	"Coupon.list": {
+		"prefix": "Coupon.list",
+		"scope": "ruby",
+		"body": [
+			"result = Coupon.list(${1:options})"
+		],
+		"description": "Coupon.list"
+	},
+	"Coupon.count": {
+		"prefix": "Coupon.count",
+		"scope": "ruby",
+		"body": [
+			"result = Coupon.count(${1:options})"
+		],
+		"description": "Coupon.count"
+	},
+	"Coupon.get": {
+		"prefix": "Coupon.get",
+		"scope": "ruby",
+		"body": [
+			"result = Coupon.get(${1:coupon_id}, ${2:options})"
+		],
+		"description": "Coupon.get"
+	},
+	"Coupon.increaseMetafield": {
+		"prefix": "Coupon.increaseMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Coupon.increase_metafield(${1:coupon_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Coupon.increaseMetafield"
+	},
+	"Coupon.pullFromMetafield": {
+		"prefix": "Coupon.pullFromMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Coupon.pull_from_metafield(${1:coupon_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Coupon.pullFromMetafield"
+	},
+	"Coupon.pushToMetafield": {
+		"prefix": "Coupon.pushToMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Coupon.push_to_metafield(${1:coupon_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Coupon.pushToMetafield"
+	},
+	"Coupon.deleteMetafield": {
+		"prefix": "Coupon.deleteMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Coupon.delete_metafield(${1:coupon_id}, ${2:field}, ${3:options})"
+		],
+		"description": "Coupon.deleteMetafield"
+	},
+	"Currency.list": {
+		"prefix": "Currency.list",
+		"scope": "ruby",
+		"body": [
+			"result = Currency.list(${1:options})"
+		],
+		"description": "Currency.list"
+	},
+	"Currency.count": {
+		"prefix": "Currency.count",
+		"scope": "ruby",
+		"body": [
+			"result = Currency.count(${1:options})"
+		],
+		"description": "Currency.count"
+	},
+	"Currency.get": {
+		"prefix": "Currency.get",
+		"scope": "ruby",
+		"body": [
+			"result = Currency.get(${1:currency_id}, ${2:options})"
+		],
+		"description": "Currency.get"
+	},
+	"Customer.list": {
+		"prefix": "Customer.list",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.list(${1:options})"
+		],
+		"description": "Customer.list"
+	},
+	"Customer.getMe": {
+		"prefix": "Customer.getMe",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.get_me(${1:options})"
+		],
+		"description": "Customer.getMe"
+	},
+	"Customer.isAuthenticated": {
+		"prefix": "Customer.isAuthenticated",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.is_authenticated(${1:options})"
+		],
+		"description": "Customer.isAuthenticated"
+	},
+	"Customer.count": {
+		"prefix": "Customer.count",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.count(${1:options})"
+		],
+		"description": "Customer.count"
+	},
+	"Customer.get": {
+		"prefix": "Customer.get",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.get(${1:customer_id}, ${2:options})"
+		],
+		"description": "Customer.get"
+	},
+	"Customer.listCouponsForMe": {
+		"prefix": "Customer.listCouponsForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.list_coupons_for_me(${1:options})"
+		],
+		"description": "Customer.listCouponsForMe"
+	},
+	"Customer.listCoupons": {
+		"prefix": "Customer.listCoupons",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.list_coupons(${1:customer_id}, ${2:options})"
+		],
+		"description": "Customer.listCoupons"
+	},
+	"Customer.countCouponsForMe": {
+		"prefix": "Customer.countCouponsForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.count_coupons_for_me(${1:options})"
+		],
+		"description": "Customer.countCouponsForMe"
+	},
+	"Customer.countCoupons": {
+		"prefix": "Customer.countCoupons",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.count_coupons(${1:customer_id}, ${2:options})"
+		],
+		"description": "Customer.countCoupons"
+	},
+	"Customer.listByFlagVotes": {
+		"prefix": "Customer.listByFlagVotes",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.list_by_flag_votes(${1:vote_model}, ${2:vote_model_id}, ${3:options})"
+		],
+		"description": "Customer.listByFlagVotes"
+	},
+	"Customer.listByHelpVotes": {
+		"prefix": "Customer.listByHelpVotes",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.list_by_help_votes(${1:vote_model}, ${2:vote_model_id}, ${3:up_down}, ${4:options})"
+		],
+		"description": "Customer.listByHelpVotes"
+	},
+	"Customer.create": {
+		"prefix": "Customer.create",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.create(${1:payload}, ${2:options})"
+		],
+		"description": "Customer.create"
+	},
+	"Customer.createMe": {
+		"prefix": "Customer.createMe",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.create_me(${1:payload}, ${2:options})"
+		],
+		"description": "Customer.createMe"
+	},
+	"Customer.authenticate": {
+		"prefix": "Customer.authenticate",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.authenticate(${1:payload}, ${2:options})"
+		],
+		"description": "Customer.authenticate"
+	},
+	"Customer.createVerification": {
+		"prefix": "Customer.createVerification",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.create_verification(${1:payload}, ${2:options})"
+		],
+		"description": "Customer.createVerification"
+	},
+	"Customer.authenticateBy3rdParty": {
+		"prefix": "Customer.authenticateBy3rdParty",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.authenticate_by_3_rd_party(${1:vendor}, ${2:options})"
+		],
+		"description": "Customer.authenticateBy3rdParty"
+	},
+	"Customer.requestVerificationEmail": {
+		"prefix": "Customer.requestVerificationEmail",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.request_verification_email(${1:payload}, ${2:options})"
+		],
+		"description": "Customer.requestVerificationEmail"
+	},
+	"Customer.addCoupon": {
+		"prefix": "Customer.addCoupon",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.add_coupon(${1:customer_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Customer.addCoupon"
+	},
+	"Customer.verify": {
+		"prefix": "Customer.verify",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.verify(${1:customer_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Customer.verify"
+	},
+	"Customer.pushToMetafield": {
+		"prefix": "Customer.pushToMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.push_to_metafield(${1:customer_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Customer.pushToMetafield"
+	},
+	"Customer.pullFromMetafield": {
+		"prefix": "Customer.pullFromMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.pull_from_metafield(${1:customer_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Customer.pullFromMetafield"
+	},
+	"Customer.increaseMetafield": {
+		"prefix": "Customer.increaseMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.increase_metafield(${1:customer_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Customer.increaseMetafield"
+	},
+	"Customer.updateMe": {
+		"prefix": "Customer.updateMe",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.update_me(${1:payload}, ${2:options})"
+		],
+		"description": "Customer.updateMe"
+	},
+	"Customer.update": {
+		"prefix": "Customer.update",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.update(${1:customer_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Customer.update"
+	},
+	"Customer.updateCredentialsForMe": {
+		"prefix": "Customer.updateCredentialsForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.update_credentials_for_me(${1:payload}, ${2:options})"
+		],
+		"description": "Customer.updateCredentialsForMe"
+	},
+	"Customer.resetPassword": {
+		"prefix": "Customer.resetPassword",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.reset_password(${1:customer_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Customer.resetPassword"
+	},
+	"Customer.updateCredentials": {
+		"prefix": "Customer.updateCredentials",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.update_credentials(${1:customer_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Customer.updateCredentials"
+	},
+	"Customer.deleteMe": {
+		"prefix": "Customer.deleteMe",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.delete_me(${1:options})"
+		],
+		"description": "Customer.deleteMe"
+	},
+	"Customer.delete": {
+		"prefix": "Customer.delete",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.delete(${1:customer_id}, ${2:options})"
+		],
+		"description": "Customer.delete"
+	},
+	"Customer.deleteCouponForMe": {
+		"prefix": "Customer.deleteCouponForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.delete_coupon_for_me(${1:coupon_id}, ${2:options})"
+		],
+		"description": "Customer.deleteCouponForMe"
+	},
+	"Customer.deleteCoupon": {
+		"prefix": "Customer.deleteCoupon",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.delete_coupon(${1:customer_id}, ${2:coupon_id}, ${3:options})"
+		],
+		"description": "Customer.deleteCoupon"
+	},
+	"Customer.deleteMetafield": {
+		"prefix": "Customer.deleteMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Customer.delete_metafield(${1:customer_id}, ${2:field}, ${3:options})"
+		],
+		"description": "Customer.deleteMetafield"
+	},
+	"Discount.list": {
+		"prefix": "Discount.list",
+		"scope": "ruby",
+		"body": [
+			"result = Discount.list(${1:options})"
+		],
+		"description": "Discount.list"
+	},
+	"Discount.count": {
+		"prefix": "Discount.count",
+		"scope": "ruby",
+		"body": [
+			"result = Discount.count(${1:options})"
+		],
+		"description": "Discount.count"
+	},
+	"Discount.get": {
+		"prefix": "Discount.get",
+		"scope": "ruby",
+		"body": [
+			"result = Discount.get(${1:discount_id}, ${2:options})"
+		],
+		"description": "Discount.get"
+	},
+	"Discount.pushToMetafield": {
+		"prefix": "Discount.pushToMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Discount.push_to_metafield(${1:discount_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Discount.pushToMetafield"
+	},
+	"Discount.pullFromMetafield": {
+		"prefix": "Discount.pullFromMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Discount.pull_from_metafield(${1:discount_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Discount.pullFromMetafield"
+	},
+	"Discount.increaseMetafield": {
+		"prefix": "Discount.increaseMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Discount.increase_metafield(${1:discount_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Discount.increaseMetafield"
+	},
+	"Discount.deleteMetafield": {
+		"prefix": "Discount.deleteMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Discount.delete_metafield(${1:discount_id}, ${2:field}, ${3:options})"
+		],
+		"description": "Discount.deleteMetafield"
+	},
+	"Downloadable.list": {
+		"prefix": "Downloadable.list",
+		"scope": "ruby",
+		"body": [
+			"result = Downloadable.list(${1:options})"
+		],
+		"description": "Downloadable.list"
+	},
+	"Downloadable.count": {
+		"prefix": "Downloadable.count",
+		"scope": "ruby",
+		"body": [
+			"result = Downloadable.count(${1:options})"
+		],
+		"description": "Downloadable.count"
+	},
+	"Downloadable.get": {
+		"prefix": "Downloadable.get",
+		"scope": "ruby",
+		"body": [
+			"result = Downloadable.get(${1:downloadable_id}, ${2:options})"
+		],
+		"description": "Downloadable.get"
+	},
+	"Downloadable.createDownloadUrl": {
+		"prefix": "Downloadable.createDownloadUrl",
+		"scope": "ruby",
+		"body": [
+			"result = Downloadable.create_download_url(${1:downloadable_id}, ${2:options})"
+		],
+		"description": "Downloadable.createDownloadUrl"
+	},
+	"Group.list": {
+		"prefix": "Group.list",
+		"scope": "ruby",
+		"body": [
+			"result = Group.list(${1:options})"
+		],
+		"description": "Group.list"
+	},
+	"Group.count": {
+		"prefix": "Group.count",
+		"scope": "ruby",
+		"body": [
+			"result = Group.count(${1:options})"
+		],
+		"description": "Group.count"
+	},
+	"Group.get": {
+		"prefix": "Group.get",
+		"scope": "ruby",
+		"body": [
+			"result = Group.get(${1:group_id}, ${2:options})"
+		],
+		"description": "Group.get"
+	},
+	"Group.pullFromMetafield": {
+		"prefix": "Group.pullFromMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Group.pull_from_metafield(${1:group_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Group.pullFromMetafield"
+	},
+	"Group.pushToMetafield": {
+		"prefix": "Group.pushToMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Group.push_to_metafield(${1:group_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Group.pushToMetafield"
+	},
+	"Group.increaseMetafield": {
+		"prefix": "Group.increaseMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Group.increase_metafield(${1:group_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Group.increaseMetafield"
+	},
+	"Group.deleteMetafield": {
+		"prefix": "Group.deleteMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Group.delete_metafield(${1:group_id}, ${2:field}, ${3:options})"
+		],
+		"description": "Group.deleteMetafield"
+	},
+	"Image.list": {
+		"prefix": "Image.list",
+		"scope": "ruby",
+		"body": [
+			"result = Image.list(${1:options})"
+		],
+		"description": "Image.list"
+	},
+	"Image.count": {
+		"prefix": "Image.count",
+		"scope": "ruby",
+		"body": [
+			"result = Image.count(${1:options})"
+		],
+		"description": "Image.count"
+	},
+	"Image.get": {
+		"prefix": "Image.get",
+		"scope": "ruby",
+		"body": [
+			"result = Image.get(${1:image_id}, ${2:options})"
+		],
+		"description": "Image.get"
+	},
+	"Image.listForMe": {
+		"prefix": "Image.listForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Image.list_for_me(${1:options})"
+		],
+		"description": "Image.listForMe"
+	},
+	"Image.countForMe": {
+		"prefix": "Image.countForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Image.count_for_me(${1:options})"
+		],
+		"description": "Image.countForMe"
+	},
+	"Image.getForMe": {
+		"prefix": "Image.getForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Image.get_for_me(${1:image_id}, ${2:options})"
+		],
+		"description": "Image.getForMe"
+	},
+	"Image.create": {
+		"prefix": "Image.create",
+		"scope": "ruby",
+		"body": [
+			"result = Image.create(${1:payload}, ${2:options})"
+		],
+		"description": "Image.create"
+	},
+	"Image.createForMe": {
+		"prefix": "Image.createForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Image.create_for_me(${1:payload}, ${2:options})"
+		],
+		"description": "Image.createForMe"
+	},
+	"Image.createAsCustomer": {
+		"prefix": "Image.createAsCustomer",
+		"scope": "ruby",
+		"body": [
+			"result = Image.create_as_customer(${1:customer_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Image.createAsCustomer"
+	},
+	"Image.update": {
+		"prefix": "Image.update",
+		"scope": "ruby",
+		"body": [
+			"result = Image.update(${1:image_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Image.update"
+	},
+	"Image.updateForMe": {
+		"prefix": "Image.updateForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Image.update_for_me(${1:image_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Image.updateForMe"
+	},
+	"Image.updateAsCustomer": {
+		"prefix": "Image.updateAsCustomer",
+		"scope": "ruby",
+		"body": [
+			"result = Image.update_as_customer(${1:customer_id}, ${2:image_id}, ${3:payload}, ${4:options})"
+		],
+		"description": "Image.updateAsCustomer"
+	},
+	"Image.delete": {
+		"prefix": "Image.delete",
+		"scope": "ruby",
+		"body": [
+			"result = Image.delete(${1:image_id}, ${2:options})"
+		],
+		"description": "Image.delete"
+	},
+	"Image.deleteForMe": {
+		"prefix": "Image.deleteForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Image.delete_for_me(${1:image_id}, ${2:options})"
+		],
+		"description": "Image.deleteForMe"
+	},
+	"Image.deleteAsCustomer": {
+		"prefix": "Image.deleteAsCustomer",
+		"scope": "ruby",
+		"body": [
+			"result = Image.delete_as_customer(${1:customer_id}, ${2:image_id}, ${3:options})"
+		],
+		"description": "Image.deleteAsCustomer"
+	},
+	"Impression.topBrands": {
+		"prefix": "Impression.topBrands",
+		"scope": "ruby",
+		"body": [
+			"result = Impression.top_brands(${1:scope}, ${2:options})"
+		],
+		"description": "Impression.topBrands"
+	},
+	"Impression.topProducts": {
+		"prefix": "Impression.topProducts",
+		"scope": "ruby",
+		"body": [
+			"result = Impression.top_products(${1:scope}, ${2:options})"
+		],
+		"description": "Impression.topProducts"
+	},
+	"Impression.topCollections": {
+		"prefix": "Impression.topCollections",
+		"scope": "ruby",
+		"body": [
+			"result = Impression.top_collections(${1:scope}, ${2:options})"
+		],
+		"description": "Impression.topCollections"
+	},
+	"Impression.gather": {
+		"prefix": "Impression.gather",
+		"scope": "ruby",
+		"body": [
+			"result = Impression.gather(${1:scope}, ${2:payload}, ${3:options})"
+		],
+		"description": "Impression.gather"
+	},
+	"Order.list": {
+		"prefix": "Order.list",
+		"scope": "ruby",
+		"body": [
+			"result = Order.list(${1:options})"
+		],
+		"description": "Order.list"
+	},
+	"Order.listForMe": {
+		"prefix": "Order.listForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Order.list_for_me(${1:options})"
+		],
+		"description": "Order.listForMe"
+	},
+	"Order.count": {
+		"prefix": "Order.count",
+		"scope": "ruby",
+		"body": [
+			"result = Order.count(${1:options})"
+		],
+		"description": "Order.count"
+	},
+	"Order.get": {
+		"prefix": "Order.get",
+		"scope": "ruby",
+		"body": [
+			"result = Order.get(${1:order_id}, ${2:options})"
+		],
+		"description": "Order.get"
+	},
+	"Order.countForMe": {
+		"prefix": "Order.countForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Order.count_for_me(${1:options})"
+		],
+		"description": "Order.countForMe"
+	},
+	"Order.getForMe": {
+		"prefix": "Order.getForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Order.get_for_me(${1:order_id}, ${2:options})"
+		],
+		"description": "Order.getForMe"
+	},
+	"Order.listBySubscription": {
+		"prefix": "Order.listBySubscription",
+		"scope": "ruby",
+		"body": [
+			"result = Order.list_by_subscription(${1:subscription_id}, ${2:options})"
+		],
+		"description": "Order.listBySubscription"
+	},
+	"Order.listBySubscriptionForMe": {
+		"prefix": "Order.listBySubscriptionForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Order.list_by_subscription_for_me(${1:subscription_id}, ${2:options})"
+		],
+		"description": "Order.listBySubscriptionForMe"
+	},
+	"Order.listInventoryOperations": {
+		"prefix": "Order.listInventoryOperations",
+		"scope": "ruby",
+		"body": [
+			"result = Order.list_inventory_operations(${1:order_id}, ${2:options})"
+		],
+		"description": "Order.listInventoryOperations"
+	},
+	"Order.markAsArrived": {
+		"prefix": "Order.markAsArrived",
+		"scope": "ruby",
+		"body": [
+			"result = Order.mark_as_arrived(${1:order_id}, ${2:options})"
+		],
+		"description": "Order.markAsArrived"
+	},
+	"Order.markAsDone": {
+		"prefix": "Order.markAsDone",
+		"scope": "ruby",
+		"body": [
+			"result = Order.mark_as_done(${1:order_id}, ${2:options})"
+		],
+		"description": "Order.markAsDone"
+	},
+	"Order.syncInventory": {
+		"prefix": "Order.syncInventory",
+		"scope": "ruby",
+		"body": [
+			"result = Order.sync_inventory(${1:order_id}, ${2:options})"
+		],
+		"description": "Order.syncInventory"
+	},
+	"Order.createFulfillment": {
+		"prefix": "Order.createFulfillment",
+		"scope": "ruby",
+		"body": [
+			"result = Order.create_fulfillment(${1:order_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Order.createFulfillment"
+	},
+	"Order.authenticate": {
+		"prefix": "Order.authenticate",
+		"scope": "ruby",
+		"body": [
+			"result = Order.authenticate(${1:order_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Order.authenticate"
+	},
+	"Order.cancel": {
+		"prefix": "Order.cancel",
+		"scope": "ruby",
+		"body": [
+			"result = Order.cancel(${1:order_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Order.cancel"
+	},
+	"Order.requestRefund": {
+		"prefix": "Order.requestRefund",
+		"scope": "ruby",
+		"body": [
+			"result = Order.request_refund(${1:order_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Order.requestRefund"
+	},
+	"Order.cancelForMe": {
+		"prefix": "Order.cancelForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Order.cancel_for_me(${1:order_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Order.cancelForMe"
+	},
+	"Order.markAsArrivedForMe": {
+		"prefix": "Order.markAsArrivedForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Order.mark_as_arrived_for_me(${1:order_id}, ${2:options})"
+		],
+		"description": "Order.markAsArrivedForMe"
+	},
+	"Order.requestRefundForMe": {
+		"prefix": "Order.requestRefundForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Order.request_refund_for_me(${1:order_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Order.requestRefundForMe"
+	},
+	"Order.checkTicket": {
+		"prefix": "Order.checkTicket",
+		"scope": "ruby",
+		"body": [
+			"result = Order.check_ticket(${1:code}, ${2:payload}, ${3:options})"
+		],
+		"description": "Order.checkTicket"
+	},
+	"Order.useTicket": {
+		"prefix": "Order.useTicket",
+		"scope": "ruby",
+		"body": [
+			"result = Order.use_ticket(${1:code}, ${2:options})"
+		],
+		"description": "Order.useTicket"
+	},
+	"Order.requestFullRefund": {
+		"prefix": "Order.requestFullRefund",
+		"scope": "ruby",
+		"body": [
+			"result = Order.request_full_refund(${1:order_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Order.requestFullRefund"
+	},
+	"Order.requestFullRefundForMe": {
+		"prefix": "Order.requestFullRefundForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Order.request_full_refund_for_me(${1:order_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Order.requestFullRefundForMe"
+	},
+	"Order.restockRefundItems": {
+		"prefix": "Order.restockRefundItems",
+		"scope": "ruby",
+		"body": [
+			"result = Order.restock_refund_items(${1:order_id}, ${2:refund_id}, ${3:payload}, ${4:options})"
+		],
+		"description": "Order.restockRefundItems"
+	},
+	"Order.registerPaymentMethod": {
+		"prefix": "Order.registerPaymentMethod",
+		"scope": "ruby",
+		"body": [
+			"result = Order.register_payment_method(${1:order_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Order.registerPaymentMethod"
+	},
+	"Order.pullFromMetafield": {
+		"prefix": "Order.pullFromMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Order.pull_from_metafield(${1:order_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Order.pullFromMetafield"
+	},
+	"Order.pushToMetafield": {
+		"prefix": "Order.pushToMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Order.push_to_metafield(${1:order_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Order.pushToMetafield"
+	},
+	"Order.cancelRefund": {
+		"prefix": "Order.cancelRefund",
+		"scope": "ruby",
+		"body": [
+			"result = Order.cancel_refund(${1:order_id}, ${2:refund_id}, ${3:payload}, ${4:options})"
+		],
+		"description": "Order.cancelRefund"
+	},
+	"Order.acceptRefund": {
+		"prefix": "Order.acceptRefund",
+		"scope": "ruby",
+		"body": [
+			"result = Order.accept_refund(${1:order_id}, ${2:refund_id}, ${3:options})"
+		],
+		"description": "Order.acceptRefund"
+	},
+	"Order.increaseMetafield": {
+		"prefix": "Order.increaseMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Order.increase_metafield(${1:order_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Order.increaseMetafield"
+	},
+	"Order.cancelRefundForMe": {
+		"prefix": "Order.cancelRefundForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Order.cancel_refund_for_me(${1:order_id}, ${2:refund_id}, ${3:payload}, ${4:options})"
+		],
+		"description": "Order.cancelRefundForMe"
+	},
+	"Order.createDownloadUrl": {
+		"prefix": "Order.createDownloadUrl",
+		"scope": "ruby",
+		"body": [
+			"result = Order.create_download_url(${1:order_id}, ${2:item_id}, ${3:options})"
+		],
+		"description": "Order.createDownloadUrl"
+	},
+	"Order.restockAllRefundItems": {
+		"prefix": "Order.restockAllRefundItems",
+		"scope": "ruby",
+		"body": [
+			"result = Order.restock_all_refund_items(${1:order_id}, ${2:refund_id}, ${3:options})"
+		],
+		"description": "Order.restockAllRefundItems"
+	},
+	"Order.createDownloadUrlForMe": {
+		"prefix": "Order.createDownloadUrlForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Order.create_download_url_for_me(${1:order_id}, ${2:item_id}, ${3:options})"
+		],
+		"description": "Order.createDownloadUrlForMe"
+	},
+	"Order.update": {
+		"prefix": "Order.update",
+		"scope": "ruby",
+		"body": [
+			"result = Order.update(${1:order_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Order.update"
+	},
+	"Order.updateForMe": {
+		"prefix": "Order.updateForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Order.update_for_me(${1:order_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Order.updateForMe"
+	},
+	"Order.updateCancellation": {
+		"prefix": "Order.updateCancellation",
+		"scope": "ruby",
+		"body": [
+			"result = Order.update_cancellation(${1:order_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Order.updateCancellation"
+	},
+	"Order.updateTransactions": {
+		"prefix": "Order.updateTransactions",
+		"scope": "ruby",
+		"body": [
+			"result = Order.update_transactions(${1:order_id}, ${2:options})"
+		],
+		"description": "Order.updateTransactions"
+	},
+	"Order.updateTransactionsForMe": {
+		"prefix": "Order.updateTransactionsForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Order.update_transactions_for_me(${1:order_id}, ${2:options})"
+		],
+		"description": "Order.updateTransactionsForMe"
+	},
+	"Order.updateCancellationForMe": {
+		"prefix": "Order.updateCancellationForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Order.update_cancellation_for_me(${1:order_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Order.updateCancellationForMe"
+	},
+	"Order.updateRefund": {
+		"prefix": "Order.updateRefund",
+		"scope": "ruby",
+		"body": [
+			"result = Order.update_refund(${1:order_id}, ${2:refund_id}, ${3:payload}, ${4:options})"
+		],
+		"description": "Order.updateRefund"
+	},
+	"Order.updateFulfillment": {
+		"prefix": "Order.updateFulfillment",
+		"scope": "ruby",
+		"body": [
+			"result = Order.update_fulfillment(${1:order_id}, ${2:fulfillment_id}, ${3:payload}, ${4:options})"
+		],
+		"description": "Order.updateFulfillment"
+	},
+	"Order.updateItem": {
+		"prefix": "Order.updateItem",
+		"scope": "ruby",
+		"body": [
+			"result = Order.update_item(${1:order_id}, ${2:item_id}, ${3:payload}, ${4:options})"
+		],
+		"description": "Order.updateItem"
+	},
+	"Order.updateRefundForMe": {
+		"prefix": "Order.updateRefundForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Order.update_refund_for_me(${1:order_id}, ${2:refund_id}, ${3:payload}, ${4:options})"
+		],
+		"description": "Order.updateRefundForMe"
+	},
+	"Order.updateRefundCancellation": {
+		"prefix": "Order.updateRefundCancellation",
+		"scope": "ruby",
+		"body": [
+			"result = Order.update_refund_cancellation(${1:order_id}, ${2:refund_id}, ${3:payload}, ${4:options})"
+		],
+		"description": "Order.updateRefundCancellation"
+	},
+	"Order.updateRefundCancellationForMe": {
+		"prefix": "Order.updateRefundCancellationForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Order.update_refund_cancellation_for_me(${1:order_id}, ${2:refund_id}, ${3:payload}, ${4:options})"
+		],
+		"description": "Order.updateRefundCancellationForMe"
+	},
+	"Order.delete": {
+		"prefix": "Order.delete",
+		"scope": "ruby",
+		"body": [
+			"result = Order.delete(${1:order_id}, ${2:options})"
+		],
+		"description": "Order.delete"
+	},
+	"Order.markAsUndone": {
+		"prefix": "Order.markAsUndone",
+		"scope": "ruby",
+		"body": [
+			"result = Order.mark_as_undone(${1:order_id}, ${2:options})"
+		],
+		"description": "Order.markAsUndone"
+	},
+	"Order.markAsNotArrived": {
+		"prefix": "Order.markAsNotArrived",
+		"scope": "ruby",
+		"body": [
+			"result = Order.mark_as_not_arrived(${1:order_id}, ${2:options})"
+		],
+		"description": "Order.markAsNotArrived"
+	},
+	"Order.markAsNotArrivedForMe": {
+		"prefix": "Order.markAsNotArrivedForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Order.mark_as_not_arrived_for_me(${1:order_id}, ${2:options})"
+		],
+		"description": "Order.markAsNotArrivedForMe"
+	},
+	"Order.deleteFulfillment": {
+		"prefix": "Order.deleteFulfillment",
+		"scope": "ruby",
+		"body": [
+			"result = Order.delete_fulfillment(${1:order_id}, ${2:fulfillment_id}, ${3:options})"
+		],
+		"description": "Order.deleteFulfillment"
+	},
+	"Order.deleteMetafield": {
+		"prefix": "Order.deleteMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Order.delete_metafield(${1:order_id}, ${2:field}, ${3:options})"
+		],
+		"description": "Order.deleteMetafield"
+	},
+	"Order.deleteRefund": {
+		"prefix": "Order.deleteRefund",
+		"scope": "ruby",
+		"body": [
+			"result = Order.delete_refund(${1:order_id}, ${2:refund_id}, ${3:options})"
+		],
+		"description": "Order.deleteRefund"
+	},
+	"Order.deleteInventoryOperation": {
+		"prefix": "Order.deleteInventoryOperation",
+		"scope": "ruby",
+		"body": [
+			"result = Order.delete_inventory_operation(${1:order_id}, ${2:operation_id}, ${3:options})"
+		],
+		"description": "Order.deleteInventoryOperation"
+	},
+	"Order.unacceptRefund": {
+		"prefix": "Order.unacceptRefund",
+		"scope": "ruby",
+		"body": [
+			"result = Order.unaccept_refund(${1:order_id}, ${2:refund_id}, ${3:options})"
+		],
+		"description": "Order.unacceptRefund"
+	},
+	"Order.unregisterPaymentMethod": {
+		"prefix": "Order.unregisterPaymentMethod",
+		"scope": "ruby",
+		"body": [
+			"result = Order.unregister_payment_method(${1:order_id}, ${2:payment_method_id}, ${3:options})"
+		],
+		"description": "Order.unregisterPaymentMethod"
+	},
+	"OrderTag.list": {
+		"prefix": "OrderTag.list",
+		"scope": "ruby",
+		"body": [
+			"result = OrderTag.list(${1:options})"
+		],
+		"description": "OrderTag.list"
+	},
+	"OrderTag.count": {
+		"prefix": "OrderTag.count",
+		"scope": "ruby",
+		"body": [
+			"result = OrderTag.count(${1:options})"
+		],
+		"description": "OrderTag.count"
+	},
+	"OrderTag.get": {
+		"prefix": "OrderTag.get",
+		"scope": "ruby",
+		"body": [
+			"result = OrderTag.get(${1:order_tag_id}, ${2:options})"
+		],
+		"description": "OrderTag.get"
+	},
+	"PaymentMethod.list": {
+		"prefix": "PaymentMethod.list",
+		"scope": "ruby",
+		"body": [
+			"result = PaymentMethod.list(${1:options})"
+		],
+		"description": "PaymentMethod.list"
+	},
+	"PaymentMethod.count": {
+		"prefix": "PaymentMethod.count",
+		"scope": "ruby",
+		"body": [
+			"result = PaymentMethod.count(${1:options})"
+		],
+		"description": "PaymentMethod.count"
+	},
+	"PaymentMethod.get": {
+		"prefix": "PaymentMethod.get",
+		"scope": "ruby",
+		"body": [
+			"result = PaymentMethod.get(${1:payment_method_id}, ${2:options})"
+		],
+		"description": "PaymentMethod.get"
+	},
+	"Product.list": {
+		"prefix": "Product.list",
+		"scope": "ruby",
+		"body": [
+			"result = Product.list(${1:options})"
+		],
+		"description": "Product.list"
+	},
+	"Product.count": {
+		"prefix": "Product.count",
+		"scope": "ruby",
+		"body": [
+			"result = Product.count(${1:options})"
+		],
+		"description": "Product.count"
+	},
+	"Product.get": {
+		"prefix": "Product.get",
+		"scope": "ruby",
+		"body": [
+			"result = Product.get(${1:product_id}, ${2:options})"
+		],
+		"description": "Product.get"
+	},
+	"Product.increaseMetafield": {
+		"prefix": "Product.increaseMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Product.increase_metafield(${1:product_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Product.increaseMetafield"
+	},
+	"Product.pullFromMetafield": {
+		"prefix": "Product.pullFromMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Product.pull_from_metafield(${1:product_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Product.pullFromMetafield"
+	},
+	"Product.pushToMetafield": {
+		"prefix": "Product.pushToMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Product.push_to_metafield(${1:product_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Product.pushToMetafield"
+	},
+	"Product.deleteMetafield": {
+		"prefix": "Product.deleteMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Product.delete_metafield(${1:product_id}, ${2:field}, ${3:options})"
+		],
+		"description": "Product.deleteMetafield"
+	},
+	"Review.list": {
+		"prefix": "Review.list",
+		"scope": "ruby",
+		"body": [
+			"result = Review.list(${1:options})"
+		],
+		"description": "Review.list"
+	},
+	"Review.count": {
+		"prefix": "Review.count",
+		"scope": "ruby",
+		"body": [
+			"result = Review.count(${1:options})"
+		],
+		"description": "Review.count"
+	},
+	"Review.listPublished": {
+		"prefix": "Review.listPublished",
+		"scope": "ruby",
+		"body": [
+			"result = Review.list_published(${1:options})"
+		],
+		"description": "Review.listPublished"
+	},
+	"Review.get": {
+		"prefix": "Review.get",
+		"scope": "ruby",
+		"body": [
+			"result = Review.get(${1:review_id}, ${2:options})"
+		],
+		"description": "Review.get"
+	},
+	"Review.countPublished": {
+		"prefix": "Review.countPublished",
+		"scope": "ruby",
+		"body": [
+			"result = Review.count_published(${1:options})"
+		],
+		"description": "Review.countPublished"
+	},
+	"Review.getPublished": {
+		"prefix": "Review.getPublished",
+		"scope": "ruby",
+		"body": [
+			"result = Review.get_published(${1:review_id}, ${2:options})"
+		],
+		"description": "Review.getPublished"
+	},
+	"Review.create": {
+		"prefix": "Review.create",
+		"scope": "ruby",
+		"body": [
+			"result = Review.create(${1:payload}, ${2:options})"
+		],
+		"description": "Review.create"
+	},
+	"Review.createForMe": {
+		"prefix": "Review.createForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Review.create_for_me(${1:payload}, ${2:options})"
+		],
+		"description": "Review.createForMe"
+	},
+	"Review.flag": {
+		"prefix": "Review.flag",
+		"scope": "ruby",
+		"body": [
+			"result = Review.flag(${1:review_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Review.flag"
+	},
+	"Review.flagForMe": {
+		"prefix": "Review.flagForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Review.flag_for_me(${1:review_id}, ${2:options})"
+		],
+		"description": "Review.flagForMe"
+	},
+	"Review.helped": {
+		"prefix": "Review.helped",
+		"scope": "ruby",
+		"body": [
+			"result = Review.helped(${1:review_id}, ${2:up_down}, ${3:payload}, ${4:options})"
+		],
+		"description": "Review.helped"
+	},
+	"Review.helpedForMe": {
+		"prefix": "Review.helpedForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Review.helped_for_me(${1:review_id}, ${2:up_down}, ${3:options})"
+		],
+		"description": "Review.helpedForMe"
+	},
+	"Review.increaseMetafield": {
+		"prefix": "Review.increaseMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Review.increase_metafield(${1:review_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Review.increaseMetafield"
+	},
+	"Review.pullFromMetafield": {
+		"prefix": "Review.pullFromMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Review.pull_from_metafield(${1:review_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Review.pullFromMetafield"
+	},
+	"Review.pushToMetafield": {
+		"prefix": "Review.pushToMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Review.push_to_metafield(${1:review_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Review.pushToMetafield"
+	},
+	"Review.update": {
+		"prefix": "Review.update",
+		"scope": "ruby",
+		"body": [
+			"result = Review.update(${1:review_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Review.update"
+	},
+	"Review.updateForMe": {
+		"prefix": "Review.updateForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Review.update_for_me(${1:review_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Review.updateForMe"
+	},
+	"Review.delete": {
+		"prefix": "Review.delete",
+		"scope": "ruby",
+		"body": [
+			"result = Review.delete(${1:review_id}, ${2:options})"
+		],
+		"description": "Review.delete"
+	},
+	"Review.deleteForMe": {
+		"prefix": "Review.deleteForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Review.delete_for_me(${1:review_id}, ${2:options})"
+		],
+		"description": "Review.deleteForMe"
+	},
+	"Review.cancelFlagForMe": {
+		"prefix": "Review.cancelFlagForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Review.cancel_flag_for_me(${1:review_id}, ${2:options})"
+		],
+		"description": "Review.cancelFlagForMe"
+	},
+	"Review.cancelFlag": {
+		"prefix": "Review.cancelFlag",
+		"scope": "ruby",
+		"body": [
+			"result = Review.cancel_flag(${1:review_id}, ${2:customer_id}, ${3:options})"
+		],
+		"description": "Review.cancelFlag"
+	},
+	"Review.deleteMetafield": {
+		"prefix": "Review.deleteMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Review.delete_metafield(${1:review_id}, ${2:field}, ${3:options})"
+		],
+		"description": "Review.deleteMetafield"
+	},
+	"Review.cancelHelpedForMe": {
+		"prefix": "Review.cancelHelpedForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Review.cancel_helped_for_me(${1:review_id}, ${2:up_down}, ${3:options})"
+		],
+		"description": "Review.cancelHelpedForMe"
+	},
+	"Review.cancelHelped": {
+		"prefix": "Review.cancelHelped",
+		"scope": "ruby",
+		"body": [
+			"result = Review.cancel_helped(${1:review_id}, ${2:up_down}, ${3:customer_id}, ${4:options})"
+		],
+		"description": "Review.cancelHelped"
+	},
+	"ReviewComment.list": {
+		"prefix": "ReviewComment.list",
+		"scope": "ruby",
+		"body": [
+			"result = ReviewComment.list(${1:options})"
+		],
+		"description": "ReviewComment.list"
+	},
+	"ReviewComment.count": {
+		"prefix": "ReviewComment.count",
+		"scope": "ruby",
+		"body": [
+			"result = ReviewComment.count(${1:options})"
+		],
+		"description": "ReviewComment.count"
+	},
+	"ReviewComment.get": {
+		"prefix": "ReviewComment.get",
+		"scope": "ruby",
+		"body": [
+			"result = ReviewComment.get(${1:review_comment_id}, ${2:options})"
+		],
+		"description": "ReviewComment.get"
+	},
+	"ReviewComment.create": {
+		"prefix": "ReviewComment.create",
+		"scope": "ruby",
+		"body": [
+			"result = ReviewComment.create(${1:payload}, ${2:options})"
+		],
+		"description": "ReviewComment.create"
+	},
+	"ReviewComment.createForMe": {
+		"prefix": "ReviewComment.createForMe",
+		"scope": "ruby",
+		"body": [
+			"result = ReviewComment.create_for_me(${1:payload}, ${2:options})"
+		],
+		"description": "ReviewComment.createForMe"
+	},
+	"ReviewComment.flag": {
+		"prefix": "ReviewComment.flag",
+		"scope": "ruby",
+		"body": [
+			"result = ReviewComment.flag(${1:review_comment_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "ReviewComment.flag"
+	},
+	"ReviewComment.flagForMe": {
+		"prefix": "ReviewComment.flagForMe",
+		"scope": "ruby",
+		"body": [
+			"result = ReviewComment.flag_for_me(${1:review_comment_id}, ${2:options})"
+		],
+		"description": "ReviewComment.flagForMe"
+	},
+	"ReviewComment.increaseMetafield": {
+		"prefix": "ReviewComment.increaseMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = ReviewComment.increase_metafield(${1:review_comment_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "ReviewComment.increaseMetafield"
+	},
+	"ReviewComment.pushToMetafield": {
+		"prefix": "ReviewComment.pushToMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = ReviewComment.push_to_metafield(${1:review_comment_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "ReviewComment.pushToMetafield"
+	},
+	"ReviewComment.pullFromMetafield": {
+		"prefix": "ReviewComment.pullFromMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = ReviewComment.pull_from_metafield(${1:review_comment_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "ReviewComment.pullFromMetafield"
+	},
+	"ReviewComment.update": {
+		"prefix": "ReviewComment.update",
+		"scope": "ruby",
+		"body": [
+			"result = ReviewComment.update(${1:review_comment_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "ReviewComment.update"
+	},
+	"ReviewComment.updateForMe": {
+		"prefix": "ReviewComment.updateForMe",
+		"scope": "ruby",
+		"body": [
+			"result = ReviewComment.update_for_me(${1:review_comment_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "ReviewComment.updateForMe"
+	},
+	"ReviewComment.delete": {
+		"prefix": "ReviewComment.delete",
+		"scope": "ruby",
+		"body": [
+			"result = ReviewComment.delete(${1:review_comment_id}, ${2:options})"
+		],
+		"description": "ReviewComment.delete"
+	},
+	"ReviewComment.deleteForMe": {
+		"prefix": "ReviewComment.deleteForMe",
+		"scope": "ruby",
+		"body": [
+			"result = ReviewComment.delete_for_me(${1:review_comment_id}, ${2:options})"
+		],
+		"description": "ReviewComment.deleteForMe"
+	},
+	"ReviewComment.cancelFlagForMe": {
+		"prefix": "ReviewComment.cancelFlagForMe",
+		"scope": "ruby",
+		"body": [
+			"result = ReviewComment.cancel_flag_for_me(${1:review_comment_id}, ${2:options})"
+		],
+		"description": "ReviewComment.cancelFlagForMe"
+	},
+	"ReviewComment.deleteMetafield": {
+		"prefix": "ReviewComment.deleteMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = ReviewComment.delete_metafield(${1:review_comment_id}, ${2:field}, ${3:options})"
+		],
+		"description": "ReviewComment.deleteMetafield"
+	},
+	"ReviewComment.cancelFlag": {
+		"prefix": "ReviewComment.cancelFlag",
+		"scope": "ruby",
+		"body": [
+			"result = ReviewComment.cancel_flag(${1:review_comment_id}, ${2:customer_id}, ${3:options})"
+		],
+		"description": "ReviewComment.cancelFlag"
+	},
+	"ShippingMethod.list": {
+		"prefix": "ShippingMethod.list",
+		"scope": "ruby",
+		"body": [
+			"result = ShippingMethod.list(${1:options})"
+		],
+		"description": "ShippingMethod.list"
+	},
+	"ShippingMethod.count": {
+		"prefix": "ShippingMethod.count",
+		"scope": "ruby",
+		"body": [
+			"result = ShippingMethod.count(${1:options})"
+		],
+		"description": "ShippingMethod.count"
+	},
+	"ShippingMethod.get": {
+		"prefix": "ShippingMethod.get",
+		"scope": "ruby",
+		"body": [
+			"result = ShippingMethod.get(${1:shipping_method_id}, ${2:options})"
+		],
+		"description": "ShippingMethod.get"
+	},
+	"Store.get": {
+		"prefix": "Store.get",
+		"scope": "ruby",
+		"body": [
+			"result = Store.get(${1:options})"
+		],
+		"description": "Store.get"
+	},
+	"Store.pushToMetafield": {
+		"prefix": "Store.pushToMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Store.push_to_metafield(${1:field}, ${2:payload}, ${3:options})"
+		],
+		"description": "Store.pushToMetafield"
+	},
+	"Store.increaseMetafield": {
+		"prefix": "Store.increaseMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Store.increase_metafield(${1:field}, ${2:payload}, ${3:options})"
+		],
+		"description": "Store.increaseMetafield"
+	},
+	"Store.pullFromMetafield": {
+		"prefix": "Store.pullFromMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Store.pull_from_metafield(${1:field}, ${2:payload}, ${3:options})"
+		],
+		"description": "Store.pullFromMetafield"
+	},
+	"Store.deleteMetafield": {
+		"prefix": "Store.deleteMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Store.delete_metafield(${1:field}, ${2:options})"
+		],
+		"description": "Store.deleteMetafield"
+	},
+	"Subscription.list": {
+		"prefix": "Subscription.list",
+		"scope": "ruby",
+		"body": [
+			"result = Subscription.list(${1:options})"
+		],
+		"description": "Subscription.list"
+	},
+	"Subscription.listForMe": {
+		"prefix": "Subscription.listForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Subscription.list_for_me(${1:options})"
+		],
+		"description": "Subscription.listForMe"
+	},
+	"Subscription.count": {
+		"prefix": "Subscription.count",
+		"scope": "ruby",
+		"body": [
+			"result = Subscription.count(${1:options})"
+		],
+		"description": "Subscription.count"
+	},
+	"Subscription.get": {
+		"prefix": "Subscription.get",
+		"scope": "ruby",
+		"body": [
+			"result = Subscription.get(${1:subscription_id}, ${2:options})"
+		],
+		"description": "Subscription.get"
+	},
+	"Subscription.countForMe": {
+		"prefix": "Subscription.countForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Subscription.count_for_me(${1:options})"
+		],
+		"description": "Subscription.countForMe"
+	},
+	"Subscription.getForMe": {
+		"prefix": "Subscription.getForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Subscription.get_for_me(${1:subscription_id}, ${2:options})"
+		],
+		"description": "Subscription.getForMe"
+	},
+	"Subscription.listInventoryOperations": {
+		"prefix": "Subscription.listInventoryOperations",
+		"scope": "ruby",
+		"body": [
+			"result = Subscription.list_inventory_operations(${1:subscription_id}, ${2:options})"
+		],
+		"description": "Subscription.listInventoryOperations"
+	},
+	"Subscription.authenticate": {
+		"prefix": "Subscription.authenticate",
+		"scope": "ruby",
+		"body": [
+			"result = Subscription.authenticate(${1:subscription_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Subscription.authenticate"
+	},
+	"Subscription.markAsDone": {
+		"prefix": "Subscription.markAsDone",
+		"scope": "ruby",
+		"body": [
+			"result = Subscription.mark_as_done(${1:subscription_id}, ${2:options})"
+		],
+		"description": "Subscription.markAsDone"
+	},
+	"Subscription.cancel": {
+		"prefix": "Subscription.cancel",
+		"scope": "ruby",
+		"body": [
+			"result = Subscription.cancel(${1:subscription_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Subscription.cancel"
+	},
+	"Subscription.syncInventory": {
+		"prefix": "Subscription.syncInventory",
+		"scope": "ruby",
+		"body": [
+			"result = Subscription.sync_inventory(${1:subscription_id}, ${2:options})"
+		],
+		"description": "Subscription.syncInventory"
+	},
+	"Subscription.schedule": {
+		"prefix": "Subscription.schedule",
+		"scope": "ruby",
+		"body": [
+			"result = Subscription.schedule(${1:subscription_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Subscription.schedule"
+	},
+	"Subscription.cancelForMe": {
+		"prefix": "Subscription.cancelForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Subscription.cancel_for_me(${1:subscription_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Subscription.cancelForMe"
+	},
+	"Subscription.scheduleForMe": {
+		"prefix": "Subscription.scheduleForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Subscription.schedule_for_me(${1:subscription_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Subscription.scheduleForMe"
+	},
+	"Subscription.fulfillSchedule": {
+		"prefix": "Subscription.fulfillSchedule",
+		"scope": "ruby",
+		"body": [
+			"result = Subscription.fulfill_schedule(${1:subscription_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Subscription.fulfillSchedule"
+	},
+	"Subscription.pullFromMetafield": {
+		"prefix": "Subscription.pullFromMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Subscription.pull_from_metafield(${1:subscription_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Subscription.pullFromMetafield"
+	},
+	"Subscription.pushToMetafield": {
+		"prefix": "Subscription.pushToMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Subscription.push_to_metafield(${1:subscription_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Subscription.pushToMetafield"
+	},
+	"Subscription.increaseMetafield": {
+		"prefix": "Subscription.increaseMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Subscription.increase_metafield(${1:subscription_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "Subscription.increaseMetafield"
+	},
+	"Subscription.updateCancellation": {
+		"prefix": "Subscription.updateCancellation",
+		"scope": "ruby",
+		"body": [
+			"result = Subscription.update_cancellation(${1:subscription_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Subscription.updateCancellation"
+	},
+	"Subscription.updateCancellationForMe": {
+		"prefix": "Subscription.updateCancellationForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Subscription.update_cancellation_for_me(${1:subscription_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Subscription.updateCancellationForMe"
+	},
+	"Subscription.delete": {
+		"prefix": "Subscription.delete",
+		"scope": "ruby",
+		"body": [
+			"result = Subscription.delete(${1:subscription_id}, ${2:options})"
+		],
+		"description": "Subscription.delete"
+	},
+	"Subscription.markAsUndone": {
+		"prefix": "Subscription.markAsUndone",
+		"scope": "ruby",
+		"body": [
+			"result = Subscription.mark_as_undone(${1:subscription_id}, ${2:options})"
+		],
+		"description": "Subscription.markAsUndone"
+	},
+	"Subscription.deleteMetafield": {
+		"prefix": "Subscription.deleteMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = Subscription.delete_metafield(${1:subscription_id}, ${2:field}, ${3:options})"
+		],
+		"description": "Subscription.deleteMetafield"
+	},
+	"Subscription.deleteInventoryOperation": {
+		"prefix": "Subscription.deleteInventoryOperation",
+		"scope": "ruby",
+		"body": [
+			"result = Subscription.delete_inventory_operation(${1:subscription_id}, ${2:operation_id}, ${3:options})"
+		],
+		"description": "Subscription.deleteInventoryOperation"
+	},
+	"SubscriptionPlan.list": {
+		"prefix": "SubscriptionPlan.list",
+		"scope": "ruby",
+		"body": [
+			"result = SubscriptionPlan.list(${1:options})"
+		],
+		"description": "SubscriptionPlan.list"
+	},
+	"SubscriptionPlan.count": {
+		"prefix": "SubscriptionPlan.count",
+		"scope": "ruby",
+		"body": [
+			"result = SubscriptionPlan.count(${1:options})"
+		],
+		"description": "SubscriptionPlan.count"
+	},
+	"SubscriptionPlan.get": {
+		"prefix": "SubscriptionPlan.get",
+		"scope": "ruby",
+		"body": [
+			"result = SubscriptionPlan.get(${1:subscription_plan_id}, ${2:options})"
+		],
+		"description": "SubscriptionPlan.get"
+	},
+	"TaxCategory.list": {
+		"prefix": "TaxCategory.list",
+		"scope": "ruby",
+		"body": [
+			"result = TaxCategory.list(${1:options})"
+		],
+		"description": "TaxCategory.list"
+	},
+	"TaxCategory.count": {
+		"prefix": "TaxCategory.count",
+		"scope": "ruby",
+		"body": [
+			"result = TaxCategory.count(${1:options})"
+		],
+		"description": "TaxCategory.count"
+	},
+	"TaxCategory.get": {
+		"prefix": "TaxCategory.get",
+		"scope": "ruby",
+		"body": [
+			"result = TaxCategory.get(${1:tax_category_id}, ${2:options})"
+		],
+		"description": "TaxCategory.get"
+	},
+	"Tracker.getByCustomerForMe": {
+		"prefix": "Tracker.getByCustomerForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Tracker.get_by_customer_for_me(${1:options})"
+		],
+		"description": "Tracker.getByCustomerForMe"
+	},
+	"Tracker.get": {
+		"prefix": "Tracker.get",
+		"scope": "ruby",
+		"body": [
+			"result = Tracker.get(${1:tracker_id}, ${2:options})"
+		],
+		"description": "Tracker.get"
+	},
+	"Tracker.getByCustomer": {
+		"prefix": "Tracker.getByCustomer",
+		"scope": "ruby",
+		"body": [
+			"result = Tracker.get_by_customer(${1:customer_id}, ${2:options})"
+		],
+		"description": "Tracker.getByCustomer"
+	},
+	"Tracker.getForMe": {
+		"prefix": "Tracker.getForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Tracker.get_for_me(${1:tracker_id}, ${2:options})"
+		],
+		"description": "Tracker.getForMe"
+	},
+	"Tracker.getAsNonRegisteredForMe": {
+		"prefix": "Tracker.getAsNonRegisteredForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Tracker.get_as_non_registered_for_me(${1:tracker_id}, ${2:options})"
+		],
+		"description": "Tracker.getAsNonRegisteredForMe"
+	},
+	"Tracker.create": {
+		"prefix": "Tracker.create",
+		"scope": "ruby",
+		"body": [
+			"result = Tracker.create(${1:payload}, ${2:options})"
+		],
+		"description": "Tracker.create"
+	},
+	"Tracker.createForMe": {
+		"prefix": "Tracker.createForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Tracker.create_for_me(${1:options})"
+		],
+		"description": "Tracker.createForMe"
+	},
+	"Tracker.createAsNonRegisteredForMe": {
+		"prefix": "Tracker.createAsNonRegisteredForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Tracker.create_as_non_registered_for_me(${1:options})"
+		],
+		"description": "Tracker.createAsNonRegisteredForMe"
+	},
+	"Tracker.changeOwner": {
+		"prefix": "Tracker.changeOwner",
+		"scope": "ruby",
+		"body": [
+			"result = Tracker.change_owner(${1:tracker_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "Tracker.changeOwner"
+	},
+	"Tracker.changeOwnerForMe": {
+		"prefix": "Tracker.changeOwnerForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Tracker.change_owner_for_me(${1:tracker_id}, ${2:options})"
+		],
+		"description": "Tracker.changeOwnerForMe"
+	},
+	"Tracker.delete": {
+		"prefix": "Tracker.delete",
+		"scope": "ruby",
+		"body": [
+			"result = Tracker.delete(${1:tracker_id}, ${2:options})"
+		],
+		"description": "Tracker.delete"
+	},
+	"Tracker.deleteForMe": {
+		"prefix": "Tracker.deleteForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Tracker.delete_for_me(${1:tracker_id}, ${2:options})"
+		],
+		"description": "Tracker.deleteForMe"
+	},
+	"Tracker.deleteAsNonRegisteredForMe": {
+		"prefix": "Tracker.deleteAsNonRegisteredForMe",
+		"scope": "ruby",
+		"body": [
+			"result = Tracker.delete_as_non_registered_for_me(${1:tracker_id}, ${2:options})"
+		],
+		"description": "Tracker.deleteAsNonRegisteredForMe"
+	},
+	"WishList.list": {
+		"prefix": "WishList.list",
+		"scope": "ruby",
+		"body": [
+			"result = WishList.list(${1:options})"
+		],
+		"description": "WishList.list"
+	},
+	"WishList.listForMe": {
+		"prefix": "WishList.listForMe",
+		"scope": "ruby",
+		"body": [
+			"result = WishList.list_for_me(${1:options})"
+		],
+		"description": "WishList.listForMe"
+	},
+	"WishList.count": {
+		"prefix": "WishList.count",
+		"scope": "ruby",
+		"body": [
+			"result = WishList.count(${1:options})"
+		],
+		"description": "WishList.count"
+	},
+	"WishList.get": {
+		"prefix": "WishList.get",
+		"scope": "ruby",
+		"body": [
+			"result = WishList.get(${1:wish_list_id}, ${2:options})"
+		],
+		"description": "WishList.get"
+	},
+	"WishList.countForMe": {
+		"prefix": "WishList.countForMe",
+		"scope": "ruby",
+		"body": [
+			"result = WishList.count_for_me(${1:options})"
+		],
+		"description": "WishList.countForMe"
+	},
+	"WishList.getForMe": {
+		"prefix": "WishList.getForMe",
+		"scope": "ruby",
+		"body": [
+			"result = WishList.get_for_me(${1:wish_list_id}, ${2:options})"
+		],
+		"description": "WishList.getForMe"
+	},
+	"WishList.listProducts": {
+		"prefix": "WishList.listProducts",
+		"scope": "ruby",
+		"body": [
+			"result = WishList.list_products(${1:wish_list_id}, ${2:options})"
+		],
+		"description": "WishList.listProducts"
+	},
+	"WishList.listProductsForMe": {
+		"prefix": "WishList.listProductsForMe",
+		"scope": "ruby",
+		"body": [
+			"result = WishList.list_products_for_me(${1:wish_list_id}, ${2:options})"
+		],
+		"description": "WishList.listProductsForMe"
+	},
+	"WishList.countProducts": {
+		"prefix": "WishList.countProducts",
+		"scope": "ruby",
+		"body": [
+			"result = WishList.count_products(${1:wish_list_id}, ${2:options})"
+		],
+		"description": "WishList.countProducts"
+	},
+	"WishList.countProductsForMe": {
+		"prefix": "WishList.countProductsForMe",
+		"scope": "ruby",
+		"body": [
+			"result = WishList.count_products_for_me(${1:wish_list_id}, ${2:options})"
+		],
+		"description": "WishList.countProductsForMe"
+	},
+	"WishList.create": {
+		"prefix": "WishList.create",
+		"scope": "ruby",
+		"body": [
+			"result = WishList.create(${1:payload}, ${2:options})"
+		],
+		"description": "WishList.create"
+	},
+	"WishList.createForMe": {
+		"prefix": "WishList.createForMe",
+		"scope": "ruby",
+		"body": [
+			"result = WishList.create_for_me(${1:payload}, ${2:options})"
+		],
+		"description": "WishList.createForMe"
+	},
+	"WishList.addItem": {
+		"prefix": "WishList.addItem",
+		"scope": "ruby",
+		"body": [
+			"result = WishList.add_item(${1:wish_list_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "WishList.addItem"
+	},
+	"WishList.addItemForMe": {
+		"prefix": "WishList.addItemForMe",
+		"scope": "ruby",
+		"body": [
+			"result = WishList.add_item_for_me(${1:wish_list_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "WishList.addItemForMe"
+	},
+	"WishList.pullFromMetafield": {
+		"prefix": "WishList.pullFromMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = WishList.pull_from_metafield(${1:wish_list_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "WishList.pullFromMetafield"
+	},
+	"WishList.pushToMetafield": {
+		"prefix": "WishList.pushToMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = WishList.push_to_metafield(${1:wish_list_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "WishList.pushToMetafield"
+	},
+	"WishList.increaseMetafield": {
+		"prefix": "WishList.increaseMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = WishList.increase_metafield(${1:wish_list_id}, ${2:field}, ${3:payload}, ${4:options})"
+		],
+		"description": "WishList.increaseMetafield"
+	},
+	"WishList.update": {
+		"prefix": "WishList.update",
+		"scope": "ruby",
+		"body": [
+			"result = WishList.update(${1:wish_list_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "WishList.update"
+	},
+	"WishList.updateForMe": {
+		"prefix": "WishList.updateForMe",
+		"scope": "ruby",
+		"body": [
+			"result = WishList.update_for_me(${1:wish_list_id}, ${2:payload}, ${3:options})"
+		],
+		"description": "WishList.updateForMe"
+	},
+	"WishList.delete": {
+		"prefix": "WishList.delete",
+		"scope": "ruby",
+		"body": [
+			"result = WishList.delete(${1:wish_list_id}, ${2:options})"
+		],
+		"description": "WishList.delete"
+	},
+	"WishList.deleteForMe": {
+		"prefix": "WishList.deleteForMe",
+		"scope": "ruby",
+		"body": [
+			"result = WishList.delete_for_me(${1:wish_list_id}, ${2:options})"
+		],
+		"description": "WishList.deleteForMe"
+	},
+	"WishList.empty": {
+		"prefix": "WishList.empty",
+		"scope": "ruby",
+		"body": [
+			"result = WishList.empty(${1:wish_list_id}, ${2:options})"
+		],
+		"description": "WishList.empty"
+	},
+	"WishList.emptyForMe": {
+		"prefix": "WishList.emptyForMe",
+		"scope": "ruby",
+		"body": [
+			"result = WishList.empty_for_me(${1:wish_list_id}, ${2:options})"
+		],
+		"description": "WishList.emptyForMe"
+	},
+	"WishList.deleteItem": {
+		"prefix": "WishList.deleteItem",
+		"scope": "ruby",
+		"body": [
+			"result = WishList.delete_item(${1:wish_list_id}, ${2:product_id}, ${3:options})"
+		],
+		"description": "WishList.deleteItem"
+	},
+	"WishList.deleteMetafield": {
+		"prefix": "WishList.deleteMetafield",
+		"scope": "ruby",
+		"body": [
+			"result = WishList.delete_metafield(${1:wish_list_id}, ${2:field}, ${3:options})"
+		],
+		"description": "WishList.deleteMetafield"
+	},
+	"WishList.deleteItemForMe": {
+		"prefix": "WishList.deleteItemForMe",
+		"scope": "ruby",
+		"body": [
+			"result = WishList.delete_item_for_me(${1:wish_list_id}, ${2:product_id}, ${3:options})"
+		],
+		"description": "WishList.deleteItemForMe"
+	}
+}

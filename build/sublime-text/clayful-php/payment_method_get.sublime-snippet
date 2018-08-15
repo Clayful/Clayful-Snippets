@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = PaymentMethod::get(${1:\$paymentMethodId}, ${2:\$options});
+]]></content >
+	<description>PaymentMethod::get</description>
+	<tabTrigger>PaymentMethod::get</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

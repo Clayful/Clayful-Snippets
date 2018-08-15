@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+TaxCategory.list(${1:options}, ${2:callback});
+]]></content >
+	<description>TaxCategory.list</description>
+	<tabTrigger>TaxCategory.list</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

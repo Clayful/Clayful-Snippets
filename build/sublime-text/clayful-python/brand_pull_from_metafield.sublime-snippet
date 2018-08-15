@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Brand.pull_from_metafield(${1:brand_id}, ${2:field}, ${3:payload}, ${4:options})
+]]></content >
+	<description>Brand.pullFromMetafield</description>
+	<tabTrigger>Brand.pullFromMetafield</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

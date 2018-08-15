@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = WishList.empty(${1:wish_list_id}, ${2:options})
+]]></content >
+	<description>WishList.empty</description>
+	<tabTrigger>WishList.empty</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

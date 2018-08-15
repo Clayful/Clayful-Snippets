@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Group::get(${1:\$groupId}, ${2:\$options});
+]]></content >
+	<description>Group::get</description>
+	<tabTrigger>Group::get</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

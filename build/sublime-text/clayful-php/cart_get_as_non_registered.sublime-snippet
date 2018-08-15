@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Cart::getAsNonRegistered(${1:\$payload}, ${2:\$options});
+]]></content >
+	<description>Cart::getAsNonRegistered</description>
+	<tabTrigger>Cart::getAsNonRegistered</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

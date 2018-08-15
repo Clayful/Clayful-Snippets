@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Subscription::listForMe(${1:\$options});
+]]></content >
+	<description>Subscription::listForMe</description>
+	<tabTrigger>Subscription::listForMe</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

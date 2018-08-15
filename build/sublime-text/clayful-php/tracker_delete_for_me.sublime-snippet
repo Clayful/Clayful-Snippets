@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Tracker::deleteForMe(${1:\$trackerId}, ${2:\$options});
+]]></content >
+	<description>Tracker::deleteForMe</description>
+	<tabTrigger>Tracker::deleteForMe</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

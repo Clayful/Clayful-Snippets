@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Customer.authenticate(${1:payload}, ${2:options}, ${3:callback});
+]]></content >
+	<description>Customer.authenticate</description>
+	<tabTrigger>Customer.authenticate</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

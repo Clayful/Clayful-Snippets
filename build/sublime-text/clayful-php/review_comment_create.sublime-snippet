@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = ReviewComment::create(${1:\$payload}, ${2:\$options});
+]]></content >
+	<description>ReviewComment::create</description>
+	<tabTrigger>ReviewComment::create</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

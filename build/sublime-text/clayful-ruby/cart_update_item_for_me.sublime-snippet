@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Cart.update_item_for_me(${1:item_id}, ${2:payload}, ${3:options})
+]]></content >
+	<description>Cart.updateItemForMe</description>
+	<tabTrigger>Cart.updateItemForMe</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

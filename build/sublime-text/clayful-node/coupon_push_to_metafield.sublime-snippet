@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Coupon.pushToMetafield(${1:couponId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+]]></content >
+	<description>Coupon.pushToMetafield</description>
+	<tabTrigger>Coupon.pushToMetafield</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Group.pullFromMetafield(${1:groupId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+]]></content >
+	<description>Group.pullFromMetafield</description>
+	<tabTrigger>Group.pullFromMetafield</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

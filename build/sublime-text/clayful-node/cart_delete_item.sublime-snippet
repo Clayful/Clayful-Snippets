@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Cart.deleteItem(${1:customerId}, ${2:itemId}, ${3:options}, ${4:callback});
+]]></content >
+	<description>Cart.deleteItem</description>
+	<tabTrigger>Cart.deleteItem</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

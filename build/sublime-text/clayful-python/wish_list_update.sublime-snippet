@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = WishList.update(${1:wish_list_id}, ${2:payload}, ${3:options})
+]]></content >
+	<description>WishList.update</description>
+	<tabTrigger>WishList.update</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

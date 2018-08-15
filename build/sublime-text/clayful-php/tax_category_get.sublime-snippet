@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = TaxCategory::get(${1:\$taxCategoryId}, ${2:\$options});
+]]></content >
+	<description>TaxCategory::get</description>
+	<tabTrigger>TaxCategory::get</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

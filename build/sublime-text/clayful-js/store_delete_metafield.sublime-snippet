@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Store.deleteMetafield(${1:field}, ${2:options}, ${3:callback});
+]]></content >
+	<description>Store.deleteMetafield</description>
+	<tabTrigger>Store.deleteMetafield</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

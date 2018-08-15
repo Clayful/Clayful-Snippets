@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Catalog.count(${1:options})
+]]></content >
+	<description>Catalog.count</description>
+	<tabTrigger>Catalog.count</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

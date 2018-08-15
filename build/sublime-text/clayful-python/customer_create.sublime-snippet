@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Customer.create(${1:payload}, ${2:options})
+]]></content >
+	<description>Customer.create</description>
+	<tabTrigger>Customer.create</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

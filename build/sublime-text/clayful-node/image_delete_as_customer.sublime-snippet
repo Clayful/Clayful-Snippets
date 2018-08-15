@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Image.deleteAsCustomer(${1:customerId}, ${2:imageId}, ${3:options}, ${4:callback});
+]]></content >
+	<description>Image.deleteAsCustomer</description>
+	<tabTrigger>Image.deleteAsCustomer</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

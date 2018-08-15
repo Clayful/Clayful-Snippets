@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Review.cancel_helped(${1:review_id}, ${2:up_down}, ${3:customer_id}, ${4:options})
+]]></content >
+	<description>Review.cancelHelped</description>
+	<tabTrigger>Review.cancelHelped</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

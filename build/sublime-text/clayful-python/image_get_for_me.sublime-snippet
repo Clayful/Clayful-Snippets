@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Image.get_for_me(${1:image_id}, ${2:options})
+]]></content >
+	<description>Image.getForMe</description>
+	<tabTrigger>Image.getForMe</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

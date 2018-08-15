@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Impression::topCollections(${1:\$scope}, ${2:\$options});
+]]></content >
+	<description>Impression::topCollections</description>
+	<tabTrigger>Impression::topCollections</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

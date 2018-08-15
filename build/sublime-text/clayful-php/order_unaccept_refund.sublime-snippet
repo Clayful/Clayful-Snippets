@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Order::unacceptRefund(${1:\$orderId}, ${2:\$refundId}, ${3:\$options});
+]]></content >
+	<description>Order::unacceptRefund</description>
+	<tabTrigger>Order::unacceptRefund</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

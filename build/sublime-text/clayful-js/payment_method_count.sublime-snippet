@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+PaymentMethod.count(${1:options}, ${2:callback});
+]]></content >
+	<description>PaymentMethod.count</description>
+	<tabTrigger>PaymentMethod.count</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Order.delete_inventory_operation(${1:order_id}, ${2:operation_id}, ${3:options})
+]]></content >
+	<description>Order.deleteInventoryOperation</description>
+	<tabTrigger>Order.deleteInventoryOperation</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Tracker.get(${1:tracker_id}, ${2:options})
+]]></content >
+	<description>Tracker.get</description>
+	<tabTrigger>Tracker.get</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

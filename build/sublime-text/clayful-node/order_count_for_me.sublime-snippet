@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Order.countForMe(${1:options}, ${2:callback});
+]]></content >
+	<description>Order.countForMe</description>
+	<tabTrigger>Order.countForMe</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

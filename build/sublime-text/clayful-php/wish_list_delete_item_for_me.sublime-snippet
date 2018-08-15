@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = WishList::deleteItemForMe(${1:\$wishListId}, ${2:\$productId}, ${3:\$options});
+]]></content >
+	<description>WishList::deleteItemForMe</description>
+	<tabTrigger>WishList::deleteItemForMe</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

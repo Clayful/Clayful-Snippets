@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Collection.push_to_metafield(${1:collection_id}, ${2:field}, ${3:payload}, ${4:options})
+]]></content >
+	<description>Collection.pushToMetafield</description>
+	<tabTrigger>Collection.pushToMetafield</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Order.pullFromMetafield(${1:orderId}, ${2:field}, ${3:payload}, ${4:options}, ${5:callback});
+]]></content >
+	<description>Order.pullFromMetafield</description>
+	<tabTrigger>Order.pullFromMetafield</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

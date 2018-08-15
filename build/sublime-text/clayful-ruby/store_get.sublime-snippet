@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Store.get(${1:options})
+]]></content >
+	<description>Store.get</description>
+	<tabTrigger>Store.get</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

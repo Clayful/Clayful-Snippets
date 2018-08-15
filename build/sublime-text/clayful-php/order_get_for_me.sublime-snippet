@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Order::getForMe(${1:\$orderId}, ${2:\$options});
+]]></content >
+	<description>Order::getForMe</description>
+	<tabTrigger>Order::getForMe</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

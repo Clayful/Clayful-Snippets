@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Customer::verify(${1:\$customerId}, ${2:\$payload}, ${3:\$options});
+]]></content >
+	<description>Customer::verify</description>
+	<tabTrigger>Customer::verify</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

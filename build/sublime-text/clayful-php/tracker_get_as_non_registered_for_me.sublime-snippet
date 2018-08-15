@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Tracker::getAsNonRegisteredForMe(${1:\$trackerId}, ${2:\$options});
+]]></content >
+	<description>Tracker::getAsNonRegisteredForMe</description>
+	<tabTrigger>Tracker::getAsNonRegisteredForMe</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

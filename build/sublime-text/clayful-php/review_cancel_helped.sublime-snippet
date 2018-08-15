@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Review::cancelHelped(${1:\$reviewId}, ${2:\$upDown}, ${3:\$customerId}, ${4:\$options});
+]]></content >
+	<description>Review::cancelHelped</description>
+	<tabTrigger>Review::cancelHelped</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Product::increaseMetafield(${1:\$productId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+]]></content >
+	<description>Product::increaseMetafield</description>
+	<tabTrigger>Product::increaseMetafield</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

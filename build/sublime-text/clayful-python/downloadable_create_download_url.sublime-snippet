@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Downloadable.create_download_url(${1:downloadable_id}, ${2:options})
+]]></content >
+	<description>Downloadable.createDownloadUrl</description>
+	<tabTrigger>Downloadable.createDownloadUrl</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

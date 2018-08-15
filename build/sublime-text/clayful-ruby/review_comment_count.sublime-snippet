@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = ReviewComment.count(${1:options})
+]]></content >
+	<description>ReviewComment.count</description>
+	<tabTrigger>ReviewComment.count</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet >

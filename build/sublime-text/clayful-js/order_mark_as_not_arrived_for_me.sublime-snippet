@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Order.markAsNotArrivedForMe(${1:orderId}, ${2:options}, ${3:callback});
+]]></content >
+	<description>Order.markAsNotArrivedForMe</description>
+	<tabTrigger>Order.markAsNotArrivedForMe</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

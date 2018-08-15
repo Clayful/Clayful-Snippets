@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Cart.addItemForMe(${1:payload}, ${2:options}, ${3:callback});
+]]></content >
+	<description>Cart.addItemForMe</description>
+	<tabTrigger>Cart.addItemForMe</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

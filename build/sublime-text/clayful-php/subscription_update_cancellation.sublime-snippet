@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Subscription::updateCancellation(${1:\$subscriptionId}, ${2:\$payload}, ${3:\$options});
+]]></content >
+	<description>Subscription::updateCancellation</description>
+	<tabTrigger>Subscription::updateCancellation</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

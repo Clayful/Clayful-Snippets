@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Order.markAsArrived(${1:orderId}, ${2:options}, ${3:callback});
+]]></content >
+	<description>Order.markAsArrived</description>
+	<tabTrigger>Order.markAsArrived</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

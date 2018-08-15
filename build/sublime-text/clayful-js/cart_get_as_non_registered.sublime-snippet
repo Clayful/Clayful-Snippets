@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Cart.getAsNonRegistered(${1:payload}, ${2:options}, ${3:callback});
+]]></content >
+	<description>Cart.getAsNonRegistered</description>
+	<tabTrigger>Cart.getAsNonRegistered</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Cart::deleteItem(${1:\$customerId}, ${2:\$itemId}, ${3:\$options});
+]]></content >
+	<description>Cart::deleteItem</description>
+	<tabTrigger>Cart::deleteItem</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

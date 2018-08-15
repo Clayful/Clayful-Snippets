@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Review.get_published(${1:review_id}, ${2:options})
+]]></content >
+	<description>Review.getPublished</description>
+	<tabTrigger>Review.getPublished</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

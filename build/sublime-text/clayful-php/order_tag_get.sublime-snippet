@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = OrderTag::get(${1:\$orderTagId}, ${2:\$options});
+]]></content >
+	<description>OrderTag::get</description>
+	<tabTrigger>OrderTag::get</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

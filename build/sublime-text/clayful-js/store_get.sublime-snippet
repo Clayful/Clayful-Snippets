@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Store.get(${1:options}, ${2:callback});
+]]></content >
+	<description>Store.get</description>
+	<tabTrigger>Store.get</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Group::pullFromMetafield(${1:\$groupId}, ${2:\$field}, ${3:\$payload}, ${4:\$options});
+]]></content >
+	<description>Group::pullFromMetafield</description>
+	<tabTrigger>Group::pullFromMetafield</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

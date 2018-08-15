@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Customer.delete_coupon_for_me(${1:coupon_id}, ${2:options})
+]]></content >
+	<description>Customer.deleteCouponForMe</description>
+	<tabTrigger>Customer.deleteCouponForMe</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

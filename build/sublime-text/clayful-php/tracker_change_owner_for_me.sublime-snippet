@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Tracker::changeOwnerForMe(${1:\$trackerId}, ${2:\$options});
+]]></content >
+	<description>Tracker::changeOwnerForMe</description>
+	<tabTrigger>Tracker::changeOwnerForMe</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

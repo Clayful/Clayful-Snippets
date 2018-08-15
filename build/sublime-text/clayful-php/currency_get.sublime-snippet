@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Currency::get(${1:\$currencyId}, ${2:\$options});
+]]></content >
+	<description>Currency::get</description>
+	<tabTrigger>Currency::get</tabTrigger>
+	<scope>source.php</scope>
+</snippet >

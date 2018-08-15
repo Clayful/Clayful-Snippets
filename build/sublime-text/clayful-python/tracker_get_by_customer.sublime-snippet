@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+result = Tracker.get_by_customer(${1:customer_id}, ${2:options})
+]]></content >
+	<description>Tracker.getByCustomer</description>
+	<tabTrigger>Tracker.getByCustomer</tabTrigger>
+	<scope>source.python</scope>
+</snippet >

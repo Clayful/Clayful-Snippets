@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Customer.deleteCoupon(${1:customerId}, ${2:couponId}, ${3:options}, ${4:callback});
+]]></content >
+	<description>Customer.deleteCoupon</description>
+	<tabTrigger>Customer.deleteCoupon</tabTrigger>
+	<scope>source.js</scope>
+</snippet >

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = Order::syncInventory(${1:\$orderId}, ${2:\$options});
+]]></content >
+	<description>Order::syncInventory</description>
+	<tabTrigger>Order::syncInventory</tabTrigger>
+	<scope>source.php</scope>
+</snippet >
